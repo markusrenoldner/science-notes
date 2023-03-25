@@ -1,4 +1,4 @@
-#file 
+#extern
 #TODO 
 
 In some texts Newtons laws from [[Classical mechanics]] are not explained very well.

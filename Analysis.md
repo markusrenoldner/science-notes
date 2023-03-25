@@ -3,7 +3,7 @@
 
 
 #TODO write note
-#file TPH ana1,2 und prama1,2
+#extern TPH ana1,2 und prama1,2
 
 
 

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e40a15ba8219dfee",
+        "id": "aac8c73b2e7302ec",
         "type": "tabs",
         "children": [
           {
-            "id": "1dd40f0ffbd9c381",
+            "id": "bb42fef3921491e4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#file",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ]
@@ -137,15 +146,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1dd40f0ffbd9c381",
+  "active": "bb42fef3921491e4",
   "lastOpenFiles": [
+    "Differential geometry.md",
+    "README.md",
+    "Prof Ott's 8-Lyapunov-time prediction of KS-equation.md",
+    "Newtons laws - definitions or theorems.md",
+    "Linear algebra.md",
+    "Lorenz attractor.md",
+    "Dynamical systems.md",
+    "Analysis.md",
+    "0_UNLINKED.md",
+    "0_README.md",
     "Potential vs potential energy.md",
     "pdf-notes/potential-vs-potential-energy.pdf",
     "Numerics.md",
-    "Analysis.md",
     "Errors and complexity of numerical methods.md",
-    "Dynamical systems.md",
-    "Differential geometry.md",
     "Boundary conditions of linear systems.md",
     "pdf-notes/BCoflinearsystems.pdf",
     "testnote.md",
@@ -164,16 +180,10 @@
     "Manifold.md",
     "MEHC scheme.md",
     "Tensors.md",
-    "0_UNLINKED.md",
     "Abstract algebra.md",
     "Lagrangian coherent structure.md",
-    "Linear algebra.md",
     "Pasted image 20230126104757.png",
     "Mathematics.md",
-    "Statistical mechanics.md",
-    "Saddle point problem  (Sattelpunktproblem).md",
-    "Quotient space, equivalence class.md",
-    "Quantum mechanics.md",
-    "Prof Ott's 8-Lyapunov-time prediction of KS-equation.md"
+    "Statistical mechanics.md"
   ]
 }

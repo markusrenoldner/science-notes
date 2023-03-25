@@ -4,7 +4,7 @@
 
 #notes [[dynamical-systems.pdf]]
 #TODO write notes
-#file Haller - Nonlinear Dynamics and Chaos I & II
+#extern Haller - Nonlinear Dynamics and Chaos I & II
 
 
 # intro

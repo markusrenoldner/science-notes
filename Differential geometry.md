@@ -4,7 +4,7 @@
 
 #TODO write notes
 #notes [[differential-geometry.pdf]]
-#file Schuller - Geometric Anatomy of Theoretical Physics
+#extern Schuller - Geometric Anatomy of Theoretical Physics
 
 
 

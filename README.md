@@ -1,10 +1,8 @@
 
-obsidian enthält ein nachschlagewerk von meinem wissen über physik und mathematik
+This is a collection of notes on physics and mathematics. It contains markdown files on atomic ideas and PDF files on collection of ideas, which are tagged with #notes. References to external literature and lectures notes are tagged with #extern
+Markdown notes are linked together using double square brackets "[[]]" which allows the freely available software Obsidian to visualize the emerging graph/network. Obsidian also allowes to see "linked mentions", i.e. to see which other notes link to the current one.
 
-testnote: [[testnote]]
-notes to be linked to the tree: [[0_UNLINKED]]
-
-bestes video über obsidian: https://www.youtube.com/watch?v=E6ySG7xYgjY&list=FLjdPPg1W5jX7eVur_5-AaNA&index=4&ab_channel=ArtemKirsanov
+Video intro to obsidian https://www.youtube.com/watch?v=E6ySG7xYgjY&list=FLjdPPg1W5jX7eVur_5-AaNA&index=4&ab_channel=ArtemKirsanov
 
 
 ### richtung von verlinkungen:
@@ -20,23 +18,27 @@ das heißt, references zu uni vorlesungen sollten nur über den namen des buches
 - tag für externe files
 - tag für selbstgeschrieben notes
 
+
+testnote: [[testnote]]
+notes to be linked to the tree: [[0_UNLINKED]]
+
+
 #TODO 
 ### themen:
 - mathe themen mit latex zu PDF ausarbeiten:
 	- basics:
-		- set theory
-		- linalg
+		- linalg + tensoren
 		- ana
-		- tensoren basics
 		- numerik
-		- statistik
-	- applications:
-		- ODEs (vorerst based on fausti)
-		- PDEs (vorerst based on fausti)
-		- nonlindyn
-	- endgoals:
+	- then:
+		- set theory
 		- diffgeo (manifolds, topology, ...)
 		- FANA
+	- maybe later:
+		- ODEs
+		- PDEs
+		- nonlindyn
+		- statistik
 		- algebra?
 		- groups (lie groups, symmetry groups for physics...)?
 - physik themen eher nach feinkörnigen konzepten auf MD notes:

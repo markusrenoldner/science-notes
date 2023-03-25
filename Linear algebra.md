@@ -3,4 +3,4 @@
 
 
 #TODO write note
-#file TPH linalg kurs
+#extern TPH linalg kurs

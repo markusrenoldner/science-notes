@@ -1,5 +1,5 @@
 
-#file 
+#extern 
 
 one very nice example of a dynamic system (see [[Dynamical systems]]) is the lorenz attractor.
 
