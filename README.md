@@ -27,21 +27,22 @@ notes to be linked to the tree: [[0_UNLINKED]]
 ### themen:
 - mathe themen mit latex zu PDF ausarbeiten:
 	- basics:
-		- linalg + tensoren
+		- linalg
 		- ana
-		- numerik
+		- numerics
 	- then:
+		- tensoren
 		- set theory
-		- diffgeo (manifolds, topology, ...)
+		- diffgeo
 		- FANA
 	- maybe later:
 		- ODEs
 		- PDEs
 		- nonlindyn
-		- statistik
+		- statistik?
 		- algebra?
 		- groups (lie groups, symmetry groups for physics...)?
-- physik themen eher nach feinkörnigen konzepten auf MD notes:
+- physik themen eher nach feinkörnigen konzepten auf MD notes: basiert auf bartelmann
 	- mechanik zb. jeweils eine note zu:
 		- newton axiome
 		- energiesatz

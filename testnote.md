@@ -1,6 +1,6 @@
 
 
-[[0_GUIDELINE]]
+[[README]]
 
 
 link a file:
@@ -9,8 +9,6 @@ link a file:
 link a folder:
 [folder](file://C:\one\OneDrive\Bildung\Wissenschaftliches\Academic%20writing\)
 
-
-[[asdf.pdf]]
 
 
 

@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "aac8c73b2e7302ec",
+        "id": "536a8bee3e7230de",
         "type": "tabs",
         "children": [
           {
-            "id": "bb42fef3921491e4",
+            "id": "2afab63f2d13f03b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#file",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Abstract algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Abstract algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Abstract algebra.md"
               }
             }
           }
@@ -146,10 +141,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bb42fef3921491e4",
+  "active": "49d844a1c626e673",
   "lastOpenFiles": [
-    "Differential geometry.md",
     "README.md",
+    "0_GUIDELINE.md",
+    "testnote.md",
+    "asdf.pdf.md",
+    "Differential geometry.md",
     "Prof Ott's 8-Lyapunov-time prediction of KS-equation.md",
     "Newtons laws - definitions or theorems.md",
     "Linear algebra.md",
@@ -164,7 +162,6 @@
     "Errors and complexity of numerical methods.md",
     "Boundary conditions of linear systems.md",
     "pdf-notes/BCoflinearsystems.pdf",
-    "testnote.md",
     "pdf-notes/nonlindyn/main.toc",
     "pdf-notes/nonlindyn/main.thm",
     "pdf-notes/nonlindyn/main.tex",
@@ -174,7 +171,6 @@
     "pdf-notes/nonlindyn/main.out",
     "pdf-notes/nonlindyn/main.log",
     "Topology and topological space.md",
-    "0_GUIDELINE.md",
     "Classical mechanics.md",
     "Fluid Dynamics.md",
     "Manifold.md",
@@ -183,7 +179,6 @@
     "Abstract algebra.md",
     "Lagrangian coherent structure.md",
     "Pasted image 20230126104757.png",
-    "Mathematics.md",
-    "Statistical mechanics.md"
+    "Mathematics.md"
   ]
 }
