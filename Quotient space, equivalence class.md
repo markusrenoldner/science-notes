@@ -1,0 +1,27 @@
+
+[[Linear algebra]]
+
+in seinen comments hat hiptmair einfmal den quotien space erwähnt: [[MEHC scheme]]
+
+
+
+
+## Definition equivalence class
+
+from: https://de.wikipedia.org/wiki/Faktorraum
+
+Let $v\in V$ and $u\in U$ with $U \subset V$.
+We call $v_1\sim v_2$ "equivalent" iff.
+$$v_1-v_2\in U \quad\text{for } v_1,v_2 \in V$$
+That means, $v_1,v_2$ are equivalent if there difference is element of $U$ or: if the straight line through $v_1,v_2$ is parallel to $U$, they are equivalent.
+
+An equivalence class of a vector $v$ is the set
+$$ [v] := \text{"}v+U\text{"} := \{v+u | u\in U \}$$
+in words: its the subspace of $V$ that passes $v$ and is parallel to $U$ 
+
+## Definition quotient space
+
+The quotient space "from $V$ to $U$" is the set of all equivalence classes, written as
+$$V / U := \{[v] \mid v\in V\} $$
+
+Apparently, it is a vector space, if the vector space operations are defined in a certain way (?)
