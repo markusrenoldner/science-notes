@@ -6,9 +6,7 @@ if it is not important
 - what the function is doing
 $$f(x): \mathbb{R}\rightarrow \mathbb{R}$$
 
-if its important
-- how the func value is called
-- what the func is doing
+if its not important what the domain and target set is:
 $$f:(x,y) \mapsto x^2+4y$$
 
 if additionally the domain and target set are important:

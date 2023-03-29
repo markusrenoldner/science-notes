@@ -1,8 +1,20 @@
 
-This is a collection of notes on physics and mathematics. It contains markdown files on atomic ideas and PDF files on collection of ideas, which are tagged with #notes. References to external literature and lectures notes are tagged with #extern
+This is a collection of notes on physics and mathematics. It consists of 2 types of files:
+1. markdown files on atomic ideas 
+2. PDF files on collections of ideas (tagged with #notes)
+
+References to external literature and lectures notes are tagged with #extern
 Markdown notes are linked together using double square brackets "[[]]" which allows the freely available software Obsidian to visualize the emerging graph/network. Obsidian also allowes to see "linked mentions", i.e. to see which other notes link to the current one.
 
 Video intro to obsidian https://www.youtube.com/watch?v=E6ySG7xYgjY&list=FLjdPPg1W5jX7eVur_5-AaNA&index=4&ab_channel=ArtemKirsanov
+
+
+#TODO
+some well-organized obsidian example collections:
+- https://ashour.dev/Home
+- https://publish.obsidian.md/myquantumwell/Welcome+to+The+Quantum+Well!
+- https://github.com/Booodaness/Scientific-Notes
+- https://github.com/zhaoshenzhai/MathWiki
 
 
 ### richtung von verlinkungen:
@@ -11,27 +23,20 @@ Notes die von vielen anderen notes erwähnt werden, bekommen automatisch größe
 überlicherweise verlinkt eine "spezialisierte" note eine "allgemeine" note und nicht umgekehrt
 
 
-### externe dateien
-sollte möglichst standalone sein (also ein upload auf github, oder ein kopieren auf eine andere festplatte sollte keine links zu anderen dokumenten zerstören)
-das heißt, references zu uni vorlesungen sollten nur über den namen des buches/der LVA passieren, keine echten hyperlinks zu meinem uniordner!
-- tag für todos
-- tag für externe files
-- tag für selbstgeschrieben notes
-
-
+### other organizational notes:
 testnote: [[testnote]]
 notes to be linked to the tree: [[0_UNLINKED]]
 
 
-#TODO 
 ### themen:
-- mathe themen mit latex zu PDF ausarbeiten:
+opern topics are tagged with #TODO 
+
+-mathe themen mit latex zu PDF ausarbeiten:
 	- basics:
-		- linalg
-		- ana
-		- numerics
+		- linalg  [[Linear algebra]]
+		- ana  [[Analysis]]
 	- then:
-		- tensoren
+		- tensoren [[Tensors]]
 		- set theory
 		- diffgeo
 		- FANA
@@ -42,8 +47,16 @@ notes to be linked to the tree: [[0_UNLINKED]]
 		- statistik?
 		- algebra?
 		- groups (lie groups, symmetry groups for physics...)?
+		- complex ana
+	- what is this:
+		- point set topology
+		- curvature of surfaces and curves
+		- geometry
+		- 
+- DONE:
+	- numerics
 - physik themen eher nach feinkörnigen konzepten auf MD notes: basiert auf bartelmann
-	- mechanik zb. jeweils eine note zu:
+	- mechanik (Bartelmann 1) zb. jeweils eine note zu:
 		- newton axiome
 		- energiesatz
 		- konservative kräfte
@@ -58,20 +71,24 @@ notes to be linked to the tree: [[0_UNLINKED]]
 		- navier
 		- boundary conditions
 	- orbitmechanik
-	- edyn
-	- quanten
-	- relativity
+	- edyn (Bartelmann 2)
+	- quanten (Demtröder 3, Bartelmann 3)
+	- relativity 
 	- atom, kern, teilchen
-	- statistische physik
+	- statistische physik (Bartelmann 4)
 - specialthemen
-	- beobachtungen wie notes vernetzt sind
+	- beobachtungen wie notes vernetzt sind, querverbindungen zwischen themen
 		- newtons gesetze als axiom?
+		- stokes theorem in diff forms vs in vector form
 		- fourier transform und quantenmechanik
 		- definition of open set in analysis und topology
-		- koordinatentransformation in linalg, vs. mit tensoranalysis vs. mit quaternions
+		- koordinatentransformation in linalg, vs. vektoranalysis vs. mit tensoranalysis vs. mit quaternions
+		- von neuman convergence analyse in FEM vs lax richtmayr theorem
 	- MEHC scheme
 	- special uni projects
 		- polar lights
+		- molecular dynamics von NSSC2
+		- FEM von NSSC2
 		- shallow water
 	- reservoir computing zeug
 	- julian sonnenaufgang
