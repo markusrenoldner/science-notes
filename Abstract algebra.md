@@ -1,4 +1,5 @@
 (or just "Algebra")
 
 [[Mathematics]]
-studies "structures" (?), such as [[Group]], [[Groups, rings and fields]]
+
+studies "algebraicstructures" such as [[Group]], [[Groups, rings and fields]]
