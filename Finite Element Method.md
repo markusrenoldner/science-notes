@@ -1,4 +1,4 @@
 [[Numerics]]
 
-important numerical technique for PDEs 
+important numerical technique for PDEs ([[Differential equations]])
 

@@ -1,4 +1,0 @@
-
-
-
-#notes [[tensors-short.pdf]]

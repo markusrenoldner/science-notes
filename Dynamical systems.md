@@ -1,18 +1,23 @@
-
-[[ODE]]
+[[Mathematics]]
+[[Physics]]
 
 
 #notes [[dynamical-systems.pdf]]
-#TODO 
+#TODO write notes
+#extern Haller - Nonlinear Dynamics and Chaos I & II
 
 
+# intro
+study of nonlinear dynamical systems
 
 "dynamical" implies a dependence of time (or a similar evolutionary variable) of the underlying equations
-"nonlinear" implies, that the evolution rule (e.g. a differential equation for continuous systems) appears in a "nonlinear way" in the differential equation (the differential equation is nonlinear in the unknown function)
+
+"nonlinear" implies, that the evolution rule (e.g. a differential equation for continuous systems [[Differential equations]]) appears in a "nonlinear way" in the differential equation (the differential equation is nonlinear in the unknown function)
+
 An interesting example of a dynamic system is the [[Lorenz attractor]].
 
 
-### Contents:
+# Contents:
 
 1. Fundamentals
 	1. existence and uniqueness of ODE solutions
@@ -35,7 +40,3 @@ An interesting example of a dynamic system is the [[Lorenz attractor]].
 5. time dependent systems
 	1. nonautonomous linear systems
 	2. time-periodic systems
-
-
-### Sources:
--  lecture from Prof. Haller: Nonlinear Dynamics and Chaos I & II

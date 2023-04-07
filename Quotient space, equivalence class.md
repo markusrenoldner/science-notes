@@ -19,13 +19,9 @@ An equivalence class of a vector $v$ is the set
 $$ [v] := \text{"}v+U\text{"} := \{v+u | u\in U \}$$
 in words: its the subspace of $V$ that passes $v$ and is parallel to $U$ 
 
-An equivalence class is an [[Affine space]], see https://math.stackexchange.com/questions/3818358/show-that-an-equivalence-class-is-an-affine-subspace
-
-
 ## Definition quotient space
 
 The quotient space "from $V$ to $U$" is the set of all equivalence classes, written as
-$$V / U := \{[v] : v\in V\} $$
+$$V / U := \{[v] \mid v\in V\} $$
 
 Apparently, it is a vector space, if the vector space operations are defined in a certain way (?)
-

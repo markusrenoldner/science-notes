@@ -1,5 +1,5 @@
 
-[[Differential operators and integration in different coordinate systems (Vector calculus)]]
+[[0_UNLINKED]]
 
 
 ### Problem:

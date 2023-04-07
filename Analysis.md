@@ -1,45 +1,27 @@
 [[Mathematics]]
+[[Physics]]
+
+
+#extern TPH ana1,2 und prama1,2
+#TODO write note
+
+sources:
+- ???
 
 
 
-## Topics:
-- [[Properties of sets]]  (ana2)
-- basics (ana1)
-	- series and sequences
-	- real functions, ratiaonal functions and polynomials
-	- elementary functions
-	- taylor series
-	- series of functions
-- [[Multivariate analysis]] (ana2)
-	- scalar and vector fields
-	- continuity, differentialbility
-	- taylor
-	- inverse function theorem and implicit functions
-	- minima and maxima under side constraints
-- [[Differential operators and integration in different coordinate systems (Vector calculus)]] 
-	- Differential operators (math methoden, AMF)
-	- Integrals (prama 2, AMF) 
-- Function spaces (ana2)
-	- norms, normed spaces
-	- fixed point theorem
-	- linear independence
-	- Lebesque spaces
-	- hilbert spaces
-	- orthogonal projection, best approximation
-	- fourier series
-	- heat equation
-- complex analysis (ana2)
-	- differentialbility
-	- power series
-	- inverse functions
-	- complex line integral
-	- laurant series
-	- residue theorem
+## properties of sets important for Analysis
 
+This is an informal intro to set theory (see [[Informal vs axiomatic set theory]])
 
-## Sources:
-- Analysis 2, Prof. Auzinger, Prof. Weinmüller TU Wien
-- Praktische Mathematik 2, Prof. Weinmüller
-- AMF, Faustmann
-- Altland, Delft - Mathematics for Physicists
+offen (open): ohne rand
 
+beschränkt (bounded): ball mit endlichem Radius umschliesst die menge
+
+vollständig (complete): cauchyfolgen kovergieren
+
+kompakt (compact): jede folge besitzt konvergente teilfolgen, kompakt <=> beschränkt und abgeschlossen, kompakt => vollständig
+
+zusammenhängend (connected): verbindung zw zwei beliebigen Punkten teil der menge
+
+einfach zusammenhängend (simply connected): ohne löcher, bzw besser gesagt zusammenhängend und jeder geschlossene weg ist auf einen punkt in der menge "zusammenziehbar" (topologischer begriff)

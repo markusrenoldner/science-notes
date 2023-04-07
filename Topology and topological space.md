@@ -1,5 +1,5 @@
 
-Let M be a set (see [[Axiomatic vs informal set theory]])
+Let M be a set (see [[Informal vs axiomatic set theory]])
 
 A foundational concept of [[Differential geometry]]
 

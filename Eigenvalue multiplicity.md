@@ -1,8 +1,19 @@
 [[Linear algebra]]
 
-[[Eigenproblem]]
 
 
+
+Consider a square matrix $A$.
+Any (nontrivial) eigenpair $(\lambda_i,v_i)$ per definition satisfies
+$$(A-\lambda_i\mathbb{I})v_i=0 \quad \iff \quad \operatorname{det}(A-\lambda_i\mathbb{I})=0$$
+
+Firstly, the right expression is called characteristic polynomial:
+$$P_A(\lambda_i):=\operatorname{det}(A-\lambda \mathbb{I})$$
+and the eigenvalues are its roots.
+
+Secondly, the left expression from above yields:
+$$v_i\in \operatorname{ker}(A-\lambda_i\mathbb{I})=:\mathcal{E}_A(\lambda_i)$$
+this space is called eigenspace of $\lambda_i$. It is the span of the eigenvalues corresponding to $λ_i$.
 
 ## Algebraic multiplicity
 The multiplicity of a root $\lambda_i$ of $P_A$ is called algebraic multiplicity of that eigenvalue.
@@ -13,6 +24,7 @@ The multiplicity of a root $\lambda_i$ of $P_A$ is called algebraic multiplicity
 
 
 
+-------------------------
 ## Example
 $$A=\pmatrix{
 2&1&0\\
@@ -40,15 +52,14 @@ where $n$ is the dimension of the domain which $A$ is mapping from ($\operatorna
 
 The geometric multiplicity of $\lambda_2$ is 1 as this is the eigenspace dimension.
 
-
 ## Implications:
 1. It holds:
 $$1 \leq g.m.(\lambda)\leq a.m.(\lambda)$$
 2. A matrix is diagonalizable iff. the geom. multiplicity of every eigenvalue is equal to its algebraic multiplicity (this is the case if all $\lambda$ are distinct). 
    Or equivalent: the sum of the geom. multiplicities of all eigenvalues is $n$ (the dimension of the domain).
 
+source:
+https://www.youtube.com/watch?v=Xcln3xG8QGQ&ab_channel=mathapptician
 
-## Source:
-- https://www.youtube.com/watch?v=Xcln3xG8QGQ&ab_channel=mathapptician
-- https://math.stackexchange.com/questions/1859839/how-can-i-find-the-dimension-of-the-eigenspace?rq=1
-- TU Wien lecture "Lineare Algebra für TPH"
+https://math.stackexchange.com/questions/1859839/how-can-i-find-the-dimension-of-the-eigenspace?rq=1
+
