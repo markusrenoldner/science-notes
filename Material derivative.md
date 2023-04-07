@@ -1,6 +1,5 @@
 #TODO
 
-https://en.wikipedia.org/wiki/Material_derivative
 
 also convective or substantial derivative.
 
@@ -13,3 +12,7 @@ $$\frac{Dy}{Dt} \equiv \frac{\partial y}{\partial t}+ u \cdot \nabla y$$
 where $u$ is the velocity field and $\nabla y$ is the [[Covariant derivative]] of the tensor $y$ .
 
 
+
+### Sources:
+- https://en.wikipedia.org/wiki/Material_derivative
+- Bartelmann 1, equation 8.186

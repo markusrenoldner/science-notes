@@ -1,10 +1,13 @@
 
-## use informal set theory over axiomatic set theory
+### Axiomatic set theory
 sets are a convenient way that underlie most areas of modern [[Mathematics]]. There are several axiomatic set theory systems, e.g. the "Zermelo–Fraenkel set theory with the axiom of choice" (ZFC).
 
 Gödel's incompleteness theorems show that consistency of these axiomatic systems can not be proven "from within".
 
-Fortunately, usually it is enough to use "Naive set theory" where it is enough to have an informal understanding of:
+
+
+### Informal set theory
+Fortunately, usually it is enough to use "Naive/informal set theory" where it is enough to have an informal understanding of:
 - Unions
 - intersections
 - Cartesian products
@@ -18,7 +21,8 @@ Each subarea of mathematics defines some properties of sets differently. You can
 e.g. https://en.wikipedia.org/wiki/Open_set
 
 
-## informal definition of a set
+
+### informal definition of a set
 "a set is a collection of elements"
 
 notation in mathematics:

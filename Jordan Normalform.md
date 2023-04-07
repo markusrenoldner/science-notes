@@ -1,10 +1,8 @@
 
 [[Linear algebra]]
 
-#TODO 
 
-
-### Definition
+## Definition
 A squared matrix is diagonalizable if e.g. the geometric and algebraic multiplicity of all eigenvalues is equal (see [[Eigenvalue multiplicity]]):
 $$A=TDT^{-1}$$
 where $T$ is a matrix consisting of eigenvectors.
@@ -17,7 +15,7 @@ $$J=\begin{pmatrix} \lambda_1&a&0&0&0\\0&\lambda_2&b&0&0\\0&0&\lambda_3&c&0\\0&0
 $\lambda_i$ is an eigenvalue and $a,b,c,d$ are either 1 or 0, depending on the geometric multiplicity of the eigenvalues.
 
 
-### interpretation of the matrix strucure:
+## interpretation of the matrix strucure:
 
 The geometric multiplicity defines how many "Jordan blocks" the matrix has. A Jordan block is the largest square submatrix centered around several instances of the same eigenvalue, and whose upper triangle entries are all 1.
 
@@ -46,9 +44,9 @@ The ones are set, such that the number of blocks is equivalent to the geometric 
 
 
 
-source:
-https://www.youtube.com/watch?v=TnQ5yCSdSsc&list=PLBh2i93oe2qvrzR114cOR9i-aJb6_GVuw&index=3&ab_channel=TheBrightSideofMathematics
-
-https://de.wikipedia.org/wiki/Jordansche_Normalform
+## Sources:
+- https://www.youtube.com/watch?v=TnQ5yCSdSsc&list=PLBh2i93oe2qvrzR114cOR9i-aJb6_GVuw&index=3&ab_channel=TheBrightSideofMathematics
+- https://de.wikipedia.org/wiki/Jordansche_Normalform
+- TU Wien lecture "Lineare Algebra für TPH"
 
 
