@@ -4,22 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "536a8bee3e7230de",
+        "id": "d44a904c75e52ff8",
         "type": "tabs",
         "children": [
           {
-            "id": "2afab63f2d13f03b",
+            "id": "e34d9fdff8fa0297",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "a16fc1247858d818",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dynamical systems.md",
+                "file": "TODOS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9266da6951e97664",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODOS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "726d68ffa120a4bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODOS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "98b029aaaadbb24d",
@@ -85,14 +118,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dynamical systems.md",
+                "file": "TODOS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -102,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dynamical systems.md",
+                "file": "TODOS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dynamical systems.md"
+                "file": "TODOS.md"
               }
             }
           }
@@ -133,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,43 +178,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2afab63f2d13f03b",
+  "active": "49d844a1c626e673",
   "lastOpenFiles": [
-    "pdf-notes/linalg.pdf",
-    "Linear algebra.md",
-    "pdf-notes/linalg/main.pdf",
-    "pdf-notes/differential-geometry.pdf",
-    "Differential geometry.md",
-    "pdf-notes/linalg/main.synctex(busy)",
-    "pdf-notes/linalg/pdflatex4844.fls",
-    "pdf-notes/linalg/tmp1.tmp",
     "README.md",
-    "0_GUIDELINE.md",
-    "testnote.md",
-    "asdf.pdf.md",
-    "Prof Ott's 8-Lyapunov-time prediction of KS-equation.md",
-    "Newtons laws - definitions or theorems.md",
-    "Lorenz attractor.md",
-    "Dynamical systems.md",
-    "Analysis.md",
     "0_UNLINKED.md",
-    "0_README.md",
-    "Potential vs potential energy.md",
-    "pdf-notes/potential-vs-potential-energy.pdf",
-    "Numerics.md",
-    "Errors and complexity of numerical methods.md",
-    "Boundary conditions of linear systems.md",
-    "pdf-notes/BCoflinearsystems.pdf",
-    "pdf-notes/nonlindyn/main.toc",
-    "pdf-notes/nonlindyn/main.thm",
-    "Topology and topological space.md",
-    "Classical mechanics.md",
-    "Fluid Dynamics.md",
-    "Manifold.md",
+    "TODOS.md",
+    "Linear algebra.md",
     "MEHC scheme.md",
-    "Tensors.md",
-    "Abstract algebra.md",
-    "Lagrangian coherent structure.md",
-    "Pasted image 20230126104757.png"
+    "Finite Element Method.md",
+    "Differential equations.md",
+    "Covariant derivative.md",
+    "Material derivative.md",
+    "Dynamical systems.md",
+    "Manifold.md",
+    "Types of mappings.md",
+    "Analysis.md",
+    "Multivariate analysis.md",
+    "Quotient space, equivalence class.md",
+    "Multilinear algebra, tensor algebra.md",
+    "Eigenproblem.md",
+    "Eigenvalue multiplicity.md",
+    "Jordan Normalform.md",
+    "Differential geometry.md",
+    "Mathematics.md",
+    "Physics.md",
+    "testnote.md",
+    "Groups, rings and fields.md",
+    "Symplectic ODE integrators.md",
+    "Classical mechanics.md",
+    "pdf-notes/op-transform.pdf",
+    "pdf-notes/laplace-op-polar-2D.pdf",
+    "pdf-notes/dynamical-systems.pdf",
+    "pdf-notes/diffgeo.pdf",
+    "pdf-notes/BCoflinearsystems.pdf",
+    "pdf-notes/linearmaps-matrices.pdf",
+    "pdf-notes/latex/diffgeo/diffgeo.pdf",
+    "pdf-notes/latex/diffgeo/main - Kopie.pdf",
+    "pdf-notes/latex/diffgeo/main.synctex(busy)",
+    "pdf-notes/latex/diffgeo/pdflatex13528.fls",
+    "images/Pasted image 20230330121821.png",
+    "images/Pasted image 20230330121801.png",
+    "images/affinespace.png",
+    "images/Pasted image 20230330105733.png",
+    "images/affinespace.jpg",
+    "Pasted image 20230330105608.png",
+    "images/affinespace.png",
+    "images/The-affine-set-S-is-a-translation-of-the-linear-subspace-M-containing-the-origin-by-the.png",
+    "images/todos.png",
+    "images/Pasted image 20230126104757.png"
   ]
 }

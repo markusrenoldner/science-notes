@@ -1,13 +1,3 @@
-[[Differential geometry]]
-[[Mathematics]]
-[[Physics]]
 
+Concept whose algebraic properties are introduced in [[Multilinear algebra, tensor algebra]] and whose analytic and geometric properties are introduced in [[Differential geometry]].
 
-#TODO 
-sources:
--  ETH multilin algebra vom linalg script
-- ingmathe youtube
-- eigenchris
-
-
-#notes [[tensors-short.pdf]]

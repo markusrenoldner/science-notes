@@ -1,5 +1,7 @@
 
-[[Analysis]]
+
+#TODO 
+
 
 ### General
 manu sagt bei parametrisierungen (das ist wie eine transformation in einen niedrigdimensionaleren raum) gibt es keine funktionaldeterminante!

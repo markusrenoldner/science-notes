@@ -1,16 +1,13 @@
-
-### tags and links
 [[Mathematics]]
-#extern TPH linalg, ETH linalg, youtube ingmathe
 
 
 
-### content:
+## Topics:
 -  [[Groups, rings and fields]]  (ETH oder drmota)
 	- gruppen
 	- ringe
 	- köper
-- [[Vector spaces]] (TPH)
+- [[Vector space]] (TPH)
 	- basis, dimension, koordinaten
 - [[Linear maps and matrices]] (ETH)
 	- kern, bild
@@ -21,22 +18,20 @@
 	- abbildungen als matritzen
 		- basiswechsel/transformation (maybe youtube ingmathe)
 	- Hom_K(A,B) ... vektorraum der homomorphismen oder lin abb. von A nachB
-	- quotientenraum?
+	- [[Quotient space, equivalence class]]
 - determinanten (TPH)
-- euklidische vektorräume (TPH)
-- eigenproblem (TPH)
-- diffglg + Jordan normalform (TPH)
-
-advanced stuff: (ETH drmota)
-- skalarprodukte, euklidische vektorräume
+- euklidische vektorräume (TPH, ETH)
+- [[Eigenproblem]]
+- [[Jordan Normalform]]
+- skalarprodukte, euklidische vektorräume (ETH)
 	- spektralsatz
-- bilinearformen
-- dualraum
-- multilin algebra
+- bilinearformen (ETH)
+- dualraum (ETH)
+- [[Multilinear algebra, tensor algebra]] (ETH, altland delft)
 
 
 
-### sources:
+## Sources:
 - TU Wien lecture
 	- notes written in 2020 by Prof. Winfried Auzinger, Prof. Schranz-Kirlinger, Prof. Peter Szmolyan, and Prof. Eva Weinmüller for the lecture "Lineare Algebra für TPH"
 	- https://www.asc.tuwien.ac.at/~ewa/LinAlgVo22/
@@ -50,3 +45,6 @@ advanced stuff: (ETH drmota)
 	- https://metaphor.ethz.ch/x/2023/fs/401-1152-02L/notes/Menny-Akka%20-%20Lineare_Algebra_I.pdf
 - summary of frederic jorgensen
 	- https://github.com/FredericJorgensen/linalg-zusammenfassung
+- Altland, Delft - Mathematics for Physicists
+
+

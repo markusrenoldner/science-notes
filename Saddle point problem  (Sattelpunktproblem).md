@@ -1,9 +1,6 @@
 
-source:
-https://de.wikipedia.org/wiki/Sattelpunktproblem
 
 [[0_UNLINKED]]
-
 #TODO 
 boundary cond?
 schurkompl?
@@ -32,3 +29,8 @@ Now if $\tilde x=(\tilde u,\tilde p)^T$ is a solution of $Mx=0$, then it is also
 $$F(u,\tilde p) \geq 0$$
 3. similar one shows for any $p$ that   $$F(\tilde u, p) \leq 0$$This implies that $(\tilde u, p)$ is a saddle point.
 
+
+
+
+### Source:
+https://de.wikipedia.org/wiki/Sattelpunktproblem

@@ -8,13 +8,6 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#extern",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
       "query": "tag:#notes",
       "color": {
         "a": 1,
@@ -22,16 +15,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": -1.1,
-  "nodeSizeMultiplier": 0.891145833333333,
-  "lineSizeMultiplier": 1.37604166666667,
+  "textFadeMultiplier": -1.8,
+  "nodeSizeMultiplier": 1.11108222535839,
+  "lineSizeMultiplier": 1.46048429027706,
   "collapse-forces": false,
   "centerStrength": 0.0989583333333333,
   "repelStrength": 6.14583333333333,
   "linkStrength": 0.348958333333333,
   "linkDistance": 209,
-  "scale": 0.7132754626224493,
-  "close": false
+  "scale": 0.5500587933820598,
+  "close": true
 }
