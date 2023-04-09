@@ -7,11 +7,11 @@ There are multiple similar formulations:
 
 
 kick-drift form:
-![[Pasted image 20230330121821.png]]
+![[leapfrog-kickdrift.png]]
 
 
 velocities at integer steps:
-![[Pasted image 20230330121801.png]]
+![[leapfrog-intvelocity.png]]
 
 
 
