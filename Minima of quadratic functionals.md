@@ -38,7 +38,9 @@ Because
 $$u = u_0 + v$$
 you get
 $$\operatorname{argmin}_{u} J[u] = u_0 + \operatorname{argmin}_{v} J[v+u_0]$$
-#TODO why add u_0 to argmin AND add u_0 to v inside J ?
+where the right argmin minimizes over v, the argument of this right argmin is u expressed in terms of v and u_0, but because you only minimize over v, you add u_0 so that u=u_0+v is fullfilled
+this is why add u_0 to argmin AND add u_0 to v inside J
+#TODO formulate nicer
 
 
 ## Positive definite bilinearforms => unisolvence

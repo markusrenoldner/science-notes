@@ -8,6 +8,7 @@ important numerical technique for [[PDE]] in [[Numerics]]
 The endgoal - like always in [[Numerics]] - is to transfer the [[PDE]] problem into a linear system of equations whose solution approximates the [[PDE]].
 This is done by interpolating the unknown function.
 
+
 ## Variational Formulation
 see also[[Equivalence of quadratic minimization and variational problem]]
 
@@ -20,3 +21,6 @@ $$\Delta u = f$$
 
 
 ## Assembly
+
+
+## Sources
