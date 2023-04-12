@@ -1,6 +1,6 @@
 
 ## Axiomatic set theory
-Sets are a convenient idea that underlies most areas of [[Mathematics]]. There are several axiomatic set theory systems, e.g. the "Zermelo–Fraenkel set theory with the axiom of choice" (ZFC).
+There are several axiomatic set theory systems, e.g. the "Zermelo–Fraenkel set theory with the axiom of choice" (ZFC).
 
 
 ## Informal set theory

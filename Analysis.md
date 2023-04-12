@@ -3,7 +3,7 @@
 
 
 ## Topics:
-- [[Properties of sets]]  (ana2)
+- [[Sets]]  (ana2)
 - basics (ana1)
 	- series and sequences
 	- real functions, ratiaonal functions and polynomials

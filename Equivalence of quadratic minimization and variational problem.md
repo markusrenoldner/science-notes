@@ -6,11 +6,13 @@
 
 Remark: a [[PDE]] can be reformulated to a variational form
 
+
 ## Equivalence
 
 ![[equivalence-quadrmin-variational.png]]
 
 Proof see numpde hiptmair
+
 
 ## Source:
 - Prof. Hipmair - Numerical Methods for Partial Differential Equations
