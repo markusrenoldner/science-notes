@@ -1,5 +1,5 @@
 
-based on [[Properties of sets]]
+based on [[Sets]]
 
 #TODO 
 

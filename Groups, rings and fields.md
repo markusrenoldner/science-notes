@@ -1,6 +1,6 @@
 (German: Gruppen, Ringe, Körper)
 
-These are fundamental ideas in [[Abstract algebra]] and also in [[Linear algebra]]
+These are fundamental ideas in [[Linear algebra]]
 
 [[Linear algebra]]
 

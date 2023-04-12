@@ -1,6 +1,5 @@
-
-
 [[Mathematics]]
+
 
 #notes 
 my (long) notes on the topic: [[numerics.pdf]]
