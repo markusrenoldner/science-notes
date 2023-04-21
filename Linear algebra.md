@@ -1,24 +1,11 @@
-[[Mathematics]]
+important branch of [[Mathematics]]
 
 
 
 ## Topics:
--  [[Groups, rings and fields]]  (ETH oder drmota)
-	- gruppen
-	- ringe
-	- köper
-- [[Vector space]] (TPH)
-	- basis, dimension, koordinaten
-- [[Linear maps and matrices]] (ETH)
-	- kern, bild
-	- matritzen
-		- rang
-		- inverse
-		- gleichungssysteme
-	- abbildungen als matritzen
-		- basiswechsel/transformation (maybe youtube ingmathe)
-	- Hom_K(A,B) ... vektorraum der homomorphismen oder lin abb. von A nachB
-	- [[Quotient space, equivalence class]]
+- [[Groups, rings and fields]]  
+- [[Vector space]]
+- [[Linear maps and matrices]]
 - determinanten (TPH)
 - euklidische vektorräume (TPH, ETH)
 - [[Eigenproblem]]
@@ -27,7 +14,7 @@
 	- spektralsatz
 - bilinearformen (ETH)
 - dualraum (ETH)
-- [[Multilinear algebra, tensor algebra]] (ETH, altland delft)
+- [[Multilinear algebra, tensor algebra]] 
 
 
 

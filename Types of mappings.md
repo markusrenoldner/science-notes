@@ -1,5 +1,6 @@
 
-#TODO 
+#TODO  translate and link to/from [[Linear algebra]]
+
 
 
 ### Isomorphismus

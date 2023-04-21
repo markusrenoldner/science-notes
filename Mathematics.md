@@ -1,4 +1,3 @@
-
 can be regarded a formal language consisting of structures and objects, that are logically derived from a number of axioms. It turns out, it is very helpful to describe ideas and observations in [[Physics]].
 
 

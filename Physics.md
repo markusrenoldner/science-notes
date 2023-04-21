@@ -2,11 +2,11 @@ Prof. Mikhail Lemeshko defines physics as the unique scientific discipline that 
 
 
 ## Important subfields:
-[[Classical mechanics]]
-[[Electrodynamics]]
-[[Quantum mechanics]]
-[[Statistical mechanics]]
+- [[Classical mechanics]]
+- [[Electrodynamics]]
+
 
 
 ## Main sources:
-- Bartelmann 1-4
+- Bartelmann 1
+- Bartelmann 2
