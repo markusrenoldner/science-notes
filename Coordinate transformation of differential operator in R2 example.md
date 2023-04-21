@@ -1,5 +1,5 @@
 
-[[Differential operators and integration in different coordinate systems (Vector calculus)]]
+[[Differentiation and integration in coordinate systems (Vector calculus, multivariate analysis)]]
 
 
 ### Problem:

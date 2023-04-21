@@ -1,15 +1,13 @@
-Important idea in [[Finite Element Method]]
-
-
+Important idea in [[Finite Element Method (FEM)]]
 
 ## Definition
 Given:
 - a vector space $V$
 - a subspace $V_0\subset V$
-- some $\hat{v} \in V$
+- some $g \in V$ ("offset function/vector")
 - some $v_0 \in V_0$
 we call
-$$ \hat{V} := \hat{v} + V_0 := \{v = \hat{v}+v_0 \} $$
+$$ \hat{V} := g + V_0 := \{v = g+v_0 \} $$
 an affine subspace of $V$.  It holds that
 $$\hat{V} \subset V$$
 It is not a [[Vector space]], as

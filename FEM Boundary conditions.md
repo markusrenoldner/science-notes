@@ -1,34 +1,23 @@
 
-[[Finite Element Method]]
+[[Finite Element Method (FEM)]]
 
-#TODO 
 
-## Wouter sagt:
+## Non-zero essential BC
 in case of non-zero essential BC, the trial functions are in a space H_g, where g is the value on the boundary, but this space is sometimes still denoted as H_0
-the testfunctions are in H_0 and definitely zero on the boundary!
+the testfunctions are in H_0 and definitely zero on the boundary! ("do not test, where the solution is known", e.g., on the boundary, says hiptmair)
+This H_g is an [[Affine space]], which is not a [[Vector space]].
+
+The problem can be transferred to a problem in a vector space, (how?)
+see [[Variational formulation, variational problem]]
 
 
-## Hiptmair lecture ntoes
-In the variational formulations of 2nd-order elliptic BVPs
-- dirichlet BC are directly imposed into the trial space and (in the homogenious case) on the test space
-	- in the non homogenious case, the test space is an [[Affine space]]
-	- but MEHC primal field macht das nicht so!
-- neuman BC are only enforcred through the variational equation
+## Zero essential BC
+this is easy, then the test space and trial space are always vector spaces
 
 
-for testfunctions: do not test, where the solution is known, e.g., on the boundary
+## Natural BC
+implemented in the variational formulation only.
 
-but then also:
-[[Minima of quadratic functionals]]
-
-[[Equivalence of quadratic minimization and variational problem]]
-
-
-and also: why "for all v in V_0" here ?
-![[Pasted image 20230408103959.png]]
-
-
-#TODO is this correct?
 
 
 ## Source:

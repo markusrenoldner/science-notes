@@ -1,5 +1,5 @@
 
-[[Linear algebra]]
+technique from [[Linear algebra]]
 
 
 ## Definition
@@ -15,7 +15,7 @@ $$J=\begin{pmatrix} \lambda_1&a&0&0&0\\0&\lambda_2&b&0&0\\0&0&\lambda_3&c&0\\0&0
 $\lambda_i$ is an eigenvalue and $a,b,c,d$ are either 1 or 0, depending on the geometric multiplicity of the eigenvalues.
 
 
-## interpretation of the matrix strucure:
+## Interpretation of the matrix strucure:
 
 The geometric multiplicity defines how many "Jordan blocks" the matrix has. A Jordan block is the largest square submatrix centered around several instances of the same eigenvalue, and whose upper triangle entries are all 1.
 

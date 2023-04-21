@@ -1,15 +1,13 @@
-[[Mathematics]]
+important branch of [[Mathematics]]
 
+
+## Topics
 
 #notes 
-my (long) notes on the topic: [[numerics.pdf]]
-and the short version (ohne EV, CG) : [[numerics-short.pdf]]
+long notes: [[numerics.pdf]]
+short version (without EV, CG) : [[numerics-short.pdf]]
+overview of errors of numerical schemes: [[Errors and complexity of numerical methods]]
 
-errors of numerical schemes, see here: [[Errors and complexity of numerical methods]]
-
-
-
-## Content
 - Polynomial interpolation
 	- Neville
 	- Newton polynomials
@@ -25,7 +23,8 @@ errors of numerical schemes, see here: [[Errors and complexity of numerical meth
 	- LU
 	- Cholesky
 	- QR (Gram schmitt, housholder reflections, pivoting)
-- Least Squares (see als [[Least squares vs. minimum norm solution of LSE]])
+- Least Squares
+	- [[Least squares vs. minimum norm solution of LSE]]
 	- Normal equations
 	- QR sol of least squares
 	- Underdetermined systems: minimum norm solution
@@ -44,8 +43,21 @@ errors of numerical schemes, see here: [[Errors and complexity of numerical meth
 	- Power method
 	- QR
 - Conjugate Gradient Method
-	- Krylov subspaces, see also [[Krylov methods - paper about idea and background]]
+	- Krylov subspaces
+		- [[Krylov methods - paper about idea and background]]
 	- GMRES
+
+
+## Topics: Numerics for differential equations
+- [[Finite Element Method (FEM)]]
+- [[Symplectic ODE integrators]]
+- [[FEM vs FD vs FV]]
+- Numerics for conservation laws
+- Spectral methods
+- [[Viscosity solution]]
+
+
+
 
 ## Source:
 - Prof. Melenk - Numeric Computations https://www.asc.tuwien.ac.at/~melenk/teach/computernumerik_WS2122/

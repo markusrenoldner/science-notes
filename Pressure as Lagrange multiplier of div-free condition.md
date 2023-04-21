@@ -5,9 +5,11 @@
 For Re $\rightarrow 0$ the Navier-Stokes equations become the Stokes equations:
 $$-\mu \Delta u + \nabla p = f$$
 $$\nabla \cdot u = 0$$
-This problem is equivalent to the variational problem ([[Calculus of variations]], [[Minima of quadratic functionals]])
+This problem is equivalent to this variational problem: find
 $$\operatorname{min}_u \frac{\mu}{2}||\nabla u||^2_2 - (f,u)$$
-under the side constraint $\nabla u =0$. An article from scicomp.stackexchange (https://scicomp.stackexchange.com/questions/7474/pressure-as-a-lagrange-multiplier) suggests that
+under the side constraint $\nabla u =0$, see [[Calculus of variations]], [[Minimum of quadratic functionals]]. 
+
+An article from scicomp.stackexchange (https://scicomp.stackexchange.com/questions/7474/pressure-as-a-lagrange-multiplier) suggests that
 >If you write down the Lagrangian and then the optimality conditions of this optimization problems, you will find that indeed the pressure is the Lagrange multiplier.
 >This equivalence between problems is not exploited in any numerical scheme (that I know of) but it is an important tool in the analysis because it shows that the Stokes equations are essentially the Poisson equation on a linear subspace. The same holds true for the time-dependent Stokes equations (which corresponds to the heat equation on the subspace) and it can be extended to the Navier-Stokes equations.
 

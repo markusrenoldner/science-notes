@@ -7,8 +7,9 @@ $$
 $$\nabla \cdot u = 0$$
 
 
-## Equations for each components:
-![[Pasted image 20230411160229.png]]
+## Equations for each component:
+
+![[nav-stok-components.png]]
 
 
 ## Nondimensional formulation
@@ -50,5 +51,14 @@ $$p = p_{stat} + \frac{1}{2} (u\cdot u)$$
 where the second term is called dynamic pressure or Bernoulli pressure
 
 
+## Boundary conditions for the NS equ
+[[Boundary conditions for Navier-Stokes]]
 
 
+
+## Euler equations (inviscid limit)
+#TODO 
+
+
+## Stokes equations
+#TODO 

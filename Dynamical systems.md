@@ -1,10 +1,8 @@
-
-[[ODE]]
+studies stability and chaotic behaviour of (usually nonlinear) [[ODE]]s 
 
 
 #notes [[dynamical-systems.pdf]]
 #TODO 
-
 
 
 "dynamical" implies a dependence of time (or a similar evolutionary variable) of the underlying equations
@@ -12,7 +10,7 @@
 An interesting example of a dynamic system is the [[Lorenz attractor]].
 
 
-### Contents:
+### Topics:
 
 1. Fundamentals
 	1. existence and uniqueness of ODE solutions

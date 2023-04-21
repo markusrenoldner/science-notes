@@ -1,6 +1,6 @@
 
-[[Mathematics]]
-[[Physics]]
+important branch of [[Mathematics]]
+
 
 #TODO write note
 #TODO split it into subtopics
