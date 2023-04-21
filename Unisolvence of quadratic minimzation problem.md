@@ -1,3 +1,0 @@
-
-
-![[unisolvence-quadrminprobl.png]]
