@@ -4,6 +4,8 @@ important branch of [[Physics]]
 
 
 ## Topics:
+- [[Maxwell equations]]
+- [[Potential vs potential energy]]
 - asfd
 
 
