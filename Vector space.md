@@ -1,8 +1,6 @@
 Fundamental concept in [[Linear algebra]]
 
 
-#notes [[vec-spaces.pdf]]
-#TODO 
 
 
 ## Topics
@@ -12,9 +10,11 @@ Fundamental concept in [[Linear algebra]]
 
 
 
+#TODO 
+#notes ![[vec-spaces.pdf]]
+
 
 ## Sources:
-- TU Wien lecture
-	- notes written in 2020 by Prof. Winfried Auzinger, Prof. Schranz-Kirlinger, Prof. Peter Szmolyan, and Prof. Eva Weinmüller for the lecture "Lineare Algebra für TPH"
+- Prof. Auzinger - Lineare Algebra für TPH, TU Wien lecture 2020
 	- https://www.asc.tuwien.ac.at/~ewa/LinAlgVo22/
 	- https://www.facultas.at/item/49933377
