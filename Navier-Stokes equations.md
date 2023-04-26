@@ -1,10 +1,15 @@
 [[Fluid Dynamics]]
 
+The following equations descibre incompressible, Newtonian fluids.
+
 ## Vector calculus notation
+
 $$
-    \rho\left(\frac{\partial \mathbf{u}}{\partial t}+\mathbf{u} \cdot \nabla \mathbf{u}\right) =-\nabla p_{\text{stat}} + \mu \Delta u + f
+\begin{align*}
+    \rho\left(\frac{\partial \mathbf{u}}{\partial t}+\mathbf{u} \cdot \nabla \mathbf{u}\right) &=-\nabla p_{\text{stat}} + \mu \Delta u + f\\
+	\nabla \cdot u &= 0
+\end{align*}
 $$
-$$\nabla \cdot u = 0$$
 
 
 ## Equations for each component:
@@ -57,8 +62,15 @@ where the second term is called dynamic pressure or Bernoulli pressure
 
 
 ## Euler equations (inviscid limit)
-#TODO 
+Taking infinite Reynolds number, one gets
+$$
+\begin{align}
+    \displaystyle\frac{\partial \mathbf{u}}{\partial t}+\mathbf{u} \cdot \nabla \mathbf{u} &=-\nabla p_{\text{stat}} + \boldsymbol{f} \\
+    \displaystyle\nabla \cdot \boldsymbol{u} &= 0
+\end{align}
+$$
 
 
 ## Stokes equations
 #TODO 
+

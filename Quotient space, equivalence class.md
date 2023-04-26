@@ -26,6 +26,10 @@ An equivalence class is an [[Affine space]], see https://math.stackexchange.com/
 
 The quotient space "from $V$ to $U$" is the set of all equivalence classes, written as
 $$V / U := \{[v] : v\in V\} $$
+Alternative phrasing: the quotient space $V/U$ is the set of all affine subspaces of $V$ that are parallel to $U$.
+https://en.m.wikipedia.org/wiki/Quotient_space_(linear_algebra)
 
 Apparently, it is a vector space, if the vector space operations are defined in a certain way (?)
+
+
 
