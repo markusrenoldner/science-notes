@@ -1,4 +1,3 @@
-
 important branch of [[Mathematics]]
 
 
@@ -6,11 +5,11 @@ important branch of [[Mathematics]]
 #TODO split it into subtopics
 #TODO link subtopics to rest of notes (e.g. sets from analysis and topology)
 #notes [[diffgeo.pdf]]
+check if  https://www.win.tue.nl/~lflorack/Extensions/2WAH0CourseNotes.pdf eindhoven text, is interesting
+#TODO restruture this file also
 
 
-
-
-## Topics that i want to cover (not in order, not complete)
+## Topics:
 - [[Topology and topological space]]
 - diff. manifolds
 - pull-backs
@@ -60,7 +59,7 @@ important branch of [[Mathematics]]
 - Lecture 12: Integration on manifolds
 
 
-## Sources:
+## Main sources:
 - Schuller - Geometric Anatomy of Theoretical Physics (long)
 	- http://mathswithphysics.blogspot.com/2016/07/lectures-on-geometric-anatomy-of.html
 	- https://www.youtube.com/playlist?list=PLPH7f_7ZlzxTi6kS4vCmv4ZKm9u8g5yic

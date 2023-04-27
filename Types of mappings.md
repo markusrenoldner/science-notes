@@ -1,5 +1,6 @@
 
-#TODO  translate and link to/from [[Linear algebra]]
+#TODO  translate and link to/from linalg
+#unlinked 
 
 
 

@@ -8,14 +8,17 @@ important branch of [[Mathematics]]
 - [[Groups, rings and fields]]  
 - [[Vector space]]
 - [[Linear maps and matrices]]
-- determinanten (TPH)
-- euklidische vektorräume (TPH, ETH)
+- Determinants (TPH)
+- Euklidean Vektorspaces (TPH)
+	- Inner product and norms
+	- Orthogonality
+	- Quadratic forms
+	- Orthogonal matrices
+	- Spectral theorem (ETH)
 - [[Eigenproblem]]
 - [[Jordan Normalform]]
-- skalarprodukte, euklidische vektorräume (ETH)
-	- spektralsatz (ETH, methoden)
-- bilinearformen (ETH)
-- dualraum (ETH)
+- Bilinearforms (ETH)
+- Dual space (ETH)
 - [[Multilinear algebra, tensor algebra]] 
 
 

@@ -1,16 +1,17 @@
 important branch of [[Physics]]
 
-#TODO 
+
+#TODO  just read Bartelmann
 
 
 ## Topics:
 - [[Maxwell equations]]
 - [[Potential vs potential energy]]
-- asfd
+- ...
 
 
 
 
 
-## Sources:
-- Bartelmann 2
+## Main sources:
+- Bartelmann - Theoretische Physik 2, Elektrodynamik

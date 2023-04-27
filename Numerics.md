@@ -1,12 +1,12 @@
 important branch of [[Mathematics]]
 
 
+#TODO split this into 1 note per chapter (yes, split up the PDFs!)
+
+
 ## Topics
 
-#notes 
-long notes: [[numerics.pdf]]
-short version (without EV, CG) : [[numerics-short.pdf]]
-overview of errors of numerical schemes: [[Errors and complexity of numerical methods]]
+#notes [[numerics.pdf]], [[numerics-short.pdf]] (without EV, CG), [[Errors and complexity of numerical methods]]
 
 - Polynomial interpolation
 	- Neville
@@ -51,13 +51,8 @@ overview of errors of numerical schemes: [[Errors and complexity of numerical me
 ## Topics: Numerics for differential equations
 - [[Finite Element Method (FEM)]]
 - [[Symplectic ODE integrators]]
-- [[FEM vs FD vs FV]]
-- Numerics for conservation laws
-- Spectral methods
 - [[Viscosity solution]]
 
 
-
-
-## Source:
+## Main sources:
 - Prof. Melenk - Numeric Computations https://www.asc.tuwien.ac.at/~melenk/teach/computernumerik_WS2122/
