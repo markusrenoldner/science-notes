@@ -1,5 +1,6 @@
 
-[[0_UNLINKED]]
+[[Overview of errors and complexity of numerical methods]]
+
 
 ## Log log
 ![[loglog1.png]]
@@ -17,7 +18,9 @@
 ```
 import numpy as np
 import matplotlib.pyplot as plt
+
 x = np.linspace(1,10,200)
+
 plt.plot(x,x**1,label="$x$")
 plt.plot(x,x**2,label="$x^2$")
 plt.plot(x,x**3,label="$x^3$")

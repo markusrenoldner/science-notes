@@ -1,6 +1,8 @@
 
-Numeric methods ([[Numerics]]) for the solution of an [[ODE]].
+[[ODE]]
+[[Numerics for differential equations]]
 
-#TODO praetorius lecture
+
+#TODO summarize praetorius lecture
 
 

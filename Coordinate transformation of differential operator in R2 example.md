@@ -1,5 +1,5 @@
 
-[[Differentiation and integration in coordinate systems (Vector calculus, multivariate analysis)]]
+[[Differentiation in coordinate systems (Vector calculus)]]
 
 
 ### Problem:
@@ -12,5 +12,5 @@ to the new coordinates $s,t$ .
 
 
 ### Solution:
-#notes [[op-transform.pdf]]
+#notes ![[op-transform.pdf]]
 

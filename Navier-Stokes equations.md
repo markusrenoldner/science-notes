@@ -1,6 +1,7 @@
 [[Fluid Dynamics]]
 
 The following equations descibre incompressible, Newtonian fluids.
+[[Derivation of Navier-Stokes equations]]
 
 ## Vector calculus notation
 
@@ -70,8 +71,17 @@ $$
 \end{align}
 $$
 
+#TODO euler equations in conservative form (from prof. schlatter KTH CFD)
+
 
 ## Stokes equations
 #TODO 
 
 
+
+
+## Sources
+- Bartelmann - Theoretische Physik 1, Mechanik
+- https://en.wikipedia.org/wiki/Derivation_of_the_Navier%E2%80%93Stokes_equations
+- https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations
+- https://de.wikipedia.org/wiki/Navier-Stokes-Gleichungen
