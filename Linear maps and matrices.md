@@ -1,5 +1,6 @@
 Fundamental concept in [[Linear algebra]]
 
+
 #notes [[linearmaps-matrices.pdf]]
 #TODO 
 
@@ -14,6 +15,7 @@ Fundamental concept in [[Linear algebra]]
 - basiswechsel/transformation (maybe youtube ingmathe)
 - Hom_K(A,B) ... vektorraum der homomorphismen/lin abb. von A nachB
 - [[Quotient space, equivalence class]]
+- [[Overview of mappings in linear algebra]]
 
 
 ## Source

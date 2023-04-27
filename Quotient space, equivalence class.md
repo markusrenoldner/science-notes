@@ -1,7 +1,5 @@
 
-[[Linear algebra]]
-
-in seinen comments hat hiptmair einfmal den quotien space erwähnt: [[MEHC scheme]]
+#TODO in seinen comments hat hiptmair einfmal den quotient space erwähnt: [[MEHC scheme]]
 
 
 

@@ -5,6 +5,7 @@ important branch of [[Physics]]
 
 
 ## Topics:
+- [[Electrostatic basics]]
 - [[Maxwell equations]]
 - [[Potential vs potential energy]]
 - ...
@@ -15,3 +16,4 @@ important branch of [[Physics]]
 
 ## Main sources:
 - Bartelmann - Theoretische Physik 2, Elektrodynamik
+- Demtröder - Experimentalphysik 2, Elektrizität und Optik

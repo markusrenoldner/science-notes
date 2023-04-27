@@ -1,4 +1,4 @@
-[[Linear algebra]]
+
 
 [[Eigenproblem]]
 

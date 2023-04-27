@@ -1,9 +1,9 @@
 
-important numerical technique for [[PDE]] in [[Numerics]]
+important numerical technique for [[PDE]] in [[Numerics for differential equations]]
 
 
 ## Idea
-The endgoal - like always in [[Numerics]] - is to transfer the [[PDE]] problem into a linear system of equations whose solution approximates the [[PDE]].
+The endgoal is to transfer the [[PDE]] problem into a linear system of equations whose solution approximates the [[PDE]].
 This is done by interpolating the unknown function.
 
 
@@ -30,3 +30,6 @@ $$\Delta u = f$$
 
 
 ## Sources
+- Prof. Faustmann - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2021
+- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021
+- Prof. Schöberl - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2020

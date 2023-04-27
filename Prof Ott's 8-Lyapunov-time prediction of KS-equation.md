@@ -12,5 +12,5 @@ https://www.lri.fr/~gcharpia/deeppractice/2022/chap_5_biblio/Chaos/PhysRevLett.p
 newspaper article:
 https://www.quantamagazine.org/machine-learnings-amazing-ability-to-predict-chaos-20180418/
 
-maybe try to understand the paper and this:
+helpful:
 https://en.wikipedia.org/wiki/Reservoir_computing
