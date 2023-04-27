@@ -1,5 +1,5 @@
 
-An easy example of [[Numerics for differential equations]] that solves a 2nd order [[ODE]]. It is symplectic ([[Symplectic ODE integrators]]) and conserves the energy of the system.
+An easy method to solve a 2nd order [[ODE]] using [[Numerics]] . It is symplectic ([[Symplectic ODE integrators]]) and conserves the energy of the system.
 
 These 2nd order ODEs arise a lot in [[Classical mechanics]] due to Newtons second law.
 There are multiple similar formulations:

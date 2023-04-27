@@ -12,15 +12,16 @@ important branch of [[Mathematics]]
 	- Functions: real, polynomial, algebraic, rational, elementary
 	- Differentiation, integration, Taylor series
 - Multivariate analysis (Analysis 2, chapter 1)
-	- [[Multi-index notation for differential operators]]
 	- Norms
 	- [[Sets]]
 	- Taylor series
 	- Inverse functions, implicit functions
 	- Extrema with side constraints
-- [[Differentiation in coordinate systems (Vector calculus)]]
-- [[Integration in coordinate systems (Vector calculus)]] 
-- [[Function spaces]]
+- [[Differentiation and integration in coordinate systems (Vector calculus, multivariate analysis)]] 
+- Function spaces (Analysis 2, chapter 2, Analysis für tech. Math.)
+	- Spaces: normed, Banach, Hilbert
+	- The space $C^m$
+	- The space $L^p$
 - Integral transforms (Svozil)
 	- Fourier transform
 	- Laplace transform

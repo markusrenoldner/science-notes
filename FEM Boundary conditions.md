@@ -21,4 +21,4 @@ implemented in the variational formulation only.
 
 
 ## Source:
-- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021
+- Prof. Hiptmair - Numerics for PDE

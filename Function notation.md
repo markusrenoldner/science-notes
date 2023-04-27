@@ -1,4 +1,5 @@
 
+[[0_UNLINKED]]
 
 if it is not important
 - how the function value is called
@@ -15,4 +16,4 @@ f:\mathbb{R}^2 &\rightarrow \mathbb{R}\\
 \end{align}$$
 
 
-#TODO add notation with function spaces L2, C1, ... from analys.; also cover operators that map from function spaces to function spaces
+#TODO add notation with function spaces L2, C1, ... from [[Analysis]]; also cover operators that map from function spaces to function spaces

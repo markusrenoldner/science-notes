@@ -8,5 +8,5 @@ Prof. Mikhail Lemeshko defines physics as the unique scientific discipline that 
 
 
 ## Main sources:
-- Bartelmann - Theoretische Physik 1, Mechanik
-- Bartelmann - Theoretische Physik 2, Elektrodynamik
+- Bartelmann 1
+- Bartelmann 2

@@ -1,4 +1,3 @@
-(frequency of colliding particles in plasma)
 
 The collision frequency is propoertional to the density of the target, the cross section of the target particles, and the incoming velocity $\nu_{coll}=n_{tar}\cdot  \sigma \cdot v_{in}.$
 Collisions are possible 

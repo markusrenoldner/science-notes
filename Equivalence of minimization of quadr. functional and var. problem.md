@@ -19,4 +19,4 @@ see numpde hiptmair
 
 
 ## Source:
-- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021
+- Prof. Hipmair - Numerical Methods for Partial Differential Equations
