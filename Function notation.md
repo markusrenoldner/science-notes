@@ -15,3 +15,5 @@ f:\mathbb{R}^2 &\rightarrow \mathbb{R}\\
 (x,y) &\mapsto x^2+4y
 \end{align}$$
 
+
+#TODO add notation with function spaces L2, C1, ... from [[Analysis]]; also cover operators that map from function spaces to function spaces

@@ -1,21 +1,39 @@
 important branch of [[Mathematics]]
 
 
+#TODO start with sets, diff/int in coord sys
+
 
 ## Topics:
-- [[Sets]]
-- basics (ana1)
-- Multivariate analysis (ana2 chap1)
+- Basics (Analysis 1)
+	- Logic
+	- [[Sets]]
+	- Series and sequences
+	- Functions: real, polynomial, algebraic, rational, elementary
+	- Differentiation, integration, Taylor series
+- Multivariate analysis (Analysis 2, chapter 1)
+	- Norms
+	- [[Sets]]
+	- Taylor series
+	- Inverse functions, implicit functions
+	- Extrema with side constraints
 - [[Differentiation and integration in coordinate systems (Vector calculus, multivariate analysis)]] 
-- Function spaces (ana2 chap2, ana für tech mathe)
-- [[Integral transforms]]
-- complex analysis (ana2 chap 3)
+- Function spaces (Analysis 2, chapter 2, Analysis für tech. Math.)
+	- Spaces: normed, Banach, Hilbert
+	- The space $C^m$
+	- The space $L^p$
+- Integral transforms (Svozil)
+	- Fourier transform
+	- Laplace transform
+	- Discrete transforms
+- Complex Analysis (Analysis 2, chapter 3)
+	- Complex line integrals
+	- Laurant series
+	- Residue theorem
 
 
-## Sources:
-- Analysis 2, Prof. Auzinger, Prof. Weinmüller TU Wien
-- Ana for techn. mathematik for the chapter on "Function spaces" 
-- Praktische Mathematik 2, Prof. Weinmüller
-- AMF, Faustmann
+## Main sources:
+- Prof. Auzinger - Analysis 2 für TPH, TU Wien lecture notes
+- Prof. Weinmüller - Praktische Mathematik 2, TU Wien lecture notes
 - Altland, Delft - Mathematics for Physicists
 

@@ -2,6 +2,10 @@ Sets are a fundamental concept from [[Analysis]], [[Linear algebra]], and [[Diff
 This is an informal intro to set theory (see [[Axiomatic vs informal set theory]])
 
 
+
+#TODO make it more complete and more rigorous, check out Ana2 for TPH
+
+
 ## Some definitions:
 - open (offen): without boundary
 - bounded (beschränkt): ball with finite radius encloses the set
@@ -10,9 +14,9 @@ This is an informal intro to set theory (see [[Axiomatic vs informal set theory]
 - connected (zusammenhängend): connection between any two points in the set
 - simply connected (einfach zusammenhängend): without holes, or rather connected and every closed path is "contractible" (zusammenziehbar) to a point in the set (topological term)
 
-#TODO make it more complete and more rigorous, check out Ana2 for TPH
 
 
 
 ## Source
-Analysis II für Physiker, Universität Wien
+- Prof. Auzinger - Analysis 2 für TPH, TU Wien lecture notes
+- Analysis II für Physiker, Universität Wien lecture notes
