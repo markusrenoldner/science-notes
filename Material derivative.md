@@ -1,4 +1,4 @@
-#TODO
+
 
 
 also convective or substantial derivative.
@@ -10,6 +10,10 @@ Does appear in [[Fluid Dynamics]] .
 For a quantity or tensor field $y(x,t)$ the material derivative is
 $$\frac{Dy}{Dt} \equiv \frac{\partial y}{\partial t}+ u \cdot \nabla y$$
 where $u$ is the velocity field and $\nabla y$ is the "covariant derivative" of the tensor $y$ .
+
+
+
+#TODO derivation, eulerian/lagrangian viewpoint
 
 
 

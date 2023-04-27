@@ -1,23 +1,24 @@
 important branch of [[Physics]]
 
-#TODO 
+
+#TODO just read Bartelmann
 
 
 ## Topics:
-
-- newton axiome
-- energiesatz
-- konservative kräfte
-- koordinatensysteme, drehung, galilei
-- beschleunigte bezugssysteme
-- kräfte in rotierenden systemen
-- nichtkartesische
-- etc
-- orbitmechanik
+- Newton axiome
 - [[Newtons laws - definitions or theorems]]
 - [[Potential vs potential energy]]
 - [[Fluid Dynamics]]
+- Energy, Work, Power
+- Conservative forces
+- Coordinate systems, rotations, Galilei
+- Reference systems under acceleration
+- Forces in rotating systems
+- Orbital mechanics
+- Lagrangian mechanics
+- Hamiltonian mechanics
+- ...
 
 
-## Sources:
-- Bartelmann 1
+## Main sources:
+- Bartelmann - Theoretische Physik 1, Mechanik

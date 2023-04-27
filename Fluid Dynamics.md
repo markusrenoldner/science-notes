@@ -12,3 +12,5 @@ Subarea of [[Classical mechanics]]
 - [[Projection method]]
 - 
 
+
+#TODO derivation of nav stok
