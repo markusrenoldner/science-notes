@@ -11,3 +11,8 @@ $$\omega_{pe} := \sqrt{\frac{n_{0} e^2}{\epsilon_{0}m_e}}$$
 Therefore:
 $$\omega_{pe} = \frac{\nu_{th}}{\lambda_{Dl}}$$
 where $\nu_{th}=\sqrt{T_e/m_e}$ is the thermal velocity.
+
+
+
+## Sources
+- EPFL - Introduction to Plasma Physics

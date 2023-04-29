@@ -29,3 +29,8 @@ Conclusions:
 - deviation from quasi-neutrality ($n_{e\neq}n_0$) occurs at distances smaler than the Debye length (valid if $N_0$ "large")
 - the Taylor-expansion/linearization is only accurate if the argument of the exponential function $\frac{e\Phi}{T_e}$ is "small". As $\Phi$ is large for small $r$, we check $\Phi$ at the minimal distance between particles:  $r_{min} = \sqrt[3]{\frac{1}{n_0}}$  (below that, the equation for $\Phi$ isnt meaningful). Using the Coulomb potential approximation (i.e. ignoring the exponential term), this gives $\Phi_{max}=\frac{1}{4\pi \epsilon_{0}}\frac{e}{r_{min}} = \frac{1}{4\pi \epsilon_{0}} en_0^{\frac{1}{3}}$. We follow that $$\frac{e \Phi_{max}}{ T_{e}}=\frac{1}{4\pi \epsilon_{0}} \frac{e^2n_0^{\frac{1}{3}}}{T_e} = \frac{1}{4\pi N_D^{\frac{2}{3}}},$$ which is "small".
 - One-to-one interactions are therefore weak if $N_D$ is "large", as then the potential between two particles is small (see result of previous bullet point).
+
+
+
+## Sources
+- EPFL - Introduction to Plasma Physics

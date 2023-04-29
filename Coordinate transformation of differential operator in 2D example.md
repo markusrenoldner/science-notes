@@ -12,5 +12,5 @@ to the new coordinates $s,t$ .
 
 
 ### Solution:
-#notes ![[op-transform.pdf]]
+#note ![[op-transform.pdf]]
 

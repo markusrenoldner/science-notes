@@ -24,7 +24,7 @@ $$\Delta u = f$$
 
 
 
-#TODO idea of FEM, inclusive global assembly, interpolation operators, local-global mapping, reference transformation
+#todo idea of FEM, inclusive global assembly, interpolation operators, local-global mapping, reference transformation
 
 
 

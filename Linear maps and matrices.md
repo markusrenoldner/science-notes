@@ -1,8 +1,8 @@
 Fundamental concept in [[Linear algebra]]
 
 
-#notes [[linearmaps-matrices.pdf]]
-#TODO 
+#note [[linearmaps-matrices.pdf]]
+#todo 
 
 
 ## Topics

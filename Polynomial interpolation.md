@@ -11,7 +11,7 @@ important branch of [[Numerics]]
 
 
 ## Notes
-#notes 
+#note 
 ![[numerics-1-8-interpol.pdf]]
 
 

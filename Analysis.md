@@ -1,7 +1,7 @@
 important branch of [[Mathematics]]
 
 
-#TODO start with sets, diff/int in coord sys
+#todo start with sets, diff/int in coord sys
 
 
 ## Topics:

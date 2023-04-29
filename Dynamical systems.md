@@ -1,8 +1,8 @@
 studies stability and chaotic behaviour of (usually nonlinear) [[ODE]]s 
 
 
-#notes [[dynamical-systems.pdf]]
-#TODO 
+#note [[dynamical-systems.pdf]]
+#todo 
 
 
 "dynamical" implies a dependence of time (or a similar evolutionary variable) of the underlying equations

@@ -1,3 +1,5 @@
+#paper 
+
 
 my master thesis in [[Numerics for differential equations]]
 
@@ -9,4 +11,4 @@ https://github.com/markusrenoldner/MEHCscheme
 paper:
 https://arxiv.org/abs/2104.13023
 thesis:
-#TODO add link
+#todo add link

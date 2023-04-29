@@ -3,6 +3,6 @@
 [[Numerics for differential equations]]
 
 
-#TODO summarize praetorius lecture
+#todo summarize praetorius lecture
 
 

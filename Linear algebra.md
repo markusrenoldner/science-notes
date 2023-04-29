@@ -1,7 +1,7 @@
 important branch of [[Mathematics]]
 
 
-#TODO start with lin maps, eukl. spaces, tensor algebr.
+#todo start with lin maps, eukl. spaces, tensor algebr.
 
 
 ## Topics:

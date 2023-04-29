@@ -1,6 +1,6 @@
 
 
-#TODO put that into the latex file of [[Integration in coordinate systems (Vector calculus)]]
+#todo put that into the latex file of [[Integration in coordinate systems (Vector calculus)]]
 
 
 ### General

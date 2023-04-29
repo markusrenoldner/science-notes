@@ -1,12 +1,12 @@
 important branch of [[Mathematics]]
 
 
-#TODO write note
-#TODO split it into subtopics
-#TODO link subtopics to rest of notes (e.g. sets from analysis and topology)
-#notes [[diffgeo.pdf]]
+#todo write note
+#todo split it into subtopics
+#todo link subtopics to rest of notes (e.g. sets from analysis and topology)
+#note [[diffgeo.pdf]]
 check if  https://www.win.tue.nl/~lflorack/Extensions/2WAH0CourseNotes.pdf eindhoven text, is interesting
-#TODO restruture this file also
+#todo restruture this file also
 
 
 ## Topics:

@@ -1,7 +1,7 @@
 Extremely important application of [[Analysis]] 
 
 
-#TODO big todo, add all surface, line and vlume integrals and coordinates and parametrisation of geometrical shapes
+#todo big todo, add all surface, line and vlume integrals and coordinates and parametrisation of geometrical shapes
 
 
 

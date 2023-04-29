@@ -1,7 +1,7 @@
 important branch of [[Physics]]
 
 
-#TODO just read Bartelmann
+#todo just read Bartelmann
 
 
 ## Topics:

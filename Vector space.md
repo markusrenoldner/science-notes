@@ -10,8 +10,8 @@ Fundamental concept in [[Linear algebra]]
 
 
 
-#TODO 
-#notes ![[vec-spaces.pdf]]
+#todo 
+#note ![[vec-spaces.pdf]]
 
 
 ## Sources:

@@ -35,4 +35,4 @@ $$u^* = g+u$$
 
 
 ## Source
-- Prof. Hiptmair - NumPDE
+- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021

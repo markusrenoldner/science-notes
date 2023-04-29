@@ -1,13 +1,14 @@
 important branch of [[Physics]]
 
 
-#TODO  just read Bartelmann
+#todo  just read Bartelmann
 
 
 ## Topics:
 - [[Electrostatic basics]]
 - [[Maxwell equations]]
 - [[Potential vs potential energy]]
+- [[Plasma, Magnetohydrodynamics (MHD)]]
 - ...
 
 

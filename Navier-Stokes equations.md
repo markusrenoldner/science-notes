@@ -71,11 +71,11 @@ $$
 \end{align}
 $$
 
-#TODO euler equations in conservative form (from prof. schlatter KTH CFD)
+#todo euler equations in conservative form (from prof. schlatter KTH CFD)
 
 
 ## Stokes equations
-#TODO 
+#todo 
 
 
 

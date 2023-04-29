@@ -7,7 +7,7 @@ important branch of [[Numerics]]
 
 
 ## Notes
-#notes 
+#note 
 ![[numerics-25-29-eigen.pdf]]
 
 

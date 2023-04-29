@@ -5,9 +5,6 @@
 
 
 ## Definition equivalence class
-
-from: https://de.wikipedia.org/wiki/Faktorraum
-
 Let $v\in V$ and $u\in U$ with $U \subset V$.
 We call $v_1\sim v_2$ "equivalent" iff.
 $$v_1-v_2\in U \quad\text{for } v_1,v_2 \in V$$
@@ -21,13 +18,14 @@ An equivalence class is an [[Affine space]], see https://math.stackexchange.com/
 
 
 ## Definition quotient space
-
 The quotient space "from $V$ to $U$" is the set of all equivalence classes, written as
 $$V / U := \{[v] : v\in V\} $$
 Alternative phrasing: the quotient space $V/U$ is the set of all affine subspaces of $V$ that are parallel to $U$.
-https://en.m.wikipedia.org/wiki/Quotient_space_(linear_algebra)
 
 Apparently, it is a vector space, if the vector space operations are defined in a certain way (?)
 
 
 
+## Sources
+- https://de.wikipedia.org/wiki/Faktorraum
+- https://en.m.wikipedia.org/wiki/Quotient_space_(linear_algebra)

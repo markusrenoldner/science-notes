@@ -13,7 +13,7 @@ where $u$ is the velocity field and $\nabla y$ is the "covariant derivative" of 
 
 
 
-#TODO derivation, eulerian/lagrangian viewpoint
+#todo derivation, eulerian/lagrangian viewpoint
 
 
 

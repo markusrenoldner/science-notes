@@ -8,7 +8,7 @@ important branch of [[Numerics]]
 
 
 ## Notes
-#notes 
+#note 
 ![[numerics-29-30-conjgrad.pdf]]
 
 

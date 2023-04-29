@@ -15,4 +15,4 @@ f:\mathbb{R}^2 &\rightarrow \mathbb{R}\\
 \end{align}$$
 
 
-#TODO add notation with function spaces L2, C1, ... from analys.; also cover operators that map from function spaces to function spaces
+#todo add notation with function spaces L2, C1, ... from analys.; also cover operators that map from function spaces to function spaces

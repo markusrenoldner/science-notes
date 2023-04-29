@@ -105,7 +105,7 @@ In general, this can be annoying to implement.
 
 
 ## Comparison of 1 and 2 
-#notes [[BCoflinearsystems.pdf]]
+#note [[BCoflinearsystems.pdf]]
 
 
 ## Option by MFEM: "the large, symmetric system"

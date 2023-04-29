@@ -2,7 +2,7 @@ One of the most important branches of [[Numerics]]
 
 
 
-#TODO start with lax richt, van neum
+#todo start with lax richt, van neum
 
 
 ## Topics:

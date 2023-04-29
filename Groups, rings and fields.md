@@ -2,8 +2,8 @@
 fundamental ideas in [[Linear algebra]]
 
 
-#notes [[groups-rings-fields.pdf]]
-#TODO write note
+#note [[groups-rings-fields.pdf]]
+#todo write note
 
 
 ## Topics

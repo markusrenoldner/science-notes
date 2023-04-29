@@ -8,7 +8,7 @@ important branch of [[Numerics]]
 
 
 ## Notes
-#notes 
+#note 
 ![[numerics-9-12-integration.pdf]]
 
 

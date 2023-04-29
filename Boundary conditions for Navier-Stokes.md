@@ -7,4 +7,4 @@ Viscous [[Navier-Stokes equations]] can take both. If u_t and u_n = 0 : "no-slip
 BC on the pressure depend on the numerical method (i think)
 
 
-#TODO vervollständigen
+#todo vervollständigen

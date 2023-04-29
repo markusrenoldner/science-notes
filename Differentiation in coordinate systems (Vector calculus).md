@@ -2,7 +2,7 @@ Extremely important application of [[Analysis]]
 
 
 
-#TODO big todo, add all diff. operators  and coordinates 
+#todo big todo, add all diff. operators  and coordinates 
 
 
 ## Topics
@@ -11,7 +11,7 @@ Extremely important application of [[Analysis]]
 
 ## Some first notes on the topic
 diff operators:
-[[Coordinate transformation of differential operator in R2 example]]
+[[Coordinate transformation of differential operator in 2D example]]
 [[Laplace operator in polar coordinates in 2D]]
 
 

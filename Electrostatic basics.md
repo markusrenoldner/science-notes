@@ -9,7 +9,7 @@ The electric flux is defined as
 $$\Phi_{el}:=\int_{\partial \Omega} \vec{E} = \int_\Omega \nabla\cdot\vec{E}$$
 here $\partial \Omega$ is the boundary area of the domain $\Omega$. If we plug in the electric field, we get
 $$\int_{\partial \Omega} \vec{E} = \frac{Q}{4\pi \epsilon_0}\int_{\partial\Omega}\frac{\vec{r}}{r^3}=\frac{Q}{\epsilon_0}\implies \Phi_{el}=\frac{1}{\epsilon_0}\int_{\Omega} \rho$$
-#TODO explain how the integral is solved
+#todo explain how the integral is solved
 
 with $\rho$ being the charge density. $\Omega$ is arbitrary, therefore we follow
 $$\nabla\cdot \vec{E} = \frac{\rho}{\epsilon_0}$$
