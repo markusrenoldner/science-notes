@@ -8,4 +8,5 @@ TODOS.md
 
 *.canvas
 
-#literature/*.pdf
+literature/*
+!literature/*.txt
