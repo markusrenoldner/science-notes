@@ -8,5 +8,6 @@ TODOS.md
 
 *.canvas
 
+# ignore everything in literature, except .txt files (i.e. the readme)
 literature/*
 !literature/*.txt
