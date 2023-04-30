@@ -1,1 +1,1 @@
-i cannot publish someone else's papers
+add literature manually
