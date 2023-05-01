@@ -14,7 +14,7 @@ important branch of [[Numerics]]
 
 
 ## Notes
-#note 
+#pdf-note 
 ![[numerics-14-18-linearsystems.pdf]]
 
 

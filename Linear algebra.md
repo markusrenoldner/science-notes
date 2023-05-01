@@ -24,9 +24,11 @@ important branch of [[Mathematics]]
 
 ## Main sources:
 - Dr. Ginosar - Lineare Algebra, ETH lecture notes 2021
+	- [[Ginosar-Lineare_Algebra.pdf]]
 	- https://metaphor.ethz.ch/x/2023/fs/401-1152-02L/
 	- https://metaphor.ethz.ch/x/2023/fs/401-1152-02L/notes/Menny-Akka%20-%20Lineare_Algebra_I.pdf
 - Prof. Auzinger - Lineare Algebra für TPH, TU Wien lecture 2020
+	- [[Auzinger-ana2TPH.pdf]]
 	- https://www.asc.tuwien.ac.at/~ewa/LinAlgVo22/
 	- https://www.facultas.at/item/49933377
 - Altland, Delft - Mathematics for Physicists

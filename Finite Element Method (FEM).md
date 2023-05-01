@@ -31,5 +31,5 @@ $$\Delta u = f$$
 
 ## Sources
 - Prof. Faustmann - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2021
-- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021
+- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [[hiptmair-NUMPDE.pdf]]
 - Prof. Schöberl - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2020

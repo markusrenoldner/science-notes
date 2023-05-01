@@ -10,7 +10,7 @@ can be regarded a formal language consisting of structures and objects, that are
 
 ## Main sources:
 - ETH lecture Lineare Algebra
-- TPH linalg
+- Prof. Auzinger - Lineare Algebra für TPH, TU Wien lecture 2020, [[Auzinger-ana2TPH.pdf]]
 - Ana 2
 - prama 2
 - Atland, Delft - Mathematics for Physicists

@@ -14,7 +14,7 @@ integrals:
 
 
 ## Sources:
-- Prof. Weinmüller - Praktische Mathematik 2, TU Wien lecture notes
+- Prof. Weinmüller - Praktische Mathematik 2, TU Wien lecture notes, [[Weinmueller-praktischemathematik2TPH.pdf]]
 - Altland, Delft - Mathematics for Physicists
 - Faustmann - Applied Mathematics Foundations, 2021
 

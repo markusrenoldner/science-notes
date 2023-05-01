@@ -12,5 +12,5 @@
 
 
 ## Sources:
-- Prof. Auzinger - Analysis 2 für TPH, TU Wien lecture notes
+- Prof. Auzinger - Analysis 2 für TPH, TU Wien lecture notes, [[Auzinger-ana2TPH.pdf]]
 - Prof. Kaltenböck - Analysis für technische Mathematik, TU Wien lecture notes

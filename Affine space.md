@@ -31,4 +31,5 @@ where $k$ is the point where $P_2$ intersects the z-axis.
 
 ## Source:
 - https://en.wikipedia.org/wiki/Affine_space#/media/File:Affine_space_R3.png
-- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021
+- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [[hiptmair-NUMPDE.pdf]]
+

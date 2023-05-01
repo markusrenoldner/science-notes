@@ -32,7 +32,7 @@ important branch of [[Mathematics]]
 
 
 ## Main sources:
-- Prof. Auzinger - Analysis 2 für TPH, TU Wien lecture notes
-- Prof. Weinmüller - Praktische Mathematik 2, TU Wien lecture notes
+- Prof. Auzinger - Analysis 2 für TPH, TU Wien lecture notes, [[Auzinger-ana2TPH.pdf]]
+- Prof. Weinmüller - Praktische Mathematik 2, TU Wien lecture notes, [[Weinmueller-praktischemathematik2TPH.pdf]]
 - Altland, Delft - Mathematics for Physicists
 

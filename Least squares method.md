@@ -12,7 +12,7 @@ important branch of [[Numerics]]
 
 
 ## Notes
-#note 
+#pdf-note 
 ![[numerics-19-21-leastsquares.pdf]]
 
 

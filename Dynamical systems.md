@@ -1,7 +1,7 @@
 studies stability and chaotic behaviour of (usually nonlinear) [[ODE]]s 
 
 
-#note [[dynamical-systems.pdf]]
+#pdf-note [[dynamical-systems.pdf]]
 #todo 
 
 

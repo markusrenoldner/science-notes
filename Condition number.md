@@ -2,7 +2,7 @@ important branch of [[Numerics]]
 
 
 ## Notes
-#note 
+#pdf-note 
 ![[numerics-13-conditioning.pdf]]
 
 

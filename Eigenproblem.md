@@ -21,4 +21,4 @@ this space is called eigenspace of $\lambda_i$. It is the span of the eigenvalue
 
 
 ## Sources
-- TU Wien lecture "Lineare Algebra für TPH"
+- Prof. Auzinger - Lineare Algebra für TPH, TU Wien lecture 2020, [[Auzinger-ana2TPH.pdf]]
