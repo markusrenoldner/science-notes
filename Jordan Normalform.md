@@ -1,5 +1,5 @@
 
-technique from [[Linear algebra]]
+see also [[Eigenproblem]]
 
 
 ## Definition
