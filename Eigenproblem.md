@@ -1,7 +1,9 @@
 
 Problem in [[Linear algebra]]
 
-See also: [[Eigenvalue multiplicity]]
+See also: 
+- [[Eigenvalue multiplicity]]
+- [[Jordan Normalform]]
 
 
 
