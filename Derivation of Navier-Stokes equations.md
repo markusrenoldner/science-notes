@@ -63,7 +63,22 @@ Now the Reynolds number is defined
 $$\begin{equation}
 \text{Re}=\frac{\rho UL}{\mu},
 \end{equation}$$
-which is the single characteristic parameter of this equation. In the literature, Re is often introduced as the the ratio between inertial and viscous forces. A more straight-forward interpretation: it is the ratio of the dynamic pressure and the shear stress:$$ \text{Re} \equiv \frac{\rho UL}{\mu} = \frac{\rho U^2}{\mu \frac{U}{L}} = 2\frac{ p_\text{dyn}}{\tau_{\text{shear}}}.$$This argument should illustrate the meaning of the phrase "ratio of pressure and stress" without going into too much details.Flows with high Reynolds numbers show turbulent behaviour, low Reynolds numbers characterise creeping, laminar flows. The incompressible Navier-Stokes problem for Netwonian fluids then becomes
+which is the single characteristic parameter of this equation. In the literature, Re is often introduced as the the ratio between inertial and viscous forces. A more straight-forward interpretation: it is the ratio of the dynamic pressure and the shear stress:$$ \text{Re} \equiv \frac{\rho UL}{\mu} = \frac{\rho U^2}{\mu \frac{U}{L}} = 2\frac{ p_\text{dyn}}{\tau_{\text{shear}}}.$$This argument should illustrate the meaning of the phrase "ratio of pressure and stress" without going into too much details. 
+
+Remarks for flows with high Reynolds number:
+- show turbulent behaviour,
+- A high Reynolds number implies that the dissipative term $\Delta u$ is "turned off" and the nonlinear convection term $(u\cdot \nabla)u$ dominates ov er the dissipative term
+- For Re $\rightarrow \infty$ (inviscid limit), the equations are also called Euler-equations.
+- at Re>2000 starts to develop turbulence
+- at Re>4000 the flow is considered "fully turbulent"
+
+Remarks for flows with low Reynolds number:
+- this characterises creeping, laminar flows
+- Here the dissipative term $\Delta u$ dominates over the convective term
+- For Re $=0$ the equations are called "Stokes equations"
+
+
+The incompressible Navier-Stokes problem for Netwonian fluids then becomes
 $$\begin{equation}
 \begin{cases}
     \displaystyle\frac{\partial \mathbf{u}}{\partial t}+\mathbf{u} \cdot \nabla \mathbf{u} =-\nabla p_{\text{stat}} + \frac{1}{\text{Re}} \Delta \boldsymbol{u} + \boldsymbol{f} ,\\
@@ -89,7 +104,7 @@ $$\begin{equation}
 Here $\boldsymbol{\omega}$ denotes the vorticity of the fluid.
 
 
-## Bernoulli pressure
+## Bernoulli pressure and forcing term
 The term $\frac{1}{2}(\boldsymbol{u}\cdot\boldsymbol{u})$ is (the dimensionless) Bernoulli pressure, also called dynamical pressure. Including physical constants, the Bernoulli pressure would be $\frac{1}{2}\rho (\boldsymbol{u}\cdot\boldsymbol{u})$.
 
 Now, the total pressure of a fluid is the sum of the static and dynamic pressure
@@ -100,6 +115,8 @@ p_{\text{tot}} = p_{\text{stat}} + \frac{1}{2} (\boldsymbol{u}\cdot\boldsymbol{u
 \end{equation}$$
 To simplify the momentum equation one could now treat this total pressure as an unknown of the problem. The momentum equation changes to
 $$\frac{\partial \boldsymbol{u}}{\partial t}+\boldsymbol{\omega} \times \boldsymbol{u}+\frac{1}{\operatorname{Re}} \nabla \times \boldsymbol{\omega}+\nabla p_{\text{tot}}=\boldsymbol{f}.$$After computing a solution, one can easily recover the static pressure from $\boldsymbol{u}$ and $p_{\text{tot}}$, using the relation above.
+
+Without loss of generality, $\boldsymbol{f}=0$ can be assumed, if \boldsymbol{f}  is a ”conservative” vector field, with scalar potential $\psi$. This works, as $\psi$ can then be included in the total pressure (the forcing term is being interpreted as an extra pressure term) and later be subtracted again. See the previous subsection about the Bernoulli pressure as a comparison. This can be helpful for numerical simulations.
 
 The resulting system of equations would then be (still in rotational form)
 $$\begin{equation}
@@ -112,7 +129,7 @@ $$\begin{equation}
 \end{equation}$$
 To summarize: it is given an initial value for $\boldsymbol{u}^0$ and $\boldsymbol{\omega}^0$ as well as the forcing function $\boldsymbol{f}$ (also called data). The unknowns are the velocity field $\boldsymbol{u}$, vorticity field $\boldsymbol{\omega}$, and total pressure $p$.
 
-To yield a meaningful problem, boundary conditions have to be prescribed, see [[Boundary conditions for Navier-Stokes]]. Additionally, for Re $\rightarrow \infty$ (inviscid limit), the equations are also called Euler-equations.
+To yield a meaningful problem, boundary conditions have to be prescribed, see [[Boundary conditions for Navier-Stokes]]. 
 
 
 ## Sources
