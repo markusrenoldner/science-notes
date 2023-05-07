@@ -3,6 +3,7 @@ Extremely important application of [[Analysis]]
 
 
 #todo big todo, add all diff. operators  and coordinates 
+start with "Skriptum zur Lehrveranstaltung 360.254 Elektrodynamik Dipl.-Ing. Dominic Waldhör", Faustmann, and of course altland!
 
 
 ## Topics
