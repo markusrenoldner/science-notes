@@ -6,7 +6,7 @@ important branch of [[Physics]]
 
 ## Topics:
 - Newton axiome
-- "Zeitfreie" integration
+- [[Zeitfreie Gleichung]]
 - [[Newtons laws - definitions or theorems]]
 - [[Potential vs potential energy]]
 - [[Fluid Dynamics]]

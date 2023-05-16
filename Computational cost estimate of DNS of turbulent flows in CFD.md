@@ -1,5 +1,5 @@
 Direct numerical simulation = DNS
-Computational fluid mechanics = CFD
+Computational fluid mechanics = CFD, [[Fluid Dynamics]]
 
 
 ## Goal:

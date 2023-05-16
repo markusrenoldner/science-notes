@@ -7,12 +7,12 @@ fundamental ideas in [[Linear algebra]]
 
 
 ## Topics
-- groups
-- rings
-- fields
+- Groups
+- Rings
+- Fields
 
 
-## Definition group
+## Definition: group
 A group is a tuple (G, #), where G is a set and # is a binary operation, that fufils the following properties:
 - (a#b)#c = a#(b#c) ... associativity
 - $\exists$ e : a#e = a ... neutral element

@@ -9,6 +9,7 @@ One of the most important branches of [[Numerics]]
 - [[Finite Element Method (FEM)]]
 - [[Symplectic ODE integrators]]
 - [[MEHC scheme]]
+- [[Finite Difference Method]]
 - Runge-Kutta methods
 - Shooting method
 - Viscosity solution
@@ -20,6 +21,7 @@ One of the most important branches of [[Numerics]]
 - Numerical methods for conservation laws
 	- Godunov scheme
 - Method of characteristics
+- Method of lines
 - Comparison of FV, FD, and FEM
 - Spectral methods
 

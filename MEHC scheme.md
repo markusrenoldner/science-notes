@@ -13,4 +13,4 @@ paper by Zhang, Palha, Gerritsma, 2021:
 https://arxiv.org/abs/2104.13023
 
 thesis:
-#todo add link
+#todo add link to TU repo and hiptmair website

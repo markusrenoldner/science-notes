@@ -3,7 +3,7 @@
 
 #pdf-note [[tensors-short.pdf]]
 
-#todo (also take "online summary")
+#todo (also take "online summary from J")
 
 
 ## Topics
