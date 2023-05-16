@@ -5,6 +5,7 @@
 ... if the numerical approximation $u_h$ of $u$ vanishes as the step length $h$ goes to $0$:
 $$\Vert u_h - u\Vert \xrightarrow{h\rightarrow 0} 0$$
 
+
 ## Consistency (order)
 If the num. scheme is
 $$u_{h}^{n+1} = \Psi(u_h^n) $$
@@ -18,11 +19,20 @@ $$\epsilon =\mathcal{O}(h^{p+1})$$
 
 
 ## Stability
-the method is stable, if 
-
-
+the method is stable, if
 
 #todo complete, add source
+
+
+
+## Condition
+
+#todo add
+
+
+
+
+see also [[Von Neumann stability analysis]]
 
 
 ## Source
