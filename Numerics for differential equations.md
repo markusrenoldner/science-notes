@@ -9,7 +9,7 @@ One of the most important branches of [[Numerics]]
 - [[Finite Element Method (FEM)]]
 - [[Symplectic ODE integrators]]
 - [[MEHC scheme]]
-- [[Finite Difference Method]]
+- [[Finite Difference Method (FDM)]]
 - Runge-Kutta methods
 - Shooting method
 - Viscosity solution

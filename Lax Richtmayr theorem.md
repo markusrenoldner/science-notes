@@ -1,7 +1,7 @@
 
-[[Numeric convergence, consistency, stability, condition]]
+[[Convergence, consistency, stability, condition of FDM]]
 
-[[Finite Difference Method]]
+[[Finite Difference Method (FDM)]]
 
 A finite diff. scheme converges if and only if it is consistent and stable.
 
