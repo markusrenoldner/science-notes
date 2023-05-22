@@ -1,9 +1,6 @@
 important branch of [[Mathematics]]
 
 
-#todo add source of integral trafos
-
-
 ## Topics:
 - [[Sets]] [2]
 - Analysis in one variable [1]
@@ -13,11 +10,14 @@ important branch of [[Mathematics]]
 - [[Differentiation in coordinate systems (Vector calculus)]]
 - [[Integration in coordinate systems (Vector calculus)]] 
 - [[Function spaces]]
-- Integral transforms
+- Integral transforms [3,4]
 - Complex Analysis [1]
 
 
 ## Main sources:
 1. Prof. Auzinger - Analysis 1 für TPH, TU Wien lecture notes
 2. Prof. Auzinger - Analysis 2 für TPH, TU Wien lecture notes, [[Auzinger-ana2TPH.pdf]]
+3. Prof. Svozil - Mathematische Methoden der theoretischen Physik, TU Wien lecture notes
+4. Prof. Körner - Mathematische Modellbildung in der Systemsimulation
+
 
