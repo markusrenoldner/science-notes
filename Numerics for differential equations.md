@@ -1,4 +1,4 @@
-One of the most important branches of [[Numerics]]
+One of the most important branches of [[Numerics]], goal: solving [[Differential equations]].
 
 
 

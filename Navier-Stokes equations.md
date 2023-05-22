@@ -63,19 +63,7 @@ where the second term is called dynamic pressure or Bernoulli pressure
 
 
 ## Euler equations (inviscid limit)
-Taking infinite Reynolds number, one gets
-$$
-\begin{align}
-    \displaystyle\frac{\partial \mathbf{u}}{\partial t}+\mathbf{u} \cdot \nabla \mathbf{u} &=-\nabla p_{\text{stat}} + \boldsymbol{f} \\
-    \displaystyle\nabla \cdot \boldsymbol{u} &= 0
-\end{align}
-$$
-
-#todo euler equations in conservative form (from prof. schlatter KTH CFD)
-
-
-## Stokes equations
-#todo 
+Taking infinite Reynolds number, one gets the [[Euler equations]].
 
 
 

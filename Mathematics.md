@@ -6,6 +6,7 @@ can be regarded a formal language consisting of structures and objects, that are
 [[Analysis]]
 [[Differential geometry]]
 [[Numerics]]
+[[Differential equations]]
 
 
 ## Main sources:
