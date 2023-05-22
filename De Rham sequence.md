@@ -33,3 +33,13 @@ $$\begin{align*}
 \operatorname{ker}(\operatorname{curl}) &:= \{\boldsymbol{u}\in H(\operatorname{curl},\Omega):\operatorname{curl}\boldsymbol{u}=0\}.
 \end{align*}
 $$
+
+
+## De Rham sequence with essential boundary conditions
+$$
+\textcolor{red}{H}^1_{\textcolor{red}{0}}(\Omega) \stackrel{\nabla}{\longrightarrow}\textcolor{red}{H_0}(\operatorname{curl} , \Omega) \stackrel{\operatorname{curl}}{\longrightarrow}\textcolor{red}{H_0}(\operatorname{div} , \Omega) \stackrel{\operatorname{div}}{\longrightarrow} \textcolor{red}{L}^2_{\textcolor{red}{0}}(\Omega)$$
+Source: S. Zaglmayr, “High Order Finite Element Methods for Electromagnetic Field Com-  
+putation”, 2006
+
+
+
