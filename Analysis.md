@@ -1,12 +1,13 @@
 important branch of [[Mathematics]]
 
 
-#todo add source of logic, and integral trafos
+#todo add source of integral trafos
 
 
 ## Topics:
 - [[Sets]] [2]
 - Analysis in one variable [1]
+- [[Continuity vs. Lipschitz continuity vs. differentiability]]
 - Multivariate analysis [2]
 - [[Multi-index notation for differential operators]]
 - [[Differentiation in coordinate systems (Vector calculus)]]
