@@ -5,7 +5,7 @@ important branch of [[Mathematics]]
 
 
 ## Topics:
-- Sets [2]
+- [[Sets]] [2]
 - Analysis in one variable [1]
 - Multivariate analysis [2]
 - [[Multi-index notation for differential operators]]
