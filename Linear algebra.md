@@ -7,10 +7,9 @@ important branch of [[Mathematics]]
 - [[Linear maps and matrices]]
 - Determinants [2]
 - [[Eigenproblem]]
-- Euklidean vector spaces
-	- Inner product, norm, quadratic forms [2]
-	- Spectral theorem [1]
-	- Bilinearforms [1]
+- Euklidean vector spaces, Inner product, norm, quadratic forms [2]
+- Maps on euklidean spaces, spectral theorem [1]
+- Bilinearforms [1]
 - [[Dual spaces, multilinear algebra, tensor algebra]] 
 
 
