@@ -17,11 +17,7 @@ I am looking for references connecting the two, e.g. applying the FEM analysis t
 ## Answer
 I think this question may lead to a lot of confusion, as there are different notions of consistency for FDM and FEM. For instance when one thinks of FEM consistency, it is often Galerkin orthogonality (see [[Finite Element Method (FEM)]]). What do you mean by FEM analysis on a FDM? 
 
-
-## Answer to the answer
-Yes, I realized the question is probably not very good after thinking for a while about it. After all in FDM we do not define basis functions, and thus consistency in terms of orthogonality is probably a stretch there. Nevertheless I am interested if there are any references discussing this in more details and comparing FEM, FDM, and potentially FVM.
-
-
+The question is probably not very good. After all in FDM we do not define basis functions, and thus consistency in terms of orthogonality is probably a stretch there.
 
 
 ## Source
