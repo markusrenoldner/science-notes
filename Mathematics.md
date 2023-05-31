@@ -2,11 +2,11 @@ can be regarded a formal language consisting of structures and objects, that are
 
 
 ## Important subfields:
-[Linear algebra](Linear%20algebra.md)
-[Analysis](Analysis.md)
-[Differential geometry](Differential%20geometry.md)
-[Numerics](Numerics.md)
-[Differential equations](Differential%20equations.md)
+- [Linear algebra](Linear%20algebra.md)
+- [Analysis](Analysis.md)
+- [Differential geometry](Differential%20geometry.md)
+- [Numerics](Numerics.md)
+- [Differential equations](Differential%20equations.md)
 
 
 ## Main sources:

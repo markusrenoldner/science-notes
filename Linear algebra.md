@@ -1,4 +1,4 @@
-important branch of y[Mathematics](Mathematics.md)
+important branch of [Mathematics](Mathematics.md)
 
 
 ## Topics:
