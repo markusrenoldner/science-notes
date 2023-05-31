@@ -3,7 +3,6 @@ important branch of [Mathematics](Mathematics.md)
 
 #todo write note
 #todo split it into subtopics
-#todo link subtopics to rest of notes (e.g. sets from analysis and topology)
 #pdf-note [diffgeo.pdf](diffgeo.pdf)
 check if  https://www.win.tue.nl/~lflorack/Extensions/2WAH0CourseNotes.pdf eindhoven text, is interesting
 #todo restruture this file also
