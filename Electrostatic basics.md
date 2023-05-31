@@ -24,7 +24,7 @@ Integrating this definition along a curve $C$ gives the voltage $U$:
 $$\phi_1 - \phi_2 = \int_C \vec{E} =: U$$
 The voltage is therefore the difference in potential.
 
-#TODO complete everything from the handwritten note
+#todo complete everything from the handwritten note
 
 
 
