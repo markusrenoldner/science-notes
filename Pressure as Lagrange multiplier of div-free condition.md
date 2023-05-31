@@ -7,7 +7,7 @@ $$-\mu \Delta u + \nabla p = f$$
 $$\nabla \cdot u = 0$$
 This problem is equivalent to this variational problem: find
 $$\operatorname{min}_u \frac{\mu}{2}||\nabla u||^2_2 - (f,u)$$
-under the side constraint $\nabla u =0$, see [Calculus of variations](Calculus%20of%20variations.md), [Minimum of quadratic functionals](Minimum%20of%20quadratic%20functionals.md). 
+under the side constraint $\nabla\cdot u =0$, see [Calculus of variations](Calculus%20of%20variations.md), [Minimum of quadratic functionals](Minimum%20of%20quadratic%20functionals.md). 
 
 An article from scicomp.stackexchange (https://scicomp.stackexchange.com/questions/7474/pressure-as-a-lagrange-multiplier) suggests that
 >If you write down the Lagrangian and then the optimality conditions of this optimization problems, you will find that indeed the pressure is the Lagrange multiplier.
