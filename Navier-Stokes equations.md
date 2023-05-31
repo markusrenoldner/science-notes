@@ -14,6 +14,7 @@ $$
 
 
 ## Equations for each component:
+in cartesian coordinates
 
 ![nav-stok-components.png](nav-stok-components.png)
 
