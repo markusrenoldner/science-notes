@@ -8,8 +8,8 @@
 - [Maxwell equations](Maxwell%20equations.md)
 - [Shallow water equations](Shallow%20water%20equations.md)
 - [Shallow water magnetohydrodynamic equations (SWMHD)](Shallow%20water%20magnetohydrodynamic%20equations%20(SWMHD).md)
-- [[Conservation law, transport equation]]
-- [[Convection-diffusion equation]]
+- [Conservation law, transport equation](Conservation%20law,%20transport%20equation.md)
+- [Convection-diffusion equation](Convection-diffusion%20equation.md)
 
 
 ## PDE vs ODE

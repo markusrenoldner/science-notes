@@ -3,9 +3,10 @@ One of the most important branches of [Numerics](Numerics.md), goal: solving [Di
 
 ## Topics:
 - [Finite Element Method (FEM)](Finite%20Element%20Method%20(FEM).md)
+- [Finite Difference Method (FDM)](Finite%20Difference%20Method%20(FDM).md)
+- [Finite Volume Method (FVM)](Finite%20Volume%20Method%20(FVM).md)
 - [MEHC scheme](MEHC%20scheme.md)
 - [Symplectic ODE integrators](Symplectic%20ODE%20integrators.md)
-- [Finite Difference Method (FDM)](Finite%20Difference%20Method%20(FDM).md)
 - [CFL condition](CFL%20condition.md)
 - [Numerical methods for conservation laws](Numerical%20methods%20for%20conservation%20laws.md)
 - Properties of numerical schemes:
