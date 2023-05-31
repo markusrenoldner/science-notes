@@ -28,6 +28,11 @@ The voltage is therefore the difference in potential.
 
 
 
+
+#todo dipol moment
+
+
+
 ## Handwritten notes
 #pdf-note [electrodynamics-basics.pdf](electrodynamics-basics.pdf)
 

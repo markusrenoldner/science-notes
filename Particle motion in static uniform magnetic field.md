@@ -22,6 +22,7 @@ where $v_p$ is parallel to $B$ and $v_n$ is normal to $B$. This gives three resu
 ## Magnetic moment
 A charged particle moving in a $B$ field produces a current loop (current: $I$), and therefore a magnetic moment $\mu$:
 $$\mu := I A = \frac{q \omega}{2\pi} \cdot \pi r^2= \frac{m \vert v_n \vert^2}{2B} = \frac{E_{kin,n}}{B}$$
+The magnetic moment is defined analogous to the electric dipole moment, see [[Electrostatic basics]]. 
 Direction is opposite to $B$. If $q>0$ movement follows left-hand-rule, and vice-versa for $q<0$.
 ![[B-field-particlemotion-magneticmoment.png]]
 Consequence: because of the particle motion, the external $B$ field will be reduced. This is called "diamagnetic property".
