@@ -5,7 +5,7 @@
 
 
 ## Topics:
-- [Function notation](Function%20notation.md)
+- [Function and operator notation](Function%20and%20operator%20notation.md)
 - Spaces: normed, Banach, Hilbert
 - The space $C^m$
 - The space $L^p$
