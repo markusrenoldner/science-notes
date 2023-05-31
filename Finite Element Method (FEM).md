@@ -1,9 +1,9 @@
 
-important numerical technique for [PDE](PDE.md) in [Numerics for differential equations](Numerics%20for%20differential%20equations.md)
+important numerical technique for partial differential equations/PDE (see [Differential equations](Differential%20equations.md)) in [Numerics for differential equations](Numerics%20for%20differential%20equations.md)
 
 
 ## Idea
-The endgoal is to transfer the [PDE](PDE.md) problem into a linear system of equations whose solution approximates the [PDE](PDE.md).
+The endgoal is to transfer the PDE problem into a linear system of equations whose solution approximates the PDE.
 This is done by interpolating the unknown function.
 
 

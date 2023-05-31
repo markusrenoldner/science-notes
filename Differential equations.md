@@ -4,8 +4,14 @@
 
 ## Important examples:
 - [Navier-Stokes equations](Navier-Stokes%20equations.md)
-- [Maxwell equations](Maxwell%20equations.md)
 - [Euler equations](Euler%20equations.md)
+- [Maxwell equations](Maxwell%20equations.md)
 - [Shallow water equations](Shallow%20water%20equations.md)
 - [Shallow water magnetohydrodynamic equations (SWMHD)](Shallow%20water%20magnetohydrodynamic%20equations%20(SWMHD).md)
+- [[Conservation law, transport equation]]
+- [[Convection-diffusion equation]]
 
+
+## PDE vs ODE
+Partial differential equations are qeuations with partial derivatives.
+Ordinary differential equations are qeuations without partial derivatives.

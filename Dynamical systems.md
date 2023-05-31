@@ -1,4 +1,4 @@
-studies stability and chaotic behaviour of (usually nonlinear) [ODE](ODE.md)s 
+studies stability and chaotic behaviour of (usually nonlinear) ODEs (see [Differential equations](Differential%20equations.md))
 
 
 #pdf-note [dynamical-systems.pdf](dynamical-systems.pdf)

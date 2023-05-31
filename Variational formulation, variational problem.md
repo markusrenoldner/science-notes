@@ -1,7 +1,7 @@
 
 ## Two points of view
 1. ... is an equivalent formulation of the problem to find the [Minimum of quadratic functionals](Minimum%20of%20quadratic%20functionals.md) , as explained here [Equivalence of minimization of quadr. functional and var. problem](Equivalence%20of%20minimization%20of%20quadr.%20functional%20and%20var.%20problem.md)
-2. ... can be used to express a generalization of [PDE](PDE.md)
+2. ... can be used to express a generalization of partial differential equation (see [Differential equations](Differential%20equations.md))
 
 
 ## Linear variational problem (on [Affine space](Affine%20space.md))
