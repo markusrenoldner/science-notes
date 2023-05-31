@@ -1,4 +1,4 @@
-Important idea in [[Finite Element Method (FEM)]]
+Important idea in [Finite Element Method (FEM)](Finite%20Element%20Method%20(FEM).md)
 
 ## Definition
 Given:
@@ -10,7 +10,7 @@ we call
 $$ \hat{V} := g + V_0 := \{v = g+v_0 \} $$
 an affine subspace of $V$.  It holds that
 $$\hat{V} \subset V$$
-It is not a [[Vector space]], as
+It is not a vector space, as
 - $\vec{0} \notin \hat{V}$
 - $v_1+v_2 \notin \hat{V}$ for $v_1, v_2 \in \hat{V}$
 
@@ -25,11 +25,11 @@ The vector $\hat{v}$ could be
 $$\hat{v}=\begin{pmatrix}0\\0\\k \end{pmatrix}$$
 where $k$ is the point where $P_2$ intersects the z-axis.
 
-![[affinespace.png]]
+![affinespace.png](affinespace.png)
 
 
 
 ## Source:
 - https://en.wikipedia.org/wiki/Affine_space#/media/File:Affine_space_R3.png
-- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [[hiptmair-NUMPDE.pdf]]
+- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [hiptmair-NUMPDE.pdf](hiptmair-NUMPDE.pdf)
 

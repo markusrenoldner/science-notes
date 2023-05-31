@@ -1,5 +1,5 @@
 
-[[Differentiation in coordinate systems (Vector calculus)]]
+[Differentiation in coordinate systems (Vector calculus)](Differentiation%20in%20coordinate%20systems%20(Vector%20calculus).md)
 
 
 ### Problem:
@@ -12,5 +12,5 @@ to the new coordinates $s,t$ .
 
 
 ### Solution:
-#pdf-note ![[op-transform.pdf]]
+#pdf-note ![op-transform.pdf](op-transform.pdf)
 

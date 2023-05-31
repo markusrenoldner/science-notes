@@ -1,4 +1,4 @@
-important branch of [[Numerics]]
+important branch of [Numerics](Numerics.md)
 
 
 ## Topics
@@ -8,7 +8,7 @@ important branch of [[Numerics]]
 
 ## Notes
 #pdf-note 
-![[numerics-25-29-eigen.pdf]]
+![numerics-25-29-eigen.pdf](numerics-25-29-eigen.pdf)
 
 
 ## Sources:

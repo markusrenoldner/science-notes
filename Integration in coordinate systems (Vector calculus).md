@@ -1,4 +1,4 @@
-Extremely important application of [[Analysis]] 
+Extremely important application of [Analysis](Analysis.md) 
 
 
 #todo big todo, add all surface, line and vlume integrals and coordinates and parametrisation of geometrical shapes
@@ -8,11 +8,11 @@ start with prama2, start with "Skriptum zur Lehrveranstaltung 360.254 Elektrodyn
 
 ## Some first notes on the topic
 integrals:
-[[Parametrisation of multidimensional integrals]]
+[Parametrisation of multidimensional integrals](Parametrisation%20of%20multidimensional%20integrals.md)
 
 
 ## Sources:
-- Prof. Weinmüller - Praktische Mathematik 2, TU Wien lecture notes, [[Weinmueller-praktischemathematik2TPH.pdf]]
+- Prof. Weinmüller - Praktische Mathematik 2, TU Wien lecture notes, [Weinmueller-praktischemathematik2TPH.pdf](Weinmueller-praktischemathematik2TPH.pdf)
 - Altland, Delft - Mathematics for Physicists
 - Faustmann - Applied Mathematics Foundations, 2021
 

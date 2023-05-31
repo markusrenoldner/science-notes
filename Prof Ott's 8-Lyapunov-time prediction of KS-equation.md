@@ -1,7 +1,7 @@
 #paper 
 
 
-connected to [[Dynamical systems]]
+connected to [Dynamical systems](Dynamical%20systems.md)
 
 the Kuramoto-Sivashinsky equation is given as
 $$u_t+uu_x+u_{xx}+u_{xxxx}=0$$

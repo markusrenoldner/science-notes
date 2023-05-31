@@ -29,4 +29,4 @@ https://de.wikipedia.org/wiki/Variationsrechnung
 
 
 ## Example: quadratic functionals
-[[Minimum of quadratic functionals]]
+[Minimum of quadratic functionals](Minimum%20of%20quadratic%20functionals.md)

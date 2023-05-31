@@ -1,9 +1,9 @@
-important branch of [[Numerics]]
+important branch of [Numerics](Numerics.md)
 
 
 ## Notes
 #pdf-note 
-![[numerics-13-conditioning.pdf]]
+![numerics-13-conditioning.pdf](numerics-13-conditioning.pdf)
 
 
 ## Sources:

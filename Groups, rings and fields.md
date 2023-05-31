@@ -1,8 +1,8 @@
 ("Gruppen, Ringe, Körper")
-fundamental ideas in [[Linear algebra]]
+fundamental ideas in [Linear algebra](Linear%20algebra.md)
 
 
-#pdf-note [[groups-rings-fields.pdf]]
+#pdf-note [groups-rings-fields.pdf](groups-rings-fields.pdf)
 #todo write note
 
 
@@ -20,4 +20,4 @@ A group is a tuple (G, #), where G is a set and # is a binary operation, that fu
 
 
 ## Source
-- Dr. Ginosar - Lineare Algebra, ETH lecture notes 2021, [[Ginosar-Lineare_Algebra.pdf]]
+- Dr. Ginosar - Lineare Algebra, ETH lecture notes 2021, [Ginosar-Lineare_Algebra.pdf](Ginosar-Lineare_Algebra.pdf)

@@ -1,9 +1,9 @@
 
-important branch of [[Numerics]]
+important branch of [Numerics](Numerics.md)
 
 
 ## Topics
-- [[Least squares vs. minimum norm solution of LSE]]
+- [Least squares vs. minimum norm solution of LSE](Least%20squares%20vs.%20minimum%20norm%20solution%20of%20LSE.md)
 - Normal equations
 - QR sol of least squares
 - Underdetermined systems: minimum norm solution
@@ -13,7 +13,7 @@ important branch of [[Numerics]]
 
 ## Notes
 #pdf-note 
-![[numerics-19-21-leastsquares.pdf]]
+![numerics-19-21-leastsquares.pdf](numerics-19-21-leastsquares.pdf)
 
 
 ## Sources:

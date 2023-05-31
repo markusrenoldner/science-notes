@@ -1,13 +1,13 @@
-studies stability and chaotic behaviour of (usually nonlinear) [[ODE]]s 
+studies stability and chaotic behaviour of (usually nonlinear) [ODE](ODE.md)s 
 
 
-#pdf-note [[dynamical-systems.pdf]]
+#pdf-note [dynamical-systems.pdf](dynamical-systems.pdf)
 #todo 
 
 
 "dynamical" implies a dependence of time (or a similar evolutionary variable) of the underlying equations
 "nonlinear" implies, that the evolution rule (e.g. a differential equation for continuous systems) appears in a "nonlinear way" in the differential equation (the differential equation is nonlinear in the unknown function)
-An interesting example of a dynamic system is the [[Lorenz attractor]].
+An interesting example of a dynamic system is the [Lorenz attractor](Lorenz%20attractor.md).
 
 
 ### Topics:

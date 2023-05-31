@@ -1,5 +1,5 @@
-[[Fluid Dynamics]]
-[[Material derivative]]
+[Fluid Dynamics](Fluid%20Dynamics.md)
+[Material derivative](Material%20derivative.md)
 
 
 

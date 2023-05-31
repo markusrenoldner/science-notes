@@ -1,4 +1,4 @@
-Special case of [[Navier-Stokes equations]] with infinite Reynolds number. They are given as:
+Special case of [Navier-Stokes equations](Navier-Stokes%20equations.md) with infinite Reynolds number. They are given as:
 $$
 \begin{align}
     \displaystyle\frac{\partial \mathbf{u}}{\partial t}+\mathbf{u} \cdot \nabla \mathbf{u} &=-\nabla p_{\text{stat}} + \boldsymbol{f} \\

@@ -1,5 +1,5 @@
   
-[[Navier-Stokes equations]]
+[Navier-Stokes equations](Navier-Stokes%20equations.md)
 
 
 ## Derivation of the divergence-free condition
@@ -19,7 +19,7 @@ $$
 
 $$In case of incompressible flows ($\implies\frac{\text{D}\rho}{\text{D}t}: = \frac{\text{d}\rho}{\text{d}t} + \boldsymbol{u}\cdot \nabla \rho =0$) and with no mass in-/outflow, one obtains
 $$    \nabla \cdot\boldsymbol{u}=0.$$
-Here, $\frac{\text{D}\rho}{\text{D}t}$ is the total/material derivative ([[Material derivative]]) of the quantity $\rho$ along its movement trajectory.
+Here, $\frac{\text{D}\rho}{\text{D}t}$ is the total/material derivative ([Material derivative](Material%20derivative.md)) of the quantity $\rho$ along its movement trajectory.
 
 
 ## Derivation of the momentum equation
@@ -129,7 +129,7 @@ $$\begin{equation}
 \end{equation}$$
 To summarize: it is given an initial value for $\boldsymbol{u}^0$ and $\boldsymbol{\omega}^0$ as well as the forcing function $\boldsymbol{f}$ (also called data). The unknowns are the velocity field $\boldsymbol{u}$, vorticity field $\boldsymbol{\omega}$, and total pressure $p$.
 
-To yield a meaningful problem, boundary conditions have to be prescribed, see [[Boundary conditions for Navier-Stokes]]. 
+To yield a meaningful problem, boundary conditions have to be prescribed, see [Boundary conditions for Navier-Stokes](Boundary%20conditions%20for%20Navier-Stokes.md). 
 
 
 ## Sources

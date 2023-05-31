@@ -1,5 +1,5 @@
-Sets are a fundamental concept from [[Analysis]], [[Linear algebra]], and [[Differential geometry]].
-This is an informal intro to set theory (see [[Axiomatic vs informal set theory]])
+Sets are a fundamental concept from [Analysis](Analysis.md), [Linear algebra](Linear%20algebra.md), and [Differential geometry](Differential%20geometry.md).
+This is an informal intro to set theory (see [Axiomatic vs informal set theory](Axiomatic%20vs%20informal%20set%20theory.md))
 
 
 ## Some definitions:
@@ -14,5 +14,5 @@ This is an informal intro to set theory (see [[Axiomatic vs informal set theory]
 
 
 ## Source
-- Prof. Auzinger - Analysis 2 für TPH, TU Wien lecture notes, [[Auzinger-ana2TPH.pdf]]
+- Prof. Auzinger - Analysis 2 für TPH, TU Wien lecture notes, [Auzinger-ana2TPH.pdf](Auzinger-ana2TPH.pdf)
 - Analysis II für Physiker, Universität Wien lecture notes

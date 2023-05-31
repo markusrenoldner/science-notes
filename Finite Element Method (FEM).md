@@ -1,14 +1,14 @@
 
-important numerical technique for [[PDE]] in [[Numerics for differential equations]]
+important numerical technique for [PDE](PDE.md) in [Numerics for differential equations](Numerics%20for%20differential%20equations.md)
 
 
 ## Idea
-The endgoal is to transfer the [[PDE]] problem into a linear system of equations whose solution approximates the [[PDE]].
+The endgoal is to transfer the [PDE](PDE.md) problem into a linear system of equations whose solution approximates the [PDE](PDE.md).
 This is done by interpolating the unknown function.
 
 
 ## Variational Formulation
-see also [[Variational formulation, variational problem]]
+see also [Variational formulation, variational problem](Variational%20formulation,%20variational%20problem.md)
 
 
 
@@ -35,5 +35,5 @@ https://mfem.org/lininteg/#:~:text=Linear%20form%20integrators%20are%20the,somet
 
 ## Sources
 - Prof. Faustmann - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2021
-- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [[hiptmair-NUMPDE.pdf]]
+- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [hiptmair-NUMPDE.pdf](hiptmair-NUMPDE.pdf)
 - Prof. Schöberl - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2020

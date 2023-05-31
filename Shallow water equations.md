@@ -1,4 +1,4 @@
-[[Differential equations]]
+[Differential equations](Differential%20equations.md)
 
 The shallow water equations can be derived from the full Navier-Stokes equations and are as follows:
 

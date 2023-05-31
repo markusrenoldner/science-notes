@@ -1,5 +1,5 @@
 
-important branch of [[Numerics]]
+important branch of [Numerics](Numerics.md)
 
 
 ## Topics
@@ -9,7 +9,7 @@ important branch of [[Numerics]]
 
 ## Notes
 #pdf-note 
-![[numerics-9-12-integration.pdf]]
+![numerics-9-12-integration.pdf](numerics-9-12-integration.pdf)
 
 
 ## Sources:

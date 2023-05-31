@@ -1,7 +1,7 @@
 
-Let M be a set (see [[Sets]])
+Let M be a set (see [Sets](Sets.md))
 
-A foundational concept of [[Differential geometry]]
+A foundational concept of [Differential geometry](Differential%20geometry.md)
 
 
 We call P(M) the power set, that means it is the set of all subsets of M including the empty set and M itself.

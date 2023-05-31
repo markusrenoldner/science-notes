@@ -1,4 +1,4 @@
-important branch of [[Physics]]
+important branch of [Physics](Physics.md)
 
 
 #todo just read Bartelmann
@@ -6,10 +6,10 @@ important branch of [[Physics]]
 
 ## Topics:
 - Newton axiome
-- [[Zeitfreie Gleichung]]
-- [[Newtons laws - definitions or theorems]]
-- [[Potential vs potential energy]]
-- [[Fluid Dynamics]]
+- [Zeitfreie Gleichung](Zeitfreie%20Gleichung.md)
+- [Newtons laws - definitions or theorems](Newtons%20laws%20-%20definitions%20or%20theorems.md)
+- [Potential vs potential energy](Potential%20vs%20potential%20energy.md)
+- [Fluid Dynamics](Fluid%20Dynamics.md)
 - Energy, Work, Power
 - Conservative forces
 - Coordinate systems, rotations, Galilei

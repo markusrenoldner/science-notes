@@ -1,4 +1,4 @@
-[[Numerics]]
+[Numerics](Numerics.md)
 
 
 ## Goal

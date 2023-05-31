@@ -1,5 +1,5 @@
 
-important branch of [[Numerics]]
+important branch of [Numerics](Numerics.md)
 
 
 ## Topics
@@ -7,7 +7,7 @@ important branch of [[Numerics]]
 - Damped newton
 	- Descent method (find minimum of function)
 	- Use descent method to find solution of nonlinear equation: find minimum of $x\mapsto||\boldsymbol{f}(x)||^2_2$  which are the zeros of $\boldsymbol{f}$ 
-- Gauss-Newton: use Newton method to solve nonlinear least squares (compare with: [[Least squares method]])
+- Gauss-Newton: use Newton method to solve nonlinear least squares (compare with: [Least squares method](Least%20squares%20method.md))
 - quasi-newton method
 	- Broyden method
 - Unconstrained minimization / gradient methods
@@ -15,7 +15,7 @@ important branch of [[Numerics]]
 
 ## Notes
 #pdf-note 
-![[numerics-14-18-linearsystems.pdf]]
+![numerics-14-18-linearsystems.pdf](numerics-14-18-linearsystems.pdf)
 
 
 ## Sources:

@@ -1,4 +1,4 @@
-[[Numerics]]
+[Numerics](Numerics.md)
 
 
 consider linear system of equations written as a matrix equation:
@@ -105,7 +105,7 @@ In general, this can be annoying to implement.
 
 
 ## Comparison of 1 and 2 
-#pdf-note [[BCoflinearsystems.pdf]]
+#pdf-note [BCoflinearsystems.pdf](BCoflinearsystems.pdf)
 
 
 ## Option by MFEM: "the large, symmetric system"

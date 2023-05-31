@@ -1,4 +1,4 @@
-important branch of [[Numerics]]
+important branch of [Numerics](Numerics.md)
 
 
 ## Topics
@@ -12,7 +12,7 @@ important branch of [[Numerics]]
 
 ## Notes
 #pdf-note 
-![[numerics-1-8-interpol.pdf]]
+![numerics-1-8-interpol.pdf](numerics-1-8-interpol.pdf)
 
 
 ## Sources:

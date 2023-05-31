@@ -1,5 +1,5 @@
 
-#todo put this into latex [[linearmaps-matrices.pdf]]
+#todo put this into latex [linearmaps-matrices.pdf](linearmaps-matrices.pdf)
 
 
 

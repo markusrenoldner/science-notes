@@ -1,5 +1,5 @@
 Direct numerical simulation = DNS
-Computational fluid mechanics = CFD, [[Fluid Dynamics]]
+Computational fluid mechanics = CFD, [Fluid Dynamics](Fluid%20Dynamics.md)
 
 
 ## Goal:
@@ -13,7 +13,7 @@ The goal here is not to compute an error bound for a specific numerical scheme, 
 
 
 ## Numerical stability? can we use explicit time stepping?
-use [[CFL condition]]:
+use [CFL condition](CFL%20condition.md):
 $$\frac{\Delta t}{\Delta x}u < C = \mathcal{O}(1)$$
 this gives
 $$\Delta t < \frac{\Delta x}{u}\mathcal{O}(1) = \frac{\mathcal{O}(\text{Re}^\frac{-3}{4})}{\mathcal{O}(\text{Re}^\frac{-1}{4})}\mathcal{O}(1) = \mathcal{O}(\text{Re}^\frac{-1}{2})$$

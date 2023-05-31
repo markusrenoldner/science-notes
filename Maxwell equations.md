@@ -1,5 +1,5 @@
 
-[[Electrodynamics]]
+[Electrodynamics](Electrodynamics.md)
 
 #todo 
 

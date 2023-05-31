@@ -10,7 +10,7 @@ An equivalence class of a vector $v$ is the set
 $$ [v] := \text{"}v+U\text{"} := \{v+u | u\in U \}$$
 in words: its the subspace of $V$ that passes $v$ and is parallel to $U$ 
 
-An equivalence class is an [[Affine space]], see https://math.stackexchange.com/questions/3818358/show-that-an-equivalence-class-is-an-affine-subspace
+An equivalence class is an [Affine space](Affine%20space.md), see https://math.stackexchange.com/questions/3818358/show-that-an-equivalence-class-is-an-affine-subspace
 
 
 ## Definition quotient space

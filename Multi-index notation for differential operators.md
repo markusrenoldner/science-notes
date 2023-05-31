@@ -1,5 +1,5 @@
 
-[[Analysis]]
+[Analysis](Analysis.md)
 
 
 ## Definition

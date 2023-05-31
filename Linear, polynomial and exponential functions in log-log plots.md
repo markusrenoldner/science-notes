@@ -1,17 +1,17 @@
 
-[[Overview of errors and complexity of numerical methods]]
+[Overview of errors and complexity of numerical methods](Overview%20of%20errors%20and%20complexity%20of%20numerical%20methods.md)
 
 
 ## Log log
-![[loglog1.png]]
+![loglog1.png](loglog1.png)
 
 
 ## x axis linear, y axis log
-![[loglog3.png]]
+![loglog3.png](loglog3.png)
 
 
 ## x axis log, y axis linear
-![[loglog2.png]]
+![loglog2.png](loglog2.png)
 
 
 ## Python code:
