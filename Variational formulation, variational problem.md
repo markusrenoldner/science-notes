@@ -16,8 +16,7 @@ $V_0$ ... subspace of the "big" vector space $V$, $V_0$ is also called test spac
 ## Offset function trick for variational problem
 
 Let $\hat{V}=g+V_0$ 
-we can convert the problem into one where $V_0$ and $\hat{V}$ coincide (and are both vector spaces):
-
+we can convert the problem into one where $V_0$ and $\hat{V}$ coincide and are both vector spaces!! :
 $$\begin{align}
 u^*\in \hat{V} : &\quad a(u^*,v)=l(v) \quad &&\forall v\in V_0\\
 \iff u\in V_0: &\quad a(u+g,v) = l(v) \quad &&\forall v \in V_0 \\
@@ -26,13 +25,6 @@ u^*\in \hat{V} : &\quad a(u^*,v)=l(v) \quad &&\forall v\in V_0\\
 with a corrected linearform $l(v) - a(g,v)$.
 The solution of the old problem can be recovered from the new one by adding the offset function g:
 $$u^* = g+u$$
-#todo find out why this is so important
-
-
-
-## Example
-
-
 
 ## Source
 - Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [[hiptmair-NUMPDE.pdf]]

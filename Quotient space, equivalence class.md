@@ -1,8 +1,4 @@
 
-#TODO in seinen comments hat hiptmair einfmal den quotient space erwähnt: [[MEHC scheme]]
-
-
-
 
 ## Definition equivalence class
 Let $v\in V$ and $u\in U$ with $U \subset V$.

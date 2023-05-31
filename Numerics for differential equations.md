@@ -1,25 +1,24 @@
 One of the most important branches of [[Numerics]], goal: solving [[Differential equations]].
 
 
-
-#todo start with lax richt, van neum
-
-
 ## Topics:
 - [[Finite Element Method (FEM)]]
-- [[Symplectic ODE integrators]]
 - [[MEHC scheme]]
+- [[Symplectic ODE integrators]]
 - [[Finite Difference Method (FDM)]]
+- [[CFL condition]]
+- [[Numerical methods for conservation laws]]
+- Properties of numerical schemes:
+	- [[Lax Richtmayr theorem]]
+	- [[Von Neumann stability analysis]]
+	- [[Convergence, consistency, stability, condition of FDM]]
+
+
+#todo 
 - Runge-Kutta methods
 - Shooting method
-- Viscosity solution
-- Lax Richtmayr stability
-- Von Neuman analysis
 - error estim/conv rates von FD, FV, FEM
 - Stability of ODE integrators (A-stability, etc.)
-- CFL-condition
-- Numerical methods for conservation laws
-	- Godunov scheme
 - Method of characteristics
 - Method of lines
 - Comparison of FV, FD, and FEM
