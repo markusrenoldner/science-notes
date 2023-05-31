@@ -12,3 +12,4 @@ y_t + \nabla \cdot J(y) = 0
 $$
 with
 $$y=\begin{pmatrix} 1\\ \boldsymbol{u} \end{pmatrix} ,\quad J=\begin{pmatrix} \boldsymbol{u}\\ \boldsymbol{u}\otimes\boldsymbol{u} + p I\end{pmatrix}$$
+see [Conservation law, transport equation](Conservation%20law,%20transport%20equation.md), and [Numerical methods for conservation laws](Numerical%20methods%20for%20conservation%20laws.md).
