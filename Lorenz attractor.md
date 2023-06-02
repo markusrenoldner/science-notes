@@ -58,6 +58,5 @@ for i in range(N-1):
 fig = plt.figure()
 ax = fig.add_subplot(111,projection="3d")
 ax.plot(v[:,0],v[:,1],v[:,2], "b")
-
 ```
 

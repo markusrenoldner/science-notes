@@ -9,7 +9,7 @@ which is an identity that is sometimes useful, as it doesnt depend on $t$ explic
 ## Example why this is useful
 If the tangential acceleration of a mechanical body is available as a function of the position:
 $$a=a(s)$$
-then, one can find the velocity as a function of the position by applying the above identity:
+then, one can find the velocity as a function of the position $v=v(s)$ by applying the above identity:
 $$\int_{s_0}^{s_1} ads = \int_{v_0}^{v_1} vdv = \frac{1}{2}(v_0^2-v_1^2)$$
 which gives
 $$v_1^2=v_0^2 + 2 \int_{s_0}^{s_1} ads$$
