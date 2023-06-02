@@ -1,7 +1,7 @@
 "time-free integration"
 
 
-In [Classical mechanics](Classical%20mechanics.md), there holds for position, velocity, acceleration of a point mass:
+In [[Classical mechanics]], there holds for position, velocity, acceleration of a point mass:
 $$\int ads = \int vdv$$
 which is an identity that is sometimes useful, as it doesnt depend on $t$ explicitely.
 

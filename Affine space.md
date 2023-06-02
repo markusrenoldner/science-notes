@@ -1,4 +1,4 @@
-Important idea in [Finite Element Method (FEM)](Finite%20Element%20Method%20(FEM).md)
+Important idea in [[Finite Element Method (FEM)]]
 
 ## Definition
 Given:
@@ -25,11 +25,11 @@ The vector $\hat{v}$ could be
 $$\hat{v}=\begin{pmatrix}0\\0\\k \end{pmatrix}$$
 where $k$ is the point where $P_2$ intersects the z-axis.
 
-![affinespace.png](affinespace.png)
+![[affinespace.png]]
 
 
 
 ## Source:
 - https://en.wikipedia.org/wiki/Affine_space#/media/File:Affine_space_R3.png
-- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [hiptmair-NUMPDE.pdf](hiptmair-NUMPDE.pdf)
+- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [[hiptmair-NUMPDE.pdf]]
 

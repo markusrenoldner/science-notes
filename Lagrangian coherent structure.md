@@ -1,6 +1,6 @@
 
 
-[Dynamical systems](Dynamical%20systems.md)
+[[Dynamical systems]]
 
 LCS are the "most influencial material surfaces" in a fluid
 LCS are invariant manifolds

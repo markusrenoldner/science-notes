@@ -1,7 +1,7 @@
-[Fluid Dynamics](Fluid%20Dynamics.md)
+[[Fluid Dynamics]]
 
 The following equations descibre incompressible, Newtonian fluids.
-[Derivation of Navier-Stokes equations](Derivation%20of%20Navier-Stokes%20equations.md)
+[[Derivation of Navier-Stokes equations]]
 
 ## Vector calculus notation
 
@@ -16,7 +16,7 @@ $$
 ## Equations for each component:
 in cartesian coordinates
 
-![nav-stok-components.png](nav-stok-components.png)
+![[nav-stok-components.png]]
 
 
 ## Nondimensional formulation
@@ -59,12 +59,12 @@ where the second term is called dynamic pressure or Bernoulli pressure
 
 
 ## Boundary conditions for the NS equ
-[Boundary conditions for Navier-Stokes](Boundary%20conditions%20for%20Navier-Stokes.md)
+[[Boundary conditions for Navier-Stokes]]
 
 
 
 ## Euler equations (inviscid limit)
-Taking infinite Reynolds number, one gets the [Euler equations](Euler%20equations.md).
+Taking infinite Reynolds number, one gets the [[Euler equations]].
 
 
 

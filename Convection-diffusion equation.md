@@ -1,5 +1,5 @@
 
-An example of a [Conservation law, transport equation](Conservation%20law,%20transport%20equation.md).
+An example of a [[Conservation law, transport equation]].
 
 The general equation is
 $$

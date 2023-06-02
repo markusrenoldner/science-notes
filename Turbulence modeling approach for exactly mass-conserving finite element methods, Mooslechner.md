@@ -1,6 +1,6 @@
 
-#paper [mooslechner-turbulencemodelingmassconservingFEM.pdf](mooslechner-turbulencemodelingmassconservingFEM.pdf)
+#paper [[mooslechner-turbulencemodelingmassconservingFEM.pdf]]
 
 
-[MEHC scheme](MEHC%20scheme.md)
+[[MEHC scheme]]
 

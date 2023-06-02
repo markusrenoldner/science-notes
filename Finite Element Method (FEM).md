@@ -1,5 +1,5 @@
 
-important numerical technique for partial differential equations/PDE (see [Differential equations](Differential%20equations.md)) in [Numerics for differential equations](Numerics%20for%20differential%20equations.md)
+important numerical technique for partial differential equations/PDE (see [[Differential equations]] in [[Numerics for differential equations]]
 
 
 ## Idea
@@ -8,7 +8,7 @@ This is done by interpolating the unknown function.
 
 
 ## Variational Formulation
-see also [Variational formulation, variational problem](Variational%20formulation,%20variational%20problem.md)
+see also [[Variational formulation, variational problem]]
 
 
 
@@ -35,5 +35,5 @@ https://mfem.org/lininteg/#:~:text=Linear%20form%20integrators%20are%20the,somet
 
 ## Sources
 - Prof. Faustmann - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2021
-- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [hiptmair-NUMPDE.pdf](hiptmair-NUMPDE.pdf)
+- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [[hiptmair-NUMPDE.pdf]]
 - Prof. Schöberl - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2020

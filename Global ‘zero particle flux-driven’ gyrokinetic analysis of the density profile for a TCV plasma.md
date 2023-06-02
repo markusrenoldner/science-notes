@@ -1,4 +1,4 @@
-[Plasma, Magnetohydrodynamics (MHD)](Plasma,%20Magnetohydrodynamics%20(MHD).md)
+[[Plasma, Magnetohydrodynamics (MHD)]]
 
 
 #paper by A. Mariani, S. Brunner, G. Merlo, O. Sauter

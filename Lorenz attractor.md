@@ -1,5 +1,5 @@
 
-one very nice example of a dynamic system (see [Dynamical systems](Dynamical%20systems.md)) is the lorenz attractor. Its formulated as follows:
+one very nice example of a dynamic system (see [[Dynamical systems]]) is the lorenz attractor. Its formulated as follows:
 $$\begin{align}
 \frac{\partial x}{\partial t} &= \sigma (y-x) \\
 \frac{\partial y}{\partial t} &= x (\rho-z) -y \\

@@ -1,10 +1,10 @@
 
 ## Two points of view
-1. ... is an equivalent formulation of the problem to find the [Minimum of quadratic functionals](Minimum%20of%20quadratic%20functionals.md) , as explained here [Equivalence of minimization of quadr. functional and var. problem](Equivalence%20of%20minimization%20of%20quadr.%20functional%20and%20var.%20problem.md)
-2. ... can be used to express a generalization of partial differential equation (see [Differential equations](Differential%20equations.md))
+1. ... is an equivalent formulation of the problem to find the [[Minimum of quadratic functionals]] , as explained here [[Equivalence of minimization of quadr. functional and var. problem]]
+2. ... can be used to express a generalization of partial differential equation (see [[Differential equations]]
 
 
-## Linear variational problem (on [Affine space](Affine%20space.md))
+## Linear variational problem (on [[Affine space]]
 
 find $u\in \hat{V}$ such that 
 $$a(u,v)=l(v) \quad \forall v\in V_0$$
@@ -27,4 +27,4 @@ The solution of the old problem can be recovered from the new one by adding the 
 $$u^* = g+u$$
 
 ## Source
-- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [hiptmair-NUMPDE.pdf](hiptmair-NUMPDE.pdf)
+- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [[hiptmair-NUMPDE.pdf]]

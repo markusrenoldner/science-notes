@@ -1,9 +1,9 @@
 #paper 
 
 
-my master thesis in [Numerics for differential equations](Numerics%20for%20differential%20equations.md)
+my master thesis in [[Numerics for differential equations]]
 
-a fancy example of the [Finite Element Method (FEM)](Finite%20Element%20Method%20(FEM).md)
+a fancy example of the [[Finite Element Method (FEM)]]
 that solves navier stokes equations in a structure (i.e. mass, energy and helicity-) preserving way
 
 link:

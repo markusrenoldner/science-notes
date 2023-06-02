@@ -1,7 +1,7 @@
-Fundamental concept in [Linear algebra](Linear%20algebra.md)
+Fundamental concept in [[Linear algebra]]
 
 
-#pdf-note [linearmaps-matrices.pdf](linearmaps-matrices.pdf)
+#pdf-note [[linearmaps-matrices.pdf]]
 #todo 
 
 
@@ -11,12 +11,12 @@ Fundamental concept in [Linear algebra](Linear%20algebra.md)
 - Linear systems of equations
 - Linear maps represented by matrices
 - Change of basis
-	- [Coordinate vectors](Coordinate%20vectors.md)
-	- [Change of basis in linear algebra](Change%20of%20basis%20in%20linear%20algebra.md)
+	- [[Coordinate vectors]]
+	- [[Change of basis in linear algebra]]
 - Vector space of homomorphisms/linear maps, Hom_K(A,B) 
-- [Quotient space, equivalence class](Quotient%20space,%20equivalence%20class.md)
-- [Overview of mappings in linear algebra](Overview%20of%20mappings%20in%20linear%20algebra.md)
+- [[Quotient space, equivalence class]]
+- [[Overview of mappings in linear algebra]]
 
 
 ## Source
-- Dr. Ginosar - Lineare Algebra, ETH lecture notes 2021, [Ginosar-Lineare_Algebra.pdf](Ginosar-Lineare_Algebra.pdf)
+- Dr. Ginosar - Lineare Algebra, ETH lecture notes 2021, [[Ginosar-Lineare_Algebra.pdf]]

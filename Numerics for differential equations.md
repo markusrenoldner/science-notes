@@ -1,18 +1,18 @@
-One of the most important branches of [Numerics](Numerics.md), goal: solving [Differential equations](Differential%20equations.md).
+One of the most important branches of [[Numerics]], goal: solving [[Differential equations]].
 
 
 ## Topics:
-- [Finite Element Method (FEM)](Finite%20Element%20Method%20(FEM).md)
-- [Finite Difference Method (FDM)](Finite%20Difference%20Method%20(FDM).md)
-- [Finite Volume Method (FVM)](Finite%20Volume%20Method%20(FVM).md)
-- [MEHC scheme](MEHC%20scheme.md)
-- [Symplectic ODE integrators](Symplectic%20ODE%20integrators.md)
-- [CFL condition](CFL%20condition.md)
-- [Numerical methods for conservation laws](Numerical%20methods%20for%20conservation%20laws.md)
+- [[Finite Element Method (FEM)]]
+- [[Finite Difference Method (FDM)]]
+- [[Finite Volume Method (FVM)]]
+- [[MEHC scheme]]
+- [[Symplectic ODE integrators]]
+- [[CFL condition]]
+- [[Numerical methods for conservation laws]]
 - Properties of numerical schemes:
-	- [Lax Richtmayr theorem](Lax%20Richtmayr%20theorem.md)
-	- [Von Neumann stability analysis](Von%20Neumann%20stability%20analysis.md)
-	- [Convergence, consistency, stability, condition of FDM](Convergence,%20consistency,%20stability,%20condition%20of%20FDM.md)
+	- [[Lax Richtmayr theorem]]
+	- [[Von Neumann stability analysis]]
+	- [[Convergence, consistency, stability, condition of FDM]]
 
 
 #todo 
@@ -30,5 +30,5 @@ One of the most important branches of [Numerics](Numerics.md), goal: solving [Di
 - Prof. Tornberg - Numerical solutions of differential equations, KTH lecture notes 2022
 - Dr. Körner - Mathematical modelling in systems simultion, TU Wien lecture notes 2021
 - Prof. Faustmann - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2021
-- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [hiptmair-NUMPDE.pdf](hiptmair-NUMPDE.pdf)
+- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [[hiptmair-NUMPDE.pdf]]
 - Prof. Schöberl - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2020

@@ -1,5 +1,5 @@
-[Numerics for differential equations](Numerics%20for%20differential%20equations.md)
-FDM: [Finite Difference Method (FDM)](Finite%20Difference%20Method%20(FDM).md)
+[[Numerics for differential equations]]
+FDM: [[Finite Difference Method (FDM)]]
 
 ## Convergence
 ... if the numerical approximation $u_h$ of $u$ vanishes as the step length $h$ goes to $0$:
@@ -32,11 +32,11 @@ the method is stable, if
 
 
 
-see also [Von Neumann stability analysis](Von%20Neumann%20stability%20analysis.md)
+see also [[Von Neumann stability analysis]]
 
 
 ## The same analysis for Finite Element method:
-[Consistency finite differences vs finite elements](Consistency%20finite%20differences%20vs%20finite%20elements.md)
+[[Consistency finite differences vs finite elements]]
 
 
 

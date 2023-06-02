@@ -1,9 +1,9 @@
 
-Problem in [Linear algebra](Linear%20algebra.md)
+Problem in [[Linear algebra]]
 
 See also: 
-- [Eigenvalue multiplicity](Eigenvalue%20multiplicity.md)
-- [Jordan Normalform](Jordan%20Normalform.md)
+- [[Eigenvalue multiplicity]]
+- [[Jordan Normalform]]
 
 
 
@@ -23,4 +23,4 @@ this space is called eigenspace of $\lambda_i$. It is the span of the eigenvalue
 
 
 ## Sources
-- Prof. Auzinger - Lineare Algebra für TPH, TU Wien lecture 2020, [Auzinger-ana2TPH.pdf](Auzinger-ana2TPH.pdf)
+- Prof. Auzinger - Lineare Algebra für TPH, TU Wien lecture 2020, [[Auzinger-ana2TPH.pdf]]

@@ -1,8 +1,8 @@
 = TGV
 
-Periodic, decaying analytical solution of the [Navier-Stokes equations](Navier-Stokes%20equations.md), used to conduct convergence tests of methods from [Numerics for differential equations](Numerics%20for%20differential%20equations.md).
+Periodic, decaying analytical solution of the [[Navier-Stokes equations]], used to conduct convergence tests of methods from [[Numerics for differential equations]].
 
-![taylor-gree-vortex.png](taylor-gree-vortex.png)
+![[taylor-gree-vortex.png]]
 
 
 ## "Dimensional" case

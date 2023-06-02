@@ -1,4 +1,4 @@
-for a [Conservation law, transport equation](Conservation%20law,%20transport%20equation.md).
+for a [[Conservation law, transport equation]].
 $$\partial_t u + \partial_x f(u)=0$$
 
 ## Scheme:

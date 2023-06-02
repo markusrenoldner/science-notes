@@ -1,4 +1,4 @@
-Extremely important application of [Analysis](Analysis.md) 
+Extremely important application of [[Analysis]] 
 
 
 
@@ -12,8 +12,8 @@ start with "Skriptum zur Lehrveranstaltung 360.254 Elektrodynamik Dipl.-Ing. Dom
 
 ## Some first notes on the topic
 diff operators:
-[Coordinate transformation of differential operator in 2D example](Coordinate%20transformation%20of%20differential%20operator%20in%202D%20example.md)
-[Laplace operator in polar coordinates in 2D](Laplace%20operator%20in%20polar%20coordinates%20in%202D.md)
+[[Coordinate transformation of differential operator in 2D example]]
+[[Laplace operator in polar coordinates in 2D]]
 
 
 

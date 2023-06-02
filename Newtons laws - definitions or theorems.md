@@ -2,7 +2,7 @@
 
 #TODO 
 
-In some texts Newtons laws from [Classical mechanics](Classical%20mechanics.md) are not explained very well.
+In some texts Newtons laws from [[Classical mechanics]] are not explained very well.
 
 See here a paper ("Lange nach Newton") from Pfister: https://www.pro-physik.de/restricted-files/85836
 

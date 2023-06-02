@@ -13,7 +13,7 @@ $$\int_{\partial \Omega} \vec{E} = \frac{Q}{4\pi \epsilon_0}\int_{\partial\Omega
 
 with $\rho$ being the charge density. $\Omega$ is arbitrary, therefore we follow
 $$\nabla\cdot \vec{E} = \frac{\rho}{\epsilon_0}$$
-which is Gauss' law, and one of the famous [Maxwell equations](Maxwell%20equations.md). 
+which is Gauss' law, and one of the famous [[Maxwell equations]]. 
 The work acting on a particle along a curve $C$ in the force field is then
 $$W:=\int_C \vec{F}$$
 If $\vec{E}$ is conservative, a scalar potential can be defined:
@@ -34,7 +34,7 @@ The voltage is therefore the difference in potential.
 
 
 ## Handwritten notes
-#pdf-note [electrodynamics-basics.pdf](electrodynamics-basics.pdf)
+#pdf-note [[electrodynamics-basics.pdf]]
 
 
 ## Sources:

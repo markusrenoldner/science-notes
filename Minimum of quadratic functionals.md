@@ -1,5 +1,5 @@
 
-... are equivalent to [Variational formulation, variational problem](Variational%20formulation,%20variational%20problem.md), as explained here [Equivalence of minimization of quadr. functional and var. problem](Equivalence%20of%20minimization%20of%20quadr.%20functional%20and%20var.%20problem.md)
+... are equivalent to [[Variational formulation, variational problem]], as explained here [[Equivalence of minimization of quadr. functional and var. problem]]
 
 
 ## Equilibrium models and quadratic functionals
@@ -23,12 +23,12 @@ with $u\in V_0$, $a$ being a symm. bilinearform, and $l$ being a linearform. Fin
 
 
 ## Same problem on affine space ("offset function trick")
-The fact that the boundary condition $u|_{\partial \Omega}$ has to be fulfilled implies that the zero function is not element of the space $\hat{V}$, which is therefore not a vector space. It is an [Affine space](Affine%20space.md) 
+The fact that the boundary condition $u|_{\partial \Omega}$ has to be fulfilled implies that the zero function is not element of the space $\hat{V}$, which is therefore not a vector space. It is an [[Affine space]] 
 
 One can recover a proper quadr. min. probl. from the membrane problem:
 For a quadr. functional $J:=\frac{1}{2}a(v,v)-l(v)$ defined on a vector space we have:
 
-![quadr-functional-affine-space.png](quadr-functional-affine-space.png)
+![[quadr-functional-affine-space.png]]
 Attention: "g" is called "$u_0$" in this picture.
 
 Because of the picture above and the fact that
@@ -57,7 +57,7 @@ The quadr. func
 $$J[v]=\frac{1}{2}a(v,v)-l(v)$$
 on a vector space V is bounded from below only if a is positive semidefinite.
 
-![unisolvence-quadrminprobl.png](unisolvence-quadrminprobl.png)
+![[unisolvence-quadrminprobl.png]]
 >In Cor. 1.2.3.26 and Thm. 1.2.3.31 we found necessary conditions on the bilinear form a for the existence of a minimizer of an abstract quadratic minimization problem. Now we answer the questions whether the linear functional ℓ also has to satisfy some conditions.
 >
 >The following insight demonstrates that the linear form ℓ has to match the bilinear form a(·, ·) to make possible to existence of a minimizer of J:
@@ -67,10 +67,10 @@ The functional
 $$J[v]=\frac{1}{2}a(u,u)-l(u)+c \quad u\in V_0$$
 based on a symm. pos. def blf a is bounded from below if and only if ($\iff$) 
 $$\exists C>0 : \quad \vert l(u)\vert<C\Vert u\Vert_a\vert \quad u \in V_0$$
-where $\Vert u\Vert_a$ is the [Energy norm](Energy%20norm.md). This is a necessary condition for $l$.
+where $\Vert u\Vert_a$ is the [[Energy norm]]. This is a necessary condition for $l$.
 
 
-![minimizer-existence-finitedim.png](minimizer-existence-finitedim.png)
+![[minimizer-existence-finitedim.png]]
 
 
 

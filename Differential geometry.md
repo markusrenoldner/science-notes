@@ -1,15 +1,15 @@
-important branch of [Mathematics](Mathematics.md)
+important branch of [[Mathematics]]
 
 
 #todo write note
 #todo split it into subtopics
-#pdf-note [diffgeo.pdf](diffgeo.pdf)
+#pdf-note [[diffgeo.pdf]]
 check if  https://www.win.tue.nl/~lflorack/Extensions/2WAH0CourseNotes.pdf eindhoven text, is interesting
 #todo restruture this file also
 
 
 ## Topics:
-- [Topology and topological space](Topology%20and%20topological%20space.md)
+- [[Topology and topological space]]
 - diff. manifolds
 - pull-backs
 - fibres
@@ -17,7 +17,7 @@ check if  https://www.win.tue.nl/~lflorack/Extensions/2WAH0CourseNotes.pdf eindh
 - exterior derivative
 - covariant derivative
 - tanget space
-- tensor spaces, [Tensors](Tensors.md)
+- tensor spaces, [[Tensors]]
 - hodge operator
 - Differential forms 
 - integration of 

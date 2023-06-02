@@ -1,4 +1,4 @@
-important branch of [Numerics](Numerics.md)
+important branch of [[Numerics]]
 
 
 ## Topics
@@ -13,7 +13,7 @@ important branch of [Numerics](Numerics.md)
 
 ## Notes
 #pdf-note 
-![numerics-14-18-linearsystems.pdf](numerics-14-18-linearsystems.pdf)
+![[numerics-14-18-linearsystems.pdf]]
 
 
 ## Sources:

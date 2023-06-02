@@ -1,7 +1,7 @@
 
 is defined as
 $$\int_\Omega u\cdot \omega$$
-It is an invariant/conserved quantity of the Euler equations ([Navier-Stokes equations](Navier-Stokes%20equations.md)). 
+It is an invariant/conserved quantity of the Euler equations ([[Navier-Stokes equations]]). 
 
 It describes the "linkage of vortex lines", where linkage is a term from Topology and vortex lines are lines tangential to to the local vorticity vector $\omega$. 
 

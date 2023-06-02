@@ -1,7 +1,7 @@
 
 
 
-#pdf-note [tensors-short.pdf](tensors-short.pdf)
+#pdf-note [[tensors-short.pdf]]
 
 #todo (also take "online summary from J")
 
@@ -13,6 +13,6 @@
 
 
 ## Source
-- Dr. Ginosar - Lineare Algebra, ETH lecture notes 2021, [Ginosar-Lineare_Algebra.pdf](Ginosar-Lineare_Algebra.pdf)
+- Dr. Ginosar - Lineare Algebra, ETH lecture notes 2021, [[Ginosar-Lineare_Algebra.pdf]]
 - Altland, Delft - Mathematics for Physicists
 - ingmathe yt
