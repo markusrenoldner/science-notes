@@ -7,5 +7,6 @@ If $a(v,v)$ is the bilinearform of a quadratic functional (see [[Minimum of quad
 
 the term “energy norm” is inspired by the quadratic potential energy functionals as they occur in many mathematical models
 
+
 ## Sources
 - Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [[hiptmair-NUMPDE.pdf]]

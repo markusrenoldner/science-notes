@@ -1,11 +1,9 @@
 [[Plasma, Magnetohydrodynamics (MHD)]]
 
-
 #paper by A. Mariani, S. Brunner, G. Merlo, O. Sauter
 
 #todo move file to literature folder
 
-#todo also read this: "Gyrokinetic analysis of radial dependence and global effects on the zero particle flux condition in a TCV plasma" by same authors
 
 
 ## Summary of abstract/basic idea:
