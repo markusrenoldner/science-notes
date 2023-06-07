@@ -11,9 +11,9 @@ start with "Skriptum zur Lehrveranstaltung 360.254 Elektrodynamik Dipl.-Ing. Dom
 
 
 ## Some first notes on the topic
-diff operators:
-[[Coordinate transformation of differential operator in 2D example]]
-[[Laplace operator in polar coordinates in 2D]]
+- [[Coordinate transformation of differential operator in 2D example]]
+- [[Laplace operator in polar coordinates in 2D]]
+- [[Coordinate transformation of differential equations]]
 
 
 
