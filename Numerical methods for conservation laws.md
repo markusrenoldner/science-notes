@@ -5,4 +5,10 @@ where $u=u(x,t)$ is the unknown function, $f$ is a given flux function and $g$ i
 
 
 #todo tornberg lecture summarizen, Viscosity solution, etc.
+- numerics for conservation laws
+	- entropy condition (chose physically relevant weak sol)
+	- godunov
+	- diminishing total varation scheme
+	- Roe scheme
+	- FEEC
 
