@@ -16,8 +16,9 @@ important branch of [[Physics]]
 - Reference systems under acceleration
 - Forces in rotating systems
 - Orbital mechanics
-- Lagrangian mechanics
-- Hamiltonian mechanics
+- Lagrangian mechanics (krommer, yuri, TPH)
+- Hamiltonian mechanics (krommer, yuri, TPH)
+- Elasticity theory (krommer, yuri, TPH)
 - ...
 
 
