@@ -1,7 +1,7 @@
 
 ... are equivalent to [[Variational formulation, variational problem]], as explained here [[Equivalence of minimization of quadr. functional and var. problem]]
 
-
+ 
 ## Equilibrium models and quadratic functionals
 Solutions of certain physical problems like e.g.
 - Shape of elastic membranes

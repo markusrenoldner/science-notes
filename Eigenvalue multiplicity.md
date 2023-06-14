@@ -3,7 +3,6 @@
 [[Eigenproblem]]
 
 
-
 ## Algebraic multiplicity
 The multiplicity of a root $\lambda_i$ of $P_A$ is called algebraic multiplicity of that eigenvalue.
 

@@ -4,7 +4,7 @@
 2. ... can be used to express a generalization of partial differential equation (see [[Differential equations]]
 
 
-## Linear variational problem (on [[Affine space]]
+## Linear variational problem (on [[Affine space]])
 
 find $u\in \hat{V}$ such that 
 $$a(u,v)=l(v) \quad \forall v\in V_0$$
