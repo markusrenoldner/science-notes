@@ -38,6 +38,21 @@ Relationship between $\mu_0$ and $\epsilon_0$:
 $$\epsilon_0 = \frac{1}{\mu_0 c^2}$$
 with $c$ being the vacuum speed of light. There holds
 $$B = \mu_0 \mu H = \mu_0 (H+M) = \mu_0 (1+\chi)H$$
+There also holds
+$$j=\sigma E$$
+where $\sigma$ is the electric conductivity.
+
+
+## The curl-curl problem
+For a steady current ($\partial_t D = 0$) we can take Mx1 and Mx3, together with $j=\sigma E$ to get
+$$\nabla\times E=-\mu \partial_t H, \qquad \nabla\times H=\sigma E$$
+which can be combined to the so called curl-curl problem:
+$$\nabla\times(\mu^{-1}\nabla\times E)=-\sigma \partial_t E$$
+Assuming we only look for "time-harmonic solutions", i.e. E is of the form
+$$E(x,t)=e^{i\omega t}E(x)$$
+then one gets
+$$\nabla\times(\mu^{-1}\nabla\times E)+ i\omega\sigma E= 0$$
+
 
 ## Sources
 Prof. Schütz - Grundlagen der Physik IIb
