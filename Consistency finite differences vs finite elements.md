@@ -1,6 +1,6 @@
 [[Finite Element Method (FEM)]]
 [[Finite Difference Method (FDM)]]
-[[Convergence, consistency, stability, condition of FDM]]
+[[Convergence, consistency, stability, condition of FDM, Lax richtmayr theorem]]
 
 
 ## Question

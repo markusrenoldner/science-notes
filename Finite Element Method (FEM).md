@@ -25,11 +25,21 @@ $$\Delta u = f$$
 
 
 #todo idea of FEM, inclusive global assembly, interpolation operators, local-global mapping, reference transformation
+#todo insert fausit summary for diplimprüfung
+
+
+
 
 some info on assembly:
 https://mfem.org/bilininteg/#bilinear-form-integrators
 
 https://mfem.org/lininteg/#:~:text=Linear%20form%20integrators%20are%20the,sometimes%20over%20edges%20or%20faces
+
+
+## Solvability
+[[Lax-Milgram lemma]]
+
+
 
 
 

@@ -5,14 +5,15 @@ One of the most important branches of [[Numerics]], goal: solving [[Differential
 - [[Finite Element Method (FEM)]]
 - [[Finite Difference Method (FDM)]]
 - [[Finite Volume Method (FVM)]]
+- [[Discontinuous Galerkin method (DG)]]
+- [[Boundary element method (BEM)]]
 - [[MEHC scheme]]
 - [[Symplectic ODE integrators]]
-- [[CFL condition]]
 - [[Numerical methods for conservation laws]]
 - Properties of numerical schemes:
-	- [[Lax Richtmayr theorem]]
+	- [[Convergence, consistency, stability, condition of FDM, Lax richtmayr theorem]]
 	- [[Von Neumann stability analysis]]
-	- [[Convergence, consistency, stability, condition of FDM]]
+	- [[CFL condition]]
 
 
 #todo 

@@ -10,6 +10,8 @@
 - [[Shallow water magnetohydrodynamic equations (SWMHD)]]
 - [[Conservation law, transport equation]]
 - [[Convection-diffusion equation]]
+- [[Advection equation]]
+
 
 
 ## PDE vs ODE
