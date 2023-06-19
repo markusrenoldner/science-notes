@@ -1,21 +1,16 @@
 [[Analysis]]
 
 
-#todo 
-
-
 ## Topics:
 - [[Function and operator notation]]
 - Spaces: normed, Banach, Hilbert
 - The space $C^m$
 - The space $L^p$
 
-#todo mention that "L2 spaces with norm" are defined using [[Quotient space, equivalence class]]. This implies that point values of functions in that space have no meaning. Two functions that only differ on intervals/sets with measure zero (like e.g. points), are equal in the "L2-sense".
-see https://de.wikipedia.org/wiki/Lp-Raum
-
-
 ## Lp spaces
-#todo 
+
+#todo mention that "L2 spaces with norm" are defined using [[Equivalence class, quotient space]]. This implies that point values of functions in that space have no meaning. Two functions that only differ on intervals/sets with measure zero (like e.g. points), are equal in the "L2-sense".
+see https://de.wikipedia.org/wiki/Lp-Raum
 ### $L^2$
 
 
