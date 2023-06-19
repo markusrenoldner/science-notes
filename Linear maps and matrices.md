@@ -14,7 +14,7 @@ Fundamental concept in [[Linear algebra]]
 	- [[Coordinate vectors]]
 	- [[Change of basis in linear algebra]]
 - Vector space of homomorphisms/linear maps, Hom_K(A,B) 
-- [[Quotient space, equivalence class]]
+- [[Equivalence class, quotient space]]
 - [[Overview of mappings in linear algebra]]
 
 
