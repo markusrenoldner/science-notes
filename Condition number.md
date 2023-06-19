@@ -1,4 +1,8 @@
-important branch of [[Numerics]]
+important idea from [[Numerics]]
+
+#todo 
+https://de.wikipedia.org/wiki/Stabilit%C3%A4t_(Numerik)
+explain relationship of condition number with consistency, convergence and stability
 
 
 ## Notes
