@@ -2,8 +2,9 @@
 FDM: [[Finite Difference Method (FDM)]]
 
 
-## Lax Richtmayr theorem
-A finite diff. scheme converges if and only if it is consistent and stable.
+## Main statement
+A linear finite diff./finite volume scheme converges if and only if it is consistent and stable.
+Proof: see lecture 4, Tornberg
 
 
 ## Convergence
@@ -21,37 +22,25 @@ $$\frac{\epsilon}{h}\xrightarrow{h\rightarrow 0}0$$
 The scheme is of order $p$ if
 $$\epsilon =\mathcal{O}(h^{p+1})$$
 
-#todo big TODO tornberg, schlatter
+#todo big TODO tornberg, schlatter, faustmann, https://math.stackexchange.com/questions/1921554/local-vs-global-truncation-error
+schlatter: study question 22 order of scheme
+tornberg HW2 ex2.2
+#todo ignore the stuff above and just add my summary of lec4 with the adv. equ example!
 
+[[Consistency finite differences vs finite elements]]
 
 
 ## Stability
-the method is stable, if
-
-#todo complete, add source
+A method is numerically stable, if "local errors are not amplified too much".
 
 Several different approaches, e.g. 
 1. [[CFL condition]] (necessary condition) 
 2. [[Von Neumann stability analysis]] (sufficient condition, constant coefficients) 
 3. Energy method (sufficient condition, variable coefficients)
-source: tornberg
 
-Von Neumann analysis can only handle periodic boundary conditions or no boundaries. I Energy method can handle more general boundary conditions.
-
-## Condition number
-
-#todo add
+Von Neumann analysis can only handle periodic boundary conditions or no boundaries. The energy method can handle more general boundary conditions.
 
 
-
-
-see also [[Von Neumann stability analysis]]
-
-
-## The same analysis for Finite Element method:
-[[Consistency finite differences vs finite elements]]
-
-
-
-## Source
+## Source:
+- Prof. Tornberg - Numerical solutions of differential equations, KTH lecture notes 2022
 - https://en.wikipedia.org/wiki/Numerical_methods_for_ordinary_differential_equations
