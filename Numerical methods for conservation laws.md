@@ -5,9 +5,9 @@ where $u=u(x,t)$ is the unknown function, $f$ is a given flux function and $g$ i
 
 
 #todo tornberg NDE lec6,7,8,9 
-	- entropy condition (chose physically relevant weak sol)
-	- godunov
-	- diminishing total varation scheme
-	- Roe scheme
-	- FEEC
+- entropy condition (chose physically relevant weak sol)
+- godunov
+- diminishing total varation scheme
+- Roe scheme
+- FEEC
 
