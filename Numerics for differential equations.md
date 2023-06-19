@@ -11,9 +11,11 @@ One of the most important branches of [[Numerics]], goal: solving [[Differential
 - [[Symplectic ODE integrators]]
 - [[Numerical methods for conservation laws]]
 - Properties of numerical schemes:
-	- [[Convergence, consistency, stability, condition of FDM, Lax richtmayr theorem]]
+	- [[Lax equivalence theorem]]
 	- [[Von Neumann stability analysis]]
 	- [[CFL condition]]
+
+#todo tornberg NDE lec2,3 for characteristics 
 
 
 #todo 

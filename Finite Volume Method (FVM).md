@@ -44,7 +44,7 @@ The quantity $u$ only changes if the flux across the domain boundaries is not ze
 $$F(U,V)=\frac{1}{2}\left(f(U)+f(V)-\frac{\Delta x}{\Delta t} (V-U)\right)$$
 - Lax-Wendroff scheme
 $$F(U,V)=\frac{1}{2}\left(f(U)+f(V)-\frac{\Delta x}{\Delta t} \frac{(f(V)-f(U))^2 }{V-U}\right)$$
-- Roe scheme: #todo see HW3 of NDE lecture
+- Roe scheme: #todo see HW3 of NDE lecture tornberg
 
 
 ## Source:
