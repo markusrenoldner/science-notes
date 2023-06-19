@@ -1,9 +1,4 @@
 
-#TODO in seinen comments hat hiptmair einfmal den quotient space erwähnt: [[MEHC scheme]]
-
-
-
-
 ## Definition equivalence class
 Let $v\in V$ and $u\in U$ with $U \subset V$.
 We call $v_1\sim v_2$ "equivalent" iff.
@@ -22,8 +17,7 @@ The quotient space "from $V$ to $U$" is the set of all equivalence classes, writ
 $$V / U := \{[v] : v\in V\} $$
 Alternative phrasing: the quotient space $V/U$ is the set of all affine subspaces of $V$ that are parallel to $U$.
 
-Apparently, it is a vector space, if the vector space operations are defined in a certain way (?)
-
+A quotient space of two vector spaces is again a vector space.
 
 
 ## Sources
