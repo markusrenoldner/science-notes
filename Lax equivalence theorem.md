@@ -22,12 +22,12 @@ $$\frac{\epsilon}{h}\xrightarrow{h\rightarrow 0}0$$
 The scheme is of order $p$ if
 $$\epsilon =\mathcal{O}(h^{p+1})$$
 
+
 #todo big TODO tornberg, schlatter, faustmann, https://math.stackexchange.com/questions/1921554/local-vs-global-truncation-error
 schlatter: study question 22 order of scheme
 tornberg HW2 ex2.2
-#todo ignore the stuff above and just add my summary of lec4 with the adv. equ example!
-
-[[Consistency finite differences vs finite elements]]
+or: ignore the stuff above and just add my summary of lec4 with the adv. equ example!
+add this link [[Consistency finite differences vs finite elements]]
 
 
 ## Stability
