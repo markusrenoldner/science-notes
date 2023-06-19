@@ -1,9 +1,6 @@
 important branch of [[Physics]]
 
 
-#todo  just read Bartelmann
-
-
 ## Topics:
 - [[Electrostatic basics]]
 - [[Maxwell equations]]

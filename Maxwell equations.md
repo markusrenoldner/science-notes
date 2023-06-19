@@ -1,7 +1,5 @@
-
 [[Electrodynamics]]
 
-#todo 
 
 ## Differential formulation
 (there is also an integral formulation of course)

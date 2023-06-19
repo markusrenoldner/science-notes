@@ -1,9 +1,6 @@
 important branch of [[Physics]]
 
 
-#todo just read Bartelmann
-
-
 ## Topics:
 - Newton axiome
 - [[Zeitfreie Gleichung]]

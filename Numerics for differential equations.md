@@ -15,15 +15,13 @@ One of the most important branches of [[Numerics]], goal: solving [[Differential
 	- [[Von Neumann stability analysis]]
 	- [[CFL condition]]
 
-#todo tornberg NDE lec2,3 for characteristics 
-
 
 #todo 
 - Runge-Kutta methods
 - Shooting method
 - error estim/conv rates von FD, FV, FEM
 - Stability of ODE integrators (A-stability, etc.)
-- Method of characteristics
+- Method of characteristics (tornberg NDE lec2,3)
 - Method of lines
 - Comparison of FV, FD, and FEM
 - Spectral methods
