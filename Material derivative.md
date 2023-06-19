@@ -1,10 +1,6 @@
+Also called convective or substantial derivative, appears in [[Fluid Dynamics]].
 
-
-also convective or substantial derivative.
-
-describes the time rate of change of a physical quantity (like heat or momentum) of a material element that is under the influence of a space and time dependent velocity field (=it moves).
-
-Does appear in [[Fluid Dynamics]] .
+It describes the time rate of change of a physical quantity (like heat or momentum) of a material element that is under the influence of a space and time dependent velocity field (=it moves).
 
 For a quantity or tensor field $\phi(x,t)$ the material derivative is
 $$\frac{D\phi}{Dt} \equiv \frac{\partial\phi }{\partial t}+ u \cdot \nabla \phi$$
@@ -23,16 +19,15 @@ $$\begin{align}\frac{Du}{Dt} &\equiv \frac{\partial u }{\partial t}+  (\nabla u)
 &=\frac{\partial u }{\partial t}+ \begin{pmatrix}\partial_x u_x & \partial_y u_x\\\partial_x u_y & \partial_y u_y\end{pmatrix}\cdot \begin{pmatrix}u_x\\u_y\end{pmatrix}\\
 &= \frac{\partial u }{\partial t}+ \begin{pmatrix}u_x \partial_x u_x+ u_y  \partial_y u_x\\ u_x \partial_x u_y + u_y  \partial_y u_y\end{pmatrix}
 \end{align}$$
-In cartesian coordinates, the volicity gradient $\nabla u$ is the Jacobi matrix.
-
+In cartesian coordinates, the velicity gradient $\nabla u$ is the Jacobi matrix.
 
 
 ## Derivation
-#todo derivation, eulerian/lagrangian viewpoint
-#todo derivation in polar, spherical, general coordinates 
+- https://en.wikipedia.org/wiki/Derivation_of_the_Navier%E2%80%93Stokes_equations#Conservation_of_momentum
+- Bartelmann1, chapter 8.6, equation 8.186
+- Hanifi - Computational Fluid Dynamics part 1, lecture notes
 
 
-
-### Sources:
+## Sources:
 - https://en.wikipedia.org/wiki/Material_derivative
-- Bartelmann 1, equation 8.186
+- Bartelmann1, chapter 8.6, equation 8.186
