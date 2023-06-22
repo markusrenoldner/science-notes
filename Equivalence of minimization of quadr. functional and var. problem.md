@@ -1,5 +1,4 @@
 
-
 ## Definition: [[Variational formulation, variational problem]] on an [[Affine space]]
 
 ![[def-variationalproblem.png]]
@@ -10,8 +9,6 @@
 
 ![[equivalence-quadrmin-variational.png]]
 this theorem is formulated on a vector space, but also works on an affine space as visible in [[Minimum of quadratic functionals]]
-
-
 
 
 ## Proof
