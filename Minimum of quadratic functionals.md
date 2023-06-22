@@ -45,7 +45,6 @@ This is a quadr. min. problem over a proper vector space $V_0$. This is great, a
 The offset function g can be any function satisfying the boundary condition. Sso we might as well chose the simplest function: For a scalar problem, this is an affine linear function.
 
 
-
 ## Solvability and uniqueness
 
 a is pos. semi definite if
