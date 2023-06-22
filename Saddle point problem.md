@@ -16,6 +16,7 @@ $$Mx=0$$
 with $x=(u,p)^T$. The respective quadratic form $F$ of $M$ is
 $$x^T\cdot M \cdot x = u^TAu+u^TBp+p^TB^Tu =: F(u,p)$$
 Now if $\tilde x=(\tilde u,\tilde p)^T$ is a solution of $Mx=0$, then it is also a saddle point of $F$.
+A form is a polynomial whose nonzero terms all have the same degree, e.g. $x^2+xy+y^2$.
 
 
 ## Idea of proof:
@@ -26,4 +27,5 @@ $$F(u,\tilde p) \geq 0$$
 
 
 ## Source:
-https://de.wikipedia.org/wiki/Sattelpunktproblem
+- https://de.wikipedia.org/wiki/Sattelpunktproblem
+- https://en.wikipedia.org/wiki/Quadratic_form
