@@ -24,7 +24,7 @@ One of the most important branches of [[Numerics]], goal: solving [[Differential
 - Method of characteristics (tornberg NDE lec2,3)
 - Method of lines
 - Comparison of FV, FD, and FEM
-- Spectral methods
+- Spectral methods (tornberg, NDE lec10-13)
 
 
 ## Main sources:
