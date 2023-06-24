@@ -13,21 +13,12 @@ $$\Vert u_h - u\Vert \xrightarrow{h\rightarrow 0} 0$$
 
 
 ## Consistency (order)
-If the num. scheme is
-$$u_{h}^{n+1} = \Psi(u_h^n) $$
-Then the local truncation error is then
-$$\epsilon^{n+1} = \Psi(u_h^n) - u(t^{n+1})$$
-and consistency is given if
-$$\frac{\epsilon}{h}\xrightarrow{h\rightarrow 0}0$$
-The scheme is of order $p$ if
-$$\epsilon =\mathcal{O}(h^{p+1})$$
+The consistency (order) describes how well a numerical scheme with exact input (!!!) actually solves the given PDE-problem.
+I.e. we plug in the exact solution, use the fact that it satisfies the given PDE and yield a residual term that shows the consistency order.
+This residual is a "local truncation error" that is produces by the scheme in each computation step.
 
-
-#todo big TODO tornberg, schlatter, faustmann, https://math.stackexchange.com/questions/1921554/local-vs-global-truncation-error
-schlatter: study question 22 order of scheme
-tornberg HW2 ex2.2
-or: ignore the stuff above and just add my summary of lec4 with the adv. equ example!
-add this link [[Consistency finite differences vs finite elements]]
+More details: [[Consistency, order, and local truncation error of finite difference scheme]]
+For consistency for FEM, refer to [[Consistency finite differences vs finite elements]].
 
 
 ## Stability
@@ -41,6 +32,10 @@ Several different approaches, e.g.
 Von Neumann analysis can only handle periodic boundary conditions or no boundaries. The energy method can handle more general boundary conditions.
 
 
+## Relationship to condition number
+[[Numeric condition, stability, consistency and convergence]]
+
+
 ## Source:
-- Prof. Tornberg - Numerical solutions of differential equations, KTH lecture notes 2022
+- Prof. Tornberg - Numerical solutions of differential equations, KTH lecture notes 2022, lecture 4
 - https://en.wikipedia.org/wiki/Numerical_methods_for_ordinary_differential_equations
