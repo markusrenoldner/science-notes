@@ -1,45 +1,38 @@
-
 important numerical technique for partial differential equations/PDE (see [[Differential equations]] in [[Numerics for differential equations]]
 
 
-## Idea
+
+## Idea of FEM
 The endgoal is to transfer the PDE problem into a linear system of equations whose solution approximates the PDE.
-This is done by interpolating the unknown function.
-
-
-## Variational Formulation
-see also [[Variational formulation, variational problem]]
+This is done by interpolating the unknown function in a finite dimensional function space (polynomials of a certain degree).
 
 
 
-Usually, the PDE problem is being transferred into a variational formulation by multiplying by a testfunction and then partially integrating over the domain. This reduces regularity requirements on the unknowns, and forcing terms.
-For example, consider the poisson problem:
-$$\Delta u = f$$
-
-
-## Finite dimensional function spaces/FEM spaces
-
-
-## Assembly
-
-
-
-#todo idea of FEM, inclusive global assembly, interpolation operators, local-global mapping, reference transformation
-#todo insert fausit summary for diplimprüfung
-
-
-
-
-some info on assembly:
-https://mfem.org/bilininteg/#bilinear-form-integrators
-
-https://mfem.org/lininteg/#:~:text=Linear%20form%20integrators%20are%20the,sometimes%20over%20edges%20or%20faces
-
-
-## Solvability
-[[Lax-Milgram lemma]]
-
-
+#todo insert fausit summary for diplimprüfung, structure:
+- idea of FEM
+	-  [[Variational formulation, variational problem]]
+- abstract FEM theory
+	- basics bestapprox, linforms
+	- inprod, RR theorem
+	- coercive, Lax milg, approx of coercive (galerkin ortho, Cea), [[Lax-Milgram lemma]]
+	- sob spaces
+		- gen derivatives
+		- theorems: meyer serrin, rellich, poincare inequ, bramble hilb
+		- traces, poincare frid ineq
+- exapmle: weak form of poisson
+	- dirichlet
+	- various BC
+- FEM (fausti+thesis)
+	- Def, local interp, equivalence, mesh
+	- gobal basis
+	- assembly
+	- error analysis
+- adaptivity
+- mixed forms
+- applications (stokes, convection, maxwell)
+#todo include this some info on assembly:
+- https://mfem.org/bilininteg/#bilinear-form-integrators
+- https://mfem.org/lininteg/#:~:text=Linear%20form%20integrators%20are%20the,sometimes%20over%20edges%20or%20faces
 
 
 
