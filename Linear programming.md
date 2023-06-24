@@ -14,7 +14,7 @@ also, each instrument will of course only be chose once (we dont take the same i
 
 ## Reformulate problem
 given: $s_A, s_B, s_C$, $m_A, m_B, m_C$, and $M$
-maximize: $S(A,B,C)=A s_a + B s_b + C s_c$
+maximize (the so called "objective function"): $S(A,B,C)=A s_a + B s_b + C s_c$
 under the inequality constraints: $A m_a + B m_b + C m_c \leq M$, $A-1\leq 0$, $B\leq 1$ , and $C\leq 1$
 It is implicitly assumed, that $A,B,C$ are nonnegative.
 
