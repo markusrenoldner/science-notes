@@ -48,4 +48,5 @@ $$F(U,V)=\frac{1}{2}\left(f(U)+f(V)-\frac{\Delta x}{\Delta t} \frac{(f(V)-f(U))^
 
 
 ## Source:
-- Prof. Tornberg - Numerical solutions of differential equations, KTH lecture notes 2022
+- Prof. Tornberg - Numerical solutions of differential equations, KTH lecture notes 2022, lecture 3
+

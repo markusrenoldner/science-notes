@@ -24,5 +24,5 @@ The pointwise limit of a sequence of continuous functions may be a discontinuous
 
 
 ## Source
-- Prof. Tornberg - Numerical solutions of differential equations, KTH lecture notes, lecture 10 2022
+- Prof. Tornberg - Numerical solutions of differential equations, KTH lecture notes 2022, lecture 10
 - https://en.wikipedia.org/wiki/Pointwise_convergence
