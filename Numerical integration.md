@@ -2,18 +2,14 @@ important branch of [[Numerics]]
 
 
 ## Topics
-- Gauss elimination
-- LU Factorization
-- Cholesky Factorization
-- QR Factorization
-	- Gram schmitt
-	- housholder reflections
-	- with pivoting
+- Legendre
+- Gauss Quadr.
 
 
 ## Notes
-#pdf-note 
-![[numerics-14-18-linearsystems.pdf]]
+#pdf-note
+![[numerics-9-12-integration.pdf]]
+
 
 
 ## Sources:
