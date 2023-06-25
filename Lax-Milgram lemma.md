@@ -1,4 +1,21 @@
 
-proofs unisolvence of [[Variational formulation, variational problem]]s with continuous and coercive bilinearform
+## Definitions
 
-#todo proof
+A bilinearform $(.,.)$ is coercive,     if $\exists \alpha_1 \in \mathbb{R}$, s.t. $(u,u)\geq \alpha_1 \Vert u\Vert ^2 \quad \forall u.$ 
+A bilinearform $(.,.)$ is continuous if $\exists \alpha_2 \in \mathbb{R}$, s.t. $(u,v) \leq \alpha_2 \Vert u\Vert \Vert v \Vert\quad \forall u,v.$
+
+Continuity of a blf can usually be shown using the Cauchy Schwarz inequality.
+
+proofs unisolvence of [[Variational formulation, variational problem]]s with continuous and coercive bilinearform, important for [[Finite Element Method (FEM)]].
+
+
+## Main statement
+Let $V$ be Hilbert space, $a(.,.)$ coercive and continuous bilinearform, $f(.)$ cont. Then the problem to find $u$ s.t. $$a(u,v)=f(v) \quad \forall v$$is unisolvent. Moreover:$$
+\|u\| \leq \alpha_1^{-1}\|f\|
+$$where $f$ is measured in the dual norm $\|f\| \equiv \sup _{v} \frac{l(v)}{\|v\|}$.
+
+See proof in faustmann
+
+
+
+#todo source
