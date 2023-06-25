@@ -15,6 +15,7 @@ One of the most important branches of [[Numerics]], goal: solving [[Differential
 	- [[Lax equivalence theorem]]
 	- [[Von Neumann stability analysis]]
 	- [[CFL condition]]
+	- [[Consistency, order, and local truncation error of finite difference scheme]]
 
 
 #todo 
