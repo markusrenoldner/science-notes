@@ -1,4 +1,5 @@
 is a numerical scheme, that conserves certain properties of the unknown. It does this by deriving a formula for the "exact cell average" of the unknown. This formula is then approximated using [[Numerical integration]].
+Volume integrals in a partial differential equation that contain a divergence term are converted to surface integrals, using the divergence theorem. These terms are then evaluated as fluxes at the surfaces of each finite volume.
 
 We will now consider the method for a 1D [[Conservation law, transport equation]]:
 $$\partial_t u + \partial_x f(u)=0$$
@@ -53,4 +54,5 @@ $$F(U,V)=\frac{1}{2}\left(f(U)+f(V)-\frac{\Delta x}{\Delta t} \frac{(f(V)-f(U))^
 
 ## Source:
 - Prof. Tornberg - Numerical solutions of differential equations, KTH lecture notes 2022, lecture 3
+- https://en.wikipedia.org/wiki/Numerical_methods_for_partial_differential_equations
 
