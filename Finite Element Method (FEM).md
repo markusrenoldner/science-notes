@@ -7,10 +7,10 @@ This is done by deriving a [[Variational formulation, variational problem]]/weak
 
 
 ## Theoretical backgound
+see [[Finite Element theory]], it covers:
 - solvability of variational problems
 - properties of sobolev spaces
 - Trace operators and BC
-see [[Finite Element theory]]
 
 
 ## Example: Poisson equation with various BC
@@ -18,24 +18,26 @@ see [[Finite Element theory]]
 
 
 ## Finite Element approximation
+### Local point of view:
+The note [[Finite Element]] introduces some "local" (i.e. on one element) objects.
+
+### Global point of view:
+Moreover, [[Finite Element]] discusses the "global" objects (on the whole domain) as well.
+
+### FEM assembly:
+[[Finite Element]] also discusses the assembly of the final linear system of equations.
+
+### FEM error analysis:
+[[Finite Element error analysis]]
 
 
 
 ## todolist
-#todo insert fausit summary for diplimprüfung, structure:
-
-- FEM (fausti+thesis)
-	- Def, local interp, equivalence, mesh [[Finite Element]]
-	- gobal basis
-	- assembly
-	- error analysis
+#todo insert fausit summary for diplomprüfung, structure:
+- FEM error analysis
 - adaptivity
 - mixed forms
 - applications (stokes, convection, maxwell)
-#todo include this some info on assembly:
-- https://mfem.org/bilininteg/#bilinear-form-integrators
-- https://mfem.org/lininteg/#:~:text=Linear%20form%20integrators%20are%20the,sometimes%20over%20edges%20or%20faces
-#todo split this note into subnotes
 
 
 
