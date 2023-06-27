@@ -1,4 +1,4 @@
-We derive an error estimation based on the knowledge of the exact solution.
+We derive an error estimation based on the knowledge of a smooth enough exact solution.
 
 
 ## Goal:
@@ -8,7 +8,7 @@ We know $$\Vert u-u_h\Vert \preceq \inf_{v_h} \Vert u-v_h\Vert \preceq \Vert u- 
 
 The real goal is therefore to find an error bound for$$\Vert u- I_\mathcal{T} u\Vert.$$ We do this in 3 steps:
 1. bound for the reference transformation
-2. estimating the matrix $B$
+2. estimating the matrix $B(=F')$
 3. estimating the interpolation error
 
 
@@ -20,56 +20,51 @@ transformation theorem + chain rule.
 ## Estimate matrix B
 Local mesh width: $h_T:=diam(T) = \sup[\vert x-y\vert, x,y\in T]$ 
 Shape-regular mesh: if $\vert T\vert \geq \gamma h_t$ with $\gamma\approx 1$
-Quasi-uniform mesh: $h\simeq h_T \quad \forall T$
-There holds: $$\Vert B\Vert \simeq h_T, \quad \Vert B\Vert ^{-1}\simeq h_t^{-1}$$ (No proof.)
+There holds: $$\Vert B\Vert \simeq h_T, \quad \Vert B\Vert ^{-1}\simeq h_T^{-1}$$ (No proof.)
 
 
 ## Estimate interpolation error:
-Let $\mathcal{T}$ be shape-regular, then we get $$\begin{align}\Vert u-I_\mathcal{T}v\Vert^2 &\preceq \sum_T h_T^4 \Vert v\Vert^2_{H^2}\\
+Assume
+- $u\in H^2(\Omega)$
+- $\mathcal{P}^1$-FEM space
+- $\mathcal{T}$ shape-regular
+Then: $$\begin{align}\Vert u-I_\mathcal{T}v\Vert^2 &\preceq \sum_T h_T^4 \Vert v\Vert^2_{H^2}\\
 \vert v-I_\mathcal{T}\vert_{H^1} &\preceq \sum_T h_T^2 \Vert v \Vert^2_{H^2}
 \end{align}$$ Proof.
-We prove the $H^1$ estimate, the $L_2$ one follows with the same arguments. The interpolation error on each element is transformed to the interpolation error on the reference element. Using the interpolation equivalence of the elements to the reference element gives
+We prove $H^1$ estimate, $L_2$ follows with the same arguments. Transform interp. error on each $T$ to $\hat T$ using interpolation equivalence, "IE" as defined in [[Finite Element]], as well as estimate of the reference transformation "RT": $$
+\begin{align}
+\left|v-I_{\mathcal{T}} v\right|_{H^1(\Omega)}^2  & \overset{IE}{=}\sum_{T }\left|v_T-I_T v_T\right|_{H^1(T)}^2 \\
+& \overset{RT}{\preceq} \sum_{T }\left(\operatorname{det} B_T\right)\left\|B_T^{-1}\right\|^2\left|\left(v_T-I_T v_T\right) \circ F_T\right|_{H^1(\widehat{T})}^2 \\
+& = \sum_{T }\left(\operatorname{det} B_T\right)\left\|B_T^{-1}\right\|^2\left|v_T \circ F_T-I_{\widehat{T}}\left(v_T \circ F_T\right)\right|_{H^1(\widehat{T})}^2 . \\
+\end{align}$$ Now as $I_{\widehat{T}}\left(v_T \circ F_T\right) \in \mathcal{P}_1$, we use  Bramble-Hilbert, "BH" (see [[Finite Element theory]]) with $k=2$, which means: $\vert v_T \circ F_T - I_\hat T(v_T \circ F_T )\vert_{H^1(\hat T)} \preceq \vert v_T \circ F_T \vert_{H^2(\hat T)}$ . The right hand side is the H2 seminorm. Then using "RT" again as well as the estimate for $B$, we transform back to $T$
 $$
 \begin{aligned}
-& \left|v-I_{\mathcal{T}} v\right|_{H^1(\Omega)}^2 \quad=\sum_{T \in \mathcal{T}}\left|v_T-I_T v_T\right|_{H^1(T)}^2 \\
-& \stackrel{\text { Lem. }}{\leq}{ }^{4.7} C \sum_{T \in \mathcal{T}}\left(\operatorname{det} B_T\right)\left\|B_T^{-1}\right\|^2\left|\left(v_T-I_T v_T\right) \circ F_T\right|_{H^1(\widehat{T})}^2 \\
-& =\quad \sum_{T \in \mathcal{T}}\left(\operatorname{det} B_T\right)\left\|B_T^{-1}\right\|^2\left|v_T \circ F_T-I_{\widehat{T}}\left(v_T \circ F_T\right)\right|_{H^1(\widehat{T})}^2 . \\
-&
+\left|v-I_{\mathcal{T}} v\right|_{H^1(\Omega)}^2 & \overset{BH}{\preceq} \sum_{T }\left(\operatorname{det} B_T\right)\left\|B_T^{-1}\right\|^2\left|v_T \circ F_T\right|_{H^2(\widehat{T})}^2 \\
+& \preceq\sum_{T }\left(\operatorname{det} B_T\right)\left\|B_T^{-1}\right\|^2\left(\operatorname{det} B_T^{-1}\right)\left\|B_T\right\|^4\left|v_T\right|_{H^2(T)}^2 \\
+& \simeq \sum_{T } h_T^2|v|_{H^2(T)}^2 \cdot
 \end{aligned}
 $$
-On the reference element $\widehat{T}$ we apply the Bramble-Hilbert lemma, meaning that $\mid v_T \circ F_T-I_{\widehat{T}}\left(v_T \circ\right.$ $\left.F_T\right)\left.\right|_{H^1(\widehat{T})} \leq C\left|v_T \circ F_T\right|_{H^2(\widehat{T})}$. Then, we transform back to the individual elements, which gives
-$$
-\begin{aligned}
-\left|v-I_{\mathcal{T}} v\right|_{H^1(\Omega)}^2 & \leq C \sum_{T \in \mathcal{T}}\left(\operatorname{det} B_T\right)\left\|B_T^{-1}\right\|^2\left|v_T \circ F_T\right|_{H^2(\widehat{T})}^2 \\
-& \leq C \sum_{T \in \mathcal{T}}\left(\operatorname{det} B_T\right)\left\|B_T^{-1}\right\|^2\left(\operatorname{det} B_T^{-1}\right)\left\|B_T\right\|^4\left|v_T\right|_{H^2(T)}^2 \\
-& =C \sum_{T \in \mathcal{T}} h_T^2|v|_{H^2(T)}^2 \cdot
-\end{aligned}
-$$
-This gives the estimate in the $H^1$-seminorm.
 
 
 ## FEM convergence order
-If the mesh $\mathcal{T}$ is additionally quasi-uniform with mesh-width $h$, there hold the interpolation error estimates
-$$
+Assume additionally to before:
+- $\mathcal{T}$ quasi-uniform
+Then (somehow using Cea's lemma again):$$
 \begin{aligned}
 \left\|u-I_{\mathcal{T}} u\right\|_{L_2(\Omega)} & \leq C h^2|u|_{H^2(\Omega)} \\
 \left|u-I_{\mathcal{T}} u\right|_{H^1(\Omega)} & \leq C h|u|_{H^2(\Omega)}
 \end{aligned}
-$$
-Now, together with the Cea-lemma, we actually have derived convergence rates for the FEM.
-Theorem 4.11 (Finite element convergence). Assume that
-- the weak solution of the model problem is in $H^2(\Omega)$,
-- the triangulation $\mathcal{T}$ is quasi-uniform with mesh-size $h$,
-- the local finite element spaces contain $P^1$.
-Then, the finite element error is bounded by
-$$
-\left\|u-u_h\right\|_{H^1(\Omega)} \leq C h|u|_{H^2(\Omega)}
-$$
- 
+$$(without the sums of the previous estimate and with only one "h") which means convergence: $$u\overset{h\rightarrow 0}{\longrightarrow} u_h=I_\mathcal{T}u$$
+Reducing h is called h-FEM. Increasing the polynomial error is called p-FEM. Comparing the two only valid with equal size of the FEM space dimension in each "improvement step":$$\text{dim}(\mathcal{P}^p)=p^d h^{-d}$$
+## Shift theorem
+"When does $u\in H^2$ hold?"
 
+Let $u$ be the weak solution of $-\Delta u = f$, then
+1. $\Omega$ convex, $f\in L^2 \implies u\in H^2(\Omega)$
+2. $\Omega$ parameterizable by $C^\infty$-functions, $f\in H^k\implies u\in H^{k+2}$
+In both cases the solution depends continuously on the data.
 
-
-#todo 
+For $u\notin H^2$ (e.g. if the domain is not a convex polygon), one can use graded meshes to ensure convergence.
 
 
 ## Sources

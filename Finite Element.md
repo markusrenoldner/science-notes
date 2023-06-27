@@ -41,7 +41,8 @@ For the reference element $\hat{T}$ and another ("physical") element $T$, let th
 1. $T=F^T(\hat{T})$
 2. $u=\hat{u} \circ\left(F^T\right)^{-1}$ for $u \in V^T, \hat{u} \in V^{\hat{T}}$,
 3. $\psi^T(u)=\psi^{\hat{T}}\left(u \circ F^T\right)$,
-If such an $F^T$ exists, then the two elements $\left(T, V^T, \Psi^T\right)$ and $\left(\hat{T}, V^{\hat{T}}, \Psi^{\hat{T}}\right)$ are called affine equivalent.
+If such an $F^T$ exists, then the two elements $\left(T, V^T, \Psi^T\right)$ and $\left(\hat{T}, V^{\hat{T}}, \Psi^{\hat{T}}\right)$ are called affine equivalent. 
+(Some FE dont satisfy these properties, and are only "interpolation equivalent": $I_T(u)\circ F = I_\hat T (u\circ F)$. All equivalent FEs are also interpolation equivalent.)
 
 Interpretation:
 1. The first property holds by construction of $F^T$. $V^T$ is then exactly the space $V^\hat T$ but on the physical element $T$.

@@ -18,23 +18,15 @@ see [[Finite Element theory]], it covers:
 
 
 ## Finite Element approximation
-### Local point of view:
-The note [[Finite Element]] introduces some "local" (i.e. on one element) objects.
-
-### Global point of view:
-Moreover, [[Finite Element]] discusses the "global" objects (on the whole domain) as well.
-
-### FEM assembly:
-[[Finite Element]] also discusses the assembly of the final linear system of equations.
-
-### FEM error analysis:
-[[Finite Element error analysis]]
+1. Local point of view: The note [[Finite Element]] introduces some "local" (i.e. on one element) objects.
+2. Global point of view: Moreover, [[Finite Element]] discusses the "global" objects (on the whole domain) as well.
+3. FEM assembly: [[Finite Element]] also discusses the assembly of the final linear system of equations.
+4. FEM error analysis: [[Finite Element error analysis]]
 
 
 
 ## todolist
 #todo insert fausit summary for diplomprüfung, structure:
-- FEM error analysis
 - adaptivity
 - mixed forms
 - applications (stokes, convection, maxwell)
