@@ -13,7 +13,7 @@ $$\frac{d v}{dt} = f(x,y,z,\sigma,\rho,\beta)$$
 
 
 
-### python code:
+## python code:
 
 ```
 import numpy as np

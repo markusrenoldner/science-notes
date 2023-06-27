@@ -3,19 +3,19 @@
 
 
 
-### Isomorphismus
+## Isomorphismus
 Lineare, bijektive abbildung, stetige abbildung zwischen zwei mengen
 
 
-### Homöomorphismus / homeomorphism
+## Homöomorphismus / homeomorphism
 Isomorphismus zwischen zwei topologischen Räumen ([[Topology and topological space]]) 
 
 
-### Diffeomorphismus
+## Diffeomorphismus
 Isomorphismus zwischen zwei differenzierbaren Mannigfaltigkeiten. Die Inverse ist ebenfalls differenzierbar.
 
 
-### Homomorphism ($\neq$ homeomorphism)
+## Homomorphism ($\neq$ homeomorphism)
 is a mapping that preserves "algebraic structures"
 assume $f:A \mapsto B$ is a homomorphism, $x,y \in A$ and there is an operation $\odot$ , then 
 $$f(x\odot y) = f(x) \odot f(y) $$
@@ -23,9 +23,9 @@ wikipedia says: In mathematics, an algebraic structure consists of a nonempty se
 Example of an fundamentyl algebraic structure: Group (see [[Groups, rings and fields]])
 
 
-### Endomorphism
+## Endomorphism
 an homomorphism that maps from a set into itself: $f:A\mapsto A$
 
 
-### Automorphism
+## Automorphism
 an endomorphism that is an isomorphism

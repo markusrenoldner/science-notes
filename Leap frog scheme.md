@@ -15,6 +15,6 @@ velocities at integer steps:
 
 
 
-### Sources: 
+## Sources: 
 https://de.wikipedia.org/wiki/Leapfrog-Verfahren
 https://en.wikipedia.org/wiki/Leapfrog_integration

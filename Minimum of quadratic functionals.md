@@ -51,7 +51,7 @@ a is pos. semi definite if
 $$a(u, u) ≥ 0 \quad∀u ∈ V_0$$
 a is pos definite if
 $$u ∈ V_0 \backslash \{0\} ⇐⇒ a(u, u) > 0 $$
-#### Necessary cond for existence of minimizer
+### Necessary cond for existence of minimizer
 The quadr. func 
 $$J[v]=\frac{1}{2}a(v,v)-l(v)$$
 on a vector space V is bounded from below only if a is positive semidefinite.

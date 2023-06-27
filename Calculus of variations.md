@@ -1,10 +1,10 @@
 
 
-### goal:
+## Goal:
 find extremum of a functional
 
 
-### Definition of functional:
+## Definition of functional:
 a function $f$ maps a vector/number to a vector/number
 
 a functional $I$ maps a function to a real number
@@ -12,7 +12,7 @@ a functional $I$ maps a function to a real number
 an example of a functional is an integral over a real-valued function:
 $$I[f]:f\mapsto \int_\Omega f(s)\text{d}s$$
 
-### idea:
+## Idea:
 - let $(f_\alpha)$ be a familiy/set of functions parametrized by $\alpha\in(-\epsilon, \epsilon)$ for some $\epsilon > 0$
 - its important to define the function $f_0$ to be the function that minimizes $I$ 
 - replace the functional by a function: $F(\alpha):=I[f_\alpha]$ that is differentiable for $\alpha = 0$

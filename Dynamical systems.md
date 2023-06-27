@@ -10,7 +10,7 @@ studies stability and chaotic behaviour of (usually nonlinear) ODEs (see [[Diffe
 An interesting example of a dynamic system is the [[Lorenz attractor]].
 
 
-### Topics:
+## Topics:
 
 1. Fundamentals
 	1. existence and uniqueness of ODE solutions
@@ -35,5 +35,5 @@ An interesting example of a dynamic system is the [[Lorenz attractor]].
 	2. time-periodic systems
 
 
-### Sources:
+## Sources:
 -  lecture from Prof. Haller: Nonlinear Dynamics and Chaos I & II

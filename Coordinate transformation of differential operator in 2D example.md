@@ -2,7 +2,7 @@
 [[Differentiation in coordinate systems (Vector calculus)]]
 
 
-### Problem:
+## Problem:
 Given is a coord transformation in $\mathbb{R}^2$ :
 $$s=\frac{1}{2}(x+y) \qquad t=\frac{1}{2}(x-y)$$
 Transform the operator $L$ given as:
@@ -11,6 +11,6 @@ to the new coordinates $s,t$ .
 
 
 
-### Solution:
+## Solution:
 #pdf-note ![[op-transform.pdf]]
 
