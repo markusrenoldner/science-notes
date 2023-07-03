@@ -1,4 +1,4 @@
-
+[[Linear algebra]]
 
 
 #pdf-note [[tensors-short.pdf]]
@@ -16,3 +16,4 @@
 - Dr. Ginosar - Lineare Algebra, ETH lecture notes 2021, [[Ginosar-Lineare_Algebra.pdf]]
 - Altland, Delft - Mathematics for Physicists
 - ingmathe yt
+- eigenchris
