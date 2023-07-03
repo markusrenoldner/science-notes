@@ -27,7 +27,7 @@ A method is numerically stable, if "local errors are not amplified too much".
 Several different approaches, e.g. 
 1. [[CFL condition]] (necessary condition) 
 2. [[Von Neumann stability analysis]] (sufficient condition, constant coefficients) 
-3. Energy method (sufficient condition, variable coefficients)
+3. Energy method (sufficient condition, variable coefficients). Handwavy idea: "If the energy/[[Energy norm]] of the unknown is conserved by the scheme $\implies$ stability"
 
 Von Neumann analysis can only handle periodic boundary conditions or no boundaries. The energy method can handle more general boundary conditions.
 
