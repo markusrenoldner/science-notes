@@ -4,15 +4,21 @@ An easy example of [[Numerics for differential equations]] that solves a 2nd ord
 These 2nd order ODEs arise a lot in [[Classical mechanics]] due to Newtons second law.
 There are multiple similar formulations:
 
-
-
 kick-drift form:
-![[leapfrog-kickdrift.png]]
-
-
+$$
+\begin{aligned}
+v_{i+1 / 2} & =v_i+a_i \frac{\Delta t}{2} \\
+x_{i+1} & =x_i+v_{i+1 / 2} \Delta t \\
+v_{i+1} & =v_{i+1 / 2}+a_{i+1} \frac{\Delta t}{2}
+\end{aligned}
+$$
 velocities at integer steps:
-![[leapfrog-intvelocity.png]]
-
+$$
+\begin{aligned}
+& x_{i+1}=x_i+v_i \Delta t+\frac{1}{2} a_i \Delta t^2 \\
+& v_{i+1}=v_i+\frac{1}{2}\left(a_i+a_{i+1}\right) \Delta t
+\end{aligned}
+$$
 
 
 ## Sources: 
