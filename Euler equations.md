@@ -8,8 +8,8 @@ $$
 
 ## Conservative form/conservation form:
 $$
-y_t + \nabla \cdot J(y) = 0
+Y_t + \nabla \cdot J(Y) = 0
 $$
 with
-$$y=\begin{pmatrix} 1\\ \boldsymbol{u} \end{pmatrix} ,\quad J=\begin{pmatrix} \boldsymbol{u}\\ \boldsymbol{u}\otimes\boldsymbol{u} + p I\end{pmatrix}$$
+$$Y=\begin{pmatrix} 1\\ \boldsymbol{u} \end{pmatrix} ,\quad J=\begin{pmatrix} \boldsymbol{u}\\ \boldsymbol{u}\otimes\boldsymbol{u} + p \mathbb{I}\end{pmatrix}$$
 see [[Conservation law, transport equation]], and [[Numerical methods for conservation laws]].
