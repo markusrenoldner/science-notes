@@ -24,13 +24,18 @@ see [[Finite Element theory]], it covers:
 4. FEM error analysis: [[Finite Element error analysis]]
 
 
+## Adaptive FEM
+[[Adaptive FEM]]
+
+
+## Mixed Finite Element formulations
+[[Mixed Finite Element formulations]]
+
 
 ## todolist
-#todo insert fausit summary for diplomprüfung, structure:
-- adaptivity
-- mixed forms
-- applications (stokes, convection, maxwell)
-
+#todo insert fausit summary
+- mixed forms [[FEM-mixedmethods.pdf]]
+- applications (stokes, convection, maxwell) [[FEM-mixedmethods.pdf]]
 
 
 ## Sources
