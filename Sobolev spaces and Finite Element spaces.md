@@ -1,53 +1,4 @@
-necessary introduction into the theoretical background of [[Finite Element Method (FEM)]].
-
-
-## Abstract FEM theory on solvability of some variational problems
-### Bestapproximation property of Hilber spaces:
-Let $S$ convex, Hilbert space $V$, $S\subseteq V$. Then, there exists a unique closest point $u_0 \in S$ 
-$$
-\left\|u-u_0\right\|_V \leq\|u-v\|_V \quad \forall v \in S, u \in V
-$$
-### Riesz-Representation theorem (inner products)
-One can define the functional $l_u(v):= (u,v) \quad \forall v\in V$ for a fixed $u$, as the inner product is linear in $v$. But interestingly, one can also do the reverse:
-One can always define an inner product with a unique $u_l$: $(u_l, v) := l(v) \quad \forall v$ with a fixed $l$. 
-
-This gives unisolvence of the abstract problem to find a unique $u$ that satisfies $$(u,v)=f(v) \quad \forall v,$$ if $(.,.)$ is an inner product. 
-It shows that the poisson problem $-\Delta u = f$ in weak form has a unique solution. This also works for the discrete approximation of this problem.
-
-### Lax Milgram theorem (coercive, continuous BLFs)
-[[Lax-Milgram lemma]]
-It shows that variational problems with coercive, continuous bilinearforms are unisolvent.
-
-### Galerkin method
-In the Galerkin method, were we look for $u_h$ in a finite-dim subspace $V_h\subseteq V$ that fulfils the discrete problem $$a(u_h,v_h)=f(v_h)\quad \forall v_h.$$For coercive bilinearforms, the unisolvence follows automatically from the continuous setting, as continuity and coercivity are inherited into the discrete setting.
-
-### Galerkin orthogonality
-If $u$ solves the weak problem and $u_h$ is its Galerkin approximation, we have
-$$A\left(u-u_h, v_h\right)=0$$
-as
-$$
-A\left(u-u_h, v_h\right)=A\left(u, v_h\right)-A\left(u_h, v_h\right)=f\left(v_h\right)-f\left(v_h\right)=0 \quad \forall v_h \in V_h.
-$$
-This means, that the error $u-u_h$ is orthogonal to our approximation space/to all functions in this space. It allows the formulation of a very important lemma.
-
-### Cea's Lemma (best approximation of the Galerkin method)
-Let the assumptions of the previous lemma hold and $A(\cdot, \cdot)$ be continuous and coercive. Then,
-$$
-\left\|u-u_h\right\|_V \leq \alpha_2 / \alpha_1 \inf_{v_h}\left\|u-v_h\right\|_V
-$$
-i.e., the approximation error of the Galerkin method is quasi optimal.
-
-Proof.
-Let $v_h \in V_h$ be arbitrary. Using Galerkin orthogonality, we compute
-$$
-\begin{aligned}
-\left\|u-u_h\right\|^2 & \leq \alpha_1^{-1} A\left(u-u_h, u-u_h\right) \\
-& =\alpha_1^{-1} A\left(u-u_h, u-v_h\right)+\alpha_1^{-1} A(u-u_h, \underbrace{v_h-u_h}_{\in V_h}) \\
-& =\alpha_1^{-1} A\left(u-u_h, u-v_h\right) \\
-& \leq \alpha_2 / \alpha_1\left\|u-u_h\right\|\left\|u-v_h\right\| .
-\end{aligned}
-$$
-Divide one factor $\left\|u-u_h\right\|_V$. Since $v_h \in V_h$ was arbitrary, the estimation holds true also for the infimum in $V_h$.
+some properties of Sobolev spaces in the framework of the [[Finite Element Method (FEM)]].
 
 
 ## Sobolev space properties
@@ -83,6 +34,7 @@ $$
 \inf _{p \in \mathcal{P}_{k-1}}\|u-p\|_{H^k(\Omega)} \preceq \Vert\nabla u\Vert
 $$
 Interpretation: choose a clever constant/polynomial to subtract from $u$ and you can bound $u$ by its derivatives!
+
 
 
 ## Trace operators and trace spaces

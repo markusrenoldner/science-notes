@@ -1,7 +1,7 @@
 
 ## Two points of view
 1. ... is an equivalent formulation of the problem to find the [[Minimum of quadratic functionals]] , as explained here [[Equivalence of minimization of quadr. functional and var. problem]]
-2. ... can be used to express a generalization of partial differential equation (see [[Differential equations]]
+2. ... can be used to express a generalization of partial differential equation (see [[Differential equations]] that can be solved using the [[Finite Element Method (FEM)]]
 
 
 ## Linear variational problem (on [[Affine space]])

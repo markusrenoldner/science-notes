@@ -3,7 +3,7 @@
 #unlinked 
 
 
-## Defintion:
+## Definition:
 Let
 $$
 M=\left(\begin{array}{cc}
@@ -24,6 +24,9 @@ A form is a polynomial whose nonzero terms all have the same degree, e.g. $x^2+
 2. by using $Mx=0$ and A being pos. def. one can show for any $u$ that
 $$F(u,\tilde p) \geq 0$$
 3. similar one shows for any $p$ that   $$F(\tilde u, p) \leq 0$$This implies that $(\tilde u, p)$ is a saddle point.
+
+
+#todo https://wsc.project.cwi.nl/woudschoten-conferences/2012-woudschoten-conference/Benzi1.pdf
 
 
 ## Source:

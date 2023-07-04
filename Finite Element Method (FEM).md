@@ -7,10 +7,8 @@ This is done by deriving a [[Variational formulation, variational problem]]/weak
 
 
 ## Theoretical backgound
-see [[Finite Element theory]], it covers:
-- solvability of variational problems
-- properties of sobolev spaces
-- Trace operators and BC
+1. [[Solvability of continuous and discrete variational problems]]
+2. properties of sobolev spaces and trace operators and BC, covered in [[Sobolev spaces and Finite Element spaces]]
 
 
 ## Example: Poisson equation with various BC
@@ -29,13 +27,10 @@ see [[Finite Element theory]], it covers:
 
 
 ## Mixed Finite Element formulations
-[[Mixed Finite Element formulations]]
-
-
-## todolist
-#todo insert fausit summary
-- mixed forms [[FEM-mixedmethods.pdf]]
-- applications (stokes, convection, maxwell) [[FEM-mixedmethods.pdf]]
+A mixed method is a variational formulation involving two function spaces, and a bilinearform of a special saddle point structure ([[Saddle point problem]]). Usually, it is obtained from [[Variational formulation, variational problem]]s with constraints.
+- [[Example mixed Finite Element formulations]]
+- [[Brezzi Theorem]]
+More examples (Stokes flow problem, convection-dominated flow problem with boundary layer and Maxwell problem) can be found in Faustmann.
 
 
 ## Sources

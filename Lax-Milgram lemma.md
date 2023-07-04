@@ -1,8 +1,8 @@
 
 ## Definitions
 
-A bilinearform $(.,.)$ is coercive,     if $\exists \alpha_1 \in \mathbb{R}$, s.t. $(u,u)\geq \alpha_1 \Vert u\Vert ^2 \quad \forall u.$ 
-A bilinearform $(.,.)$ is continuous if $\exists \alpha_2 \in \mathbb{R}$, s.t. $(u,v) \leq \alpha_2 \Vert u\Vert \Vert v \Vert\quad \forall u,v.$
+A bilinearform $a(.,.)$ is coercive,     if $\exists \alpha_1 \in \mathbb{R}$, s.t. $a(u,u)\geq \alpha_1 \Vert u\Vert ^2 \quad \forall u.$ 
+A bilinearform $a(.,.)$ is continuous if $\exists \alpha_2 \in \mathbb{R}$, s.t. $a(u,v) \leq \alpha_2 \Vert u\Vert \Vert v \Vert\quad \forall u,v.$
 
 Continuity of a blf can usually be shown using the Cauchy Schwarz inequality.
 

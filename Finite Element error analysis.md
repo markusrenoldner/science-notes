@@ -4,7 +4,7 @@ We derive an error estimation based on the knowledge of a smooth enough exact so
 ## Goal:
 we want to find a bound for the discretization error of the [[Finite Element Method (FEM)]]:$$\Vert u-u_h\Vert\leq ???$$ where $u_h$ is the discrete approximation of $u$.
 
-We know $$\Vert u-u_h\Vert \preceq \inf_{v_h} \Vert u-v_h\Vert \preceq \Vert u- I_\mathcal{T} u\Vert$$the first inequality comes from Cea's lemma ([[Finite Element theory]]) and the second one from properties of the global interpolation operator introduced in [[Finite Element]]. The symbol $\preceq$ means $\leq$ up to constants.
+We know $$\Vert u-u_h\Vert \preceq \inf_{v_h} \Vert u-v_h\Vert \preceq \Vert u- I_\mathcal{T} u\Vert$$the first inequality comes from Cea's lemma ([[Solvability of continuous and discrete variational problems]]) and the second one from properties of the global interpolation operator introduced in [[Finite Element]]. The symbol $\preceq$ means $\leq$ up to constants.
 
 The real goal is therefore to find an error bound for$$\Vert u- I_\mathcal{T} u\Vert.$$ We do this in 3 steps:
 1. bound for the reference transformation
@@ -36,7 +36,7 @@ We prove $H^1$ estimate, $L_2$ follows with the same arguments. Transform interp
 \left|v-I_{\mathcal{T}} v\right|_{H^1(\Omega)}^2  & \overset{IE}{=}\sum_{T }\left|v_T-I_T v_T\right|_{H^1(T)}^2 \\
 & \overset{RT}{\preceq} \sum_{T }\left(\operatorname{det} B_T\right)\left\|B_T^{-1}\right\|^2\left|\left(v_T-I_T v_T\right) \circ F_T\right|_{H^1(\widehat{T})}^2 \\
 & = \sum_{T }\left(\operatorname{det} B_T\right)\left\|B_T^{-1}\right\|^2\left|v_T \circ F_T-I_{\widehat{T}}\left(v_T \circ F_T\right)\right|_{H^1(\widehat{T})}^2 . \\
-\end{align}$$ Now as $I_{\widehat{T}}\left(v_T \circ F_T\right) \in \mathcal{P}_1$, we use  Bramble-Hilbert, "BH" (see [[Finite Element theory]]) with $k=2$, which means: $\vert v_T \circ F_T - I_\hat T(v_T \circ F_T )\vert_{H^1(\hat T)} \preceq \vert v_T \circ F_T \vert_{H^2(\hat T)}$ . The right hand side is the H2 seminorm. Then using "RT" again as well as the estimate for $B$, we transform back to $T$
+\end{align}$$ Now as $I_{\widehat{T}}\left(v_T \circ F_T\right) \in \mathcal{P}_1$, we use  Bramble-Hilbert, "BH" (see [[Sobolev spaces and Finite Element spaces]]) with $k=2$, which means: $\vert v_T \circ F_T - I_\hat T(v_T \circ F_T )\vert_{H^1(\hat T)} \preceq \vert v_T \circ F_T \vert_{H^2(\hat T)}$ . The right hand side is the H2 seminorm. Then using "RT" again as well as the estimate for $B$, we transform back to $T$
 $$
 \begin{aligned}
 \left|v-I_{\mathcal{T}} v\right|_{H^1(\Omega)}^2 & \overset{BH}{\preceq} \sum_{T }\left(\operatorname{det} B_T\right)\left\|B_T^{-1}\right\|^2\left|v_T \circ F_T\right|_{H^2(\widehat{T})}^2 \\
