@@ -24,7 +24,7 @@ $H1$ functions are continuous! Otherwise the weak differentiability would not wo
 is defined as $H^1:=\{u\in H^1: tr(u)=0 \text{ on } \partial \Omega\}$
 
 ### $H^{-1}$ 
-is the dual space of $H^1_0$ , i.e. it contains linear functionals/covectors mapping from $H_0^1\rightarrow \mathbb{R}$ 
+is the dual space of $H^1_0$ , i.e. it contains linear functionals/covectors map from $H_0^1\rightarrow \mathbb{R}$ 
 
 ### H(curl)
 is defined as $H(curl):=\{u\in L^2: \nabla\times u\in L^2\}$

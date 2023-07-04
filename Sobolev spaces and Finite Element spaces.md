@@ -10,7 +10,7 @@ $C^\infty$ is dense in $H^k$ for all $k$. This is equivalent to saying$$C^\infty
 ### Rellich compactness theorem
 The follwing is a very strong theorem that states compactness of the inclusion of Sobolev spaces of higher orders. It says
 $$H^l\subset H^k \quad \forall l>k \implies \iota:H^l\rightarrow H^k:u\mapsto u \text{ is compact}$$
-Here $\iota$ is the "inclusion mapping". Interpretation: let $u_h\in H^l$ be bounded, then $\iota(u_h)$ has a convergent subsequence.
+Here $\iota$ is the "inclusion map". Interpretation: let $u_h\in H^l$ be bounded, then $\iota(u_h)$ has a convergent subsequence.
 
 ### Sobolev embedding theorem
 Provided the order of differentiation is large enough Sobolev functions are actually continuous. If $k>\frac{n}{2}$, with $n$ being the space dimension, we have
@@ -77,7 +77,7 @@ $$
 $$
 Proof. 
 (Details in Faustmann, Theorem 3.13)
-For a special case of $\Omega \subset \mathbb{R}^2$ being a convex polygon and $v\in C^\infty$, we can show that $$\|v\|^2 \preceq\|v\|_{H^1}^2$$ which shows continuity of the trace operator mapping from $C^{\infty}({\Omega})$ to $L^2(\partial \Omega)$. By density of $C^{\infty}$ in $H^1$ this result can be extended to $H^1(\Omega)$.
+For a special case of $\Omega \subset \mathbb{R}^2$ being a convex polygon and $v\in C^\infty$, we can show that $$\|v\|^2 \preceq\|v\|_{H^1}^2$$ which shows continuity of the trace operator map from $C^{\infty}({\Omega})$ to $L^2(\partial \Omega)$. By density of $C^{\infty}$ in $H^1$ this result can be extended to $H^1(\Omega)$.
 
 ### "Trace space"
 By construction, every function in $H^1(\Omega)$ has a trace in $L^2(\partial\Omega)$, but not every function in $L^2(\partial\Omega)$ is the trace of some function in $H^1(\Omega)$ - i.e. the trace operator is not bijective on these spaces.

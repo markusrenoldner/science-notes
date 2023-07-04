@@ -77,8 +77,8 @@ Global basis:
 2. identify functionals that coincide on element interfaces ("remove duplicates")
 3. find $\phi_i$ by requiring globally: $\psi_j(\phi_i)=\delta_{ij}$ 
 
-This is done by a so calloed "connectivity matrix" or a "local-global-mapping":
-Matches indices of local and global functionals and global basis functions. This matrix/mapping has to be constructed once for each element.
+This is done by a so calloed "connectivity matrix" or a "local-global-map":
+Matches indices of local and global functionals and global basis functions. This matrix/map has to be constructed once for each element.
 
 
 ## Assembly of the linear system of equations (in 1D)
@@ -130,7 +130,7 @@ initialize: ${A}:=0, \vec{f}:=0$
 for $T \in \mathcal{T}$:
 	compute $F_T$ and $F_T^{\prime}$
 	compute ${A}^T$ and $\vec{f}^T$
-	compute $C_T$ or the local-to-global mapping
+	compute $C_T$ or the local-to-global map
 	for $i\in{0, ... N_T}$:
 		add element vector to global vector: $\vec{f}+=C_T \vec{f}^T$
 		for $j\in 0,...N_T$:

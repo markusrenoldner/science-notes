@@ -1,5 +1,5 @@
 
-[[Numerics]]
+[[Numerical analysis]]
 #paper
 
 The paper explains why Krylov methods make sense and why it is natural to represent a solution to a linear system as a member of a Krylov space. The paper shows that the solution to a nonsingular linear system Ax = b lies in a Krylov space whose dimension is the degree of the minimal polynomial of A. Therefore, if the minimal polynomial of A has low degree then the space in which a Krylov method searches for the solution can be small.

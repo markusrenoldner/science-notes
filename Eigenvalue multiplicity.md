@@ -35,7 +35,7 @@ $$\begin{align}
 \operatorname{dim}n&=\operatorname{dim}\operatorname{ker}(M)&&+\operatorname{dim}\operatorname{im}(M)\\
 3&=1&&+2
 \end{align}$$
-where $n$ is the dimension of the domain which $A$ is mapping from ($\operatorname{dim}\operatorname{im}(\cdot)$ is also called $\operatorname{rank}(\cdot)$).
+where $n$ is the dimension of the domain which $A$ is map from ($\operatorname{dim}\operatorname{im}(\cdot)$ is also called $\operatorname{rank}(\cdot)$).
 
 The geometric multiplicity of $\lambda_2$ is 1 as this is the eigenspace dimension.
 

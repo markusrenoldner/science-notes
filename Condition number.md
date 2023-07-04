@@ -1,4 +1,4 @@
-important idea from [[Numerics]]
+important idea from [[Numerical analysis]]
 
 
 ## Notes

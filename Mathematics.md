@@ -5,7 +5,7 @@ can be regarded a formal language consisting of structures and objects, that are
 - [[Linear algebra]]
 - [[Analysis]]
 - [[Differential geometry]]
-- [[Numerics]]
+- [[Numerical analysis]]
 - [[Differential equations]]
 
 

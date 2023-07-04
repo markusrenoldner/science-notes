@@ -1,4 +1,4 @@
-[[Numerics]]
+[[Numerical analysis]]
 
 
 ## Goal

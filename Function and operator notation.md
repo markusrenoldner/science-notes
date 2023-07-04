@@ -17,7 +17,7 @@ f:\mathbb{R}^2 &\rightarrow \mathbb{R}\\
 
 
 ## Operators
-are mappings that map functions to functions. An operator can e.g. map from a vector space into another vector space.
+are maps that map functions to functions. An operator can e.g. map from a vector space into another vector space.
 
 An example is a differential operator $D$. It can be notated as follows:
 $$D:C^1(M) \rightarrow C^0(M)$$

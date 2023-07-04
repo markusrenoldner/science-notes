@@ -1,5 +1,5 @@
 
-[[Numerics]]
+[[Numerical analysis]]
 
 #pdf-note [[numerics-errorsandcomplexity.pdf]]
 

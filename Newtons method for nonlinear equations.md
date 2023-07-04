@@ -1,5 +1,5 @@
 
-important branch of [[Numerics]]
+important branch of [[Numerical analysis]]
 
 
 ## Topics
