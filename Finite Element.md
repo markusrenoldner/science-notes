@@ -139,8 +139,6 @@ for $T \in \mathcal{T}$:
 For Dirichlet boundary conditions lines and columns corresponding to nodal basis functions with nodes on the Dirichlet boundary of the matrix A can be omitted. An overview of how to implement boundary conditions can be found here: [[Boundary conditions of linear systems]].
 
 
-#todo 
-
 ## Sources
 - Prof. Faustmann - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2021
 - https://mfem.org/bilininteg/
