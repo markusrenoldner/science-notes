@@ -1,4 +1,4 @@
-One of the most important branches of [[Numerics]], goal: solving [[Differential equations]].
+One of the most important branches of [[Numerical analysis]], goal: solving [[Differential equations]].
 
 
 ## Numerical methods:
@@ -11,6 +11,9 @@ One of the most important branches of [[Numerics]], goal: solving [[Differential
 - [[Numerical methods for ODEs]]
 - [[Symplectic ODE integrators]]
 - [[Numerical methods for conservation laws]]
+- Method of characteristics [1]
+- Method of lines [6]
+- Spectral methods [1]
 
 
 ## Properties of numerical schemes:
@@ -18,11 +21,13 @@ One of the most important branches of [[Numerics]], goal: solving [[Differential
 - [[Von Neumann stability analysis]]
 - [[CFL condition]]
 - [[Consistency, order, and local truncation error of finite difference scheme]]
+- Stability of ODE integrators [2,5,6]
 
 
 ## Main sources:
-- Prof. Tornberg - Numerical solutions of differential equations, KTH lecture notes 2022
-- Dr. Körner - Mathematical modelling in systems simultion, TU Wien lecture notes 2021
-- Prof. Faustmann - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2021
-- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [[hiptmair-NUMPDE.pdf]]
-- Prof. Schöberl - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2020
+1. Prof. Tornberg - Numerical solutions of differential equations, KTH lecture notes 2022
+2. Prof. Faustmann - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2021
+3. Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [[hiptmair-NUMPDE.pdf]]
+4. Prof. Schöberl - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2020
+5. Prof. Schlatter - Computational Fluid Mechanics, KTH lecture ntoes 2022
+6. Prof. Körner - Mathematical modelling in systems simultion, TU Wien lecture notes 2021
