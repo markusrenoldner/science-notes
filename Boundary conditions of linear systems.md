@@ -1,4 +1,4 @@
-[[Numerics]]
+[[Numerical analysis]]
 
 
 consider linear system of equations written as a matrix equation:

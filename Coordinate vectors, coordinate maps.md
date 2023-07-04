@@ -1,11 +1,12 @@
+Coordinate vectors allow to represent vectors (elements of vector spaces) as a list of numbers called coordinates with respect to a certain basis of said vector space.
+Coordinate maps 
 
 #todo put this into latex [[linearmaps-matrices.pdf]]
 
 
 
 
-
-Let $V$ be an $n$-dimensional vector space (finite dimensional) over $K$ (usually $K=\mathbb{R}$ or $K=\mathbb{C}$) with a basis $B=\{\boldsymbol{b}_1, ... \boldsymbol{b}_n\}$ then every $\boldsymbol{v} \in V$ can be expressed as a linear combination of "coordinates" $\lambda_i \in K$ and basis vectors $\boldsymbol{b}_i$ $$\begin{equation}\boldsymbol{v} = \sum_{i=1}^n \lambda_i \cdot \boldsymbol{v}_i \end{equation}$$
+Let $V$ be an $n$-dimensional vector space (finite dimensional) over the field ([[Groups, rings and fields]]) $K$ (usually $K=\mathbb{R}$ or $K=\mathbb{C}$) with a basis $B=\{\boldsymbol{b}_1, ... \boldsymbol{b}_n\}$ then every $\boldsymbol{v} \in V$ can be expressed as a linear combination of "coordinates" $\lambda_i \in K$ and basis vectors $\boldsymbol{b}_i$ $$\begin{equation}\boldsymbol{v} = \sum_{i=1}^n \lambda_i \cdot \boldsymbol{v}_i \end{equation}$$
 In general, a vector space has infinitely many bases $B$, and $\boldsymbol{v}$ looks different in each of them. Consider the example:
 
 
@@ -17,12 +18,14 @@ and $\boldsymbol{x}$ in the basis $B_2$ is
 $$\boldsymbol{x}=\lambda_1 b_1 + \lambda_2 b_2 = \lambda_1 \begin{pmatrix}1\\-1\end{pmatrix} + \lambda_2 \begin{pmatrix}1\\1\end{pmatrix} = \begin{pmatrix}\lambda_1 + \lambda_2\\-\lambda_1 + \lambda_2\end{pmatrix} = \begin{pmatrix}3\\2\end{pmatrix}$$
 Now one can compute the coefficients/coordinates and obtain
 $$\lambda_1 = \frac{5}{2} ,\quad \lambda_2 = \frac{1}{2} $$
-## Definition: coordinate map
+
+
+## Definition: coordinate map and coordinate vector
 Now we define the coordinate map ("Koordinatenabbildung"):
 Let $V$ be a finite dimensional vector space over $K$ and $B=\{b_1, b_2, ... b_n\}$. Then we call
 $$\begin{align}
 K_B:V&\rightarrow K^n\\
-v=\sum_{i=1}^n v_i^B b_i &\mapsto v_B:=\begin{pmatrix}v_1^B\\v_2^B \\ \vdots \\ v_n^B\end{pmatrix}
+v=\sum_{i=1}^n v_i^B b_i &\mapsto\begin{pmatrix}v_1^B\\v_2^B \\ \vdots \\ v_n^B\end{pmatrix} =:v_B
 \end{align}$$
 the coordinate map of $V$ and $v_B$ the coordinate vector of $v$ with respect to the basis $B$. It is bijective, i.e. 
 $$K_B^{-1}:K^n\rightarrow V$$
@@ -53,4 +56,4 @@ $$(K_B^{-1}\circ K_B)A=A, \quad \text{and }\quad (K_B\circ K_B^{-1})x_B = x_B$$
 
 
 ## Source
-- https://www.youtube.com/watch?v=I1le67SZKjU&list=PLcQq8Z8G1vebIYGZOFmue7nmgpof4s0NG&index=6&ab_channel=AngewandteMathematikf%C3%BCrIngenieure
+- https://www.youtube.com/watch?v=I1le67SZKjU&list=PLcQq8Z8G1vebIYGZOFmue7nmgpof4s0NG&index=5
