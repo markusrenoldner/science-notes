@@ -24,7 +24,7 @@ Example of an fundamentyl algebraic structure: Group (see [[Groups, rings and fi
 
 
 ## Endomorphism
-an homomorphism that maps from a set into itself: $f:A\mapsto A$
+a homomorphism that maps from a set into itself: $f:A\mapsto A$
 
 
 ## Automorphism

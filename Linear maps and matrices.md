@@ -1,10 +1,6 @@
 Fundamental concept in [[Linear algebra]]
 
 
-#pdf-note [[linearmaps-matrices.pdf]]
-#todo 
-
-
 ## Topics
 - Kernel/nullspace, image [2]
 - Linear maps, matrices, rank, inverse [2]
@@ -14,7 +10,7 @@ Fundamental concept in [[Linear algebra]]
 	- [[Transformation matrices]]
 - Vector space of linear maps (homomorphisms) Hom_K(A,B) [1]
 - [[Equivalence class, quotient space]]
-- [[Overview of maps in linear algebra]]
+- [[Classification of maps in linear algebra]]
 
 
 ## Source

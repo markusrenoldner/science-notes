@@ -27,7 +27,17 @@ Lets apply the result of the theorem above to compute $L_B$:$$\left.\begin{align
 \end{align}\quad\right\} \implies L_B\left(l_1^B, l_2^B, l_3^B\right) = \begin{pmatrix}0&1&0 \\0&0&2 \\0&0&0\end{pmatrix}$$As a test, we apply it to the polynomial:
 $$p_B = \begin{pmatrix}c\\b\\a\end{pmatrix}, \quad p'_B = \begin{pmatrix}b\\2a\\0\end{pmatrix} \implies L_B\cdot p_B = \begin{pmatrix}0&1&0 \\0&0&2 \\0&0&0\end{pmatrix} \cdot \begin{pmatrix}c\\b\\a\end{pmatrix} = \begin{pmatrix}b\\2a\\0\end{pmatrix} \equiv p'_B $$
 
-#todo second video [2]
+
+## How can we transform the transformation $L_B$ to another basis $C$?
+![[Pasted image 20230705140335.png]]
+
+$L_C$ can either be computed directly (like explained above), or using the commuting diagram, we can get it from $L_B$: $$L_C =S\circ L_B \circ S^{-1}$$where
+1. $L_B=(l^B_1, ... l^B_n)$
+2. $S=(K_C(b_1), ... K_C(b_n))$, as definied in [[Change of basis in linear algebra]]
+3. $S^{-1}$ can be found using Gauss algorithm
+
+Example, see [2].
+
 
 ## Source
 1. https://www.youtube.com/watch?v=ixUCtiR6sxY&list=PLcQq8Z8G1vebIYGZOFmue7nmgpof4s0NG&index=7
