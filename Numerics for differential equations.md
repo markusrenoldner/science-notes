@@ -8,7 +8,6 @@ One of the most important branches of [[Numerical analysis]], goal: solving [[Di
 - [[Discontinuous Galerkin method (DG)]]
 - [[Boundary element method (BEM)]]
 - [[MEHC scheme]]
-- [[Numerical methods for ODEs]]
 - [[Symplectic ODE integrators]]
 - [[Numerical methods for conservation laws]]
 - Method of characteristics [1]
