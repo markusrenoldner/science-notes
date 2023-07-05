@@ -7,6 +7,7 @@ can be regarded a formal language consisting of structures and objects, that are
 - [[Differential geometry]]
 - [[Numerical analysis]]
 - [[Differential equations]]
+- [[Mathematical optimization]]
 
 
 ## Main sources:

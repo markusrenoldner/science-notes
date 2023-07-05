@@ -1,21 +1,17 @@
 
-#todo  complete and translate
+## Isomorphism
+Linear, bijective, continuous map between two sets.
+
+## Homeomorphism
+("Homöomorphismus")
+Isomorphism between two topological spaces ([[Topology and topological space]]) 
 
 
-
-## Isomorphismus
-Lineare, bijektive abbildung, stetige abbildung zwischen zwei mengen
-
-
-## Homöomorphismus / homeomorphism
-Isomorphismus zwischen zwei topologischen Räumen ([[Topology and topological space]]) 
+## Diffeomorphism
+Isomorphism between two differentiable manifolds with a differentiable inverse.
 
 
-## Diffeomorphismus
-Isomorphismus zwischen zwei differenzierbaren Mannigfaltigkeiten. Die Inverse ist ebenfalls differenzierbar.
-
-
-## Homomorphism ($\neq$ homeomorphism)
+## Homomorphism ($\neq$ homeomorphism!)
 is a map that preserves "algebraic structures"
 assume $f:A \mapsto B$ is a homomorphism, $x,y \in A$ and there is an operation $\odot$ , then 
 $$f(x\odot y) = f(x) \odot f(y) $$
