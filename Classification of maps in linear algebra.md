@@ -1,5 +1,5 @@
 
-#todo  make complete and translate
+#todo  complete and translate
 
 
 
