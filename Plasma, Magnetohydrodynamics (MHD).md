@@ -29,8 +29,15 @@ The definition above implies the following:
 ## Kinetic description of plasma
 Instead of single particles, we have to study many particles that itself influence the $B$ and $E$-fields, using statistical methods.
 We discuss the Vlasov equation etc.
+[[Kinetic plasma model, Boltzmann equation]]
+[[Vlasov equation]]
 
-see EPFL lecture, week 2
+For a more detailed derivation of the collision frequency, see EPFL lecture 2b)
+For info on
+- electron deceleration
+- plasma resistivity
+- overview of plasma collision frequencies
+see EPFL lecture 2c)
 
 
 ## Fluid description of plasma

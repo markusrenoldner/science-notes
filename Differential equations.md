@@ -11,7 +11,8 @@
 - [[Conservation law, transport equation]]
 - [[Convection-diffusion equation]]
 - [[Advection equation]]
-
+- Boltzmann equation, see [[Kinetic plasma model, Boltzmann equation]]
+- [[Vlasov equation]]
 
 
 ## PDE vs ODE
