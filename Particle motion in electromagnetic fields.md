@@ -30,7 +30,7 @@ $$\begin{align}
 Here $v_n'$... difference between $v_n$ and $v_e$
 
 Conclusion:
-- drift is $v_e = \frac{E_n \times B}{B^2}$ and is called $E cross B drift"
+- drift is $v_e = \frac{E_n \times B}{B^2}$ and is called "E-cross-B drift"
 - the "EcrossB drift" is independent of $q$
 - particle motion is along isocontour lines of electrostatic potential (=normal to $E$)
 
