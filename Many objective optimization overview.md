@@ -32,3 +32,4 @@ In Pareto evolutionary techniques, non-domination ranking is used to move the po
 
 ## Non-Pareto techniques
 Non-Pareto methods are methods that are not based on the Pareto front. These methods use scalarisation to integrate the different objectives into a single objective.
+

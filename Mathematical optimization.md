@@ -4,3 +4,4 @@ in [[Mathematics]] is a field that tries to find maximum or minimum values of fu
 ## Some optimization techniques:
 - [[Linear programming]]
 - [[Many objective optimization overview]]
+

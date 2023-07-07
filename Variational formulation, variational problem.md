@@ -22,7 +22,7 @@ u\in \hat{V} : &\quad a(u,v)=l(v) \quad &&\forall v\in V_0\\
 with a corrected linearform $l(v) - a(g,v)$.
 The solution of the old problem can be recovered from the new one by adding the offset function g:
 $$u = z+g$$
-$g$ is usually not unique. It is arbitrary as long as the above conidition is fulfilled.
+$g$ is usually not unique. It is arbitrary as long as the above condition is fulfilled.
 
 
 ## Source
