@@ -33,4 +33,4 @@ Conclusions:
 
 
 ## Sources
-- EPFL - Introduction to Plasma Physics
+- EPFL - Introduction to Plasma Physics, lecture 1b)

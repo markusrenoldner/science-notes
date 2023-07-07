@@ -9,4 +9,4 @@ $$\nu_{coll}=n_{n} \cdot \pi a_0^2 \cdot  \nu_{th,e}$$
 
 
 ## Sources
-- EPFL - Introduction to Plasma Physics
+- EPFL - Introduction to Plasma Physics, lecture 1c)

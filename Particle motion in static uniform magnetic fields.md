@@ -1,4 +1,5 @@
-Here, $v$ and $B$ are vector quantities.
+Here, $v$ and $B$ are vector quantities. $B$ is constant and uniform.
+See also [[Particle motion in electromagnetic fields]] for more general cases.
 
 
 ## Circular motion
@@ -14,8 +15,8 @@ $$v=v_p + v_n$$
 where $v_p$ is parallel to $B$ and $v_n$ is normal to $B$. This gives three results:
 
 1. Lets take the equation of motion and project it into the B-parallel direction:$$m\frac{dv}{dt}\cdot \frac{B}{\vert B\vert}=m\frac{dv_p}{dt}=q(v\times B)\cdot\frac{B}{\vert B\vert}=0 \implies v_p = const$$ again due to orthogonality.
-2. Morover$$\vert v \vert^2 = \vert v_p\vert^2 +  \vert v_n\vert^2 \implies v_n=const$$
-3. $\displaystyle \frac{dv_n}{dt}$ is normal to $v_n$ and $v_n$ is constant, which implies uniform motion $$\frac{m\vert v_n\vert^2}{r}=q\vert v_n\vert  \vert B\vert $$(due to "force balance"), where $r$ is the cyclotron radius (or "Larmor radius"), and where $\displaystyle\omega = \frac{v_n}{r}=\frac{q\vert B\vert}{m}$ is the cyclotron frequency.
+2. Moerover$$\vert v \vert^2 = \vert v_p\vert^2 +  \vert v_n\vert^2 \implies v_n=const$$
+3. $\displaystyle \frac{dv_n}{dt}$ is normal to $v_n$ and $v_n$ is constant, which implies uniform motion $$\frac{m\vert v_n\vert^2}{r}=q\vert v_n\vert  \vert B\vert $$(due to "balance of Lorentz and centripetal force"), where $r$ is the cyclotron radius (or "Larmor radius"), and where $\displaystyle\omega = \frac{v_n}{r}=\frac{q\vert B\vert}{m}$ is the cyclotron frequency.
 
 
 
@@ -66,4 +67,4 @@ Wikipedia definition of "adiapatic invariant"
 
 
 ## Sources
-- EPFL - Introduction to Plasma Physics
+- EPFL - Introduction to Plasma Physics, lecture 1d)

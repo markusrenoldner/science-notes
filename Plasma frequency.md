@@ -15,4 +15,4 @@ where $\nu_{th}=\sqrt{T_e/m_e}$ is the thermal velocity.
 
 
 ## Sources
-- EPFL - Introduction to Plasma Physics
+- EPFL - Introduction to Plasma Physics, lecture 1c)
