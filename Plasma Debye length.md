@@ -34,3 +34,4 @@ Conclusions:
 
 ## Sources
 - EPFL - Introduction to Plasma Physics, lecture 1b)
+- https://de.wikipedia.org/wiki/Debye-L%C3%A4nge

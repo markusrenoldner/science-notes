@@ -34,7 +34,7 @@ here noted in Einstein's summation convention.
 
 The incompressible Reynolds-averaged momentum equation is then:
 $$
-\rho \frac{\partial \bar{u}_i}{\partial t}+\rho\left(\frac{\partial \bar{u}_i \bar{u}_j}{\partial x_j}\right)=\bar{f}_i-\frac{\partial \bar{p}}{\partial x_i}+\frac{\partial}{\partial x_j}(\eta\left(\frac{\partial \bar{u}_i}{\partial x_j}+\frac{\partial \bar{u}_j}{\partial x_i}\right)-\rho \underbrace{\overline{u_i^{\prime} u_j^{\prime}}}_{R S T})
+\rho \frac{\partial \bar{u}_i}{\partial t}+\rho\left(\frac{\partial \bar{u}_i \bar{u}_j}{\partial x_j}\right)=\bar{f}_i-\frac{\partial \bar{p}}{\partial x_i}+\frac{\partial}{\partial x_j}\left[\eta\left(\frac{\partial \bar{u}_i}{\partial x_j}+\frac{\partial \bar{u}_j}{\partial x_i}\right)-\rho \underbrace{\overline{u_i^{\prime} u_j^{\prime}}}_{R S T}\right]
 $$
 The new term resulting from the averaging follows from the non-negligible velocity correlation: $\overline{u_i^{\prime} u_j^{\prime}}$. This tensor is called the Reynolds stress tensor (RST).
 

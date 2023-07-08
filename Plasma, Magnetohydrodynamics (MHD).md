@@ -52,3 +52,4 @@ see EPFL lecture, weeks 3,4
 
 ## Sources
 - EPFL - Introduction to Plasma Physics
+- McGreivy -General Plasma Physics, Princeton lecture notes 2017

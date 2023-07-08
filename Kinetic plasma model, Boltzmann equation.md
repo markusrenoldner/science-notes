@@ -19,12 +19,12 @@ Better: statistical approach.
 
 
 ## Distribution functions
-We use distribution functions in 6D phase space (3 positions, 3 velocities). 
+We use distribution functions (see [2]) in 6D phase space (3 positions, 3 velocities). 
 Interesting quantities:
 $$\begin{align}
     N_S &= \int dr \int dv f_S(r,v,t) &&\quad \text{ ... number of particles of type "S"}\\
     n_S(r,t) &= \int dv f_S(r,v,t) &&\quad \text{ ... number density in [1/volume]}\\
-    u_S &= \frac{1}{n_2}\int dv v f_S(r,v,t)&&\quad \text{ ... average velocity}
+    u_S &= \frac{1}{n_S}\int dv v f_S(r,v,t)&&\quad \text{ ... average velocity}
 \end{align}$$
 
 ## Examples of distribution functions
@@ -69,4 +69,5 @@ $$ \frac{\partial f_S}{\partial t}+\vec{v} \cdot \frac{\partial f_S}{\partial \v
 
 
 ## Sources
-- EPFL - Introduction to Plasma Physics, lecture 2a)
+1. EPFL - Introduction to Plasma Physics, lecture 2a)
+2. https://en.wikipedia.org/wiki/Distribution_function_(physics)
