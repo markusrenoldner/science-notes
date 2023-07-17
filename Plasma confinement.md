@@ -40,8 +40,8 @@ An example of this confinement mechanism is the earths magnetic field, where par
 ## 2. Closed field lines/ Tokamak and stellerator
 Closing field lines seems to trap particles completely. But its not so easy.
 
-Amperes law see [[Maxwell equations]]:
-$$B = \frac{\mu_0 N_l}{2 \pi} \frac{I}{r}$$ 
+Amperes law see [[Maxwell equations]] yields the absolute value of the magnetic field:
+$$|B| = \frac{\mu_0 N_l}{2 \pi} \frac{I}{r}$$ 
 hence, $B$ is not homogeneous and it is curved: drifts are present. 
 
 Which drifts? The curvature drift and the grad-B drift: 

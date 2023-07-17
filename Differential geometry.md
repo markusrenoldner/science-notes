@@ -17,7 +17,7 @@ check if  https://www.win.tue.nl/~lflorack/Extensions/2WAH0CourseNotes.pdf eindh
 - exterior derivative
 - covariant derivative
 - tanget space
-- tensor spaces, [[Tensors]]
+- tensor spaces, tensors
 - hodge operator
 - Differential forms 
 - integration of 
@@ -68,4 +68,5 @@ check if  https://www.win.tue.nl/~lflorack/Extensions/2WAH0CourseNotes.pdf eindh
 - video on diff. forms: https://www.youtube.com/playlist?list=PL22w63XsKjqzQZtDZO_9s2HEMRJnaOTX7
 - Rambausek Lecture: Modeling of Nonlinear Coupled Field Problems
 - Altland, Delft - Mathematics for Physicists
+- Eigenchris playlist on Tensor analysis: https://www.youtube.com/playlist?list=PLJHszsWbB6hpk5h8lSfBkVrpjsqvUGTCx
 

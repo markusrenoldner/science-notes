@@ -5,7 +5,14 @@
 (there is also an integral formulation)$$\begin{align}
     \nabla\cdot D &= \rho,  &&\nabla\times E=-\partial_t B, \\
     \nabla\cdot B &= 0, &&\nabla\times B =\mu \mu_0 \left( j + \partial t D\right) .
-\end{align}$$vector fields:
+\end{align}$$alternative (only in terms of $E,B$):$$\begin{align}
+    \nabla\cdot E &= \frac{\rho}{\epsilon_0} &&\text{Gauss's law,}\\
+    \nabla\cdot B &= 0 &&\text{Gauss's law for magnetism,}\\
+    \nabla\times E&=-\partial_t B &&\text{Faradays's law of induction,}\\
+    \nabla\times B &=\mu_0 \left ( j + \epsilon_0 \partial_t E \right ) &&\text{Ampere's circuital law}.
+\end{align}$$
+
+vector fields:
 - $E$ is the electric field (strength) ("elektr. feldstärke"), measured in V/m or N/As
 - $D$ is the electric induction / electric displacement field ("elektrische Flussdichte" / "dielektrische verschiebung" / "verschiebungsflussdichte"), measured in As/m^2
 - $B$ is the magnetic flux density ("magnetische fluss dichte"), measured in T or Vs/m^2
@@ -17,10 +24,6 @@ constants:
 - $\mu$ magnetic field constant
 - $\mu_0 = 4\pi 10^{-7} \frac{Vs}{Am}$ magnetic field constant in vacuum
 
-alternative:$$\begin{align}
-    \nabla\cdot E &= \frac{\rho}{\epsilon_0},  &&\nabla\times E=-\partial_t B, \\
-    \nabla\cdot B &= 0, &&\nabla\times B =\mu_0 \left ( j + \epsilon_0 \partial_t E \right ) .
-\end{align}$$
 
 
 ## Some calculations and manipulations

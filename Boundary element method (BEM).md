@@ -2,7 +2,7 @@ A method from [[Numerics for differential equations]].
 
 
 ## Motivation: deriving a suitable PDE problem for BEM
-Problem: find G st.
+Problem: find G for
 $$-\Delta u=\delta$$
 with $\delta$ being the Dirac distribution. Then the fundamental solution/Greens function is
 $$G(x,z)=\begin{cases}

@@ -1,4 +1,4 @@
-Sets are a fundamental concept from [[Analysis]], [[Linear algebra]], and [[Differential geometry]].
+Sets are a fundamental concept from [[Mathematics]].
 This is an informal intro to set theory (see [[Axiomatic vs informal set theory]])
 
 
@@ -9,6 +9,7 @@ This is an informal intro to set theory (see [[Axiomatic vs informal set theory]
 - compact ("kompakt"): each sequence has convergent subsequences, compact <=> bounded and complete, compact => complete
 - connected ("zusammenhängend"): connection between any two points in the set
 - simply connected (einfach zusammenhängend): without holes, or rather connected and every closed path is "contractible" (zusammenziehbar) to a point in the set (topological term)
+
 #TODO make it more complete and more detailed, check out Ana2 for TPH
 
 

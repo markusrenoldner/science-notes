@@ -3,10 +3,10 @@ we discuss [[Plasma, Magnetohydrodynamics (MHD)]].
 
 ## Self-consistent plasma description
 1. we can find the position and velocities of every particle in a plasma from Newton's 2nd law, i.e. given $F_i \implies r_i, v_i\quad \forall i$ due to $$m_i \partial_t^2 r_i = F_i = q_i \left [ E(r_i, t) + v_i\times B(r_i) \right ]$$ 
-2. from this, we get the charge  and current density, i.e. $r_i, v_i \implies q_i, j$ as
+2. from this, we get the charge and current density, i.e. $r_i, v_i \implies q_i, j$ as
 $$\begin{align}
-    q = \sum_i q_i \delta (r - r_i)\\
-    j = \sum_i q_i v_i \delta(r-r_i)
+    q &= \sum_i q_i \delta (r - r_i)\\
+    j &= \sum_i q_i v_i \delta(r-r_i)
 \end{align}$$
 3. $q,j\implies B,E$ due to the [[Maxwell equations]] $$\begin{align}
     \nabla\cdot E &= \frac{\rho}{\epsilon_0},  &&\nabla\times E=-\partial_t B, \\
