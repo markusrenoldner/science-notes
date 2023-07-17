@@ -5,6 +5,13 @@
 
 #todo (also take "online summary from J")
 
+#todo generalize the following articles to index notation:
+- [[Coordinate vectors, coordinate maps]]
+- [[Change of basis in linear algebra]]
+- [[Transformation matrices]]
+
+
+
 
 ## Topics
 - asdf
@@ -26,8 +33,22 @@ source: prechtl-edyn
 
 
 
+
+
+
+#todo do i need this?
+- ingmathe yt
+- Prof. Svozil - Mathematische Methoden der theoretischen Physik, TU Wien lecture notes
+- uniwien lecture
+- - vec calcl from altland:
+	- L10+PL multilin algebra (maybe more tensor/diffgeo?)
+	- C3 multidim diff
+	- C4 multidim integration
+	- V1,V2,V3
+
+
 ## Source
 - Dr. Ginosar - Lineare Algebra, ETH lecture notes 2021, [[Ginosar-Lineare_Algebra.pdf]]
 - Altland, Delft - Mathematics for Physicists
-- ingmathe yt
-- eigenchris
+- Eigenchris playlist on Tensor algebra: https://www.youtube.com/playlist?list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG
+

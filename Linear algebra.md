@@ -4,13 +4,21 @@ important branch of [[Mathematics]]
 ## Topics:
 - [[Groups, rings and fields]]
 - Vector spaces [2]
-- [[Linear maps and matrices]]
+- [[Equivalence class, quotient space]]
+- Linear maps and matrices
+	- Kernel/nullspace, image [2]
+	- Linear maps, matrices, rank, inverse [2]
+	- Vector space of linear maps (homomorphisms) Hom_K(A,B) [1]
+	- [[Classification of maps in linear algebra]]
+	- [[Coordinate vectors, coordinate maps]]
+	- [[Change of basis in linear algebra]]
+	- [[Transformation matrices]]
 - Determinants [2]
 - [[Eigenproblem]]
 - Euklidean vector spaces, Inner product, norm, quadratic forms [2]
-- Maps on euklidean spaces, spectral theorem [1]
+- Maps on euclidean spaces, spectral theorem [1]
 - Bilinearforms [1]
-- [[Multilinear algebra, tensor algebra]] 
+- [[Multilinear and tensor algebra]] 
 
 
 ## Main sources:

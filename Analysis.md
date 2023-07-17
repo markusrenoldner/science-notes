@@ -8,11 +8,10 @@ important branch of [[Mathematics]]
 - [[Continuity vs. Lipschitz continuity vs. differentiability]]
 - [[Modes of convergence of infinite series]]
 - [[Multi-index notation for differential operators]]
-- [[Differentiation in coordinate systems (Vector calculus)]]
-- [[Integration in coordinate systems (Vector calculus)]] 
 - [[Function spaces]]
 - Integral transforms [3,4]
 - Complex Analysis [1]
+- [[Vector and tensor analysis]]
 
 
 ## Main sources:
