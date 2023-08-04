@@ -10,7 +10,7 @@ Let $\boldsymbol{x}=\begin{pmatrix}3\\2 \end{pmatrix} \in \mathbb{R}^2$, let $B 
 
 By construction, $\boldsymbol{x}$ is represented in the canonical basis $B$. Lets represent it in $C$:
 $$\begin{align}
-    \boldsymbol{x}& = \lambda_1 \begin{pmatrix}1\\-1\end{pmatrix} + \lambda_2 \begin{pmatrix}1\\1\end{pmatrix} = \begin{pmatrix}\lambda_1 + \lambda_2\\-\lambda_1 + \lambda_2\end{pmatrix} = \begin{pmatrix}3\\2\end{pmatrix}
+    \boldsymbol{x}& = \sum_i\lambda_i \boldsymbol{c}_i=\lambda_1 \begin{pmatrix}1\\-1\end{pmatrix} + \lambda_2 \begin{pmatrix}1\\1\end{pmatrix} = \begin{pmatrix}\lambda_1 + \lambda_2\\-\lambda_1 + \lambda_2\end{pmatrix} = \begin{pmatrix}3\\2\end{pmatrix}
 \end{align}$$
 Now one can compute the coefficients/coordinates and obtain
 $$\lambda_1 = \frac{5}{2} ,\quad \lambda_2 = \frac{1}{2} \implies \boldsymbol{x}_C = \begin{pmatrix}5/2\\ 1/2\end{pmatrix}$$
