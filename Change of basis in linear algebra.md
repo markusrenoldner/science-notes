@@ -25,6 +25,8 @@ Let $V$ be a finite dimensional vector space over $K$ and let $B=\left \{ b_1,..
 
 In words: if we take each basis vector of $B$, represent it in the basis $C$, and collect these vectors in a matrix, we have found $S$.
 
+In eigenchris' youtube playlist on tensor algebra, $S$ is the backwards matrix $B$!!!
+
 Proof.
 We transform each basis vector of $B$ to $C$:
 $$\left. \begin{align}
@@ -54,7 +56,7 @@ We factor out the $c_i$, compare coefficients and find expressions for $\mu_i$:
 $$\begin{align}
     v &= \underbrace{\left ( \lambda_1 S_{11} + \lambda_2 S_{12} + \dots \lambda_n S_{1n} \right )}_{\mu_1} \cdot c_1 \\
     &+ \underbrace{\left ( \lambda_1 S_{21} + \lambda_2 S_{22} + \dots \lambda_n S_{2n} \right )}_{\mu_2}\cdot c_2 \\
-    &\vdots \\
+    & \vdots \\
     &+ \underbrace{\left ( \lambda_1 S_{n1} + \lambda_2 S_{n2} + \dots \lambda_n S_{nn} \right )}_{\mu_n} \cdot c_n 
 \end{align}$$
 The $\mu_i$ depend on the $\lambda_i$ in the follwing way
