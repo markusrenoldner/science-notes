@@ -19,22 +19,3 @@ Morover, a refinment algorithm is described:
 6. validation using IGA/isogeometric analysis
 appendix: proof ideas
 
-
-## Notes
-
-### notation
-energy norm: $\vert\vert\vert \cdot \vert\vert\vert$
-
-haussdorff meausure
-?
-https://de.wikipedia.org/wiki/Hausdorff-Ma%C3%9F
-#todo 
-
-simplified: tilde
-defeatured: 0 subscript
-
-
-
-Including complex geometrical features in the mesh might scale up the number of elements by factor 10.
-This is not always necessary - but there is no quantitative measure for that yet.
-
