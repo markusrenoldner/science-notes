@@ -1,4 +1,7 @@
 
+#todo 
+[[edynplasmastuff.pdf]]
+
 
 ## Coulomb's law
 The force acting between two electrically charged particles is
@@ -17,7 +20,7 @@ which is Gauss' law, and one of the famous [[Maxwell equations]].
 The work acting on a particle along a curve $C$ in the force field is then
 $$W:=\int_C \vec{F}$$
 If $\vec{E}$ is conservative, a scalar potential can be defined:
-$$\nabla\phi:=\vec{E}$$
+$$-\nabla\phi:=\vec{E}$$
 This gives the Poisson equation
 $$\Delta \phi = \frac{\rho}{\epsilon_0}$$
 Integrating this definition along a curve $C$ gives the voltage $U$:
