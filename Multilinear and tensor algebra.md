@@ -3,14 +3,14 @@
 
 #pdf-note [[tensors-short.pdf]]
 
-#todo (also take "online summary from J")
+#todo (also take "online summary from F J")
+
 
 #todo generalize the following articles to index notation:
 - [[Coordinate vectors, coordinate maps]]
 - [[Change of basis in linear algebra]]
-- [[Transformation matrices]]
-
-
+- [[Transformation matrices, linear maps]]
+(and maybe simplify the articles or extract the main theorems in a short overview)
 
 
 ## Topics
@@ -40,11 +40,7 @@ source: prechtl-edyn
 - ingmathe yt
 - Prof. Svozil - Mathematische Methoden der theoretischen Physik, TU Wien lecture notes
 - uniwien lecture
-- - vec calcl from altland:
-	- L10+PL multilin algebra (maybe more tensor/diffgeo?)
-	- C3 multidim diff
-	- C4 multidim integration
-	- V1,V2,V3
+- vec calcl from altland: L10 multilin algebra (maybe more tensor/diffgeo?)
 
 
 ## Source

@@ -1,6 +1,6 @@
 "Darstellungsmatrix/Abbildungsmatrix"
 
-is a matrix that represents a linear map/linear transformation between two vector spaces. Every linear transformation can be represented as a matrix, which is great as matrices are easy to analyze. E.g. one can find the kernel of a linear map by looking at its matrix representation and solving a linear system of equations.
+is a matrix that represents a linear map/linear transformation between two vector spaces. Every linear transformation from a finite dim. vector space to a finite dim. vec. space can be represented as a matrix, which is great as matrices are easy to analyze. E.g. one can find the kernel of a linear map by looking at its matrix representation and solving a linear system of equations.
 
 We consider a linear map $L\in Hom(V,V)$ from a vector space $V$ to itself (=endomorphism, see [[Classification of maps in linear algebra]]). For such a map, the following commuting diagram holds:
 
