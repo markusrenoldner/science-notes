@@ -51,3 +51,4 @@ $$(K_B^{-1}\circ K_B)A=A, \quad \text{and }\quad (K_B\circ K_B^{-1})x_B = x_B$$
 
 ## Source
 - https://www.youtube.com/watch?v=I1le67SZKjU&list=PLcQq8Z8G1vebIYGZOFmue7nmgpof4s0NG&index=5
+- Atland, Delft - Mathematics for Physicists
