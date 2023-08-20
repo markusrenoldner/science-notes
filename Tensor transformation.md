@@ -43,8 +43,12 @@ is this the same?
 3. The tensor product of vector spaces combines vector and dual spaces. E.g. (1,1)-tensors (i.e. linear maps) $L={L^i}_j (e_i\otimes \epsilon^j) \in V \otimes V^*$. Elements of this space can be interpreted as the following maps:
 $$\begin{align}
      v &\mapsto {L^i}_j v^j e_i \quad && V\to V\\
-     \alpha &\mapsto {L^i}_j (e_i \otimes \epsilon^j)  (\alpha_k \epsilon^k)
+     \alpha &\mapsto {L^i}_j (e_i \otimes \epsilon^j)  (\alpha_k \epsilon^k) = {L^i}_j \alpha_i \epsilon^j && V^*\to V^*\\
+     v\alpha &\mapsto {L^i}_j v^j\alpha_i &&V\times V^* \to \mathbb{R}\\
+     \alpha v&\mapsto {L^i}_j \alpha_i v^j &&V^*\times V  \to \mathbb{R}
 \end{align}$$
+Depending on what we feed into the tensor, the output is a different object.
+#todo video15
 
 
 ## Example (1,1)-tensor/"linear map"
