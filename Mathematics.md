@@ -8,6 +8,7 @@ can be regarded a formal language consisting of structures and objects, that are
 - [[Numerical analysis]]
 - [[Differential equations]]
 - [[Mathematical optimization]]
+- [[Probability and statistics formulary]]
 
 
 ## Main sources:

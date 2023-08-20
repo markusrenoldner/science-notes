@@ -21,3 +21,4 @@ A group is a tuple (G, #), where G is a set and # is a binary operation, that fu
 
 ## Source
 - Dr. Ginosar - Lineare Algebra, ETH lecture notes 2021, [[Ginosar-Lineare_Algebra.pdf]]
+- Atland, Delft - Mathematics for Physicists
