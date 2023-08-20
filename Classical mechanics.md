@@ -6,6 +6,7 @@ important branch of [[Physics]]
 - [[Newtons laws - definitions or theorems]]
 - [[Potential vs potential energy]]
 - [[Fluid Dynamics]]
+- [[Static beam equation]]
 
 
 ## Main sources:
