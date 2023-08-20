@@ -23,6 +23,10 @@ $$\begin{equation}
 \end{equation}$$
 
 
+## Raising and lowering indices
+#todo video16
+
+
 
 
 ## Source:
