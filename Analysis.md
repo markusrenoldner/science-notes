@@ -11,7 +11,7 @@ important branch of [[Mathematics]]
 - [[Function spaces]]
 - Integral transforms [3,4]
 - Complex Analysis [1]
-- [[Vector and tensor analysis]]
+- [[Tensor and vector analysis]]
 
 
 ## Main sources:

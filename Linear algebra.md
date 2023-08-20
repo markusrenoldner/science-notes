@@ -18,7 +18,7 @@ important branch of [[Mathematics]]
 - Euklidean vector spaces, Inner product, norm, quadratic forms [2]
 - Maps on euclidean spaces, spectral theorem [1]
 - Bilinearforms [1]
-- [[Multilinear and tensor algebra]] 
+- [[Tensor and multilinear algebra]] 
 
 
 ## Main sources:

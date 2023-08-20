@@ -8,6 +8,8 @@ check if  https://www.win.tue.nl/~lflorack/Extensions/2WAH0CourseNotes.pdf eindh
 #todo restruture this file also
 
 
+youtube playlist diff forms: https://www.youtube.com/playlist?list=PL22w63XsKjqzQZtDZO_9s2HEMRJnaOTX7
+
 ## Topics:
 - [[Topology and topological space]]
 - diff. manifolds

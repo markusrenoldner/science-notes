@@ -1,4 +1,4 @@
-as described in [[Coordinate vectors, coordinate maps]], one can represent vectors in bases. The coordinates change, if one changes the basis, a vector is represented in.
+bas described in [[Coordinate vectors, coordinate maps]], one can represent vectors in bases. The coordinates change, if one changes the basis, a vector is represented in.
 
 
 ## Main idea

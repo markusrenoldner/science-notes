@@ -1,4 +1,4 @@
-generalizes multivariate Analysis (see [[Analysis]]) and [[Multilinear and tensor algebra]].
+generalizes multivariate Analysis (see [[Analysis]]) and [[Tensor and multilinear algebra]].
 
 
 ## Topics
@@ -13,16 +13,24 @@ generalizes multivariate Analysis (see [[Analysis]]) and [[Multilinear and tenso
 - [[Differentiation in coordinate systems (Vector calculus)]]
 - [[Integration in coordinate systems (Vector calculus)]] 
 - [[Coordinate transformation of differential equations]]
-- 
+- [[Eigensteve's tensor calculus playlist]]
+
+
 
 
 #todo 
+- all builds on tensor algebra L10
 - vec calcl from altland:
 	- C3 multidim diff
-	- C4 multidim integration
-	- V1,V2,V3
+	- V1, V2 on curvilinear coords
+	- C4 multidim integration (based on v1, v2)
+	- V3 fields, vector operators in diff coordinates
+- only now: L10 tensor algebra! 
+- diff geo :
+	- C4 usw
 
 
+#todo add to sources Prof. Svozil - Mathematische Methoden der theoretischen Physik, TU Wien lecture notes (YES!!!!!!!!)
 
 ## Sources:
 1. Dr. Waldhör - Elektrodynamik, TU WIen lecture notes 2023
