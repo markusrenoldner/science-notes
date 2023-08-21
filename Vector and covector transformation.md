@@ -122,8 +122,8 @@ Array shape:
 - Basis vectors and covector comp. are collected in row vectors, 
 - vector comp. and basis covectors, are collected in column vectors.
 But: 
-- the component representation (=coordinate vectors) of basis vectors are column vectors! $v = v^i e_i = v^1 \begin{pmatrix}\cdot \\ \cdot \end{pmatrix}+v^2 \begin{pmatrix}\cdot \\ \cdot \end{pmatrix}$
-- and the component representation of basis covectors are row vectors! $\alpha = \alpha_i \epsilon^i = \alpha_1  \begin{pmatrix}\cdot & \cdot \end{pmatrix} + \alpha_2 \begin{pmatrix}\cdot & \cdot \end{pmatrix}$
+- the component representation (=coordinate vectors) of basis vectors are column vectors! $v = v^i e_i =\begin{pmatrix}e_1 & e_2\end{pmatrix} \begin{pmatrix}v^1\\v^2\end{pmatrix}= v^1 \begin{pmatrix}\cdot \\ \cdot \end{pmatrix}+v^2 \begin{pmatrix}\cdot \\ \cdot \end{pmatrix}$
+- and the component representation of basis covectors are row vectors! $\alpha = \alpha_i \epsilon^i = \begin{pmatrix}\alpha_1&\alpha_2\end{pmatrix} \begin{pmatrix}\epsilon^1\\ \epsilon^2\end{pmatrix}= \alpha_1  \begin{pmatrix}\cdot & \cdot \end{pmatrix} + \alpha_2 \begin{pmatrix}\cdot & \cdot \end{pmatrix}$
 
 
 ## Source:
