@@ -3,6 +3,7 @@ up: [[Tensor and multilinear algebra]]
 We only talk about "arrow vectors", not the abstract vector that is just characterised as an element of a vector space, such as functions.
 We also use Einsteins sum convention (implicit summation over pairs of co-/contravariant indices, see [[Vector and covector transformation]])
 
+
 ## General tensor transformation rule, action/multiplication formula and array shapes:
 Def. Tensor: A (multi-)linear combination of vectors and covectors
 
@@ -10,7 +11,7 @@ General tensor (in Einstein sum convenction):
 $$\begin{equation}
     T = \underbrace{{{T^{ij}}_k}^l}_{\text{components}} \underbrace{e_i \otimes e_j  \otimes \epsilon^k \otimes e_l}_{\text{"basis tensor"}}
 \end{equation}$$
-sometimes tensors are just written in the component notation:
+sometimes tensors (similar like vectors) are just represented by their components, i.e.:
 $$\begin{equation}
     {{T^{ij}}_k}^l
 \end{equation}$$
@@ -24,8 +25,14 @@ T &= {{T^{ij}}_k}^l (e_i \otimes e_j  \otimes \epsilon^k \otimes e_l)\\
 &= {B^a}_i {B^b}_j{B^d}_l {{T^{ij}}_k}^l {F^k}_c (\tilde e_a \otimes \tilde e_b  \otimes \tilde \epsilon^c \otimes \tilde e_d)\\
 &= {{ \tilde T^{ab}}_c}^d  (\tilde e_a \otimes \tilde e_b  \otimes \tilde \epsilon^c \otimes \tilde e_d)
 \end{align}$$
-2. How does a tensor act on another? See video, sometimes this is confusing, if one is too sloppy with Einsteins sum convention. If you know over which indices you want to sum, and which covectors take which vectors as inputs in the tensorproduct, you are good.
-3. Use the Kronecker product for arrays "$\otimes$": take the array on the left and distribute it to each component on the right, e.g consider the tensor with components ${{T^{ij}}_k}^l$:
+2. How does a tensor act on another? See video 14 and 15, sometimes there is more than one way to carry out the index summations: match components accordingly:
+$$\begin{align}
+    T(Q) &= {{T^{ij}}_k}^l (e_i \otimes e_j  \otimes \epsilon^k \otimes e_l) ({Q^a}_b (e_a\otimes \epsilon^b)) \quad &&\text{ambiguous }\\
+    T(Q)&= {{T^{ij}}_k}^l {Q_i}^k &&\text{clear} \\
+    T(Q)&= {{T^{ij}}_k}^l {Q_i}^k(e_j \otimes e_l ) &&\text{clear} 
+\end{align}$$
+
+1. Use the Kronecker product for arrays "$\otimes$": take the array on the left and distribute it to each component on the right, e.g consider the tensor with components ${{T^{ij}}_k}^l$:
 $$\begin{align}
 \begin{pmatrix}\cdot\\\cdot \end{pmatrix}\otimes \begin{pmatrix}\cdot\\\cdot \end{pmatrix}\otimes \begin{pmatrix}\cdot&\cdot \end{pmatrix}\otimes \begin{pmatrix}\cdot\\\cdot \end{pmatrix}
 &= \begin{pmatrix}\begin{pmatrix}\cdot\\\cdot \end{pmatrix} \\ \begin{pmatrix}\cdot\\\cdot \end{pmatrix} \end{pmatrix}\otimes \begin{pmatrix}\cdot&\cdot \end{pmatrix}\otimes \begin{pmatrix}\cdot\\\cdot \end{pmatrix}\\
@@ -47,8 +54,13 @@ $$\begin{align}
      v\alpha &\mapsto {L^i}_j v^j\alpha_i &&V\times V^* \to \mathbb{R}\\
      \alpha v&\mapsto {L^i}_j \alpha_i v^j &&V^*\times V  \to \mathbb{R}
 \end{align}$$
+Again, one could also just consider the components without the basis which contains all information we need:
+$$\begin{align}
+     v &\mapsto {L^i}_j v^j \quad && V\to V\\
+     \alpha &\mapsto {L^i}_j \alpha_i && V^*\to V^*
+\end{align}$$
 Depending on what we feed into the tensor, the output is a different object.
-#todo video15
+
 
 
 ## Example (1,1)-tensor/"linear map"
