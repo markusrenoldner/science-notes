@@ -118,13 +118,25 @@ $$\begin{align}
     \text{Basis covectors }\qquad  \epsilon^i&={F^i}_j\tilde\epsilon^j\qquad \text{contra-variant}\\
     \text{Covector comp.}\qquad  \alpha_j &= {B^i}_j \tilde\alpha_i \qquad \text{co-variant}
 \end{align}$$
-Array shape:
+
+
+## Transformation using matrices/Array shape:
 - Basis vectors and covector comp. are collected in row vectors, 
+$$\begin{align}
+    \begin{pmatrix}\tilde e_1&\tilde e_2\end{pmatrix} &= \begin{pmatrix}e_1&e_2\end{pmatrix} \cdot F\\
+    \begin{pmatrix}\tilde\alpha_1&\tilde\alpha_2\end{pmatrix}&=\begin{pmatrix}\alpha_1&\alpha_2\end{pmatrix} \cdot F
+\end{align}$$
+
 - vector comp. and basis covectors, are collected in column vectors.
+$$\begin{align}
+    \begin{pmatrix}\tilde v^1\\\tilde v^2\end{pmatrix}&=B\cdot \begin{pmatrix}v^1\\v^2\end{pmatrix}\\
+    \begin{pmatrix}\tilde \epsilon^1\\\tilde \epsilon^2\end{pmatrix} &= B\cdot \begin{pmatrix}\epsilon^1\\\epsilon^2\end{pmatrix}
+\end{align}$$
+
 But: 
 - the component representation (=coordinate vectors) of basis vectors are column vectors! $v = v^i e_i =\begin{pmatrix}e_1 & e_2\end{pmatrix} \begin{pmatrix}v^1\\v^2\end{pmatrix}= v^1 \begin{pmatrix}\cdot \\ \cdot \end{pmatrix}+v^2 \begin{pmatrix}\cdot \\ \cdot \end{pmatrix}$
 - and the component representation of basis covectors are row vectors! $\alpha = \alpha_i \epsilon^i = \begin{pmatrix}\alpha_1&\alpha_2\end{pmatrix} \begin{pmatrix}\epsilon^1\\ \epsilon^2\end{pmatrix}= \alpha_1  \begin{pmatrix}\cdot & \cdot \end{pmatrix} + \alpha_2 \begin{pmatrix}\cdot & \cdot \end{pmatrix}$
 
 
 ## Source:
-Eigenchris playlist on Tensor algebra: https://www.youtube.com/playlist?list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG
+Eigenchris playlist on Tensor algebra: https://www.youtube.com/playlist?list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG, videos 0-6
