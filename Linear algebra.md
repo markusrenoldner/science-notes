@@ -19,6 +19,7 @@ important branch of [[Mathematics]]
 - Maps on euclidean spaces, spectral theorem [1]
 - Bilinearforms [1]
 - [[Tensor and multilinear algebra]] 
+- [[Vector algebra identities]]
 
 
 ## Main sources:
