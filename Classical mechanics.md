@@ -7,6 +7,7 @@ important branch of [[Physics]]
 - [[Potential vs potential energy]]
 - [[Fluid Dynamics]]
 - [[Static beam equation]]
+- [[Celestial and orbital mechanics]]
 
 
 ## Main sources:
