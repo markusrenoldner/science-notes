@@ -1,5 +1,5 @@
-a field that combines [[Fluid Dynamics]] and [[Electrodynamics]] to describe ionized Fluids/Plasmas.
-
+a field that describes ionized Fluids/Plasmas.
+it incorporates indeas from [[Electrodynamics]]
 
 ## Where to find plasmas
 ![[MHD_plasma_paramterspace.png]]
@@ -8,7 +8,7 @@ a field that combines [[Fluid Dynamics]] and [[Electrodynamics]] to describe ion
 ## Definition of a plasma
 Plasma is an ionized, globally neutral (="quasi neutral") gas that displays collective effects.
 
-To understneed that, we need 3 definitions:
+To understand that, we need 3 definitions:
 - [[Plasma Debye length]]
 - [[Plasma frequency]]
 - [[Plasma collision frequency]]
@@ -43,6 +43,7 @@ see EPFL lecture 2c)
 ## Fluid description of plasma
 the kinetic model is very accurate, but sometimes too complex.
 the fluid model is 3dimensional instead of 6dimensional
+its incorporates ideas from [[Fluid Dynamics]]
 we discuss:
 - 2-fluid model (treating electron and ions as different fluids)
 - MHD model (single fluid!)
