@@ -1,5 +1,13 @@
+[[Tensor and multilinear algebra]]
+[[Curvilinear and generalized coordinates]]
 
-It is a symmetric, positive definite Bilinearform/(0,2)-tensor defined by dot products of basis vectors. It is used to 
+## Definition 
+for basis vectors $\boldsymbol{e}_i$:
+$$g_{ij} \equiv \left\langle \boldsymbol{e}_i , \boldsymbol{e}_j \right \rangle \equiv \boldsymbol{e}_i \cdot \boldsymbol{e}_j$$
+which is the standard, scalar product in $\mathbb{R}^d$.
+
+## Example usage:
+It is a symmetric, positive definite Bilinearform/(0,2)-tensor. It is used to 
 ... calculate dot products:
 $$\begin{align}
     v\cdot w&= (v^1 e_1 + v^2 e_2)\cdot (w^1 e_1 + w^2 e_2)\\
@@ -24,9 +32,7 @@ $$\begin{equation}
 
 
 ## Raising and lowering indices
-#todo video16
-
-
+#todo eigenchris video16
 
 
 ## Source:

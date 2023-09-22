@@ -21,7 +21,7 @@
 
 
 ## Source
-- Altland, Delft - Mathematics for Physicists
+- Altland, Delft - Mathematics for Physicists, especially chapters L5 and L10
 - Eigenchris playlist on Tensor algebra: https://www.youtube.com/playlist?list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG
 - Dr. Ginosar - Lineare Algebra, ETH lecture notes 2021, [[Ginosar-Lineare_Algebra.pdf]]
 - Prof. Svozil - Mathematische Methoden der theoretischen Physik, TU Wien lecture notes

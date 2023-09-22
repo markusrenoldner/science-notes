@@ -6,6 +6,7 @@ important branch of [[Mathematics]]
 #pdf-note [[diffgeo.pdf]]
 check if  https://www.win.tue.nl/~lflorack/Extensions/2WAH0CourseNotes.pdf eindhoven text, is interesting
 #todo restruture this file also
+#todo Altland V4 is a good source too
 
 
 youtube playlist diff forms: https://www.youtube.com/playlist?list=PL22w63XsKjqzQZtDZO_9s2HEMRJnaOTX7

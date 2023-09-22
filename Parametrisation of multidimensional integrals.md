@@ -1,9 +1,9 @@
 
-#todo put that into the latex file of [[Integration in coordinate systems (Vector calculus)]]
+#todo put that into the latex file of [[Multidimensional integration]]
 
 
 ## General
-manu sagt bei parametrisierungen (das ist wie eine transformation in einen niedrigdimensionaleren raum) gibt es keine funktionaldeterminante!
+man sagt bei parametrisierungen (das ist wie eine transformation in einen niedrigdimensionaleren raum) gibt es keine funktionaldeterminante!
 divergenz und rotation bei satz von gauss/stokes immer in kartesisch rechnen, sonst muss man  den jeweiligen diff operator transformieren
 
 

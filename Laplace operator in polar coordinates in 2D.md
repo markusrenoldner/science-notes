@@ -1,5 +1,5 @@
 
-[[Differentiation in coordinate systems (Vector calculus)]]
+[[Differentiation of scalar and vector fields]]
 
 The goal is to transform the 2D Laplace operator
 $$\Delta u = u_{xx}+u_{yy}$$
