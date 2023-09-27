@@ -13,7 +13,7 @@ First read [[Curves]], [[Curvilinear and generalized coordinates]], and [[Polar,
 
 
 ## Sources:
-- Prof. Weinmüller - Praktische Mathematik 2, TU Wien lecture notes, [[Weinmueller-praktischemathematik2TPH.pdf]]
+- Prof. Weinmüller - Praktische Mathematik 2, TU Wien lecture notes
 - Chapter C4 of Altland, Delft - Mathematics for Physicists
 - Faustmann - Applied Mathematics Foundations, 2021
 

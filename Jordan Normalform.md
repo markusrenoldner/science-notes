@@ -47,6 +47,6 @@ The ones are set, such that the number of blocks is equivalent to the geometric 
 ## Sources:
 - https://www.youtube.com/watch?v=TnQ5yCSdSsc&list=PLBh2i93oe2qvrzR114cOR9i-aJb6_GVuw&index=3&ab_channel=TheBrightSideofMathematics
 - https://de.wikipedia.org/wiki/Jordansche_Normalform
-- Prof. Auzinger - Lineare Algebra für TPH, TU Wien lecture 2020, [[Auzinger-ana2TPH.pdf]]
+- Prof. Auzinger - Lineare Algebra für TPH, TU Wien lecture 2020
 
 

@@ -35,5 +35,5 @@ More examples (Stokes flow problem, convection-dominated flow problem with bound
 
 ## Sources
 - Prof. Faustmann - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2021
-- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [[hiptmair-NUMPDE.pdf]]
+- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021
 - Prof. Schöberl - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2020

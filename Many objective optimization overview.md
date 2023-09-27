@@ -1,5 +1,5 @@
-#paper 
-farzane_alireza, 2022, a_review_and_evaluation_of_multi_and_many-objective_optimization
+
+#paper Karami and Dariane - A review and evaluation of multi and many-objective optimization: Methods and algorithms
 
 
 The review paper gives an overview of the 32 most important techniques in many objective optimization.

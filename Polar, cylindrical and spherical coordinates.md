@@ -1,4 +1,4 @@
-first read [[Curvilinear and generalized coordinates]]
+these are examples of [[Curvilinear and generalized coordinates]]
 
 
 ## Polar coordinates

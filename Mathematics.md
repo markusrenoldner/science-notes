@@ -13,7 +13,7 @@ can be regarded a formal language consisting of structures and objects, that are
 
 ## Main sources:
 - ETH lecture Lineare Algebra
-- Prof. Auzinger - Lineare Algebra für TPH, TU Wien lecture 2020, [[Auzinger-ana2TPH.pdf]]
+- Prof. Auzinger - Lineare Algebra für TPH, TU Wien lecture 2020
 - Ana 2
 - Prama 2
 - Atland, Delft - Mathematics for Physicists

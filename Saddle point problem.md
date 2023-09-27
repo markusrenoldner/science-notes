@@ -26,7 +26,10 @@ $$F(u,\tilde p) \geq 0$$
 3. similar one shows for any $p$ that   $$F(\tilde u, p) \leq 0$$This implies that $(\tilde u, p)$ is a saddle point.
 
 
-#todo https://wsc.project.cwi.nl/woudschoten-conferences/2012-woudschoten-conference/Benzi1.pdf
+
+## Introduction to Saddle Point Problems from Michele Benzi 
+(from the Lectures of the Thirty-seventh Woudschoten Conference)
+https://wsc.project.cwi.nl/woudschoten-conferences/2012-woudschoten-conference/Benzi1.pdf
 
 
 ## Source:

@@ -34,5 +34,5 @@ is defined as $H(curl):=\{u\in L^2: \nabla\times u\in L^2\}$
 
 
 ## Sources:
-- Prof. Auzinger - Analysis 2 für TPH, TU Wien lecture notes, [[Auzinger-ana2TPH.pdf]]
+- Prof. Auzinger - Analysis 2 für TPH, TU Wien lecture notes
 - Prof. Kaltenböck - Analysis für technische Mathematik, TU Wien lecture notes

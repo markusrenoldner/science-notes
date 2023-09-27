@@ -10,4 +10,4 @@ $$\begin{align}
 &= T_{il}
 \end{align}$$
 source: prechtl-edyn
-#todo 
+#todo i dont understand what $T$ is, is it the tensor in the standard basis?

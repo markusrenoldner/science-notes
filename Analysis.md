@@ -16,7 +16,7 @@ important branch of [[Mathematics]]
 
 ## Main sources:
 1. Prof. Auzinger - Analysis 1 für TPH, TU Wien lecture notes
-2. Prof. Auzinger - Analysis 2 für TPH, TU Wien lecture notes, [[Auzinger-ana2TPH.pdf]]
+2. Prof. Auzinger - Analysis 2 für TPH, TU Wien lecture notes
 3. Prof. Svozil - Mathematische Methoden der theoretischen Physik, TU Wien lecture notes
 4. Prof. Körner - Mathematische Modellbildung in der Systemsimulation
 

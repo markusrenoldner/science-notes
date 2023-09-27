@@ -50,4 +50,4 @@ $$1 \leq g.m.(\lambda)\leq a.m.(\lambda)$$
 ## Source:
 - https://www.youtube.com/watch?v=Xcln3xG8QGQ&ab_channel=mathapptician
 - https://math.stackexchange.com/questions/1859839/how-can-i-find-the-dimension-of-the-eigenspace?rq=1
-- Prof. Auzinger - Lineare Algebra für TPH, TU Wien lecture 2020, [[Auzinger-ana2TPH.pdf]]
+- Prof. Auzinger - Lineare Algebra für TPH, TU Wien lecture 2020

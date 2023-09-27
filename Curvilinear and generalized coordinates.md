@@ -2,6 +2,9 @@ fundamental idea of [[Tensor and vector analysis]]
 
 Goal: describe physical systems in a language reflecting the symmtry of the problem.
 
+Examples: [[Polar, cylindrical and spherical coordinates]]
+
+
 ## Cartesian coordinates
 If $\left \{ \boldsymbol{e}_x, \boldsymbol{e}_y \right \}$ is a fixed, orthonormal basis and if we can describe a point $\boldsymbol{r}\in M$ like this: $$\begin{equation}
     \boldsymbol{r} = \boldsymbol{e}_x x + \boldsymbol{e}_y y, 
@@ -45,6 +48,8 @@ In physics, its common to normalize the coordinate basis which yields the so cal
 $$\begin{equation}
     \boldsymbol{e}_j \equiv \frac{\boldsymbol{v}_j}{\Vert \boldsymbol{v}_j \Vert} = \frac{\boldsymbol{v}_j}{\sqrt{g_{jj}}} \hspace{2cm} \text{depends on y/r} 
 \end{equation}$$
+Concrete examples can be found in [[Polar, cylindrical and spherical coordinates]].
+
 
 ## Coordinates
 We have introduced curvilinear coordinate systems as maps. The inverse assigns to each point in $M$ its coordinates. 

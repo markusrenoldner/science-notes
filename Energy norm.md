@@ -9,4 +9,4 @@ the term “energy norm” is inspired by the quadratic potential energy functio
 
 
 ## Sources
-- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021, [[hiptmair-NUMPDE.pdf]]
+- Prof. Hiptmair - Numerical Methods for Partial Differential Equations, ETH lecture notes 2021
