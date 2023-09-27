@@ -1,0 +1,56 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{arnoldODE}{book}{}
+      \name{author}{2}{}{%
+        {{hash=ff4159d339a8205fcaf83c1c04fc4275}{%
+           family={Arnold},
+           familyi={A\bibinitperiod},
+           given={V.I.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=c7387a6e7a6053805b2d13b607416b45}{%
+           family={Silverman},
+           familyi={S\bibinitperiod},
+           given={R.A.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{dfc19d74f82196c6b3ea8d1b16bd025f}
+      \strng{fullhash}{dfc19d74f82196c6b3ea8d1b16bd025f}
+      \strng{bibnamehash}{dfc19d74f82196c6b3ea8d1b16bd025f}
+      \strng{authorbibnamehash}{dfc19d74f82196c6b3ea8d1b16bd025f}
+      \strng{authornamehash}{dfc19d74f82196c6b3ea8d1b16bd025f}
+      \strng{authorfullhash}{dfc19d74f82196c6b3ea8d1b16bd025f}
+      \field{labelalpha}{AS92}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-540-34563-3}
+      \field{title}{Ordinary Differential Equations}
+      \field{year}{1992}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

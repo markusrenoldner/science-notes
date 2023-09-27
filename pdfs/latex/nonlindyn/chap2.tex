@@ -1,0 +1,148 @@
+
+\section{Fundamentals}
+
+\begin{framed}
+\begin{theorem}[Peano]
+    \label{peano}
+    Let $f(t,x):\mathbb{R}\times \mathbb{R}^d \longrightarrow \mathbb{R}^d$ be a continous function, then for the initial value problem \eqref{IVprob} there exists a solution
+    $$\varphi(t):I\mapsto\mathbb{R}$$
+    on a time interval $I$, which is a neighbourhood of the initial time $t_0$.\\
+    Further $\varphi$ is continuously differentiable.
+\end{theorem}
+\end{framed}
+\begin{proof}
+    see english wikipedia
+\end{proof}
+\begin{framed}
+\begin{theorem}[Picard-Lindelöf]
+    \label{piclind}
+    Let $f(t,x):\mathbb{R}\times \mathbb{R}^d \longrightarrow \mathbb{R}^d$ be a locally Lipschitz continous function, then the initial value problem \eqref{IVprob} has a unique solution
+    $$\varphi(t):I\mapsto\mathbb{R}$$
+    on a time interval $I$, which is a neighbourhood of the initial time $t_0$.\\
+    Further $\varphi$ is continuously differentiable.
+\end{theorem}
+\end{framed}
+\begin{proof}
+    see english wikipedia
+\end{proof}
+\begin{example}[Non-unique solution]
+    Consider
+    \begin{equation}
+    \begin{cases}
+        x'=|x|^{\frac{1}{2}}\\
+        x(t_0)=0
+    \end{cases}
+    \end{equation}
+    The right hand side, which is the evolution rule, is continuous, but not Lipschitz continuous in the interval $[0,1]$. Therefore we can only conclude solvability (Theorem \ref{peano}), and not unisolvence (Theorem \ref{piclind}).
+\end{example}
+
+A consequence of these theorems is that trajectories of autonomous, unisolvent systems never intersect. This also holds for the mathematical pendulum, which seems to create intersecting trajectories at the unstable fixed points.\\
+These trajectories do not actually intersect: 
+\begin{itemize}[itemsep=3pt, topsep=3pt]
+    \item One trajectory is the unstable fixed point itself. 
+    \item Another one is a trajectory pointing outwards of the fixed point, not including the fixed point itself.
+    \item And yet another one is the trajectory leading into the fixed point - again not including the fixed point, as the state never reaches the fixed point in finite time.
+\end{itemize}
+\bigskip
+Non-autonomous, unisolvent systems do have intersecting trajectories. This can be avoided by extening the phase space:
+\begin{equation}
+    X:=
+\begin{pmatrix}
+x\\t
+\end{pmatrix}
+, \quad F(X):= 
+\begin{pmatrix}
+f(x,t),\\1
+\end{pmatrix}
+\end{equation}
+This yields
+\begin{equation}
+    \dot X =F(X)
+\end{equation}
+
+\subsection{Local and global existence}
+\begin{example}[Exploding solution]
+    \begin{equation}
+    \begin{cases}
+        \dot x = x^2\\
+        x(t_0)=1
+    \end{cases}
+    \end{equation}
+    The solution is $x(t) = \frac{1}{1-(t-t_0)}$ which blows up at $t^* = t_0+1$.
+\end{example}
+The solution of this example does not exist globally. To characterize that, we need the following
+
+
+\begin{framed}
+\begin{definition}[Analytic continuation]
+    Let $f$ be an analytic (or for real functions: smooth) function with a target set $U$ and $F$ be an analytic function on $V$ sucht that $U\subset V$. We call $F$ the analytic continuation of $f$ if 
+    $$F(z) = f(z) \quad \forall z\in U$$
+    Sometimes $f$ is then called the restriction of $F$ to $U$.
+\end{definition}
+\end{framed}
+
+\begin{framed}
+\begin{theorem}[Analytic continuation of ODE solutions]
+    \label{continuationthm}
+    If local solutions to ODEs can not be continued to a time $T$
+    $$\implies \lim_{t\rightarrow T} ||x(t)|| = \infty $$
+\end{theorem}
+\end{framed}
+Again, the solution does not exist globally in this case.
+\begin{proof}
+    Can be found in \cite{arnoldODE}.
+\end{proof}
+
+Linear dynamical systems, i.e systems where $f$ is linear in the state vector, can always be written using linear maps, which can be written as matrices:
+\begin{equation}
+    \dot x = f(x) =: A(t) x
+\end{equation}
+with $x \in\mathbb{R}^n, \quad A\in \mathbb{R}^{n\times n}$.
+
+\begin{framed}
+\begin{lemma}[Global existence of linear D.S.] Consider a linear D.S. $\dot x = A(t) x$.\\
+    Global solutions for all $t$ exist as long as
+    $$\int_{t_0}^t \lambda_{max}(s) \text{d}s < \infty$$
+\end{lemma}
+\end{framed}
+\begin{proof}
+    Let $S = \frac{1}{2}(A+A^T)$ and $\Omega = \frac{1}{2}(A-A^T)$ (symmetric, and non-symmetric part). Thus, the eigenvalues $\lambda_i$ of $S$ are real and their eigenvectors $e_i$ are orthogonal.\\
+    Consider
+    \begin{align*}
+        \left \langle x,\dot x \right \rangle &= \frac{1}{2} \frac{\text{d}}{\text{d}t}\left\lVert x \right\rVert^2=\left \langle x,A(t)x \right \rangle=\left \langle x,\left ( S(t)+\Omega(t)\right )  \right \rangle\\
+        &\stackrel{*}{=} \left \langle x,S(t)x \right \rangle+\underbrace{\langle x, \Omega(t) x\rangle}_{=0} \stackrel{**}{=} \sum_{i=1}^{n}\lambda_i(t)x_i^2\\
+        &\leq \lambda_{max}(t) \sum_{i=1}^{n} x_i^2 = \lambda_{max} (t) \left\lVert x(t) \right\rVert^2 = \lambda_{max}(t)\left\lVert x(t) \right\rVert ^2
+    \end{align*}
+    In step (*) we used that skew-symmetric matrices in quadratic forms are zero.\\
+    In step (**) we used the expansion of $x$ in the orthonormal eigenvector basis: \\$Sx=S\sum_{i=1}^{n}x_i e_i = \sum_{i=1}^{n}x_i S e_i = \sum_{i=1}^{n}x_i \lambda_i$.\\
+    Now we integrate and exponentiate the resulting inequality:
+    \begin{align*}
+        \int_{t_0}^t \log \left(\frac{\|x(s)\|^2}{\left\|x\left(t_0\right)\right\|^2}\right) \text{d} s &\leq \int_{t_0}^t \lambda_{\max }(s) \text{d}s\\
+        \iff \|x(t)\| &\leq\left\|x\left(t_0\right)\right\| \exp \left(\int_{t_0}^t \lambda_{\max }(s) \text{d} s\right)
+    \end{align*}
+    Applying theorem \ref{continuationthm} completes the proof.
+\end{proof}
+A remark on $S$ and $\Omega$:\\
+$S$ in continuum mechanics is often called rate-of-strain tensor and $\Omega$ is often called spin or vorticity tensor if $A$ is the jacobian of a velocity field: $A = \nabla v (x(t),t)$.
+
+\subsection{Dependence on initial conditions}
+
+Consider again
+\begin{equation}
+\begin{cases}
+    \dot x = f(x,t)\\
+    x(t_0 = x_0)
+\end{cases}
+\end{equation}
+with $f$ $r$-times differentiable.
+
+\begin{framed}
+\begin{theorem}[Dependence on initial conditions]
+    Let $f$ be $r$-times differentiable in $x$ and $t$. Then $x(t;t_0,x_0)$ is $r$-times differentiable in $x_0$ and $t_0$
+\end{theorem}
+\end{framed}
+\begin{proof}
+    See in \cite{arnoldODE}.
+\end{proof}
+
+a

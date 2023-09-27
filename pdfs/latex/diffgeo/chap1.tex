@@ -1,0 +1,157 @@
+
+\section{Topology}
+
+Spacetime is a set. What is the weakest structure established on a set allowing the definition of continuity of maps? It is a topology.
+
+\subsection{Topological space}
+
+We call $M$ a set and use the axiom system "ZFC with the axiom of choice" (Prof. Schuller says, we do not need to thenk about that too much).\\
+
+
+\begin{framed}
+\begin{definition}[Topology]
+    \label{deftopo}
+    Let $M$ be a set. A topology $\mathcal{O}$ on $M$ is a subset $\mathcal{O} \subseteq \mathcal{P}(M)$, where the latter is a power set (a set containing all subsets of $M$, including the empty set and $M$ itself), staisfying:
+    \begin{enumerate}[noitemsep, topsep=0pt]
+        \item The empty set $\in \mathcal{O}$ and $M\in \mathcal{O}$
+        \item $U,V \in \mathcal{O} \implies U \cap V \in \mathcal{O}$
+        \item $U_\alpha \in \mathcal{O} \implies \bigcup_{\alpha} U_\alpha$, where $\alpha$ is from an arbitrary index set (could even be $\mathbb{R}$)
+    \end{enumerate}
+\end{definition}
+\end{framed}
+
+\begin{example}[] 
+    Let $M=\{1,2,3\}$
+    \begin{itemize}[noitemsep, topsep=0pt]
+        \item $\mathcal{O}_1 = \left \{ 0,\{1,2,3\} \right \}$
+        is a topology on $M$ as all 3 properties hold.
+        \item $\mathcal{O}_2 = \left \{ 0,\{1\},\{2\},\{1,2,3\} \right \}$ is not a topology, as the union of the second and third element of $\mathcal{O}$ is not in $\mathcal{O}$
+    \end{itemize}
+\end{example}
+
+The following two topologies can always be established and are the extreme cases in terms of how many elements they have.
+\begin{example}[A special topology]
+    Let $M$ be any set.
+    \begin{itemize}[noitemsep, topsep=0pt]
+        \item Chaotic topology: $\mathcal{O}_{\text{chaotic}} = \left \{ 0,M \right \}$
+        \item Discrete topology: $\mathcal{O}_{\text{discrete}} = \mathcal{P}(M)$
+    \end{itemize}
+\end{example}
+
+The Standard topology is usually chosen without saying it.
+\begin{framed}
+\begin{definition}[The standard topology]
+    Let $\mathcal{O}_{\text{std}} \subseteq \mathcal{P}(\mathbb{R}^d)$.\\
+    Two steps:
+    \begin{enumerate}[noitemsep, topsep=0pt]
+        \item Define soft ball: $\mathcal{B}_r(p) := \left \{ (q_i,... q_d) \quad|\quad \sum_{i=1}^d (q_i-p_i)^2 < r^2 \right \}$
+        \item We declare for a set $U$: \\ $U\in \mathcal{O}_{\text{std}} \iff \forall p\in U: \exists r\in \mathbb{R}^+: \mathcal{B}_r(p) \subseteq U$
+    \end{enumerate}    
+\end{definition}
+\end{framed}
+
+Interstingly, we dont need any notion of norms/normed vector spaces for the prior definition.
+
+\begin{framed}
+\begin{lemma}[Standard topology]
+    The standard topology $\mathcal{O}_{std}$ is a topology.    
+\end{lemma}
+\end{framed}
+\begin{proof}
+We check the three topology properties:
+\begin{enumerate}[itemsep=3pt, topsep=3pt]
+    \item $0\in \mathcal{O}_{std}$ as $\forall p$, $\exists r$ such that the soft ball $\mathcal{B}\subseteq$ of $0$\\ The same holds for the set $\mathbb{R}^d$ itself
+    \item Let $U,V \in \mathcal{O}_{std}$\\ If $p\in U\cap V \implies \exists r_1, r_2 \in \mathbb{R}^+$ such that $\mathbb{B}_{r1}\in U,\mathbb{B}_{r2} \in V$ \\ But now we also have that if $r=\min \left\{r_1, r_2\right\} \implies \mathcal{B}_r \subseteq U$ AND $\mathcal{B}_r \subseteq V  $ and from that we get that $\mathcal{B}_r \subseteq U \cap V$ which means that $U \cap V \in \mathcal{O}_{std}$
+    \item Let $U_\alpha \in \mathcal{O}_{std}$ and assume that $p \in \bigcup_{\alpha} U_\alpha $ then we can always find an $ \alpha$ such that $p \in U_\alpha$ which means that $\exists r : \mathcal{B}_r \subseteq U_\alpha \subseteq \bigcup_{\alpha} U_\alpha$\\ This implies that also $\bigcup_{\alpha} U_\alpha \in \mathcal{O}_{std}$
+\end{enumerate}
+All three properties of Definition \ref{deftopo} are fulfilled.
+\end{proof}
+
+
+
+\begin{framed}
+\begin{definition}[Topological space]
+    A set $m$ equipped/together with a topology $\mathcal{O}$ written as:
+    $$(\mathcal{O}, M)$$
+    is called a topological space.
+\end{definition}
+\end{framed}
+That means a topological space is a set with some addition structure.
+
+\begin{framed}
+\begin{definition}[Open set]
+    A subset $U \in M$ is called an open set if $U \in \mathcal{O}$.
+\end{definition}
+\end{framed}
+This means the topology is the set of open sets and the property "open" only makes sense after chosing/defining a topology.
+
+\begin{framed}
+\begin{definition}[Closed set]
+    A subset $U \in M$ is called an closed set if $M /\ U \in \mathcal{O}$.
+\end{definition}
+\end{framed}
+
+Careful: there are open sets that are closed, sets that are either open or closed and sets that are neither.
+
+
+\subsection{Continuity of maps}
+
+A map $f$ is an operation that takes every point from a set $M$ (called domain) to some point from another set $N$ (called target set). It is written as such:
+$$f:M \longrightarrow N $$
+
+\begin{framed}
+\begin{definition}[Surjective, injective, bijective maps] Consider a map $f$.\\
+    $f$ is surjective if every point from the target is hit at least once. It is not surjective if there are target points that are not hit.\\
+    $f$ is injective if there is no point in the target that is hit twice by the same point from the domain. It is not injective if there are target points that hit twice.\\
+    $f$ is bijective if it is surjective and injective. That means each point of the target is hit exactly once. 
+\end{definition}
+\end{framed}
+
+There is no need for more mathematical structure (more definitions, objects, ideas etc.) to define a map.\\
+
+The definition of continuity depends on what topologies are chosen on both the domain and the target.
+
+\begin{framed}
+\begin{definition}[Continuity of maps]
+    Let $(M,\mathcal{O}_M)$ and $(N,\mathcal{O}_N)$ be topological spaces.\\
+    A map
+    \begin{align*}
+        f:M & \longrightarrow N \\
+        m&\mapsto f(m)
+    \end{align*}
+    is called continuous wrt. $\mathcal{O}_M$ and $\mathcal{O}_N$ iff.
+    $$\forall V\in\mathcal{O}_N \implies \operatorname{preim}_f(V) \in \mathcal{O}_M$$
+\end{definition}
+\end{framed}
+
+In words: a map is cont. iff. the preimages of all open sets (in the target space $N$) are open sets (in the domain $M$).\\
+
+In this notation $m$ is an element of $M$ and $f(m)$ is an element of $N$, and is called the image of $m$. A definite prescription of how this map is actually mapping is needed.\\
+The preimage of a set $V$ wrt. the map is the subset of the domain that gets mapped to $V$. It is not the inverse map of the image set! This defintion would be problematic e.g. if two elements in the image set are being hit by multiple elements of the target set. For bijective maps, the preimage is also the inverse mapping of the image.
+
+\begin{example}[A continuous map]
+    Let $M=\{1,2\}$ and $N=\{1,2\}$.\\
+    $f$ maps 1 to 2 and 2 to 1. Further let:\\
+    $\mathcal{O}_M := \left \{ 0, \left \{ 1 \right \}, \left \{ 2 \right \} , \left \{ 1,2 \right \} \right \}$ \\
+    $\mathcal{O}_N := \left \{ 0, \left \{ 1,2 \right \} \right \}$ \\
+    Is the preimage of every open subset in the target an open subset in the domain?
+    \begin{itemize}[itemsep=3pt, topsep=3pt]
+        \item $\operatorname{preim} (0) = 0 \in \mathcal{O}_M$
+        \item $\operatorname{preim} \left ( \left \{ 1,2 \right \} \right ) = M \in \mathcal{O}_M$
+    \end{itemize}
+    Thus $f$ is continuous.
+\end{example}
+
+\begin{example}[Another very similar map]
+    Let $M,N$ be like in the previous example including the respective topologies, but consider $f^{-1}$ which maps from $N$ to $M$ (this is now the inverse map).\\
+    Check again the preimages of every open subset in the target:
+    $$\operatorname{preim}_{f^{-1}} \left ( \left \{ 1 \right \} \right ) = \left \{  \right \} \notin \mathcal{O}_N$$
+    $\implies f^{-1}$ is not continuous!
+\end{example}
+
+This shows: it is dangerous not to talk about the chosen topologies! Even the inverse of the identity map (which is the identity map) can be not continuous for some topologies.
+
+stopped at min 59:00
+
+
+hello
