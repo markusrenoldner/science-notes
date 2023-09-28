@@ -1,3 +1,4 @@
+[[Linear algebra]]
 
 Transposed of matrix product
 $$\begin{equation}
