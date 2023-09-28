@@ -1,4 +1,4 @@
-is a numerical scheme, that conserves certain properties of the unknown. It does this by deriving a formula for the "exact cell average" of the unknown. This formula is then approximated using [[Numerical integration]].
+is a numerical scheme, that conserves certain properties of the unknown. It does this by deriving a formula for the "exact cell average" of the unknown. This formula is then approximated using numerical integration, see [[Numerical analysis]].
 Volume integrals in a partial differential equation that contain a divergence term are converted to surface integrals, using the divergence theorem. These terms are then evaluated as fluxes at the surfaces of each finite volume.
 
 We will now consider the method for a 1D [[Conservation law, transport equation]]:

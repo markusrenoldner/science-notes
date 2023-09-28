@@ -99,7 +99,7 @@ A_{j i} & =\sum_{T \in \mathcal{T}} A\left(\left.\varphi_i\right|_T,\left.\varph
 & =\sum_{T \in \mathcal{T}} \sum_{\ell} \sum_k C_{T, i \ell} A_{T, \ell k} C_{T, j k}
 \end{aligned}
 $$
-The elements of the local matrix and vector are calculated only once on the reference element to save computation time. This is done by numerical quadrature (see [[Numerical integration]]). For simple basis functions, the integrals can be computed exactly.
+The elements of the local matrix and vector are calculated only once on the reference element to save computation time. This is done by numerical quadrature (see [[Numerical analysis]]). For simple basis functions, the integrals can be computed exactly.
 
 In the case of Dirichlet boundary conditions, let $\gamma_D \subset\{1, \ldots, N\}$ correspond to the vertices $x_i$ at the Dirichlet boundary, and $\gamma_f=\{1, \ldots N\} \backslash \gamma_D$.
 We have the equations

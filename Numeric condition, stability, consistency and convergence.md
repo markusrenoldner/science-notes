@@ -1,5 +1,5 @@
 [[Lax equivalence theorem]]
-[[Condition number]]
+Condition number, see [[Numerical analysis]]
 
 
 Let
