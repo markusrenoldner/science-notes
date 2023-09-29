@@ -1,4 +1,4 @@
-we discuss [[Plasma, Magnetohydrodynamics (MHD)]].
+we discuss [[Plasma physics]].
 
 
 ## Self-consistent plasma description

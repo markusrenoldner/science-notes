@@ -5,7 +5,7 @@ important branch of [[Physics]]
 - [[Electrostatic basics]]
 - [[Maxwell equations]]
 - [[Potential vs potential energy]]
-- [[Plasma, Magnetohydrodynamics (MHD)]]
+- [[Plasma physics]]
 - ...
 
 

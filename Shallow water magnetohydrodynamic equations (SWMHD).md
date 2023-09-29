@@ -1,6 +1,6 @@
 [[Differential equations]]
 
-An extension of [[Shallow water equations]] that combines the original fluid problem with [[Plasma, Magnetohydrodynamics (MHD)]].
+An extension of [[Shallow water equations]] that combines the original fluid problem with [[Plasma physics]].
 
 They take into account the effect of the magnetic field studying the global dynamics of the solar tachocline. The two-dimensional SWMHD equations with non-flat bottom topography give the following hyperbolic conservation law:
 $$

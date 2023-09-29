@@ -1,4 +1,4 @@
-we talk about a kinetic description of [[Plasma, Magnetohydrodynamics (MHD)]].
+we talk about a kinetic description of [[Plasma physics]].
 we derive the Vlasov equation from the Boltzmann equation, see [[Kinetic plasma model, Boltzmann equation]].
 
 #todo  from here

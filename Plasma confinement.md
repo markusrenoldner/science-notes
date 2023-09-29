@@ -1,4 +1,4 @@
-we talk about how to control [[Plasma, Magnetohydrodynamics (MHD)]]
+we talk about how to control [[Plasma physics]]
 
 Due to the cyclotron motion (see [[Particle motion in static uniform magnetic fields]], the $B$-field confines charged particles normal to it, but not along/parallel to it.
 

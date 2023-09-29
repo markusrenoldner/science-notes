@@ -1,4 +1,4 @@
-We consider charged particles, relevant in [[Plasma, Magnetohydrodynamics (MHD)]].
+We consider charged particles, relevant in [[Plasma physics]].
 For motion in static, uniform B-fields: [[Particle motion in static uniform magnetic fields]]
 
 
