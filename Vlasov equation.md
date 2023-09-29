@@ -1,23 +1,12 @@
 we talk about a kinetic description of [[Plasma physics]].
 we derive the Vlasov equation from the Boltzmann equation, see [[Kinetic plasma model, Boltzmann equation]].
 
-#todo  from here
-
-
 ## Derivation from Boltzmann equation
-Boltzmann eq:
-$$
-\frac{\partial f_S}{\partial t}+\vec{v} \cdot \frac{\partial f_S}{\partial \vec{r}}+\frac{q_S}{m_S}\left(\vec{E}^{l}+\vec{v} \times \vec{B}^{l}\right) \cdot \frac{\partial f_S}{\partial \vec{v}}=\left(\frac{\partial f}{\partial t}\right)_c
-$$
-Assume large $n$ in debye cube ([[Plasma Debye length]]), which allows to neglect collisions
-$$n\lambda_D^3 >>> 1 \implies \left(\frac{\partial f}{\partial t}\right)_c=0$$
-this gives the Vlasov equation
+Take Boltzmann equation and assume large $n$ in debye cube ([[Plasma Debye length]]), which allows to neglect collisions. This gives the Vlasov equation
 $$
 \frac{\partial f_S}{\partial t}+\vec{v} \cdot \frac{\partial f_S}{\partial \vec{r}}+\frac{q_S}{m_S}\left(\vec{E}+\vec{v} \times \vec{B}\right) \cdot \frac{\partial f_S}{\partial \vec{v}}=0 
 $$
-where we used $E,B$ for the long range fields.
-
-Vlasov equation is coupled to Maxwell equations
+where we denote the "long range fields" with $E,B$. Vlasov equation is coupled to Maxwell equations with the following relations (charge and current density):
 $$
 \rho=\sum_S q_S \int \mathrm{d} \vec{v} f_S(\vec{r}, \vec{v}, t) \quad \vec{j}=\sum_S q_S \int \mathrm{d} \vec{v} \vec{v} f_S(\vec{r}, \vec{v}, t)
 $$
@@ -44,7 +33,7 @@ which means that Vlasov equation describes time-reversible processes
 
 
 ## Interpretation of Vlasov equation
-The motion of $f_S$ is incompressible in phase space
+The motion of $f_S$ is incompressible in 6D phase space
 $$
 \nabla_{6 D} \cdot \vec{u}=\frac{\partial}{\partial \vec{r}} \cdot \vec{v}+\frac{\partial}{\partial \vec{v}} \cdot \frac{\vec{F}}{m_S}=0
 $$
@@ -56,27 +45,10 @@ $$\begin{align}
 \end{align}
 $$
 
-$f_S$, as measured when moving along a particle trajectory, is constant
+$f_S$, as measured when moving along a particle trajectory, is constant.
 
 
-## Solutions of Vlasov equation
-If $C_j$ are constants of motion (see [2]), $j=1,2, \ldots, J$, then $f_S\left(C_1, C_2, \ldots, C_J\right)$ is a solution of Vlasov equation. In fact
-$$
-\begin{align}
-\frac{\partial f_S}{\partial t}+\vec{v} \cdot \frac{\partial f_S}{\partial \vec{r}}+\frac{q_S}{m_S}(\vec{E}+\vec{v} \times \vec{B}) \frac{\partial f_S}{\partial \vec{v}}=\\
-\frac{\mathrm{d} f_S}{\mathrm{~d} t}\text{\huge$|$}_{\text {orbit }}=\\
-\underbrace{\frac{\partial f_S}{\partial C_1} \cdot \frac{\mathrm{d} C_1}{\mathrm{~d} t}\text{\huge$|$}_{\text {orbit }}}_{=0}+\underbrace{\frac{\partial f_S}{\partial C_2} \cdot \frac{\mathrm{d} C_2}{\mathrm{~d} t}\text{\huge$|$}_{\text {orbit }}}_{=0}+\ldots+\underbrace{\frac{\partial f_S}{\partial C_J} \cdot \frac{\mathrm{d} C_J}{\mathrm{~d} t}\text{\huge$|$}_{\text {orbit }}}_{=0}=0
-\end{align}
-$$
-Examples
-- $\vec{E}=0=\vec{B} \Rightarrow v_x, v_y, v_z$ are constants of motion $\Rightarrow f_S=f_S\left(v_x, v_y, v_z\right)$ is solution of Vlasov
-- $\vec{E}=0, \vec{B}=B_0 \hat{e}_z \quad \Rightarrow \quad v_z, v^2, v_y+\frac{q_S B_0}{m_S} x, v_x-\frac{q_S B_0}{m_S} y$ are constants
-$$
-\Rightarrow f_S=f_S\left(v_z, v^2, v_y+\frac{q_S B_0}{m_S} x, v_x-\frac{q_S B_0}{m_S} y\right) \text { is solution of Vlasov }
-$$
-Observations
-- Contrast to Boltzmann equation, where Maxwellian is the only stationary solution
-- Very difficult to find the constants of motion
+How to find solutions to the equation is discussed in [1].
 
 
 ## Sources

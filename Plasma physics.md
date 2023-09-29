@@ -21,24 +21,20 @@ The definition above implies the following:
 
 
 ## Motion of single particles
-- [[Particle motion in static uniform magnetic fields]]
-- [[Particle motion in electromagnetic fields]]
-- [[Plasma confinement]]
+In uniform B-field, particles experience gyromotion: [[Particle motion in uniform magnetic fields]]
+
+In E field, motion is a superposition of drift and gyromotion.
+- [[E cross B drift]]
+- [[Curvature drift]]
+- [[Grad B drift]]
+
+Plasma confinement strategies based on the understanding of gyromotion and drifts is discussed in [1].
 
 
 ## Kinetic description of plasma
 Instead of single particles, we have to study many particles that itself influence the $B$ and $E$-fields, using statistical methods.
-We discuss the Vlasov equation etc.
-[[Kinetic plasma model, Boltzmann equation]]
-[[Vlasov equation]]
-
-For a more detailed derivation of the collision frequency, see EPFL lecture 2b)
-For info on
-- electron deceleration
-- plasma resistivity
-- overview of plasma collision frequencies
-see EPFL lecture 2c)
-
+- [[Kinetic plasma model, Boltzmann equation]]
+- [[Vlasov equation]]
 
 ## Fluid description of plasma
 the kinetic model is very accurate, but sometimes too complex.
@@ -52,5 +48,5 @@ see EPFL lecture, weeks 3,4
 
 
 ## Sources
-- EPFL - Introduction to Plasma Physics
-- McGreivy -General Plasma Physics, Princeton lecture notes 2017
+1. EPFL - Introduction to Plasma Physics
+2. McGreivy -General Plasma Physics, Princeton lecture notes 2017
