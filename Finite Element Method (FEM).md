@@ -1,6 +1,6 @@
 important numerical technique for partial differential equations/PDE (see [[Differential equations]] in [[Numerics for differential equations]]
 
-
+#todo 
 ## Idea of FEM
 The endgoal is to transfer the PDE problem into a linear system of algebraic equations whose solution approximates the PDE.
 This is done by deriving a [[Variational formulation, variational problem]]/weak form of the PDE to reduce regularity requirements. The solution of this weak form is interpolated in a finite dimensional function space (e.g. polynomials of a certain degree).
