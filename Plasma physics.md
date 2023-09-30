@@ -40,11 +40,8 @@ Instead of single particles, we have to study many particles that itself influen
 the kinetic model is very accurate, but sometimes too complex.
 the fluid model is 3dimensional instead of 6dimensional
 its incorporates ideas from [[Fluid Dynamics]]
-we discuss:
-- 2-fluid model (treating electron and ions as different fluids)
-- MHD model (single fluid!)
 
-see EPFL lecture, weeks 3,4
+[[Plasma fluid models and MHD]]
 
 
 ## Sources
