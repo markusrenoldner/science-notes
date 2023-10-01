@@ -1,11 +1,7 @@
-
-## Definition: [[Variational formulation, variational problem]] on an [[Affine space]]
-
-![[def-variationalproblem.png]]
+in particular, we discuss the [[Minimum of quadratic functionals]] and its equivalence to a [[Variational problem]] on an [[Affine space]].
 
 
-
-## Equivalence to [[Minimum of quadratic functionals]]
+## Equivalence theorem from Prof. Hiptmair's lecture
 
 ![[equivalence-quadrmin-variational.png]]
 this theorem is formulated on a vector space, but also works on an affine space as visible in [[Minimum of quadratic functionals]]

@@ -1,6 +1,5 @@
 
 ## Functions
-
 if it is not important
 - how the function value is called
 - what the function is doing
@@ -16,10 +15,25 @@ f:\mathbb{R}^2 &\rightarrow \mathbb{R}\\
 \end{align}$$
 
 
+## Notation for $C^p$- and $L^p$-function spaces
+Consider
+$$\begin{align}
+f:M &\rightarrow N\\
+(x,y) &\mapsto x^2+4y
+\end{align}$$
+where $M\subseteq \mathbb{R}^2$ and $N\subseteq \mathbb{R}$. As the function is infinitely differentiable in both variables, we can write
+$$f\in C^\infty(M)$$
+If we would have a function with a multidimensional target set, e.g. $N\subseteq \mathbb{R}^3$, we can write
+$$f\in [C^\infty(M)]^3$$
+$C^\infty(M)$ is a function space, see [[Function spaces]].
+The same notation is used for $L^p$ spaces, e.g.
+$$f\in [L^2(M)]^3$$
+
+
 ## Operators
 are maps that map functions to functions. An operator can e.g. map from a vector space into another vector space.
 
-An example is a differential operator $D$. It can be notated as follows:
+An example is a differential operator $D$. It can be denoted as follows:
 $$D:C^1(M) \rightarrow C^0(M)$$
 where $M$ is an open subset of $\mathbb{R}^n$.
 

@@ -4,11 +4,11 @@ Analysing the weak form of the poisson problem for unisolvence. The problem can 
 ## With homogenious boundary conditions
 Given problem: $\Omega\subset \mathbb{R}^d$ bounded, Lipschitz domain, $f\in L^2$, find $u \in H^1_0$ such that
 $$-\Delta u = f, \qquad u=0\text{ on }\partial\Omega$$
-the weak form/[[Variational formulation, variational problem]] can be found by multiplying with testfunctions $v\in  H^1_0$ and integrating by parts:$$A(u,v,):= \int \nabla u \nabla v = \int fv =: l(v) \quad\forall v.$$ This weak problem is unisolvent and its solution depends continuously on the data ("well posed"): $$\Vert u\Vert_{H^1} \leq \Vert f \Vert.$$
+the weak form/[[Variational problem]] can be found by multiplying with testfunctions $v\in  H^1_0$ and integrating by parts:$$A(u,v,):= \int \nabla u \nabla v = \int fv =: l(v) \quad\forall v.$$ This weak problem is unisolvent and its solution depends continuously on the data ("well posed"): $$\Vert u\Vert_{H^1} \leq \Vert f \Vert.$$
 Proof.
-- A is continuous by Cauchy-Schwarz: $A(u,v) \leq \Vert u\Vert \Vert v \Vert \leq \Vert u\Vert_{H^1} \Vert v \Vert_{H^1}$.
-- A is coercive by Poincare-Friedrich: $\Vert u\Vert_{H^1}^2=\Vert u\Vert^2+\Vert \nabla u\Vert^2\leq (C_{PF}^2+1)\Vert\nabla u\Vert^2=(C_{PF}^2+1) A(u,u)$ 
-- l is continuous by Cauchy-Schwarz: $l(v)\leq \Vert v \Vert \Vert f \Vert \leq  \Vert v \Vert_{H^1} \Vert f \Vert$
+- $A$ is continuous by Cauchy-Schwarz: $A(u,v) \leq \Vert u\Vert \Vert v \Vert \leq \Vert u\Vert_{H^1} \Vert v \Vert_{H^1}$.
+- $A$ is coercive by Poincare-Friedrich: $\Vert u\Vert_{H^1}^2=\Vert u\Vert^2+\Vert \nabla u\Vert^2\leq (C_{PF}^2+1)\Vert\nabla u\Vert^2=(C_{PF}^2+1) A(u,u)$
+- $l$ is continuous by Cauchy-Schwarz: $l(v)\leq \Vert v \Vert \Vert f \Vert \leq  \Vert v \Vert_{H^1} \Vert f \Vert$
 By the [[Lax-Milgram lemma]], the problem above is unisolvent and well posed.
 
 
@@ -36,7 +36,7 @@ f(v)&=\int_{\Omega} f v d x+\int_{\Gamma_N} u_N \operatorname{tr} v d s+\int_{\G
 If $u_D=0$ this problem is solvable by [[Lax-Milgram lemma]].
 
 For general $u_D$, the unknown $u$ is now in an [[Affine space]] and not in a vector space and we cant apply the lemma. But we can find a unique function $z$ with zero-Dirichlet boundary condition, for the adjusted problem $A(z,v)=f(v)-A(g,v)\quad \forall v$, with $\text{tr}g = u_D$. We can then recover $u=z+g$.
-This is called "offset function trick" and is exaplained in more detail here: [[Variational formulation, variational problem]]. 
+This is called "offset function trick" and is exaplained in more detail here: [[Variational problem]]. 
 
 
 ## Sources

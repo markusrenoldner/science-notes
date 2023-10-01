@@ -1,15 +1,7 @@
-A mixed method is a variational formulation involving two function spaces, and a bilinearform of a special saddle point structure ([[Saddle point problem]]). Usually, it is obtained from [[Variational formulation, variational problem]]s with constraints.
+See [[Mixed variational problem]].
 
 
-## Example for motivation: "energy minimization under side constrant"
-seek minimum of functional $$J[b]:=\frac{1}{2}a(v,v)-f(v)$$ subject to the constraint $$b(v,q)=g(q)\quad \forall q.$$ $a,b$ are bilinearforms, $f,g$ are linearforms. Using the technique of Lagrangian multipliers, one can reformulate this as the problem to find stationary points (which turn out to be saddle points!) of $$L(u,\lambda):=J[u]+b(u,\lambda)-g(\lambda)$$which then leads to the following problem: $$\begin{align}
-&a(u,v) + b(v,p) &=f(v) \quad \forall v\in V \\
-&b(u,q)&=g(q)\quad \forall q\in Q
-\end{align}$$
-We now consider two examples:
-
-
-## Example 1: Neumann problem of the poisson equation
+## Example 1: Neumann problem of the Poisson equation
 Find $u\in V$ s.t. $$-\Delta u = f, \quad \frac{\partial u}{\partial n} = 0$$ or in weak form: $$\int \nabla u\nabla v = \int fv \quad \forall v\in W.$$ This problem is not unisolvent without further constraints (as one can add constants to the solution $u$ and get another solution). There are two options:
 1. One can change the trialspace $V$ and only allow functions with $\int u=0$
 2. One can change the problem, by adding an equation (this is usually easier): find $(u,p)\in H^1\times \mathbb{R}$, s.t. $$\begin{align}
@@ -20,7 +12,7 @@ If $(u,0)$ solves the 2nd problem, then $u$ also solves the 1st problem with the
 
 We can now apply [[Brezzi Theorem]] to show unisolvence. We have to check three conditions:
 1. $a,b$ are continuous by Cauchy-Schwartz
-2. $a$ is coercive on the Kernel of $b$. We have $\text{Ker}(b)=\{u\in H^1 : \int u=0\}$ and we can use thePoincare-Friedrichs inequality (see [[Sobolev spaces and Finite Element spaces]]) to show that $a$ is coercive, i.e. $a(u,u)\geq \alpha \Vert u\Vert^2\quad \forall u\in \text{Ker}(b)$.
+2. $a$ is coercive on the Kernel of $b$. We have $\text{Ker}(b)=\{u\in H^1 : \int u=0\}$ and we can use the Poincare-Friedrichs inequality (see [[Trace operator]]) to show that $a$ is coercive, i.e. $a(u,u)\geq \alpha \Vert u\Vert^2\quad \forall u\in \text{Ker}(b)$.
 3. LBB condition. Pick $u:=q$ and get $\Vert u \Vert_{H^1}= |q| |\Omega|^\frac{1}{2}$ and $$\Vert q\Vert_Q = |q|=\frac{q\cdot q}{|q|} = \frac{1}{|\Omega|^\frac{1}{2}} \frac{b(u,q)}{\Vert u\Vert_V},$$ which also holds for the supremum.
 
 

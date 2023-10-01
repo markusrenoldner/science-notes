@@ -1,8 +1,8 @@
 are partial [[Differential equations]] involving differential operators with non-integer power.
 
 Example: find $u$ st.
-$$(-\Delta)^2 u = f, \quad s\in(0,1)$$
-i.e. $s$ does not have to be an integer. How is this defined for $s$ not being an integer?
+$$(-\Delta)^s u = f, \quad s\in(0,1)$$
+How is this defined for $s$ not being an integer?
 One possible definition is formulated as an integral operator.
 
 

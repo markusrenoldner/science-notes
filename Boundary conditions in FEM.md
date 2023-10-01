@@ -7,7 +7,7 @@ the testfunctions are in H_0 and definitely zero on the boundary! ("do not test,
 This H_g is an [[Affine space]], which is not a vector space.
 
 The problem can be transferred to a problem in a vector space, (how?)
-see [[Variational formulation, variational problem]]
+see [[Variational problem]]
 
 
 ## Zero essential BC

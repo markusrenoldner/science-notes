@@ -1,3 +1,5 @@
+Shows unisolvence of continuous and discrete [[Variational problem]]s with continuous and coercive bilinearform. 
+See [[Solvability of variational problems]].
 
 ## Definitions
 
@@ -5,8 +7,6 @@ A bilinearform $a(.,.)$ is coercive,     if $\exists \alpha_1 \in \mathbb{R}$, s
 A bilinearform $a(.,.)$ is continuous if $\exists \alpha_2 \in \mathbb{R}$, s.t. $a(u,v) \leq \alpha_2 \Vert u\Vert \Vert v \Vert\quad \forall u,v.$
 
 Continuity of a blf can usually be shown using the Cauchy Schwarz inequality.
-
-proofs unisolvence of [[Variational formulation, variational problem]]s with continuous and coercive bilinearform, important for [[Finite Element Method (FEM)]].
 
 
 ## Main statement

@@ -4,7 +4,7 @@ Is a [[Finite Element Method (FEM)]] with discontinuities in the solutions acros
 ## Example advection equation:
 [[Advection equation]]:
 $$\partial_t u + \partial_x u = f$$
-We can use a space-time-mesh to get a discontinuous [[Variational formulation, variational problem]]. (No time stepping is necessary then).
+We can use a space-time-mesh to get a discontinuous [[Variational problem]]. (No time stepping is necessary then).
 We get
 $$\operatorname{div}_{t,x}(b\cdot u)=f,\quad \operatorname{div}_{t,x} = \partial_t+\partial_x,\quad b = (1,1)$$
 so $b$ just makes $u$ a vector field on the space-time domain. The elements are subsets of the space-time domain:

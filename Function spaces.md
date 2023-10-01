@@ -12,7 +12,7 @@
 #todo mention that "L2 spaces with norm" are defined using [[Equivalence class, quotient space]]. This implies that point values of functions in that space have no meaning. Two functions that only differ on intervals/sets with measure zero (like e.g. points), are equal in the "L2-sense".
 see https://de.wikipedia.org/wiki/Lp-Raum
 ### $L^2$
-
+#todo 
 
 ## Sobolev spaces
 
@@ -26,10 +26,10 @@ is defined as $H^1:=\{u\in H^1: tr(u)=0 \text{ on } \partial \Omega\}$
 ### $H^{-1}$ 
 is the dual space of $H^1_0$ , i.e. it contains linear functionals/covectors map from $H_0^1\rightarrow \mathbb{R}$ 
 
-### H(curl)
-is defined as $H(curl):=\{u\in L^2: \nabla\times u\in L^2\}$
+### $H(\text{curl})$
+is defined as $H(\text{curl}):=\{u\in L^2: \nabla\times u\in L^2\}$
 
-
+Properties of these spaces in the context of [[Finite Element Method (FEM)]] are described in [[Sobolev space properties]].
 
 
 
