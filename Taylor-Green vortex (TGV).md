@@ -7,17 +7,17 @@ Periodic, decaying analytical solution of the [[Navier-Stokes equations]], used 
 ## "Dimensional" case
 For 
 $$
-\begin{align*}
+\begin{aligned}
     \rho\left(\frac{\partial \mathbf{u}}{\partial t}+\mathbf{u} \cdot \nabla \mathbf{u}\right) &=-\nabla p_{\text{stat}} + \mu \Delta u + f\\
 	\nabla \cdot u &= 0
-\end{align*}
+\end{aligned}
 $$
 the TGV solution is given as
-$$\begin{align}
+$$\begin{aligned}
 u&=cos(x)sin(y)F(t)\\
 v&= -sin(x)cos(y)F(t) \\
 w&=0
-\end{align}$$
+\end{aligned}$$
 with
 $$F(t)=e^{-2\nu t}$$
 Here $\nu$ is the kinematic viscosity ($\nu = \frac{\mu}{\rho}$).
@@ -26,10 +26,10 @@ Here $\nu$ is the kinematic viscosity ($\nu = \frac{\mu}{\rho}$).
 ## Nondimensional case
 In the nondimensional formulation
 $$
-\begin{align}
+\begin{aligned}
     \displaystyle\frac{\partial \mathbf{u}}{\partial t}+\mathbf{u} \cdot \nabla \mathbf{u} &=-\nabla p_{\text{stat}} + \frac{1}{\text{Re}} \Delta \boldsymbol{u} + \boldsymbol{f} \\
     \displaystyle\nabla \cdot \boldsymbol{u} &= 0
-\end{align}
+\end{aligned}
 $$
  the function $F$ can be corrected to 
 $$\displaystyle F(t)=e^{-2t/Re}$$

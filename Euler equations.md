@@ -1,9 +1,9 @@
 Special case of [[Navier-Stokes equations]] with infinite Reynolds number. They are given as:
 $$
-\begin{align}
+\begin{aligned}
     \displaystyle\frac{\partial \mathbf{u}}{\partial t}+\mathbf{u} \cdot \nabla \mathbf{u} &=-\nabla p_{\text{stat}} + \boldsymbol{f} \\
     \displaystyle\nabla \cdot \boldsymbol{u} &= 0
-\end{align}
+\end{aligned}
 $$
 
 ## Conservative form/conservation form:

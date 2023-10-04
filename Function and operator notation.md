@@ -9,18 +9,18 @@ if its not important what the domain and target set are:
 $$f:(x,y) \mapsto x^2+4y$$
 
 if additionally the domain and target set are important:
-$$\begin{align}
+$$\begin{aligned}
 f:\mathbb{R}^2 &\rightarrow \mathbb{R}\\
 (x,y) &\mapsto x^2+4y
-\end{align}$$
+\end{aligned}$$
 
 
 ## Notation for $C^p$- and $L^p$-function spaces
 Consider
-$$\begin{align}
+$$\begin{aligned}
 f:M &\rightarrow N\\
 (x,y) &\mapsto x^2+4y
-\end{align}$$
+\end{aligned}$$
 where $M\subseteq \mathbb{R}^2$ and $N\subseteq \mathbb{R}$. As the function is infinitely differentiable in both variables, we can write
 $$f\in C^\infty(M)$$
 If we would have a function with a multidimensional target set, e.g. $N\subseteq \mathbb{R}^3$, we can write

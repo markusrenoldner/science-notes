@@ -21,13 +21,13 @@ DNS for turbulent flows allows to use explicit time stepping always, because the
 
 
 ## Total cost of DNS depending in Reynolds number
-$$\begin{align}
+$$\begin{aligned}
 \text{total cost} &= \text{cost per timestep} \times \text{Nr of time steps}\\
 &= \mathcal{O}(N)\times \mathcal{O}(N_T)\\
 &= \mathcal{O}(\text{Re}^\frac{9}{4})\times \mathcal{O}(\text{Re}^\frac{1}{2})\\
 &= \mathcal{O}\left(\text{Re}^\frac{11}{4}\right)\\
 &\approx \mathcal{O}(\text{Re}^3)
-\end{align} $$
+\end{aligned} $$
 
 
 ## Source

@@ -6,48 +6,48 @@ Examples: [[Polar, cylindrical and spherical coordinates]]
 
 
 ## Cartesian coordinates
-If $\left \{ \boldsymbol{e}_x, \boldsymbol{e}_y \right \}$ is a fixed, orthonormal basis and if we can describe a point $\boldsymbol{r}\in M$ like this: $$\begin{equation}
+If $\left \{ \boldsymbol{e}_x, \boldsymbol{e}_y \right \}$ is a fixed, orthonormal basis and if we can describe a point $\boldsymbol{r}\in M$ like this: $$
     \boldsymbol{r} = \boldsymbol{e}_x x + \boldsymbol{e}_y y, 
-\end{equation}$$  then we call $\left ( x,y \right )^\intercal\equiv \boldsymbol{x}$ Cartesian coordinates, always denoted as "$\boldsymbol{x}$".
+$$  then we call $\left ( x,y \right )^\intercal\equiv \boldsymbol{x}$ Cartesian coordinates, always denoted as "$\boldsymbol{x}$".
 
 
 ## Coordinate basis and local basis
 Define coordinate map (invertible):
-$$\begin{equation}
+$$
     \boldsymbol{r}:U\to M, \quad \boldsymbol{y}\mapsto \boldsymbol{r}(\boldsymbol{y}) \equiv \boldsymbol{r}(y^1, ..., y^d)
-\end{equation}$$
+$$
 where $\boldsymbol{y}$ are generalized/curvilinear coordinates. The map defines a system of such coordinates. The coordinate domain is $U\subset \mathbb{R}^d$.
 
-$M$ is embedded in a d-dim. vector space and has an orthonormal basis, and $\boldsymbol{r}$ can be expanded as$$\begin{equation}
+$M$ is embedded in a d-dim. vector space and has an orthonormal basis, and $\boldsymbol{r}$ can be expanded as$$
     \boldsymbol{r}(\boldsymbol{y}) = \boldsymbol{e}_a x^a \hspace{2cm} \substack{\text{index a for Cartesian} \\ \text{index j for curvilinear}}
-\end{equation}$$ and represented by the Cartesian coordinate/componet vector:
-$$\begin{equation}
+$$ and represented by the Cartesian coordinate/componet vector:
+$$
     \boldsymbol{x}(\boldsymbol{y}) = \begin{pmatrix} x^1(\boldsymbol{y}), ... x^d(\boldsymbol{y})\end{pmatrix}^\intercal
-\end{equation}$$
+$$
 Define the $j$-th coordinate line:
-$$\begin{align}
+$$\begin{aligned}
     \boldsymbol{r}_j :I_j &\to M\\
     y &\mapsto \boldsymbol{r}_j (y)\equiv \boldsymbol{r}(y^1, ... y, ...y^d) \hspace{2cm} \substack{\text{index j for curvilinear} \\ \text{$y$ takes place of $y^j$}}
-\end{align}$$
+\end{aligned}$$
 Curve velocity of j-th coordinate line, see [[Curves]]:
-$$\begin{equation}
+$$
     \boldsymbol{v}_{j} \equiv \frac{d}{dy} \boldsymbol{r}_j = \frac{d}{dy^j} \boldsymbol{r}(\boldsymbol{y})   \hspace{2cm}\text{depends on r!}
-\end{equation}$$
+$$
 Coordinate basis:
 - the coordinate map $\boldsymbol{y}\mapsto \boldsymbol{r}(\boldsymbol{y})$ is invertible
 - the $\boldsymbol{v}_{j}$ are lin. indep. and form a basis of $\mathbb{R}^d$
 They define the coordinate basis of the $\boldsymbol{y}$-coordinates. Represented in Cartesian coordinates:
-$$\begin{equation}
+$$
     \boldsymbol{v}_j (\boldsymbol{y}) = \boldsymbol{e}_a \frac{\partial x^a (\boldsymbol{y})}{\partial y^j}   \hspace{2cm} \substack{\text{depends on y and r} \\ \text{generally not orthonormal}}
-\end{equation}$$
+$$
 The [[Metric tensor]] describes the geometric relation between the $\boldsymbol{v}_j$:
-$$\begin{equation}
+$$
     g_{ij}\equiv \boldsymbol{v}_i \cdot \boldsymbol{v}_j \equiv \left \langle \boldsymbol{v}_i , \boldsymbol{v}_j \right \rangle \hspace{2cm} \text{...standard scalar product in $\mathbb{R}^d$}
-\end{equation}$$
+$$
 In physics, its common to normalize the coordinate basis which yields the so called local basis:
-$$\begin{equation}
+$$
     \boldsymbol{e}_j \equiv \frac{\boldsymbol{v}_j}{\Vert \boldsymbol{v}_j \Vert} = \frac{\boldsymbol{v}_j}{\sqrt{g_{jj}}} \hspace{2cm} \text{depends on y/r} 
-\end{equation}$$
+$$
 Concrete examples can be found in [[Polar, cylindrical and spherical coordinates]].
 
 

@@ -6,10 +6,10 @@ The following equations descibre incompressible, Newtonian fluids.
 ## Vector calculus notation
 
 $$
-\begin{align*}
+\begin{aligned}
     \rho\left(\frac{\partial \mathbf{u}}{\partial t}+\mathbf{u} \cdot \nabla \mathbf{u}\right) &=-\nabla p_{\text{stat}} + \mu \Delta u + f\\
 	\nabla \cdot u &= 0
-\end{align*}
+\end{aligned}
 $$
 
 
@@ -28,20 +28,20 @@ Momentum $z$ - component:$$\rho\left(\frac{\partial w}{\partial t}+u \frac{\part
 
 ## Nondimensional formulation
 introduce reference variables (in capital)
-$$\begin{align*}
+$$\begin{aligned}
     \tilde{\boldsymbol{r}} &= \frac{\boldsymbol{r}}{L}\text{, and }\frac{1}{L}\tilde{\nabla}=\nabla,\\
     \tilde{\boldsymbol{u}} &= \frac{\boldsymbol{u}}{U},\\
     \tilde{t} &= \frac{t}{L/U},\\
     \tilde{p}_{\text{stat}} &= \frac{p_{\text{stat}}}{\rho U^2},
-\end{align*}$$
+\end{aligned}$$
 plug this into the NS equations.
 Then ignore the tilde symbol and get:
 
 $$
-\begin{align}
+\begin{aligned}
     \displaystyle\frac{\partial \mathbf{u}}{\partial t}+\mathbf{u} \cdot \nabla \mathbf{u} =-\nabla p_{\text{stat}} + \frac{1}{\text{Re}} \Delta \boldsymbol{u} + \boldsymbol{f} \\
     \displaystyle\nabla \cdot \boldsymbol{u} = 0
-\end{align}
+\end{aligned}
 $$
 
 
@@ -52,12 +52,12 @@ $$
 and this to the convective term
 $$ \boldsymbol{u}\cdot \nabla \boldsymbol{u} =\frac{1}{2}\nabla (\boldsymbol{u}\cdot\boldsymbol{u}) +(\nabla\times \boldsymbol{u}) \times \boldsymbol{u} $$
 and get
-$$\begin{align}
+$$\begin{aligned}
     \displaystyle
     \frac{\partial \boldsymbol{u}}{\partial t}+\boldsymbol{\omega} \times \boldsymbol{u}+\frac{1}{\operatorname{Re}} \nabla \times \boldsymbol{\omega}+\nabla p=\boldsymbol{f} \\
     \boldsymbol{\omega}=\nabla \times \boldsymbol{u} \\
     \nabla \cdot \boldsymbol{u}=0
-\end{align}
+\end{aligned}
 $$
 ATTENTION:
 here the total pressure p is used:

@@ -1,10 +1,10 @@
 
 one very nice example of a dynamic system (see [[Dynamical systems]]) is the lorenz attractor. Its formulated as follows:
-$$\begin{align}
+$$\begin{aligned}
 \frac{\partial x}{\partial t} &= \sigma (y-x) \\
 \frac{\partial y}{\partial t} &= x (\rho-z) -y \\
 \frac{\partial z}{\partial t} &= xy-\beta z
-\end{align}$$
+\end{aligned}$$
 define:
 $$v := (x,y,z)^T$$
 and follow:

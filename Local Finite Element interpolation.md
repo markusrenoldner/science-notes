@@ -55,15 +55,15 @@ therefore: $F^T:x\mapsto x+2$ and $\left(F^T\right)^{-1} :x\mapsto x-2$.
 Moreover, we set $\hat\psi_1(u)=u(0)$ and $\hat\psi_2(u)=u(1)$. 
 The basis functions are $\hat\phi_1 = 1-x$ and $\hat\phi_2 = x$.
 Now, we want to use the properties discussed before to find basis functions on $T$:
-$$\begin{align}
+$$\begin{aligned}
 \phi_1 &= \hat \phi_1\circ \left(F^T\right)^{-1} = 1-(x-2) = 3-x \\
 \phi_2 &= \hat \phi_2\circ \left(F^T\right)^{-1} = x-2  \\
-\end{align}$$
+\end{aligned}$$
 which is correct, as we defined the basis functions as hat functions. We can also transform the functionals:
-$$\begin{align}
+$$\begin{aligned}
 \psi_1(u) &= \hat \psi_1\circ \left(u\circ F^T\right) = \left(u\circ F^T\right)(0) = u(2) \\
 \psi_2(u) &= \hat \psi_2\circ \left(u\circ F^T\right) = \left(u\circ F^T\right)(1) = u(3) \\
-\end{align}$$
+\end{aligned}$$
 which is correct, as the functionals were defined as evaluations on the element boundary.
 
 

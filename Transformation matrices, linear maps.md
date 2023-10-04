@@ -20,11 +20,11 @@ Assume
 - $B=\left \{ 1,x,x^2 \right \}$
 - $p(x) = ax^2+bx+c \implies p'(x) = 2ax+b$.
 
-Lets apply the result of the theorem above to compute $L_B$:$$\left.\begin{align}
+Lets apply the result of the theorem above to compute $L_B$:$$\left.\begin{aligned}
     l_1 &= L(1) =  0 &&\implies l_1^B = \begin{pmatrix}0\\0\\0\end{pmatrix} \\
     l_2 &= L(x) =  1 &&\implies l_2^B = \begin{pmatrix}1\\0\\0\end{pmatrix} \\
     l_3 &= L(x^2) =  2x &&\implies l_3^B = \begin{pmatrix}0\\2\\0\end{pmatrix}
-\end{align}\quad\right\} \implies L_B\left(l_1^B, l_2^B, l_3^B\right) = \begin{pmatrix}0&1&0 \\0&0&2 \\0&0&0\end{pmatrix}$$As a test, we apply it to the polynomial:
+\end{aligned}\quad\right\} \implies L_B\left(l_1^B, l_2^B, l_3^B\right) = \begin{pmatrix}0&1&0 \\0&0&2 \\0&0&0\end{pmatrix}$$As a test, we apply it to the polynomial:
 $$p_B = \begin{pmatrix}c\\b\\a\end{pmatrix}, \quad p'_B = \begin{pmatrix}b\\2a\\0\end{pmatrix} \implies L_B\cdot p_B = \begin{pmatrix}0&1&0 \\0&0&2 \\0&0&0\end{pmatrix} \cdot \begin{pmatrix}c\\b\\a\end{pmatrix} = \begin{pmatrix}b\\2a\\0\end{pmatrix} \equiv p'_B $$
 
 

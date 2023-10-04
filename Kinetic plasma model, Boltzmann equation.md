@@ -14,11 +14,11 @@ Better: statistical approach.
 ## Distribution functions
 We use distribution functions $f$ (see [2]) in 6D phase space (3 positions, 3 velocities). 
 Interesting quantities:
-$$\begin{align}
+$$\begin{aligned}
     N_S &= \int dr \int dv f_S(r,v,t) &&\quad \text{ ... number of particles of type "S"}\\
     n_S(r,t) &= \int dv f_S(r,v,t) &&\quad \text{ ... number density in [1/volume]}\\
     u_S &= \frac{1}{n_S}\int dv v f_S(r,v,t)&&\quad \text{ ... average velocity}
-\end{align}$$
+\end{aligned}$$
 $f_S$ is the density over the velocity range, describes how many particles of a certain velocity $v$ exist at the respective location $r$ and time $t$.
 An example is the "Maxwell-Boltzmann"-distribution function:
 $$f_{S,B}=A \exp{(-Bv^2)}$$ with appropriate constants $A,B$. Its a Gaussian-type distribution (bell curve).
@@ -29,10 +29,10 @@ We want to find the time evolution of the distribution function.
 If there are no sources nor sinks of particles particles are conserved in 6D phase space. Therefore we have a [[Conservation law, transport equation]]:
 $$\frac{\partial f_S}{\partial t} =-\nabla_{6 D} \cdot\left(\vec{u} f_S\right)$$
 Together with the "6D-nabla operator" and the "6D-velocity" (time derivative of state vector):
-$$\begin{align}
+$$\begin{aligned}
     \nabla_{6 D} &=\left(\partial x, \partial y, \partial z, \partial v_x, \partial v_y, \partial v_z\right)=\left(\partial \vec{r}, \partial \vec{v}\right) \\
     \vec{u} &=\left(\frac{\mathrm{d} \vec{r}}{\mathrm{~d} t}, \frac{\mathrm{d} \vec{v}}{\mathrm{~d} t}\right)=\left(\vec{v}, \frac{\vec{F}}{m_S}\right)=\left(\vec{v}, \frac{\vec{F}^{l}+\vec{F}^{s}}{m_S}\right) 
-\end{align}$$
+\end{aligned}$$
 we get (l ... long range, s ... short range)
 $$ \frac{\partial f_S}{\partial t}=-\frac{\partial}{\partial \vec{r}} \cdot\left(\vec{v} f_S\right)-\frac{\partial}{\partial \vec{v}} \cdot\left[\left(\frac{\vec{F}^{l}+\vec{F}^{s}}{m_S}\right) f_S\right]
 $$

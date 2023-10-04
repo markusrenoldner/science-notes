@@ -1,13 +1,13 @@
 
 Given three bases:
-$$\begin{equation}
+$$
     E=\left \{ e_1,e_2 \right \}, \quad B=\left \{ \begin{pmatrix}1\\1\end{pmatrix}, \begin{pmatrix}1\\0\end{pmatrix}  \right \}, \quad C=\left \{ \begin{pmatrix}4\\7\end{pmatrix}, \begin{pmatrix}4\\8\end{pmatrix} \right \}
-\end{equation}$$
+$$
 
 and the following linear map $L$ and vector $v$, represented in $E$:
-$$\begin{equation}
+$$
     L_E=\begin{pmatrix}1&2\\3&-1\end{pmatrix},\quad v_E=\begin{pmatrix}8\\15\end{pmatrix}, \quad L(v) = L_E v_E = \begin{pmatrix}38\\9\end{pmatrix}
-\end{equation}$$
+$$
 
 Find $L_B$, and $L_C$, v_B, and v_C, and L(v) in these bases.
 

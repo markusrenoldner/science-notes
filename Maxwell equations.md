@@ -2,15 +2,15 @@
 
 
 ## Differential formulation
-(there is also an integral formulation)$$\begin{align}
+(there is also an integral formulation)$$\begin{aligned}
     \nabla\cdot D &= \rho,  &&\nabla\times E=-\partial_t B, \\
     \nabla\cdot B &= 0, &&\nabla\times B =\mu \mu_0 \left( j + \partial t D\right) .
-\end{align}$$alternative (only in terms of $E,B$):$$\begin{align}
+\end{aligned}$$alternative (only in terms of $E,B$):$$\begin{aligned}
     \nabla\cdot E &= \frac{\rho}{\epsilon_0} &&\text{Gauss's law,}\\
     \nabla\cdot B &= 0 &&\text{Gauss's law for magnetism,}\\
     \nabla\times E&=-\partial_t B &&\text{Faradays's law of induction,}\\
     \nabla\times B &=\mu_0 \left ( j + \epsilon_0 \partial_t E \right ) &&\text{Ampere's circuital law}.
-\end{align}$$
+\end{aligned}$$
 
 vector fields:
 - $E$ is the electric field (strength) ("elektr. feldstärke"), measured in V/m or N/As

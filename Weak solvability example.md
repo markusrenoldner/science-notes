@@ -29,10 +29,10 @@ The weak form is $$
 & =0+\int_{\Gamma_N} u_N \operatorname{tr} v d s+\int_{\Gamma_R} u_R \operatorname{tr} v d s-\int_{\Gamma_R} \alpha \operatorname{tr} u \operatorname{tr} v d s .
 \end{aligned}
 $$ The Dirichlet integral vanishes, as the testfunction have zero trace there. We get
-$$\begin{align}
+$$\begin{aligned}
 A(u, v)&= \int_{\Omega} \nabla u \cdot \nabla v d x+\int_{\Gamma_R} \alpha \operatorname{tr} u \operatorname{tr} v\\
 f(v)&=\int_{\Omega} f v d x+\int_{\Gamma_N} u_N \operatorname{tr} v d s+\int_{\Gamma_R} u_R \operatorname{tr} v
-\end{align}$$
+\end{aligned}$$
 If $u_D=0$ this problem is solvable by [[Lax-Milgram lemma]].
 
 For general $u_D$, the unknown $u$ is now in an [[Affine space]] and not in a vector space and we cant apply the lemma. But we can find a unique function $z$ with zero-Dirichlet boundary condition, for the adjusted problem $A(z,v)=f(v)-A(g,v)\quad \forall v$, with $\text{tr}g = u_D$. We can then recover $u=z+g$.

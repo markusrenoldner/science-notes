@@ -16,10 +16,10 @@ This integral doesnt appear in integrals over single elements in continuous FEme
 Because of the continuity, its not clear from which $K$ or neighbour-$K$ to take this flux $\psi_K$.
 
 A possible choice is the "upwind flux". We approximate $\psi_K$ by the numerical flux $\widehat{\psi}_K:=b\cdot n_K \hat{u}$. On the interface $\gamma'$ between the two elements $K$ and $K'$
-$$\begin{align}
+$$\begin{aligned}
 \hat{u}&:=u\vert_K ,\quad b \cdot n_K \geq 0  \quad\text{ "outflow of K"}\\
 \hat{u}&:=u\vert_{K'},\quad b\cdot n_K <0
-\end{align}$$
+\end{aligned}$$
 i.e. if flow from $K$ to $K'$ we take $\psi_K$, otherwise we take $\psi_{K'}$. In the bilinearform we then take the difference between $u$ and $\hat{u}$. The variational formulation over the whole domain is therefore:
 $$\sum_K \int_K \operatorname{div}_{x,t}(b\cdot u)v- \int_{\partial K}b\cdot n_x (\hat{u}-u)v=-\int_K b\cdot u \nabla v $$
 The term $\hat{u}-u=:[u]$ is also called "jump term" and it vanishes for an element, with outflow. 

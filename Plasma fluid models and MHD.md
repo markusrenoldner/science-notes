@@ -32,7 +32,7 @@ Assume
 - Plasma is magnetized
 - neglect RHS some terms
 $$
-\begin{align}
+\begin{aligned}
 \frac{\partial \rho}{\partial t}+\vec{\nabla} \cdot(\rho \vec{u})&=0 \\
 \rho \frac{d \vec{u}}{d t}-\vec{J} \times \vec{B}+\vec{\nabla} P&=0 \\
 \vec{E}+\vec{u} \times \vec{B}&=0 \\
@@ -40,7 +40,7 @@ $$
 \vec{\nabla} \cdot \vec{B}&=0 \\
 \vec{\nabla} \times \vec{E}&=-\frac{\partial \vec{B}}{\partial t} \\
 \vec{\nabla} \times \vec{B}&=\mu_0 \vec{J}
-\end{align}
+\end{aligned}
 $$
 where $J$ is the current density, and $P$ is the MHD pressure.
 

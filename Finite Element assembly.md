@@ -38,9 +38,9 @@ In 1D this suffices to know.
 ## Assembly in higher dimensions
 In higher dimensions we need to be more precise: the local matrices and right hand vectors are computed using the reference transformation introduced before
 
-For the poisson problem the local objects looks like this: $$\begin{align}
+For the poisson problem the local objects looks like this: $$\begin{aligned}
 A_T(\phi_i,\phi_j)&=\int_T\nabla\phi_i \nabla\phi_j = \int_{\widehat{T}} \nabla \widehat{\varphi}_i \cdot\left(F_T^{\prime}\right)^{-1}\left(F_T^{\prime}\right)^{-t} \nabla \widehat{\varphi}_j\left|\operatorname{det} F_T^{\prime}\right| \\ \vec{f}^T(\phi_j)&= ... =\int_{\widehat{T}} \widehat{f} \hat\phi_j\left|\operatorname{det} F_T^{\prime}\right|
-\end{align}$$here $F'$ is the jacobi matrix of $F$. If $F$ is affine linear, i.e. $F=\vec{a}+B\vec{x}$, then $F'=B$.
+\end{aligned}$$here $F'$ is the jacobi matrix of $F$. If $F$ is affine linear, i.e. $F=\vec{a}+B\vec{x}$, then $F'=B$.
 
 
 ## Assembly algorithm:

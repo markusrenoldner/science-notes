@@ -169,7 +169,7 @@ $$\begin{pmatrix}  A \\ A_{D} \end{pmatrix} \cdot \vec{u} = \begin{pmatrix} f \\
 such that $A_D$ only fixes the values $u_D$ to be $g$. The problem now is that $u_D$ is overdetermined, so now we remove the equations corresponding to $u_D$ from $A$. That means, the rows of $A$ and the rows of $f$ corresponding to an entry of $u_D$ will be set to 0. This results in
 $$\begin{pmatrix}  A_{f} \\ A_{D} \end{pmatrix} \cdot \vec{u} = \begin{pmatrix} f_f \\ g\end{pmatrix}$$
 The system is still rectangular. If this needs to be fixed, one can simply multiply by the transposed of the matrix:
-$$\begin{align}\begin{pmatrix}  A_{f}^\intercal & A_{D}^\intercal \end{pmatrix} \cdot \begin{pmatrix}  A_{f} \\ A_{D} \end{pmatrix} \cdot \vec{u} = \begin{pmatrix}  A_{f}^\intercal & A_{D}^\intercal \end{pmatrix} \cdot \begin{pmatrix} f_f \\ g\end{pmatrix} \end{align}$$
+$$\begin{aligned}\begin{pmatrix}  A_{f}^\intercal & A_{D}^\intercal \end{pmatrix} \cdot \begin{pmatrix}  A_{f} \\ A_{D} \end{pmatrix} \cdot \vec{u} = \begin{pmatrix}  A_{f}^\intercal & A_{D}^\intercal \end{pmatrix} \cdot \begin{pmatrix} f_f \\ g\end{pmatrix} \end{aligned}$$
 The benefit is, that one doesnt have to reorder $u$. Removing rows/entries from $A_f$ and $f_f$ is rather simple. The result of $A_D$ is something like this:
 $$A_D=\begin{pmatrix}
      1  & 0 & 0 & 0 & 0 & 0 &0 &... \\

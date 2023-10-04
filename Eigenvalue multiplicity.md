@@ -31,10 +31,10 @@ $$M:=A-\lambda_2\mathbb{I}=
 $$
 and further: $\mathcal{E}_A(\lambda_2)=\operatorname{ker}M$
 The dimension of $M$ is 2. Due to the rank-nullity theorem (Rangsatz/Dimensionssatz):
-$$\begin{align}
+$$\begin{aligned}
 \operatorname{dim}n&=\operatorname{dim}\operatorname{ker}(M)&&+\operatorname{dim}\operatorname{im}(M)\\
 3&=1&&+2
-\end{align}$$
+\end{aligned}$$
 where $n$ is the dimension of the domain which $A$ is map from ($\operatorname{dim}\operatorname{im}(\cdot)$ is also called $\operatorname{rank}(\cdot)$).
 
 The geometric multiplicity of $\lambda_2$ is 1 as this is the eigenspace dimension.

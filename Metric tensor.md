@@ -9,26 +9,26 @@ which is the standard, scalar product in $\mathbb{R}^d$.
 ## Example usage:
 It is a symmetric, positive definite Bilinearform/(0,2)-tensor. It is used to 
 ... calculate dot products:
-$$\begin{align}
+$$\begin{aligned}
     v\cdot w&= (v^1 e_1 + v^2 e_2)\cdot (w^1 e_1 + w^2 e_2)\\
     &= v^1 w^1 (e_1\cdot e_1)+v^1 w^2 (e_1\cdot e_2) + v^2 w^1 (e_\cdot e_2)+v^2 w^2 (e_2\cdot e_2) \\
     &=: v^i w^j \underbrace{e_i\cdot  e_j}_{=:g_{ij}\text{ ...metric tens.}}
-\end{align}$$
+\end{aligned}$$
 ... and vector lengths 
-$$\begin{align}
+$$\begin{aligned}
     \Vert v \Vert ^2&\equiv v\cdot v \\
     &= v^i v^j e_i \cdot e_j \\
     &=: v^i v^j g_{ij}
-\end{align}$$
+\end{aligned}$$
 ... and angles between vectors
-$$\begin{align}
+$$\begin{aligned}
     cos(\phi) &= \frac{v\cdot w}{\Vert v\Vert \Vert w\Vert}\\
     &= \frac{v^i w^j g_{ij}}{v^i v^j g_{ij} w^i w^j g_{ij} }
-\end{align}$$
+\end{aligned}$$
 Transformation rule:
-$$\begin{equation}
+$$
     \tilde g_{ij} \equiv \tilde e_i\cdot \tilde e_j =( {F^k}_ie_k)\cdot  ( {F^l}_j e_l) = {F^k}_i{F^l}_j g_{ij}
-\end{equation}$$
+$$
 
 
 ## Raising and lowering indices

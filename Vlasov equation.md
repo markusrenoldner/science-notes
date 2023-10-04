@@ -17,10 +17,10 @@ The vlasov conserves the total number of particles $N_S$, momentum, energy and e
 
 E.g.: integrate Vlasov eq. over phase space (space and velocities)
 $$
-\begin{align}
+\begin{aligned}
 &\underbrace{\int \mathrm{d} \vec{r} \int \mathrm{d} \vec{v} \frac{\partial f_S}{\partial t}}_{\frac{\partial}{\partial t} \int \mathrm{d} \vec{r} \int \mathrm{d} \vec{v} f_S=\frac{\mathrm{d}}{\mathrm{dt}} N_S}+\underbrace{\int \mathrm{d} \vec{r} \int \mathrm{d} \vec{v} \cdot \frac{\partial f_S}{\partial \vec{r}}}_{\int \mathrm{d} \vec{r} \int \mathrm{d} \vec{v} \frac{\partial}{\partial v} \cdot\left(\vec{v} f_S\right)=0}+\underbrace{\int \mathrm{d} \vec{r} \int \mathrm{d} \vec{v} \frac{q_S}{m_S}(\vec{E}+\vec{v} \times \vec{B}) \cdot \frac{\partial f_S}{\partial \vec{v}}}_{\int \mathrm{d} \vec{r} \int \mathrm{d} \vec{v} \frac{\partial}{\partial \vec{v}} \cdot\left[\frac{q_S}{m_S}(\vec{E}+\vec{v} \times \vec{B}) f_S\right]=0}=0 \\
 & \implies \frac{\mathrm{d} N_S}{\mathrm{~d} t}=0
-\end{align}
+\end{aligned}
 $$
 which means that Vlasov equation describes time-reversible processes. 
 (remember: collisions are neglected by Vlasov eq.)

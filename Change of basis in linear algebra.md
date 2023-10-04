@@ -8,10 +8,10 @@ $$v=\sum_i \lambda_i b_i ,\quad v=\sum_i \mu_i c_i$$
 Then we collect the coordinates to get the coordinate vectors:
 $$v_B=K_B(v)=\begin{pmatrix}\lambda_1\\\lambda_2 \\ \vdots \\ \lambda_n\end{pmatrix} , \quad v_C=K_c(v) =\begin{pmatrix}\mu_1\\\mu_2 \\ \vdots \\ \mu_n\end{pmatrix}$$
 The map
-$$\begin{align}
+$$\begin{aligned}
     S:K&\rightarrow K\\
     v_B&\mapsto v_C
-\end{align}$$
+\end{aligned}$$
 describes a change of basis of the coordinate vector. It is called "change-of-basis matrix" or "transisition matrix". It can be found by $$S=K_C\circ K_B^{-1}=K_C(K_B^{-1})$$ due to the following commuting diagram ![[commutingdiagram-changeofbasis.png]]
 
 One could now try to find $S$ by the given identity above, for which one would have to compute 
@@ -29,36 +29,36 @@ In eigenchris' youtube playlist on tensor algebra, $S$ is the backwards matrix $
 
 Proof.
 We transform each basis vector of $B$ to $C$:
-$$\left. \begin{align}
+$$\left. \begin{aligned}
     b_1 &= S_{11} c_1 + S_{21} c_2 + \dots S_{n1} c_n \\
     b_2 &= S_{12} c_1 + S_{22} c_2 + \dots S_{n2} c_n \\
     &\vdots\\
     b_2 &= S_{1n} c_1 + S_{2n} c_2 + \dots S_{nn} c_n 
-\end{align} \quad \right\} \implies K_C(b_i) = \begin{pmatrix}S_{1i}\\S_{2i} \\ \vdots \\S_{ni}\end{pmatrix} \quad \forall i$$
+\end{aligned} \quad \right\} \implies K_C(b_i) = \begin{pmatrix}S_{1i}\\S_{2i} \\ \vdots \\S_{ni}\end{pmatrix} \quad \forall i$$
 The unknown coordinates $S_{ij}$ have to be found now. 
 $K_C(b_i)$ will be the i-th colum of $S$, therefore the strange double-indices.
 
 Let $v\in V$ be a general vector. In $B$ and $C$ we get:
-$$\begin{align}
+$$\begin{aligned}
     v &= \mu_1 c_1 + \dots \mu_n c_n \implies v_C = K_C(v) = \begin{pmatrix}\mu_1 \\ \vdots \\ \mu_n\end{pmatrix} \\
     v &= \lambda_1 b_1 + \dots \lambda_n b_n \implies v_B = K_B(v) = \begin{pmatrix}\lambda_1 \\ \vdots \\ \lambda_n\end{pmatrix}
-\end{align}$$
+\end{aligned}$$
 Now we insert the expression for $b_1$ in the formula for $v$:
-$$\begin{align}
+$$\begin{aligned}
     v = \lambda_1 b_1 + \lambda_2 b_2+\dots \lambda_n b_n 
     &= \lambda_1 S_{11} c_1 + \lambda_1 S_{21} c_2 + \dots \lambda_1 S_{n1} c_n \\
     &+ \lambda_2 S_{12} c_1 + \lambda_2 S_{22} c_2 + \dots \lambda_2 S_{n2} c_n \\
     &\vdots \\
     &+\lambda_n S_{1n} c_1 + \lambda_n S_{2n} c_2 + \dots \lambda_n S_{nn} c_n \\
-\end{align}$$
+\end{aligned}$$
 
 We factor out the $c_i$, compare coefficients and find expressions for $\mu_i$:
-$$\begin{align}
+$$\begin{aligned}
     v &= \underbrace{\left ( \lambda_1 S_{11} + \lambda_2 S_{12} + \dots \lambda_n S_{1n} \right )}_{\mu_1} \cdot c_1 \\
     &+ \underbrace{\left ( \lambda_1 S_{21} + \lambda_2 S_{22} + \dots \lambda_n S_{2n} \right )}_{\mu_2}\cdot c_2 \\
     & \vdots \\
     &+ \underbrace{\left ( \lambda_1 S_{n1} + \lambda_2 S_{n2} + \dots \lambda_n S_{nn} \right )}_{\mu_n} \cdot c_n 
-\end{align}$$
+\end{aligned}$$
 The $\mu_i$ depend on the $\lambda_i$ in the follwing way
 $$\begin{pmatrix}\mu_1 \\ \mu_2 \\\vdots \\ \mu_n\end{pmatrix} = \begin{pmatrix}
 S_{11} & S_{12} & \dots & S_{1n} \\
@@ -75,11 +75,11 @@ Let
 
 Represent $p$ in $B$ and $C$ using the transistion matrix $S$. We start with $B$.
 $$ax^2 +bx+c = \lambda_1 (1+x) + \lambda_2 (1-x) + \lambda_3 (2x + x^2) $$
-We compare coefficients, solve the system and get $$v_B = K_B(p) = \begin{pmatrix}\lambda_1\\ \lambda_2 \\ \lambda_3\end{pmatrix} = \begin{pmatrix} \frac{b+c-2a}{2}\\ \frac{c-b+2a}{2}\\ a\end{pmatrix}$$Now we apply the theorem above, i.e. transform each $b_i\in B$ to $C$ to get $S$. After writing down all equations, comparing coefficients and solving the system we get $$\left.\begin{align}
+We compare coefficients, solve the system and get $$v_B = K_B(p) = \begin{pmatrix}\lambda_1\\ \lambda_2 \\ \lambda_3\end{pmatrix} = \begin{pmatrix} \frac{b+c-2a}{2}\\ \frac{c-b+2a}{2}\\ a\end{pmatrix}$$Now we apply the theorem above, i.e. transform each $b_i\in B$ to $C$ to get $S$. After writing down all equations, comparing coefficients and solving the system we get $$\left.\begin{aligned}
     K_C(1+x)&= \begin{pmatrix}1/3 \\0 \\1 \end{pmatrix} \\
     K_C(1-x) &= \begin{pmatrix}-1/3 \\ 0\\1 \end{pmatrix}  \\
     K_C(2x+x^2) &= \begin{pmatrix}2/3\\1\\1\end{pmatrix}
-\end{align}\quad\right\} \implies S = \begin{pmatrix}1/3 & -1/3 & 2/3 \\ 0&0&1 \\1&1&1\end{pmatrix}$$ Therefore $$ v_C = S\cdot v_B = \begin{pmatrix}1/3 & -1/3 & 2/3 \\ 0&0&1 \\1&1&1\end{pmatrix} \cdot \begin{pmatrix} \frac{b+c-2a}{2}\\ \frac{c-b+2a}{2}\\ a\end{pmatrix} = \begin{pmatrix}b/3 \\a\\c+a\end{pmatrix}$$
+\end{aligned}\quad\right\} \implies S = \begin{pmatrix}1/3 & -1/3 & 2/3 \\ 0&0&1 \\1&1&1\end{pmatrix}$$ Therefore $$ v_C = S\cdot v_B = \begin{pmatrix}1/3 & -1/3 & 2/3 \\ 0&0&1 \\1&1&1\end{pmatrix} \cdot \begin{pmatrix} \frac{b+c-2a}{2}\\ \frac{c-b+2a}{2}\\ a\end{pmatrix} = \begin{pmatrix}b/3 \\a\\c+a\end{pmatrix}$$
 We can check, this is true as $p(x)$ in $C$ is just $$p(x) =\sum_{i=1}^3 \mu_i c_i= \left(\frac{b}{3}\right) \cdot (3x) + (a) \cdot(x^2-1) + (c+1) \cdot (1) = ax^2+ bx + c$$
 
 ## Source

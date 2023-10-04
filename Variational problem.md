@@ -24,11 +24,11 @@ $$a(u,v)=l(v) \quad \forall v\in V_0$$
 ## Offset function trick for variational problem
 Let $\hat{V}=g+V_0$ , $g$ ... arbitrary offset function that fulfills the nonzero Dirichlet BC.
 Then we can convert the problem into one where trial and test space coincide and are both vector spaces:
-$$\begin{align}
+$$\begin{aligned}
 u\in \hat{V} : &\quad a(u,v)=l(v) \quad &&\forall v\in V_0\\
 \iff z\in V_0: &\quad a(z+g,v) = l(v) \quad &&\forall v \in V_0 \\
 \iff z\in V_0: &\quad a(z,v) = l(v)-a(g,v) \quad &&\forall v \in V_0 
-\end{align}$$
+\end{aligned}$$
 with a corrected linearform $l(v) - a(g,v)$.
 The solution of the old problem can be recovered from the new one by adding the offset function g:
 $$u = z+g$$
