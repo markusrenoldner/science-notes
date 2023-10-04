@@ -3,9 +3,9 @@ necessary do define [[Curvilinear and generalized coordinates]], and to compute 
 ## Definition and parametrization
 
 a curve $\gamma$ is a smooth line in d-dimensional space. It is the image of a vector-valued function
-$$\begin{equation}
+$$
     \gamma \equiv \{\boldsymbol{r}(t): t\in I\}
-\end{equation}$$
+$$
 which is given as
 $$\begin{equation}
     \boldsymbol{r} :I\to \mathbb{R}^d, \quad t\mapsto \boldsymbol{r}(t).
