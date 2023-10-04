@@ -3,10 +3,11 @@ See also [[Solvability of variational problems]]
 See also [[Weak solvability of example mixed problems]].
 
 
-The problem is to find $(u,p)$ s.t. $$\begin{align}
+The problem is to find $(u,p)$ s.t. $$\begin{aligned}
 &a(u,v) + b(v,p) &=f(v) \quad \forall v\in V \\
 &b(u,q)&=g(q)\quad \forall q\in Q
-\end{align}.$$ 
+\end{aligned}.$$
+
 ## Brezzi Theorem
 Assume there holds
 - $a:V\times V\rightarrow \mathbb{R}, \quad b:V\times Q\rightarrow \mathbb{R}$ are continuous
