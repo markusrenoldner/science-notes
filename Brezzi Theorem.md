@@ -1,6 +1,6 @@
 Provides unisolvence for [[Mixed variational problem]]s.
 See also [[Solvability of variational problems]]
-See also [[Weak solvability of example mixed problems]].
+See also [[Weak solvability example of mixed problems]].
 
 
 The problem is to find $(u,p)$ s.t. $$\begin{aligned}
