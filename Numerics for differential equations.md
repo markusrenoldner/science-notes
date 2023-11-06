@@ -7,8 +7,7 @@ One of the most important branches of [[Numerical analysis]], goal: solving [[Di
 - [[Finite Volume Method (FVM)]]
 - [[Discontinuous Galerkin method (DG)]]
 - [[Boundary element method (BEM)]]
-- [[MEHC scheme]]
-- [[Symplectic ODE integrators]]
+- [[MEHC scheme
 - [[Numerical methods for conservation laws]]
 - Method of characteristics [1]
 - Method of lines [6]
