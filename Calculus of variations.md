@@ -22,6 +22,8 @@ $$\frac{\text{d}}{\text{d}\alpha}F(\alpha)\Large |_{\alpha=0} = 0$$
 this also means:
 $$\frac{\text{d}}{\text{d}\alpha}I[f_\alpha]\Large |_{\alpha=0} = 0$$
 
+#todo  add euler lagrange, example with membrane, rope, etc, connection to variational formualtions of PDEs
+
 
 ## Sources
 https://de.wikipedia.org/wiki/Variationsrechnung

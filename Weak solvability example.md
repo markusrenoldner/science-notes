@@ -36,7 +36,7 @@ f(v)&=\int_{\Omega} f v d x+\int_{\Gamma_N} u_N \operatorname{tr} v d s+\int_{\G
 If $u_D=0$ this problem is solvable by [[Lax-Milgram lemma]].
 
 For general $u_D$, the unknown $u$ is now in an [[Affine space]] and not in a vector space and we cant apply the lemma. But we can find a unique function $z$ with zero-Dirichlet boundary condition, for the adjusted problem $A(z,v)=f(v)-A(g,v)\quad \forall v$, with $\text{tr}g = u_D$. We can then recover $u=z+g$.
-This is called "offset function trick" and is exaplained in more detail here: [[Variational problem]]. 
+This is called "offset function trick" and is explained in more detail here: [[Variational problem]]. 
 
 
 ## Sources

@@ -23,7 +23,7 @@ A form is a polynomial whose nonzero terms all have the same degree, e.g. $x^2+
 1. notice that $F(\tilde u, \tilde p) = 0$
 2. by using $Mx=0$ and A being pos. def. one can show for any $u$ that
 $$F(u,\tilde p) \geq 0$$
-3. similar one shows for any $p$ that   $$F(\tilde u, p) \leq 0$$This implies that $(\tilde u, p)$ is a saddle point.
+3. similar one shows for any $p$ that   $$F(\tilde u, p) \leq 0$$This implies that $(\tilde u, \tilde p)$ is a saddle point.
 
 
 

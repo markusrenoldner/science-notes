@@ -15,6 +15,7 @@
 - Boltzmann equation, see [[Kinetic plasma model, Boltzmann equation]]
 - [[Vlasov equation]]
 - [[Static beam equation]]
+- [[Wave equation]]
 
 
 ## PDE vs ODE

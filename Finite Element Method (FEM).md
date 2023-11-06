@@ -20,8 +20,8 @@ The unknown interpolation coefficients are the approximate solution.
 
 
 ## Finite Element approximation
-- [[Local Finite Element interpolation]] introduces local objects.
-- [[Global Finite Element interpolation]] introduces global objects
+- [[Local Finite Element interpolation]]
+- [[Global Finite Element interpolation]]
 - [[Finite Element assembly]]
 - [[Finite Element error analysis]]
 
