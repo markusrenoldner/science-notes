@@ -6,10 +6,6 @@ important branch of [[Physics]]
 - [[Maxwell equations]]
 - [[Potential vs potential energy]]
 - [[Plasma physics]]
-- ...
-
-
-
 
 
 ## Main sources:
