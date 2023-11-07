@@ -65,7 +65,7 @@ now subtract the second from the first equation and get the traditional form.
 
 
 ## conservation property of velocity-stress form
-
+ 
 again, $\boldsymbol{u}$ is a vector, $\sigma$ is a 2-tensor, and $\Omega \subseteq \mathbb{R}^3$. Multiply the first equation by $u$ and the second by $\sigma$, and we get
 $$\begin{aligned}
     \boldsymbol{u}\partial_t \boldsymbol{u} + \boldsymbol{u}\text{div} \boldsymbol{\sigma} &= 0\\
