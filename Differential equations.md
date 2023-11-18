@@ -7,7 +7,6 @@
 - [[Euler equations]]
 - [[Maxwell equations]]
 - [[Shallow water equations]]
-- [[Shallow water magnetohydrodynamic equations (SWMHD)]]
 - [[Conservation law, transport equation]]
 	- [[Advection equation]]
 	- [[Diffusion equation]]

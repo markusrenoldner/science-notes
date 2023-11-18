@@ -22,6 +22,11 @@ $$\begin{aligned}\frac{Du}{Dt} &\equiv \frac{\partial u }{\partial t}+  (\nabla 
 In cartesian coordinates, the velicity gradient $\nabla u$ is the Jacobi matrix.
 
 
+#todo it turns out, for all vectors/tensors, $(u\cdot \nabla)u=u\cdot (\nabla u)$ if one uses the dot/matrix product correctly, and transposes correctly.
+
+
+
+
 ## Derivation
 - https://en.wikipedia.org/wiki/Derivation_of_the_Navier%E2%80%93Stokes_equations#Conservation_of_momentum
 - Bartelmann1, chapter 8.6, equation 8.186

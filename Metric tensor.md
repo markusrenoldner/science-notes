@@ -4,7 +4,7 @@
 ## Definition 
 for basis vectors $\boldsymbol{e}_i$:
 $$g_{ij} \equiv \left\langle \boldsymbol{e}_i , \boldsymbol{e}_j \right \rangle \equiv \boldsymbol{e}_i \cdot \boldsymbol{e}_j$$
-which is the standard, scalar product in $\mathbb{R}^d$.
+with the standard, scalar product in $\mathbb{R}^d$.
 
 ## Example usage:
 It is a symmetric, positive definite Bilinearform/(0,2)-tensor. It is used to 

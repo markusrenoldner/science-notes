@@ -23,6 +23,8 @@ this also means:
 $$\frac{\text{d}}{\text{d}\alpha}I[f_\alpha]\Large |_{\alpha=0} = 0$$
 
 #todo  add euler lagrange, example with membrane, rope, etc, connection to variational formualtions of PDEs
+https://math.stackexchange.com/questions/2393534/what-is-the-connection-between-calculus-of-variations-and-pdes
+https://math.stackexchange.com/questions/3261183/variational-problem-is-equivalent-to-minimizing-the-energy-functional
 
 
 ## Sources
