@@ -4,14 +4,15 @@
 
 ## Log log
 ![[loglog1.png]]
-
+here, power functions like $x^2, x^3, ...$ are linear
 
 ## x axis linear, y axis log
 ![[loglog3.png]]
-
+here, exponential functions like $e^x$ are linear
 
 ## x axis log, y axis linear
 ![[loglog2.png]]
+here, $ln(x)$ is linear
 
 
 ## Python code:
@@ -31,6 +32,7 @@ plt.grid()
 plt.xlabel("x")
 plt.xscale("log")
 plt.yscale("log")
+plt.show()
 ```
 
 ## Python code for convergence plots
