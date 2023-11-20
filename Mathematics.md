@@ -4,7 +4,6 @@ can be regarded a formal language consisting of structures and objects, that are
 ## Important subfields:
 - [[Linear algebra]]
 - [[Analysis]]
-- [[Differential geometry]]
 - [[Numerical analysis]]
 - [[Differential equations]]
 - [[Mathematical optimization]]
