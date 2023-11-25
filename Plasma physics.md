@@ -17,28 +17,24 @@ The definition above implies the following:
 - globally neutral $\implies$ size of plasma larger than Debye length
 - collective effects
 	- $\implies$ one-to-one interactions weak, $N_D>>1$ 
-	- $\implies$ $\displaystyle\frac{\omega_{pe}}{\nu_{col}} = \sqrt{\frac{n_0 e^2}{\epsilon_0 m_e}} \frac{1}{n_{e} \cdot \pi b^2 \cdot  \nu_{th,e}}= \dots =16\pi N_D$  which is "large". That means, the plasma frequency is larger than the collision frequency
+	- $\implies$ $\displaystyle\frac{\omega_{pe}}{\nu_{col}} = \sqrt{\frac{n_0 e^2}{\epsilon_0 m_e}} \frac{1}{n_{e} \cdot \pi b^2 \cdot  \nu_{th,e}}= \dots =16\pi N_D$  which is "large". In other words: $\omega_{pe}>>\nu_{col}$, the plasma frequency is larger than the collision frequency
 
 
 ## Motion of single particles
 In uniform B-field, particles experience gyromotion: [[Particle motion in uniform magnetic fields]]
 
-In E field, motion is a superposition of drift and gyromotion.
-- [[E cross B drift]]
-- [[Curvature drift]]
-- [[Grad B drift]]
-
-Plasma confinement strategies based on the understanding of gyromotion and drifts is discussed in [1].
+In E field, motion is a superposition of drift (e.g "[[E cross B drift]]", Curvature-drift, "Grad-B-drift") and gyromotion. More details, see [1] and [3].
+Plasma confinement strategies based on the understanding of gyromotion and drifts are discussed in [1].
 
 
 ## Kinetic description of plasma
 Instead of single particles, we have to study many particles that itself influence the $B$ and $E$-fields, using statistical methods.
-- [[Kinetic plasma model, Boltzmann equation]]
+- [[Boltzmann equation for plasma]]
 - [[Vlasov equation]]
 
 ## Fluid description of plasma
 the kinetic model is very accurate, but sometimes too complex.
-the fluid model is 3dimensional instead of 6dimensional
+the fluid model is 3-dimensional instead of 6-dimensional
 its incorporates ideas from [[Fluid Dynamics]]
 
 [[Plasma fluid models and MHD]]
@@ -46,4 +42,5 @@ its incorporates ideas from [[Fluid Dynamics]]
 
 ## Sources
 1. EPFL - Introduction to Plasma Physics
-2. McGreivy -General Plasma Physics, Princeton lecture notes 2017
+3. McGreivy -General Plasma Physics, Princeton lecture notes 2017
+4. EPFL - Plasma 1 lecture

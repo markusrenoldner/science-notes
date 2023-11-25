@@ -45,6 +45,7 @@ $$
 $$\implies \frac{\partial}{\partial \vec{v}} \cdot\left(\vec{F}^{l} f_S\right)=\vec{F}^{l} \cdot \frac{\partial f_S}{\partial \vec{v}} $$
 Now we plug this into the conservation law$$ \frac{\partial f_S}{\partial t}+\vec{v} \cdot \frac{\partial f_S}{\partial \vec{r}}+\frac{\vec{F}^{l}}{m_S} \cdot \frac{\partial f_S}{\partial \vec{v}}=\underbrace{-\frac{\partial}{\partial \vec{v}} \cdot\left(\frac{\vec{F}^{s}}{m_S} f_S\right)}_{\left(\frac{\partial f}{\partial t}\right)_c}$$The term $(\partial_t f)_c$ is called collision operator.
 
+
 ## Sources
 1. EPFL - Introduction to Plasma Physics, lecture 2a)
 2. https://en.wikipedia.org/wiki/Distribution_function_(physics)

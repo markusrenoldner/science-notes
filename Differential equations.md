@@ -11,7 +11,7 @@
 	- [[Advection equation]]
 	- [[Diffusion equation]]
 	- [[Advection-diffusion equation]]
-- Boltzmann equation, see [[Kinetic plasma model, Boltzmann equation]]
+- [[Boltzmann equation for plasma]]
 - [[Vlasov equation]]
 - [[Static beam equation]]
 - [[Wave equation]]

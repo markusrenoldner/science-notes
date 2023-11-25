@@ -1,5 +1,5 @@
 we talk about a kinetic description of [[Plasma physics]].
-we derive the Vlasov equation from the Boltzmann equation, see [[Kinetic plasma model, Boltzmann equation]].
+we derive the Vlasov equation from the Boltzmann equation, see [[Boltzmann equation for plasma]].
 
 ## Derivation from Boltzmann equation
 Take Boltzmann equation and assume large $n$ in debye cube ([[Plasma Debye length]]), which allows to neglect collisions. This gives the Vlasov equation
