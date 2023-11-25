@@ -1,5 +1,6 @@
 We derive an error estimation based on the knowledge of a smooth enough exact solution.
 
+Here we use seminorms, e.g. $|u-u_h|_{H^1} \equiv \Vert\nabla u-\nabla u_h\Vert_{L^2}$, see [[Energy norm]]. 
 
 ## Goal:
 we want to find a bound for the discretization error of the [[Finite Element Method (FEM)]]:$$\Vert u-u_h\Vert\leq ???$$ where $u_h$ is the discrete approximation of $u$.
@@ -55,6 +56,8 @@ Then (somehow using Cea's lemma again):$$
 \left|u-I_{\mathcal{T}} u\right|_{H^1(\Omega)} & \leq C h|u|_{H^2(\Omega)}
 \end{aligned}
 $$(without the sums of the previous estimate and with only one "h") which means convergence: $$u\overset{h\rightarrow 0}{\longrightarrow} u_h=I_\mathcal{T}u$$
+The same result is stated here: https://uvilla.github.io/inverse17/02_IntroToFenics/ConvergenceRates.html .
+
 Reducing h is called h-FEM. Increasing the polynomial error is called p-FEM. Comparing the two only valid with equal size of the FEM space dimension in each "improvement step":$$\text{dim}(\mathcal{P}^p)=p^d h^{-d}$$
 ## Shift theorem
 "When does $u\in H^2$ hold?"
