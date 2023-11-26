@@ -5,8 +5,6 @@ Objective:
 
 
 ## Topics
-- [[Curvilinear and generalized coordinates]]
-- [[Polar, cylindrical and spherical coordinates]]
 - [[Multidimensional integration]]
 - [[Differentiation of scalar and vector fields]]
 - [[Coordinate transformation of differential equations]]

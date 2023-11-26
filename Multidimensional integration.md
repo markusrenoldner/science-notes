@@ -1,5 +1,5 @@
 Extremely important application of [[Analysis]] 
-First read [[Curves]], [[Curvilinear and generalized coordinates]], and [[Polar, cylindrical and spherical coordinates]].
+First read about [[Curves]], [[Curvilinear and generalized coordinates]], and [[Polar, cylindrical and spherical coordinates]].
 
 
 #todo 
