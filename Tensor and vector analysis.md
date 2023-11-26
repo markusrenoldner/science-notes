@@ -5,10 +5,10 @@ Objective:
 
 
 ## Topics
-- [[Multidimensional integration]]
-- [[Differentiation of scalar and vector fields]]
-- [[Coordinate transformation of differential equations]]
 - [[Vector analysis identities]]
+- [[Coordinate transformation of differential operator in 2D example]]
+- [[Laplace operator in polar coordinates in 2D]]
+
 
 
 ## Sources:
