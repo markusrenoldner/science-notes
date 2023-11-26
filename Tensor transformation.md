@@ -46,8 +46,8 @@ is this the same?
 
 ## Tensor product vs kronecker product vs tensor product of vector spaces
 1. The kronecker product acts on arrays (explained above). It just creates a big array.
-2. The tensor product combines abstract vectors and covectors in the tensor space in a multilinear way, its a multilinear map. It creates a tensor of higher order (sum of order of input tensors). But the components that the tensor product yields are exactly the components that the kronecker product yields on the respective row and column vectors representing the abstract (co-)vectors.
-3. The tensor product of vector spaces combines vector and dual spaces. E.g. (1,1)-tensors (i.e. linear maps) $L={L^i}_j (e_i\otimes \epsilon^j) \in V \otimes V^*$. Elements of this space can be interpreted as the following maps:
+2. The tensor product combines abstract vectors and covectors in the tensor space in a multilinear way. It creates a tensor of higher order (sum of order of input tensors). But the components that the tensor product yields are exactly the components that the kronecker product yields on the respective row and column vectors representing the abstract (co-)vectors.
+3. The tensor product of vector spaces combines vector and dual spaces. E.g. (1,1)-tensors (i.e. linear maps) $L={L^i}_j (e_i\otimes \epsilon^j) \in V \otimes V^*$. Elements of this space can be interpreted as the following (multilinear) maps:
 $$\begin{aligned}
      v &\mapsto {L^i}_j v^j e_i \quad && V\to V\\
      \alpha &\mapsto {L^i}_j (e_i \otimes \epsilon^j)  (\alpha_k \epsilon^k) = {L^i}_j \alpha_i \epsilon^j && V^*\to V^*\\
@@ -62,60 +62,16 @@ $$\begin{aligned}
 Depending on what we feed into the tensor, the output is a different object.
 
 
+## Examples: 
 
-## Example (1,1)-tensor/"linear map"
-Linear maps from linear algebra perspective: [[Transformation matrices, linear maps]]
-Example: (1,1)-tensor, aka. linear map ($L:V\to V:v\mapsto {L^i}_j v^j e_i$)
-1. transformation:
-$$\begin{aligned}
-    L&={L^i}_j (e_i \otimes \epsilon^j) \\
-    &= {L^i}_j ({B^a}_i\tilde e_a)\otimes({F^j}_b\tilde \epsilon^b)\\
-    &= {B^a}_i{L^i}_j {F^j}_b (\tilde e_a\otimes\tilde \epsilon^b)\\
-    &= {\tilde L^a}_b(\tilde e_a\otimes\tilde \epsilon^b)\\
-    &\implies {\tilde L^a}_b = {B^a}_i{L^i}_j {F^j}_b
-\end{aligned}$$
-2. action on other tensors:
-$$\begin{aligned}
-    w=L(v)&= {L^i}_j (e_i \otimes \epsilon^j) (v^k e_k)\\
-    &= {L^i}_j v^k (e_i \otimes \underbrace{\epsilon^j  e_k}_{=\delta^j_k})\\
-    &= \underbrace{{L^i}_j v^j}_{\text{coeff.}} \underbrace{e_i}_{\text{basis}}\\
-	&\equiv w^i e_i
-\end{aligned}$$
-The coefficients obey the known matrix-vector multiplication rule - and in this sense, define this rule!
-The basis of $L$, i.e. $e_i \otimes \epsilon^j$, is indeed a linear map, as $\epsilon^j$ "eats" a vector by definition, and the result is a number; the rest is just $e_i$ - a vector, which is the output of a linear map.
+[[Example (1,1)-tensor transformation]]
 
-3. array shape: given by kronecker product of $e_i \otimes \epsilon^j$, which yields a row of columns (matrices). Example:
-$$\begin{aligned}
-    e_1 \otimes \epsilon^1 &=\begin{pmatrix}1\\0\end{pmatrix}\otimes \begin{pmatrix}1&0\end{pmatrix}=\begin{pmatrix} 1\begin{pmatrix}1\\0\end{pmatrix}&0 \begin{pmatrix}1\\0\end{pmatrix}\end{pmatrix}&&= \begin{pmatrix}1&0\\0&0\end{pmatrix} \\
-    e_1 \otimes \epsilon^2   &=\begin{pmatrix}1\\0\end{pmatrix}\otimes \begin{pmatrix}0&1\end{pmatrix}=...&&= \begin{pmatrix}0&1\\0&0\end{pmatrix}\\
-    &...
-\end{aligned}$$
-For an example with actual numbers, check this:
+Compare this with this example with [[Linear algebra]] notation, check this:
 [[Example linear map transformation]].
+Linear maps from linear algebra perspective: [[Transformation matrices, linear maps]].
 
-
-## Example (0,2)-tensor/"bilinear form"
-Example: (0,2)-tensor, aka. bilinear form ( $B:V\times V \to \mathbb{R}: (v,w)\mapsto v^i w^j B_{ij}$)
-1. transformation: 
-$$\begin{aligned}
-B &= B_{ij} (\epsilon^i\otimes \epsilon^j)\\
-&=B_{ij} (({F^i}_a \tilde \epsilon^a)\otimes({F^j}_b\tilde \epsilon^b))\\
-&= B_{ij}{F^i}_a {F^j}_b (\tilde \epsilon^a \otimes\tilde \epsilon^b)\\
-&= \tilde B_{ab} (\tilde \epsilon^a \otimes\tilde \epsilon^b)\\
-&\implies \tilde B_{ab}= B_{ij}{F^i}_a {F^j}_b
-\end{aligned}$$
-2. tensor action (taking two vectors and outputting number):
-$$\begin{aligned}
-    b=B(v,w)&= B_{ij} (\epsilon^i\otimes \epsilon^j) (v^k e_k w^l e_l)\\
-    &= B_{ij} v^k w^l \delta^i_k \delta^j_l\\
-    &= B_{ij} v^i w^j \in \mathbb{R}
-\end{aligned}$$
-3. array shape: given by kronecker product of $\epsilon^i \otimes \epsilon^j$, which yields a row of rows:
-$$
-    \epsilon^1 \otimes \epsilon^1=\begin{pmatrix}1&0\end{pmatrix}\otimes \begin{pmatrix}1&0\end{pmatrix} = ... = \begin{pmatrix}\begin{pmatrix}1&0\end{pmatrix}&\begin{pmatrix}0&0\end{pmatrix}\end{pmatrix}
-$$
-The [[Metric tensor]] is a bilinearform.
+[[Example (0,2)-tensor transformation]]
 
 
 ## Source:
-Eigenchris playlist on Tensor algebra: https://www.youtube.com/playlist?list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG
+Eigenchris playlist on Tensor algebra, mostly video 13-15: https://www.youtube.com/playlist?list=PLJHszsWbB6hrkmmq57lX8BV-o-YIOFsiG

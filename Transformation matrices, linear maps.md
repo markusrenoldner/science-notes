@@ -1,4 +1,5 @@
 "Darstellungsmatrix/Abbildungsmatrix"
+[[Linear algebra]]
 
 is a matrix that represents a linear map/linear transformation between two vector spaces. Every linear transformation from a finite dim. vector space to a finite dim. vec. space can be represented as a matrix, which is great as matrices are easy to analyze. E.g. one can find the kernel of a linear map by looking at its matrix representation and solving a linear system of equations.
 

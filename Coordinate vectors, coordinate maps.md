@@ -1,6 +1,6 @@
 Coordinate vectors allow to represent vectors (elements of vector spaces) as a list of numbers called coordinates with respect to a certain basis of said vector space.
 Coordinate maps yield this coordinate representation for a given vector in the canonical basis.
-
+[[Linear algebra]]
 
 ## Representing a vector in a basis
 Let $V$ be an $n$-dimensional vector space (finite dimensional) over the field ([[Groups, rings and fields]]) $K$ (usually $K=\mathbb{R}$ or $K=\mathbb{C}$) with a basis $B=\{\boldsymbol{b}_1, ... \boldsymbol{b}_n\}$ then every $\boldsymbol{v} \in V$ can be expressed as a linear combination of "coordinates" $\lambda_i \in K$ and basis vectors $\boldsymbol{b}_i$ $$\boldsymbol{v} = \sum_{i=1}^n \lambda_i \cdot \boldsymbol{v}_i $$In general, a vector space has infinitely many bases $B$, and the coordinates of $\boldsymbol{v}$ are different in each of them. 

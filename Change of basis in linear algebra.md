@@ -1,5 +1,5 @@
-bas described in [[Coordinate vectors, coordinate maps]], one can represent vectors in bases. The coordinates change, if one changes the basis, a vector is represented in.
-
+as described in [[Coordinate vectors, coordinate maps]], one can represent vectors in bases. The coordinates change, if one changes the basis, a vector is represented in.
+[[Linear algebra]]
 
 ## Main idea
 Let $V$ be an $n$-dimensional vector space over $K$ (usually $K=\mathbb{R}$ or $K=\mathbb{C}$), $v\in V$,  and $B=\{\boldsymbol{b}_1, ... \boldsymbol{b}_n\}, C=\{\boldsymbol{c}_1, ... \boldsymbol{c}_n\}$.

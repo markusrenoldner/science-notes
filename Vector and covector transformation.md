@@ -4,7 +4,6 @@ We only talk about "arrow vectors", not the abstract vector that is just charact
 
 To define tensors, we need vectors, covectors and their transformation rules.
 
-
 ## Forward and backward transformations
 Assume an "old basis" and a "new basis" respectively:
 $$
@@ -54,6 +53,7 @@ or even:
 $$
     \begin{pmatrix}1\\1.5\end{pmatrix}_{e_i}\quad and \quad \begin{pmatrix}1\\2\end{pmatrix}_{f_i} 
 $$
+see [[Coordinate vectors, coordinate maps]].
 
 
 ## Covectors
@@ -74,33 +74,45 @@ with $n,m\in\mathbb{N},\quad \alpha,\beta\in V^*, \quad v,w\in V$
 
 They can be linearly combined from basis covectors:
 $$\begin{aligned}
-    \alpha &= \alpha_i \epsilon^i
+
+\alpha &= \alpha_i \epsilon^i
+
 \end{aligned}$$
 where the $\epsilon^i$ are defined by
 $$
-    \epsilon^i (e_j) = \delta^i_j
-$$ 
-and the components by 
-$$\alpha_i := \alpha(e_i).$$
 
-Proof: 
+\epsilon^i (e_j) \equiv \delta^i_j
+
+$$
+which gives the following expression for its components:
+$$\alpha_i = \alpha(e_i).$$
+
+**Proof** (that the definition of $\epsilon_i$ yields the components and the fact that the $\epsilon_i$ form a basis of $V^*$):
 notice, that
 $$\begin{aligned}
-    \epsilon^1(v) &= \epsilon^1(v^1e_1 + v^2e_2) = ... &&= v^1\\
-    \epsilon^2(v) &= ... &&=v^2
+
+\epsilon^1(v) &= \epsilon^1(v^1e_1 + v^2e_2) = ... &&= v^1\\
+
+\epsilon^2(v) &= ... &&=v^2
+
 \end{aligned}$$
 Now we apply a general covector to a general vector
 $$\begin{aligned}
-    \alpha(v) = ... &=v^1\alpha(e_1)+v^2\alpha(e_2) \\
-    &= \epsilon^1(v)\alpha(e_1)+\epsilon^2(v)\alpha(e_2)
+
+\alpha(v) = ... &=v^1\alpha(e_1)+v^2\alpha(e_2) \\
+
+&= \epsilon^1(v)\alpha(e_1)+\epsilon^2(v)\alpha(e_2)
+
 \end{aligned}$$
 now we give names to the coefficients: $\alpha_i := \alpha(e_i)$ and get
 $$\begin{aligned}
-    \alpha(v) &= \alpha_1 \epsilon^1(v)+\alpha_2 \epsilon^2(v)\\
-    \implies \alpha &= \alpha_1 \epsilon^1 +\alpha_2 \epsilon^2
+
+\alpha(v) &= \alpha_1 \epsilon^1(v)+\alpha_2 \epsilon^2(v)\\
+
+\implies \alpha &= \alpha_1 \epsilon^1 +\alpha_2 \epsilon^2
+
 \end{aligned}$$
 which means, that $\epsilon^i$ are indeed a basis of $V^*$ ("dual basis"), and $\alpha_i=\alpha(e_i)$ are the components.
-
 
 
 ## Transformation of vectors/covectors
@@ -118,6 +130,7 @@ $$\begin{aligned}
     \text{Basis covectors }\qquad  \epsilon^i&={F^i}_j\tilde\epsilon^j\qquad \text{contra-variant}\\
     \text{Covector comp.}\qquad  \alpha_j &= {B^i}_j \tilde\alpha_i \qquad \text{co-variant}
 \end{aligned}$$
+Compare this with [[Transformation matrices, linear maps]].
 
 
 ## Transformation using matrices/Array shape:

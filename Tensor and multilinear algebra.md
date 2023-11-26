@@ -1,23 +1,13 @@
-[[Linear algebra]]
-
-
-#todo explain relation to these (and maybe simplify the articles or extract the main theorems in a short overview):
-- [[Coordinate vectors, coordinate maps]]
-- [[Change of basis in linear algebra]]
-- [[Transformation matrices, linear maps]]
+here we generalize some results from [[Linear algebra]], Especially related to [[Change of basis in linear algebra]].
 
 
 ## Tensor Definition:
 1. Object invariant under change of coordinates
-2. A number of vectors and covectors combined using the tensor product
-3. For curvilinear coordinates (see [[Tensor and vector analysis]]): Partial derivatives and gradients that transform with the Jacobi matrix
+2. A number of vectors and covectors combined using the tensor product, see [[Vector and covector transformation]]
+3. Multilinear map, see last sec of [[Tensor transformation]]
+4. For curvilinear coordinates: Partial derivatives and gradients that transform with the Jacobi matrix, see [[Tensor and vector analysis]]
 
-
-## Topics
-- [[Vector and covector transformation]]
-- [[Tensor transformation]]
-- [[Metric tensor]]
-- [[Strange tensor algebra result from Prechtl]]
+Also consider: [[Metric tensor]].
 
 
 ## Source
