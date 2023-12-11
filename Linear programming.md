@@ -24,16 +24,16 @@ It is implicitly assumed, that $A,B,C$ are nonnegative.
 ## Formulate linear program
 
 $$X=\begin{pmatrix}
-A\\B\\C
+A \\ B \\ C
 \end{pmatrix},\quad c=\begin{pmatrix}
-s_A\\s_B\\s_C
+s_A \\ s_B \\ s_C
 \end{pmatrix},\quad A_{ineq}=\begin{pmatrix}
 m_A&m_B&m_C\\
 1&0&0\\
 0&1&0\\
 0&0&1\\
 \end{pmatrix},\quad B_{ineq}=\begin{pmatrix}
-M\\ 1\\ 1\\1
+M \\ 1 \\ 1 \\1
 \end{pmatrix}$$
 
 which translates to
