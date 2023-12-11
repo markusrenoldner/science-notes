@@ -35,6 +35,7 @@ m_A&m_B&m_C\\
 \end{pmatrix},\quad B_{ineq}=\begin{pmatrix}
 M\\ 1\\ 1\\1
 \end{pmatrix}$$
+
 which translates to
 maximize: $S(A,B,C)=c\cdot X$
 under the constraint $A_{ineq}X\leq B_{ineq}$
