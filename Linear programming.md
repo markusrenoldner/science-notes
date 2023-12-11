@@ -33,7 +33,7 @@ m_A&m_B&m_C\\
 0&1&0\\
 0&0&1\\
 \end{pmatrix},\quad B_{ineq}=\begin{pmatrix}
-M \\ 1 \\ 1 \\1
+M \\ 1 \\ 1 \\ 1
 \end{pmatrix}$$
 
 which translates to
