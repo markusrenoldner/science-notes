@@ -32,6 +32,14 @@ is defined as $H(\text{curl}):=\{u\in L^2: \nabla\times u\in L^2\}$
 Properties of these spaces in the context of [[Finite Element Method (FEM)]] are described in [[Sobolev space properties]].
 
 
+## Subsets
+
+Of course 
+$$H^1 \subset L^2$$
+and 
+$$H^2\subset H^1$$
+etc.
+
 
 ## Sources:
 - Prof. Auzinger - Analysis 2 für TPH, TU Wien lecture notes
