@@ -1,4 +1,4 @@
-
+t
 ## Functions
 if it is not important
 - how the function value is called
@@ -12,6 +12,11 @@ if additionally the domain and target set are important:
 $$\begin{aligned}
 f:\mathbb{R}^2 &\rightarrow \mathbb{R}\\
 (x,y) &\mapsto x^2+4y
+\end{aligned}$$
+Or if we are only interested in the spaces:
+$$\begin{aligned}
+&f=f(x,y):\mathbb{R}^2 \rightarrow \mathbb{R} \\
+\text{or alternatively: } \quad &f:(x,y)\mapsto \mathbb{R}
 \end{aligned}$$
 
 
