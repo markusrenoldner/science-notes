@@ -10,6 +10,7 @@
 ## Lp spaces
 
 #todo mention that "L2 spaces with norm" are defined using [[Equivalence class, quotient space]]. This implies that point values of functions in that space have no meaning. Two functions that only differ on intervals/sets with measure zero (like e.g. points), are equal in the "L2-sense".
+see https://math.stackexchange.com/questions/4539948/notation-for-multivariate-lebesgue-space
 see https://de.wikipedia.org/wiki/Lp-Raum
 ### $L^2$
 #todo 
