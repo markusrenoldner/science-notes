@@ -2,7 +2,7 @@ interestingly, [[Minima of functionals solve variational problems]]
 
 
 ## Energy minimzation in physics
-Solutions of certain physical problems like e.g.
+Solutions of certain physical (elliptic) problems like e.g.
 - Shape of elastic membranes
 - Static electric fields
 minimize a certain energy. In case of the membrane, this is the potential energy, defined as a quadratic functional
