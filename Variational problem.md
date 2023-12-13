@@ -2,7 +2,7 @@
 Also read: [[Solvability of variational problems]]
 
 ## Two points of view:
-1. ... generalize partial [[Differential equations]] for the [[Finite Element Method (FEM)]]
+1. ... generalize partial [[Differential equations]]; nice for using the [[Finite Element Method (FEM)]]
 2. [[Minima of functionals solve variational problems]]
 
 
