@@ -10,9 +10,11 @@ Continuity of a blf can usually be shown using the Cauchy Schwarz inequality.
 
 
 ## Main statement
-Let $V$ be Hilbert space, $a(.,.)$ coercive and continuous bilinearform, $f(.)$ cont. Then the problem to find $u$ s.t. $$a(u,v)=f(v) \quad \forall v$$is unisolvent. Moreover:$$
-\|u\| \leq \alpha_1^{-1}\|f\|
-$$where $f$ is measured in the dual norm $\|f\| \equiv \sup _{v} \frac{l(v)}{\|v\|}$.
+Let $V$ be Hilbert space, $a(.,.)$ coercive and continuous bilinearform, $f(.)$ cont. Then the problem to find $u$ s.t. 
+$$a(u,v)=f(v) \quad \forall v$$
+is unisolvent. Moreover:
+$$\|u\| \leq \alpha_1^{-1}\|f\|$$
+where $f$ is measured in the dual norm $\|f\| \equiv \sup _{v} \frac{l(v)}{\|v\|}$.
 
 See proof in faustmann
 
