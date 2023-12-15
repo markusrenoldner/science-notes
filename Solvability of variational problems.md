@@ -18,7 +18,8 @@ A unique solution exists, if
 
 
 ## Mixed variational problems
-Consider the [[Mixed variational problem]]: find $(u,p)\in V\times Q$ such that $$\begin{aligned}
+Consider the [[Mixed variational problem]]: find $(u,p)\in V\times Q$ such that 
+$$\begin{aligned}
 &a(u,v) + b(v,p) &=f(v) \quad \forall v\in V \\
 &b(u,q)&=g(q)\quad \forall q\in Q
 \end{aligned}.$$
