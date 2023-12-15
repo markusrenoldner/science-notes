@@ -20,10 +20,12 @@ A unique solution exists, if
 
 ## Mixed variational problems
 Consider the [[Mixed variational problem]]: find $(u,p)\in V\times Q$ such that 
+
 $$\begin{aligned}
 &a(u,v) + b(v,p) &=f(v) \quad \forall v\in V \\
 &b(u,q)&=g(q)\quad \forall q\in Q
 \end{aligned}.$$
+
 A unique solution exists, if
 - $a$, $b$ are continuous, $a$ is coercive on $\text{Ker}[b]$, and the LBB-condition holds, see [[Brezzi Theorem]].
 - the sum of both equations fulfills [[Inf-sup stability]] (which is a bit ugly as it doesnt take the saddle-point structure of the problem into account)
