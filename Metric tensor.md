@@ -1,5 +1,4 @@
 [[Tensor and multilinear algebra]]
-[[Curvilinear and generalized coordinates]]
 [[Example (0,2)-tensor transformation]]
 
 
