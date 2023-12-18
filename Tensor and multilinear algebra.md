@@ -5,7 +5,6 @@ here we generalize some results from [[Linear algebra]], Especially related to [
 1. Object invariant under change of coordinates
 2. A number of vectors and covectors combined using the tensor product, see [[Vector and covector transformation]]
 3. Multilinear map, see last sec of [[Tensor transformation]]
-4. For curvilinear coordinates: Partial derivatives and gradients that transform with the Jacobi matrix, see [[Tensor and vector analysis]]
 
 Also consider: [[Metric tensor]].
 
