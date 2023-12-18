@@ -19,16 +19,19 @@ D^\alpha u(x)
 $$
 where $u(x):U\to \mathbb{R}, x=(x_1,..., x_d)\in U$.
 
+WolframAlpha instead writes this:
+$$D^\alpha u = u^\alpha$$
+
 ## Example
 
 Assume $d=2$ and $\alpha = (1,3)$ then:
-
 $$
-
 D^\alpha u \equiv D^{(1,3)} u = \frac{\partial}{\partial x_1} \frac{\partial^3 u}{\partial x_2^3}
-
 $$
-## Gradient, Hessian matrix, Laplace operator
+Or in WolframAlpha notation:
+$$D^{(1,3)}u=u^{(1,3)}$$
+
+## Gradient, Hesse matrix, Laplace operator
 
 Evans also defines an extension to the above notation for partial derivatives, one can define more complicated diff ops.
 Let $k\in \mathbb{N}_0$ so $k$ is NOT a multiindex, its a natural number! Then
