@@ -1,3 +1,4 @@
+# Diffusion equation
 An example of a [[Conservation law, transport equation]].
 
 Unknown: $u$

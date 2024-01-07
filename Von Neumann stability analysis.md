@@ -1,3 +1,4 @@
+# Von Neumann stability analysis
 
 A way to find a sufficient condition ($\implies$ but not $\impliedby$) for numerical stability (see also [[Lax equivalence theorem]] of an approximation using the [[Finite Difference Method (FDM)]].
 

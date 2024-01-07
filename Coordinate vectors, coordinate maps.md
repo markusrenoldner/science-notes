@@ -1,3 +1,4 @@
+# Coordinate vectors, coordinate maps
 Coordinate vectors allow to represent vectors (elements of vector spaces) as a list of numbers called coordinates with respect to a certain basis of said vector space.
 Coordinate maps yield this coordinate representation for a given vector in the canonical basis.
 [[Linear algebra]]

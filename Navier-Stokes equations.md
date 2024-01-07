@@ -1,3 +1,4 @@
+# Navier-Stokes equations
 [[Fluid Dynamics]]
 
 The following equations descibre incompressible, Newtonian fluids.

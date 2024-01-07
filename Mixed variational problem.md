@@ -1,3 +1,4 @@
+# Mixed variational problem
 Also read: [[Solvability of variational problems]]
 
 ## Definition

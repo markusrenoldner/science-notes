@@ -1,3 +1,4 @@
+# Finite Difference Method (FDM)
 [[Numerics for differential equations]]
 
 

@@ -1,3 +1,4 @@
+# Example (0,2)-tensor transformation
 [[Tensor transformation]]
 
 Example: (0,2)-tensor, aka. bilinear form ( $B:V\times V \to \mathbb{R}: (v,w)\mapsto v^i w^j B_{ij}$)

@@ -1,3 +1,4 @@
+# Euler equations
 Special case of [[Navier-Stokes equations]] with infinite Reynolds number. They are given as:
 $$
 \begin{aligned}

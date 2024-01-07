@@ -1,3 +1,4 @@
+# E cross B drift
 
 We consider charged particles, relevant in [[Plasma physics]].
 For motion in static, uniform B-fields: [[Particle motion in uniform magnetic fields]]

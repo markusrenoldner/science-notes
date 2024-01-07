@@ -1,3 +1,4 @@
+# Dynamical systems
 studies stability and chaotic behaviour of (nonlinear) ODEs, see [[Differential equations]]
 
 

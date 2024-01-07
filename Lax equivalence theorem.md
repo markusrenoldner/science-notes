@@ -1,3 +1,4 @@
+# Lax equivalence theorem
 [[Numerics for differential equations]]
 FDM: [[Finite Difference Method (FDM)]]
 

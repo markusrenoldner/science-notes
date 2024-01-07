@@ -1,3 +1,4 @@
+# Riesz-Representation theorem
 Shows unisolvence of continuous and discrete [[Variational problem]]s where the bilinearform is an inner product.
 See [[Solvability of variational problems]].
 

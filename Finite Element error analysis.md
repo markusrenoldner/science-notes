@@ -1,3 +1,4 @@
+# Finite Element error analysis
 We derive an error estimation based on the knowledge of a smooth enough exact solution.
 
 Here we use seminorms, e.g. $|u-u_h|_{H^1} \equiv \Vert\nabla u-\nabla u_h\Vert_{L^2}$, see [[Energy norm]]. 

@@ -1,3 +1,4 @@
+# Consistency finite differences vs finite elements
 [[Finite Element Method (FEM)]]
 [[Finite Difference Method (FDM)]]
 [[Lax equivalence theorem]]

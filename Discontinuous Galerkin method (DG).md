@@ -1,3 +1,4 @@
+# Discontinuous Galerkin method (DG)
 Is a [[Finite Element Method (FEM)]] with discontinuities in the solutions across element boundaries.
 
 

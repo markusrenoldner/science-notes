@@ -1,3 +1,4 @@
+# Vector algebra identities
 [[Linear algebra]]
 
 Transposed of matrix product

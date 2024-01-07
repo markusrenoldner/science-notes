@@ -1,3 +1,4 @@
+# Tensor and vector analysis
 Objective: 
 - development of mathematics of smooth, "locally flat/linear" structures in higher dimensional spaces, 
 - description of these using generalized coordinates, 

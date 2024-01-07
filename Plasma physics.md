@@ -1,3 +1,4 @@
+# Plasma physics
 a field that describes ionized Fluids/Plasmas.
 it incorporates indeas from [[Electrodynamics]]
 

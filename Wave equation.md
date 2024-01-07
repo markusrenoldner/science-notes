@@ -1,3 +1,4 @@
+# Wave equation
 [[Differential equations]]
 
 

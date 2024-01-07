@@ -1,3 +1,4 @@
+# Mass lumping in FEM
 [[Finite Element Method (FEM)]]
 
 Is a method to approximate the mass matrix in time-dependent PDEs by a diagonal matrix. This makes sense in case the time-stepping is explicit, so that no linear system has to be solved in each step. The diagonal mass matrix can be inverted trivially.

@@ -1,3 +1,4 @@
+# Minimum of quadratic functionals
 interestingly, [[Minima of functionals solve variational problems]]
 
 

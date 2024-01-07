@@ -1,3 +1,4 @@
+# Leap frog scheme
 
 An easy example of [[Numerics for differential equations]] that solves a 2nd order ODE (see [[Differential equations]]. It is "symplectic" and conserves the energy of the system.
 

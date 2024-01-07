@@ -1,3 +1,4 @@
+# Consistency, order, and local truncation error of finite difference scheme
 This article discusses properties of the [[Finite Difference Method (FDM)]] and the [[Finite Volume Method (FVM)]].
 For a "consistency" in the sense of FEM, refer to [[Consistency finite differences vs finite elements]].
 

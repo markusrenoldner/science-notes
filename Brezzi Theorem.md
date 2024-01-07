@@ -1,3 +1,4 @@
+# Brezzi Theorem
 Provides unisolvence for [[Mixed variational problem]]s.
 See also [[Solvability of variational problems]]
 See also [[Weak solvability example of mixed problems]].

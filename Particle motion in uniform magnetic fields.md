@@ -1,3 +1,4 @@
+# Particle motion in uniform magnetic fields
 We consider charged particles, relevant in [[Plasma physics]].
 Here, $v$ and $B$ are vector quantities. $B$ is constant and uniform.
 

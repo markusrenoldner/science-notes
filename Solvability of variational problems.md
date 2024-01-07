@@ -1,3 +1,4 @@
+# Solvability of variational problems
 [[Finite Element Method (FEM)]].
 
 ## Continuous setting

@@ -1,3 +1,4 @@
+# Inf-sup stability
 Shows unisolvence of continuous and discrete [[Variational problem]]s with an inf-sup stable bilinearform .
 See [[Solvability of variational problems]].
 

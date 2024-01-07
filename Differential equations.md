@@ -1,3 +1,4 @@
+# Differential equations
 [[Mathematics]]
 [[Numerics for differential equations]]
 

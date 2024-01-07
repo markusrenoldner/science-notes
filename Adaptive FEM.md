@@ -1,3 +1,4 @@
+# Adaptive FEM
 To speed up convergence for less regular solutions in the [[Finite Element Method (FEM)]], one can use graded meshes, i.e. meshes that are iteratively, locally refined.
 
 ![[adaptiveFEM.png]]

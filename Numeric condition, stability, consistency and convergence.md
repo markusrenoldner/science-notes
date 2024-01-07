@@ -1,3 +1,4 @@
+# Numeric condition, stability, consistency and convergence
 [[Lax equivalence theorem]]
 Condition number, see [[Numerical analysis]]
 

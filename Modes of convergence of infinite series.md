@@ -1,3 +1,4 @@
+# Modes of convergence of infinite series
 different notions how series (or sequences) converge (have a limit) to a particular value/function.
 
 ## Definition: pointwise convergence

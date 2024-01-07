@@ -1,3 +1,4 @@
+# Energy norm
 
 If $a$ is an inner product (symmetric, pos. def. bilinear form), on a real vector space $V$ then
 $$||v||:=a(v,v)^{\frac{1}{2}}$$

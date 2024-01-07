@@ -1,3 +1,4 @@
+# Electrostatic basics
 
 #todo 
 [[edynplasmastuff.pdf]]

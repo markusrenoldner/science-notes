@@ -1,3 +1,4 @@
+# Linear, polynomial and exponential functions in log-log plots
 
 [[Overview of errors and complexity of numerical methods]]
 

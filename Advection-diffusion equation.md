@@ -1,3 +1,4 @@
+# Advection-diffusion equation
 also: "convection-diffusion equation".
 
 An example of a [[Conservation law, transport equation]], that combines the [[Advection equation]] and [[Diffusion equation]].

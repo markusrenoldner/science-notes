@@ -1,3 +1,4 @@
+# Least squares vs. minimum norm solution of LSE
 [[Numerical analysis]]
 
 

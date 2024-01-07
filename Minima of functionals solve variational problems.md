@@ -1,3 +1,4 @@
+# Minima of functionals solve variational problems
 in particular, we discuss the [[Minimum of quadratic functionals]] and its equivalence to a [[Variational problem]] on an [[Affine space]].
 
 

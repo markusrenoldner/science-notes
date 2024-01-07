@@ -1,3 +1,4 @@
+# Static beam equation
 ("Differentialgleichung der Biegelinie")
 
 Assume a cartesian coordinate system where 

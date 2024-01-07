@@ -1,3 +1,4 @@
+# Change of basis in linear algebra
 as described in [[Coordinate vectors, coordinate maps]], one can represent vectors in bases. The coordinates change, if one changes the basis, a vector is represented in.
 [[Linear algebra]]
 

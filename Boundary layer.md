@@ -1,3 +1,4 @@
+# Boundary layer
 [[Fluid Dynamics]]
 
 For flows with high Reynolds number Re, where the viscous term $\Delta u$ is small, most of the flow can be considered inviscid, described by [[Euler equations]]. The Euler equations are obtained if Re → ∞ in the [[Navier-Stokes equations]].

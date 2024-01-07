@@ -1,3 +1,4 @@
+# Galerkin method
 [[Finite Element Method (FEM)]]
 
 In the Galerkin method, we look for $u_h$ in a finite-dim subspace $V_h\subseteq V$ that fulfills the discrete problem $$a(u_h,v_h)=f(v_h)\quad \forall v_h.$$ As an example, $V_h$ could be the function space of polynomials up to a certain degree, which is finite dimensional. How to come up with these function spaces is explained in [[Local Finite Element interpolation]]

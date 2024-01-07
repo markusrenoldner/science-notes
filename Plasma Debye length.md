@@ -1,3 +1,4 @@
+# Plasma Debye length
 
 Assume neutrality ($n_e=n_i$), and use Gauss' law ([[Maxwell equations]]), the equation of motion of an electron in an electric field/electric potential $\Phi$, and a Taylor expansion and linearization to get an equation for the potential:
 $$\nabla^2 \Phi =- \frac{1}{\epsilon_{0}} q_T\delta(\vec{r}) + \frac{1}{\lambda_{Dl}^2}\Phi$$

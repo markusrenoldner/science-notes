@@ -1,3 +1,4 @@
+# Metric tensor
 [[Tensor and multilinear algebra]]
 [[Example (0,2)-tensor transformation]]
 

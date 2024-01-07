@@ -1,3 +1,4 @@
+# Euler angles
 
 - are used to describe the orientation of a reference frame with respect to a fixed reference frame. The rotated frame is often fixed with a body (or orbit).
 - measure the rotation of the new frame around its axes

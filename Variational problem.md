@@ -1,3 +1,4 @@
+# Variational problem
 (= "variational formulation" or "weak formulation" or "weak problem")
 Also read: [[Solvability of variational problems]]
 

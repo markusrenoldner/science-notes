@@ -1,3 +1,4 @@
+# Plasma frequency
 (frequency of electron oscillation in plasma)
 
 Assume fixed ion grid, movable electrons, displaced by $\Delta x$ . Region 1 has positive, 2 has zero and 3 has negative charge.

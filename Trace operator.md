@@ -1,3 +1,4 @@
+# Trace operator
 As described in [[Function spaces]], $L^2$-functions that differ on sets with measure $0$ are "the same". This means, that boundary values are meaningless for these functions.
 For functions in $H^1$ one can define boundary values, by the means of the trace operator:
 

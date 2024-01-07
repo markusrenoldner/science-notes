@@ -1,3 +1,4 @@
+# Schroedinger's cat
 
 In [1], the author claims that the fact that the atom is decayed and not decayed at the same time implies that the cat is both alive and dead at the same time and that this connection of the "micro cosmos" and "macro cosmos" is the most fundamental problem of modern physics.
 

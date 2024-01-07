@@ -1,3 +1,4 @@
+# CFL condition
 A necessary condition for numerical stability (CFL$\impliedby$stability, but not CFL $\implies$ stability).
 See also [[Lax equivalence theorem]] of an approximation using the [[Finite Difference Method (FDM)]].
 

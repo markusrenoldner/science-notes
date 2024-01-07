@@ -1,3 +1,4 @@
+# Helicity
 Consider the vectorfield $u$ and its curl $\nabla\times u =:\omega$ (example: $u$ is the fluid velocity field and $\omega$ is the fluid vorticity field in [[Fluid Dynamics]]).
 
 The helicity is defined as

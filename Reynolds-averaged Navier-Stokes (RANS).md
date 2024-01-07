@@ -1,3 +1,4 @@
+# Reynolds-averaged Navier-Stokes (RANS)
 also called Reynolds-equations
 
 Since for turbulent flows with technically relevant Reynolds numbers the Navier-Stokes equations cannot be solved numerically with reasonable effort (see [[Computational cost estimate of DNS of turbulent flows in CFD]]), the quantities are divided into a mean value and a fluctuation value. Here, the mean value is chosen so that the fluctuation has the mean value zero.

@@ -46,7 +46,7 @@ under the constraint $A_{ineq}X\leq B_{ineq}$
 ``` 
 from scipy.optimize import linprog
 
-# define coefficients
+# Linear programming
 sA = 8
 sB = 9
 sC = 6

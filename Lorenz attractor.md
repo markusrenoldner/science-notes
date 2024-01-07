@@ -20,7 +20,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-# sim parameters
+# Lorenz attractor
 N = 100000
 T = 0
 dt = 0.0005

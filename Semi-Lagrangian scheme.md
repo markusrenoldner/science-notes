@@ -1,3 +1,4 @@
+# Semi-Lagrangian scheme
 [[Numerics for differential equations]]
 [[Lagrangian and Eulerian specification, coordinates]]
 

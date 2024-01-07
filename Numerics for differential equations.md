@@ -1,3 +1,4 @@
+# Numerics for differential equations
 One of the most important branches of [[Numerical analysis]], goal: solving [[Differential equations]].
 
 

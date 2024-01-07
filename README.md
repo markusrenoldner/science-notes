@@ -1,3 +1,4 @@
+# README
 
 This is a collection of markdown-based notes on [[Physics]] and [[Mathematics]].
 

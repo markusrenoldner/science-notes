@@ -1,3 +1,4 @@
+# Prof Ott's 8-Lyapunov-time prediction of KS-equation
 #paper 
 
 

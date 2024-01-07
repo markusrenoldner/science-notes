@@ -1,3 +1,4 @@
+# Equivalence class, quotient space
 
 ## Definition equivalence class
 Let $v\in V$ and $u\in U$ with $U \subset V$.
