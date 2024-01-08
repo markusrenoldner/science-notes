@@ -1,5 +1,6 @@
 # Big O  small o notation
 
+#unlinked 
 
 With 
 $$f\in \mathcal{O}(g)$$

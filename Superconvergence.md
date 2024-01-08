@@ -1,5 +1,7 @@
 # Superconvergence
 
+see [[Numerical analysis]]
+
 when computing an error like 
 
 $$\epsilon = \Vert u-u_h\Vert_2^2 = \int_\Omega (u-u_h)^2$$

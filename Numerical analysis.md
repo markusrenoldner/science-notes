@@ -21,6 +21,9 @@ important branch of [[Mathematics]]
 - [[Overview of errors and complexity of numerical methods]]
 - [[Krylov methods - paper about idea and background]]
 - [[Numerics for differential equations]]
+- [[Multigrid method]]
+- [[Error norm choosing the correct one]]
+- [[Superconvergence]]
 
 
 ## Main sources:

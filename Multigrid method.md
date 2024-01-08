@@ -1,6 +1,7 @@
 
 # Multigrid method
 
+see [[Numerical analysis]]
 
 ## Main idea
 

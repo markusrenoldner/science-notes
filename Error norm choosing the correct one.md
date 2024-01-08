@@ -1,5 +1,7 @@
 # Error norm: choosing the correct one
 
+see [[Numerical analysis]]
+
 choose the norm associated to the function space in which the solution lives.
 
 E.g. say, $u\in H^1$. Then it makes sense to measure functions in the $H^1$-norm. Its also meaningful, to measure functions in a space larger than $H^1$, e.g. $L^2 \supset H^1$.
