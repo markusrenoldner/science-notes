@@ -1,4 +1,4 @@
-# Big O  small o notation
+# Big O small o notation
 
 #unlinked 
 
