@@ -18,6 +18,8 @@ Integration by parts for $u, \boldsymbol{v}$:
 $$\int_\Omega u\nabla\cdot \boldsymbol{v} = -\int_\Omega\nabla u \cdot \boldsymbol{v}+ \int_{\partial\Omega} u\boldsymbol{v}\cdot e_n $$
 Integration by parts for Laplace op:
 $$\int_\Omega v\Delta u = -\int_\Omega \nabla u \nabla v + \int_{\partial\Omega}v  \nabla u\cdot e_n$$
+[[Leibnitz integral rule for higher dimensions]]
+
 
 
 ## Vector laplacian
