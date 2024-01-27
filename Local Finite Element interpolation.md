@@ -50,7 +50,7 @@ Interpretation:
 2. The second property defines the basis function $u$ on the physical element. Let $\hat x:=\left(F^T\right)^{-1}(x)$ be a point on $\hat T$. This just means $u(x):=\hat u (\hat x)$.
 3. The third property: notice that $\left(u \circ F^T\right)(\hat x) = u\left(F^T(\hat x)\right)=u(x)$. The reason why $\psi^\hat T$ is evaluated with $u(x)$ is that $\psi^\hat T$ does not care where $x$ is, only what value its argument (in this case $u$) has. The functional just maps its argument to a real number in a certain way (in this case it evaluates its argument at a certain point). The physical functional is characterised in a way that it "behaves exactly like the reference functional". The example below makes it clear:
 
-Example:
+## Example:
 $$\hat T = [0,1],\quad T=[2,3] $$
 therefore: $F^T:x\mapsto x+2$ and $\left(F^T\right)^{-1} :x\mapsto x-2$.
 Moreover, we set $\hat\psi_1(u)=u(0)$ and $\hat\psi_2(u)=u(1)$. 
