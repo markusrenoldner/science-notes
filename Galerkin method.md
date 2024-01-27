@@ -36,10 +36,11 @@ $$
 $$
 Divide one factor $\left\|u-u_h\right\|_V$. Since $v_h \in V_h$ was arbitrary, the estimation holds true also for the infimum in $V_h$.
 
+**Remark:** of course this is not a convergence result yet.
+
 
 ## Cea's Lemma for inf-sup stable blfs
-inf-sup condition, see [[Inf-sup stability]]
-We also get best-approximation lemma of the Galerkin approximation for inf-sup stable blfs, meaning we have quasi optimality:$$
+We also get best-approximation lemma of the Galerkin approximation for inf-sup stable blfs (see [[Inf-sup stability]]), meaning we have quasi optimality:$$
 \left\|u-u_h\right\|_V \leq \left(1+\frac{\beta_2}{\beta_{1h}}\right)\inf_{v_h}\left\|u-v_h\right\|_V
 $$
 (No proof in Faustmann)
