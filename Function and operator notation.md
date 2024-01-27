@@ -1,5 +1,5 @@
 # Function and operator notation
-t
+
 ## Functions
 if it is not important
 - how the function value is called
@@ -31,7 +31,8 @@ where $M\subseteq \mathbb{R}^2$ and $N\subseteq \mathbb{R}$. As the function is 
 $$f\in C^\infty(M)$$
 If we would have a function with a multidimensional target set, e.g. $N\subseteq \mathbb{R}^3$, we can write
 $$f\in [C^\infty(M)]^3$$
-$C^\infty(M)$ is a function space, see [[Function spaces]].
+$C^\infty(M)$ is a function space, see [[Function spaces]]. Sometimes also
+$$f\in C^\infty(M,N)$$
 The same notation is used for $L^p$ spaces, e.g.
 $$f\in [L^2(M)]^3$$
 
