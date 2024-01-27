@@ -1,7 +1,7 @@
 # Finite Element error analysis
 We derive an error estimation based on the knowledge of a smooth enough exact solution.
 
-Here we use seminorms, e.g. $|u-u_h|_{H^1} \equiv \Vert\nabla u-\nabla u_h\Vert_{L^2}$, see [[Energy norm]]. 
+Here we denote seminorms by $|u-u_h|_{H^1} \equiv \Vert\nabla u-\nabla u_h\Vert_{L^2}$, see [[Energy norm]]. 
 
 ## Goal:
 we want to find a bound for the discretization error of the [[Finite Element Method (FEM)]]:$$\Vert u-u_h\Vert\leq ???$$ where $u_h$ is the discrete approximation of $u$.
@@ -46,6 +46,7 @@ $$
 & \simeq \sum_{T } h_T^2|v|_{H^2(T)}^2 \cdot
 \end{aligned}
 $$
+**Remark:** this is an "a priori" bound, as it bounds the error by $h$ times the exact sol. "A-posteriori" bounds are bounds by $h$ times the numerical sol.
 
 
 ## FEM convergence order
