@@ -77,7 +77,7 @@ Now the Reynolds number is defined
 $$
 \text{Re}=\frac{\rho UL}{\mu},
 $$
-which is the single characteristic parameter of this equation. In the literature, Re is often introduced as the the ratio between inertial and viscous forces. A more straight-forward interpretation: it is the ratio of the dynamic pressure and the shear stress:$$ \text{Re} \equiv \frac{\rho UL}{\mu} = \frac{\rho U^2}{\mu \frac{U}{L}} = 2\frac{ p_\text{dyn}}{\tau_{\text{shear}}}.$$This argument should illustrate the meaning of the phrase "ratio of pressure and stress" without going into too much details. 
+which is the single characteristic parameter of this equation. In the literature, Re is often introduced as the ratio between inertial and viscous forces. A more straight-forward interpretation: it is the ratio of the dynamic pressure and the shear stress:$$ \text{Re} \equiv \frac{\rho UL}{\mu} = \frac{\rho U^2}{\mu \frac{U}{L}} = 2\frac{ p_\text{dyn}}{\tau_{\text{shear}}}.$$This argument should illustrate the meaning of the phrase "ratio of pressure and stress" without going into too much details. 
 
 Remarks for flows with high Reynolds number:
 - show turbulent behaviour,
