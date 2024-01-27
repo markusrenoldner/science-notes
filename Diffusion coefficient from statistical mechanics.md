@@ -8,7 +8,7 @@ The mean displacement is
 $$\bar x = 0$$
 But the mean **quadratic** displacement is
 $$\overline {x²} = \underbrace{\sum_i \overline{\xi_i^2}}_{=N\xi^2} + \underbrace{\sum_i\sum_{j\neq i} \overline{\xi_i \xi_j}}_{=0} =N\xi^2 $$
-We define the intercollision time $\tau$ (inverse of collision frequency $\nu$)
+We define the inter collision time $\tau$ (inverse of collision frequency $\nu$)
 $$N=\frac{t}{\tau}$$
 and then define the Diffusion coefficient $D$ by 
 $$
@@ -31,9 +31,7 @@ We assume uniform temperature, $\nabla p = T\nabla n$, and get
 $$v=-\underbrace{\frac{T}{m\nu }}_{\equiv D}\frac{\nabla n}{n}=-D\frac{\nabla n}{n}$$
 If we identify $T$ with the kinetic energy (actually $E_{kin}\equiv 1/2v^2 m=3/2T$, but we ignore the constant numeric factors), we get
 $$D=\frac{T}{m \nu}\approx \frac{mv^2}{m\nu}=\frac{v^2}{\nu}\equiv v^2\tau$$
-So this definition is consistent with the statistical one from before. The flux is
-$$\Gamma\equiv vn = -D\nabla n$$ 
-and we know that $n$ is a conserved quantity - hence satisfies a continuity equation:
+So this definition is consistent with the one from before. The flux is$$\Gamma\equiv vn = -D\nabla n$$ and we know that $n$ is a conserved quantity - hence satisfies a continuity equation:
 $$\partial_t n + \nabla \cdot \Gamma = \partial_t n - \nabla \cdot (D\nabla n) = 0$$
 .... the [[Diffusion equation]].
 
