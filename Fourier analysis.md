@@ -58,7 +58,7 @@ f(x)&=\lim_{\Delta \omega\to 0} \sum_{k=-\infty}^\infty \frac{\Delta\omega}{2\pi
 &=\frac{1}{\sqrt{2\pi}} \int_\mathbb{R} e^{i\omega x}\underbrace{ \left [\frac{1}{\sqrt{2\pi}}\int_\mathbb{R} f(x) e^{-i\omega x}dx\right ]}_{\equiv\mathcal{F}[f]} d\omega
 
 \end{aligned}$$
-In the last step we have indentified the Fourier transform.
+In the last step we have identified the Fourier transform.
 
 ## Notation for frequency $k$
 

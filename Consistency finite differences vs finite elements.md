@@ -4,8 +4,8 @@
 [[Lax equivalence theorem]]
 
 
-## Question
-Whether a discretisation is consistent (and the order of consistency) in the FDM setting is defined by the the truncation term, e.g.:
+## Question from Stackexchange
+Whether a discretisation is consistent (and the order of consistency) in the FDM setting is defined by the truncation term, e.g.:
 
 $$\partial_{xx}u_i=\frac{1u_{i-1}-2u_i+1u_{i+1}}{h^2}+\mathcal(O)(h^2)$$
 where $u_i=u(x_i)$.
@@ -15,7 +15,7 @@ For instance we cannot construct a consistent (wrt the above definition) scheme 
 I am looking for references connecting the two, e.g. applying the FEM analysis to some "inconsistent" FDM stencils, that nevertheless lead to convergence (e.g. are consistent w.r.t. the FEM formulation)?
 
 
-## Answer
+## Answer from Stackexchange
 I think this question may lead to a lot of confusion, as there are different notions of consistency for FDM and FEM. For instance when one thinks of FEM consistency, it is often Galerkin orthogonality (see [[Finite Element Method (FEM)]]). 
 
 The question is probably not very good. After all in FDM we do not define basis functions, and thus consistency in terms of orthogonality is probably a stretch there.

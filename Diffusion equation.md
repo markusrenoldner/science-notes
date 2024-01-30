@@ -7,3 +7,5 @@ $$\partial_t u = \nabla (D\cdot \nabla u)$$in case of constant diffusion coeffic
 $$\partial_t u = D\Delta u$$
 
 [[Diffusion coefficient from statistical mechanics]]
+
+
