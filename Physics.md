@@ -6,6 +6,7 @@ Prof. Mikhail Lemeshko defines physics as the unique scientific discipline that 
 - [[Classical mechanics]]
 - [[Electrodynamics]]
 - [[Quantum mechanics]]
+- [[Statistical mechanics]]
 
 
 
