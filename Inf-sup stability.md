@@ -22,6 +22,8 @@ To get an invertible/unisolvent problem, we would like to have $B$ being bijecti
 We could turn around the inf-sup condition ("sup-inf"), or we ask for the (less restrictive) "non-degeneracy condition"/NDC: $$\sup_u\frac{B(u,v)}{\Vert u\Vert\Vert v\Vert}> 0\quad \forall v$$Coercivity also implies NDC.
 
 The result is: inf-sup stable and NDC fulfilling bilinearforms yield a unisolvent [[Variational problem]] and we have continuous dependence on the data $$\Vert u\Vert \leq \beta^{-1} \Vert f\Vert$$
+The latter inequality is also called "stability", as perturbations of the data bound the resulting perturbations of the solution.
+
 
 ## Discrete inf-sup condition
 Solvability is not inherited into discrete setting (!!!)

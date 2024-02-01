@@ -14,7 +14,8 @@ Assume there holds
 - $a:V\times V\rightarrow \mathbb{R}, \quad b:V\times Q\rightarrow \mathbb{R}$ are continuous
 - $a$ is coercive on Ker $[b(.,.)]$
 - The "LBB-condition" holds, i.e. $$\sup_u \frac{b(u,q)}{\Vert u\Vert}\geq \Vert q \Vert \quad \forall q \in Q$$
-Then, the given saddle point problem is unisolvent and the solution depends continuously on the data, i.e. $\Vert u\Vert+\Vert p\Vert \prec \Vert f\Vert\Vert g\Vert$ 
+Then, the given saddle point problem is unisolvent and the solution depends continuously on the data, i.e. $\Vert u\Vert+\Vert p\Vert \prec \Vert f\Vert\Vert g\Vert$
+The latter is also known as "stability", as perturbations of the data bound the resulting perturbations of the solution.
 
 (No proof.)
 
