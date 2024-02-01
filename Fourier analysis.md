@@ -48,15 +48,11 @@ f(x)&=\sum_{k=-\infty}^\infty c_k e^{i\omega_k x}\\
 &= \sum_{k=-\infty}^\infty \frac{\Delta\omega}{2\pi} e^{i\omega_k x}\int_I f(x) e^{-i\omega_k x}dx
 
 \end{aligned}$$
-We assume $L\to\infty$ or $\omega_k\to 0$ to replace the Riemann sum by and integral i.e. $f$ is not periodic on a finite interval:
+We assume $L\to\infty$ or $\omega_k\to 0$ to replace the Riemann sum by an integral i.e. $f$ is not periodic on a finite interval:
 $$\begin{aligned}
-
 f(x)&=\lim_{\Delta \omega\to 0} \sum_{k=-\infty}^\infty \frac{\Delta\omega}{2\pi} e^{i\omega_k x}\int_I f(x) e^{-i\omega_k x}dx\\
-
 &=\frac{1}{2\pi} \int_\mathbb{R} e^{i\omega x}\left [ \int_\mathbb{R} f(x) e^{-i\omega x}dx \right ] d\omega\\
-
-&=\frac{1}{\sqrt{2\pi}} \int_\mathbb{R} e^{i\omega x}\underbrace{ \left [\frac{1}{\sqrt{2\pi}}\int_\mathbb{R} f(x) e^{-i\omega x}dx\right ]}_{\equiv\mathcal{F}[f]} d\omega
-
+&=\frac{1}{\sqrt{2\pi}} \int_\mathbb{R} e^{i\omega x}\underbrace{ \left [\frac{1}{\sqrt{2\pi}}\int_\mathbb{R} f(x) e^{-i\omega x}dx\right ]}_{\equiv\mathcal{F}[f](\omega)} d\omega
 \end{aligned}$$
 In the last step we have identified the Fourier transform.
 
