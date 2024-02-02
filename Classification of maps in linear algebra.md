@@ -5,7 +5,7 @@ Linear, bijective, continuous map between two sets.
 
 ## Homeomorphism
 ("Homöomorphismus")
-Isomorphism between two topological spaces ([[Topology and topological space]]) 
+Isomorphism between two topological spaces
 
 
 ## Diffeomorphism
