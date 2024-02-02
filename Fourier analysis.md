@@ -16,7 +16,7 @@ f(x)&=\sum_{k=-\infty}^\infty c_k \exp{\left ( \frac{2\pi ikx}{L} \right )}\\
 c_k &= \frac{1}{L}\int_I f(x) \exp{\left ( -\frac{2\pi ikx}{L} \right )}dx
 
 \end{aligned}$$
-  
+
 ## Fourier transformation
 
 **Requirements on $f$**
