@@ -19,9 +19,8 @@ e.g. https://en.wikipedia.org/wiki/Open_set
 
 
 ## Informal definition of a set
-"a set is a collection of elements"
-
-notation in mathematics:
+"a set is a collection of elements"; 
+notation:
 $$ M = \{a,b,c,d\}$$
 
 
