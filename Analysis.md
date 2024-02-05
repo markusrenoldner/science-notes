@@ -10,7 +10,7 @@ important branch of [[Mathematics]]
 - [[Multi-index notation for differential operators]]
 - [[Function spaces]]
 - Integral transforms [3,4]
-	- [[Fourier analysis]]
+	- [[Fourier analysis for a continuous-variable]]
 - Complex Analysis [1]
 - [[Tensor and vector analysis]]
 

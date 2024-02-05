@@ -1,5 +1,8 @@
-# Fourier analysis
+# Fourier analysis for a continuous-variable
 [[Analysis]]
+
+Summary of Fourier analysis results for functions of a continuous variable $x\in\mathbb{R}$.
+Does not cover the discrete Fourier transform for functions of a discrete variable $x\in\mathbb{Z}$!
 
 ## Fourier series
 
