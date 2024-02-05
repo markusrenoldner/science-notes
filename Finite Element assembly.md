@@ -6,7 +6,7 @@
 The discrete problem by the Galerkin method is to find $u_h\in V_h$ st. $$a(u_h,v_h)=f(v_h)\quad \forall v_h\in V_h $$We interpolate the unknown $$u_h=I_\mathcal{T}u = \sum_i \underbrace{\psi_i(u)}_{=:u_i} \phi_i(x)$$where $u_i\in\mathbb{R}$ are the unknown coefficients of the final system; and we use the basis function as test functions: $$a\left(\sum_i u_i \phi_i, \phi_j\right)=f(\phi_j) \quad \forall j$$ We can use linearity of the blf. $a$ to pull out the $u_i$ and obtain $$A\vec{u}=\vec{f}$$with $A_{ji}=a(\phi_i,\phi_j), \vec{f}_j = f(\phi_j), \vec{u}_i=u_i$ (attention with the index order "ji" of $A$!). 
 The matrix $A$ and the vector $\vec{f}$ are usually computed element-wise/locally, i.e. $A_T, \vec{f}_T$ by setting
 $$A=\sum_T C_T A_T C_T^\intercal,\quad \vec{f}=\sum_T C_T \vec{f}_T$$
-where $C_T$ is the connectivity matrix, briefly mentioned before. This is true due to the following calculation
+where $C_T$ is the connectivity matrix, briefly mentioned in [[Global Finite Element interpolation]]. This is true due to the following calculation
 $$
 \begin{aligned}
 \vec{f}_i & =f\left(\varphi_i\right)=\sum_{T \in \mathcal{T}} f_T\left(\left.\varphi_i\right|_T\right)=\sum_{T \in \mathcal{T}} f_T\left(\sum_{\ell} C_{T, i \ell} \varphi_T^{\ell}\right) \\
@@ -64,3 +64,4 @@ For Dirichlet boundary conditions lines and columns corresponding to nodal basis
 - Prof. Faustmann - Numerical Methods for Partial Differential Equations, TU Wien lecture notes 2021
 - https://mfem.org/bilininteg/
 - https://mfem.org/lininteg/
+- Prof. Elgeti - Einführung in die FEM; chapter 7
