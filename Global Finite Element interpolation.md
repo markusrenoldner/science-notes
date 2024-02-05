@@ -9,7 +9,7 @@ Global basis:
 2. identify functionals that coincide on element interfaces ("remove duplicates")
 3. find $\phi_i$ by requiring globally: $\psi_j(\phi_i)=\delta_{ij}$ 
 
-This is done by a so calloed "connectivity matrix" or a "local-global-map":
+This is done by a so called "connectivity matrix" or a "local-global-map":
 Matches indices of local and global functionals and global basis functions. This matrix/map has to be constructed once for each element.
 
 
