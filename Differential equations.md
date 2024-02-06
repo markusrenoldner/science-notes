@@ -11,8 +11,7 @@
 - [[Conservation law, transport equation]]
 	- [[Advection equation]]
 	- [[Diffusion equation]]
-	- [[Advection-diffusion equation]]
-- [[Boltzmann equation for plasma]]
+	- [[Advection-diffusion equation
 - [[Vlasov equation]]
 - [[Static beam equation]]
 - [[Wave equation]]
