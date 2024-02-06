@@ -34,7 +34,7 @@ Von Neumann analysis can only handle periodic boundary conditions or no boundari
 
 
 ## Relationship to condition number
-[[Numeric condition, stability, consistency and convergence]]
+[[Numeric condition, stability, consistency, and convergence]]
 
 
 ## Source:
