@@ -5,7 +5,7 @@ The function spaces itself are defined in [[Function spaces]].
 
 ## Meyers-Serrin theorem
 This statement shows that smooth functions are dense in Sobolev spaces (i.e., for every function in the Sobolev space there exists a sequence of smooth functions that converges to this function). I.e.:
-$C^\infty$ is dense in $H^k$ for all $k$. This is equivalent to saying$$C^\infty \subseteq H^k $$ and  $$\forall u \in H^k \quad \exists \text{ squence } f_i\in C^\infty  \text{ converging to  }u .$$
+$C^\infty$ is dense in $H^k$ for all $k$. This is equivalent to saying$$C^\infty \subseteq H^k $$ and  $$\forall u \in H^k \quad \exists \text{ squence } f_i\in C^\infty  \text{ converging to  }u \text{ in }\Vert\cdot\Vert_{H^k}$$
 ## Rellich compactness theorem
 The follwing is a very strong theorem that states compactness of the inclusion of Sobolev spaces of higher orders. It says
 $$H^l\subset H^k \quad \forall l>k \implies \iota:H^l\rightarrow H^k:u\mapsto u \text{ is compact}$$
@@ -41,6 +41,12 @@ Let $\Gamma_D\subset \partial\Omega$, then $$\Vert v \Vert \preceq \Vert \nabla 
 
 This is much better than the Poincare inequality!
 
+
+## Interesting fact implied by Friedrichs inequality
+We have that
+$$\Vert \nabla u \Vert_{L^2} \leq \Vert u \Vert_{H^1} = \Vert u \Vert_{L^2} +\Vert \nabla u \Vert_{L^2} \leq (c_p^2 +1) \Vert \nabla u \Vert_{L^2} $$
+therefore: 
+$$\Vert u \Vert_{H^1} = \Vert \nabla u \Vert_{L^2} $$
 
 
 ## Sources
