@@ -3,7 +3,7 @@
 
 
 ## Fluid equations
-We take "moments" of the Boltzmann equation ([[Boltzmann equation for plasma]]), i.e. we multiply the equation with "1", "$m_S v$", and "$m_S v^2/2$" and integrate. This procedure es explained in [[Taking moments of distribution function]].
+We take "moments" of the Boltzmann or Vlasov equation, i.e. we multiply the equation with "1", "$m_S v$", and "$m_S v^2/2$" and integrate. This procedure es explained in [[Taking moments of distribution function]].
 
 
 We get a
