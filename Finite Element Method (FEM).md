@@ -12,7 +12,7 @@ The unknown interpolation coefficients are the approximate solution.
 
 ## Solvability and function spaces
 - [[Solvability of variational problems]]
-- [[Weak solvability example]]
+- [[Weak solvability of poisson problem]]
 - [[Weak solvability example of mixed problems]]
 - [[Galerkin method]]
 - For FEM, use Sobolev spaces as defined here: [[Function spaces]]

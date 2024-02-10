@@ -20,7 +20,7 @@ gives a best approximation property of the Galerkin method
 
 Let the assumptions of the Galerkin orthogonality hold and $A(\cdot, \cdot)$ be continuous and coercive. Then,
 $$
-\left\|u-u_h\right\|_V \leq \alpha_2 / \alpha_1 \inf_{v_h}\left\|u-v_h\right\|_V
+\left\|u-u_h\right\|_V \leq \frac{\alpha_2}{\alpha_1}\inf_{v_h}\left\|u-v_h\right\|_V
 $$
 i.e., the approximation error of the Galerkin method is quasi optimal.
 

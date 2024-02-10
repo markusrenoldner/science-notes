@@ -6,7 +6,7 @@ Here we denote seminorms by $|u-u_h|_{H^1} \equiv \Vert\nabla u-\nabla u_h\Vert_
 ## Goal:
 we want to find a bound for the discretization error of the [[Finite Element Method (FEM)]]:$$\Vert u-u_h\Vert\leq ???$$ where $u_h$ is the discrete approximation of $u$.
 
-We know $$\Vert u-u_h\Vert \preceq \inf_{v_h} \Vert u-v_h\Vert \preceq \Vert u- I_\mathcal{T} u\Vert$$the first inequality comes from Cea's lemma ([[Galerkin method]]) and the second one from properties of the global interpolation operator introduced in [[Local Finite Element interpolation]]. The symbol $\preceq$ means $\leq$ up to constants.
+We know $$\Vert u-u_h\Vert \preceq \inf_{v_h} \Vert u-v_h\Vert \preceq \Vert u- I_\mathcal{T} u\Vert$$the first inequality comes from Cea's lemma ([[Galerkin method]]) and the second one from properties of the global interpolation operator introduced in [[Global Finite Element interpolation]]. The symbol $\preceq$ means $\leq$ up to constants.
 
 The real goal is therefore to find an error bound for$$\Vert u- I_\mathcal{T} u\Vert.$$ We do this in 3 steps:
 1. bound for the reference transformation
@@ -46,7 +46,7 @@ $$
 & \simeq \sum_{T } h_T^2|v|_{H^2(T)}^2 \cdot
 \end{aligned}
 $$
-**Remark:** this is an "a priori" bound, as it bounds the error by $h$ times the exact sol. "A-posteriori" bounds are bounds by $h$ times the numerical sol.
+**Remark:** this is an "a priori" bound, as it bounds the error by $h$ times $u$. "A-posteriori" bounds are bounds by $h$ times a function of $u_h$.
 
 
 ## FEM convergence order
@@ -57,7 +57,7 @@ Then (somehow using Cea's lemma again):$$
 \left\|u-I_{\mathcal{T}} u\right\|_{L_2(\Omega)} & \leq C h^2|u|_{H^2(\Omega)} \\
 \left|u-I_{\mathcal{T}} u\right|_{H^1(\Omega)} & \leq C h|u|_{H^2(\Omega)}
 \end{aligned}
-$$(without the sums of the previous estimate and with only one "h") which means convergence: $$u\overset{h\rightarrow 0}{\longrightarrow} u_h=I_\mathcal{T}u$$
+$$(without the sums of the previous estimate and with only one "h") which means convergence: $$I_\mathcal{T}u=u_h\overset{h\rightarrow 0}{\longrightarrow} u$$
 The same result is stated here: https://uvilla.github.io/inverse17/02_IntroToFenics/ConvergenceRates.html .
 
 Reducing h is called h-FEM. Increasing the polynomial error is called p-FEM. Comparing the two only valid with equal size of the FEM space dimension in each "improvement step":$$\text{dim}(\mathcal{P}^p)=p^d h^{-d}$$

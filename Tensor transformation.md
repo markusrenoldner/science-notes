@@ -39,8 +39,8 @@ $$\begin{aligned}
 &= \begin{pmatrix}\begin{pmatrix}\begin{pmatrix}\begin{pmatrix}\cdot\\\cdot \end{pmatrix} \\ \begin{pmatrix}\cdot\\\cdot \end{pmatrix} \end{pmatrix} & \begin{pmatrix}\begin{pmatrix}\cdot\\\cdot \end{pmatrix} \\ \begin{pmatrix}\cdot\\\cdot \end{pmatrix} \end{pmatrix}\end{pmatrix}\\\begin{pmatrix}\begin{pmatrix}\begin{pmatrix}\cdot\\\cdot \end{pmatrix} \\ \begin{pmatrix}\cdot\\\cdot \end{pmatrix} \end{pmatrix} & \begin{pmatrix}\begin{pmatrix}\cdot\\\cdot \end{pmatrix} \\ \begin{pmatrix}\cdot\\\cdot \end{pmatrix} \end{pmatrix}\end{pmatrix} \end{pmatrix}
 \end{aligned}$$
 which is a "column of rows of colums of colums".
-Wikpedia seems to define the kronecker product the other way round (distribte right array to left components) https://en.wikipedia.org/wiki/Kronecker_product
-is this the same?
+Wikpedia seems to define the Kronecker product the other way round (distribute right array to left components) https://en.wikipedia.org/wiki/Kronecker_product
+Is this equivalent?
 
 
 ## Tensor product vs kronecker product vs tensor product of vector spaces

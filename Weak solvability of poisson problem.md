@@ -1,4 +1,4 @@
-# Weak solvability example
+# Weak solvability of poisson problem
 Analysing the weak form of the poisson problem for unisolvence. The problem can be solved using the [[Finite Element Method (FEM)]].
 
 

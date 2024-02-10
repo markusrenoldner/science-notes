@@ -18,7 +18,10 @@ $$\begin{aligned}
 \end{aligned}$$
 3. array shape: given by kronecker product of $\epsilon^i \otimes \epsilon^j$, which yields a row of rows:
 $$
-    \epsilon^1 \otimes \epsilon^1=\begin{pmatrix}1&0\end{pmatrix}\otimes \begin{pmatrix}1&0\end{pmatrix} = ... = \begin{pmatrix}\begin{pmatrix}1&0\end{pmatrix}&\begin{pmatrix}0&0\end{pmatrix}\end{pmatrix}
+\begin{aligned}
+    \epsilon^1 \otimes \epsilon^1&=\begin{pmatrix}1&0\end{pmatrix}\otimes \begin{pmatrix}1&0\end{pmatrix} = \ ...\  = \begin{pmatrix}\begin{pmatrix}1&0\end{pmatrix}&\begin{pmatrix}0&0\end{pmatrix}\end{pmatrix}\\
+    \epsilon^2\otimes \epsilon^1& = \ ...
+\end{aligned}
 $$
 The [[Metric tensor]] is a bilinearform.
 
