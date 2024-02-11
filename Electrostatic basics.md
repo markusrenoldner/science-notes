@@ -1,7 +1,6 @@
 # Electrostatic basics
 
-#todo 
-[[edynplasmastuff.pdf]]
+#todo [[edynplasmastuff.pdf]]
 
 
 ## Coulomb's law
