@@ -1,7 +1,5 @@
 # Coordinate transformation of differential operator in 2D example
 
-[[Differentiation of scalar and vector fields]]
-
 
 ## Problem:
 Given is a coord transformation in $\mathbb{R}^2$ :
@@ -13,5 +11,7 @@ to the new coordinates $s,t$ .
 
 
 ## Solution:
+
+#todo type this up:
 #pdf-note ![[op-transform.pdf]]
 

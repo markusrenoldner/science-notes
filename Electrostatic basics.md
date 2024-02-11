@@ -1,7 +1,5 @@
 # Electrostatic basics
 
-#todo [[edynplasmastuff.pdf]]
-
 
 ## Coulomb's law
 The force acting between two electrically charged particles is
@@ -38,6 +36,8 @@ The voltage is therefore the difference in potential.
 
 ## Handwritten notes
 #pdf-note [[electrodynamics-basics.pdf]]
+#todo [[edynplasmastuff.pdf]]
+
 
 
 ## Sources:
