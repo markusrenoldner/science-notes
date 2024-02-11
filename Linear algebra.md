@@ -3,7 +3,7 @@ important branch of [[Mathematics]]
 
 
 ## Topics:
-- [[Groups, rings and fields]]
+- [[Group]]
 - Vector spaces [2]
 - [[Equivalence class, quotient space]]
 - Linear maps and matrices
