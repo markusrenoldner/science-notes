@@ -4,10 +4,10 @@ This is an informal intro to set theory (see [[Axiomatic vs informal set theory]
 
 
 ## Some definitions:
-
+ 
 A set $A$ is/has ...
 - **open** if the metric of all points with some center point is "$\leq\epsilon$" 
-- **closed** if its complement is open
+- **closed** if its complement is open; $\implies$ compact
 - **closure**: union of set with boundary, denoted as $\bar A$
 - **dense** in a larger space $X$, if either
 	- the closure of $A$ is $X$
@@ -16,7 +16,6 @@ A set $A$ is/has ...
 - **complete**: all Cauchy sequences converge in $A$
 - **completion**: union of set with all limit points of cauchy sequences of set
 - **compact**: 
-	- bounded and complete; 
 	- each sequence has convergent subsequences; 
 	- $\implies$ complete
 - **connected**: connection between any two points in the set
