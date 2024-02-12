@@ -4,7 +4,7 @@ Coordinate maps yield this coordinate representation for a given vector in the c
 [[Linear algebra]]
 
 ## Representing a vector in a basis
-Let $V$ be an $n$-dimensional vector space (finite dimensional) over the field $K$ (usually $K=\mathbb{R}$ or $K=\mathbb{C}$) with a basis $B=\{\boldsymbol{b}_1, ... \boldsymbol{b}_n\}$ then every $\boldsymbol{v} \in V$ can be expressed as a linear combination of "coordinates" $\lambda_i \in K$ and basis vectors $\boldsymbol{b}_i$ $$\boldsymbol{v} = \sum_{i=1}^n \lambda_i \cdot \boldsymbol{v}_i $$In general, a vector space has infinitely many bases $B$, and the coordinates of $\boldsymbol{v}$ are different in each of them. 
+Let $V$ be an $n$-dimensional vector space (finite dimensional) over the field $K$ (see [[Field (Algebra)]]; usually $K=\mathbb{R}$ or $K=\mathbb{C}$) with a basis $B=\{\boldsymbol{b}_1, ... \boldsymbol{b}_n\}$ then every $\boldsymbol{v} \in V$ can be expressed as a linear combination of "coordinates" $\lambda_i \in K$ and basis vectors $\boldsymbol{b}_i$ $$\boldsymbol{v} = \sum_{i=1}^n \lambda_i \cdot \boldsymbol{v}_i $$In general, a vector space has infinitely many bases $B$, and the coordinates of $\boldsymbol{v}$ are different in each of them. 
 
 Example:
 Let $\boldsymbol{x}=\begin{pmatrix}3\\2 \end{pmatrix} \in \mathbb{R}^2$, let $B = \{\boldsymbol{e}_1, \boldsymbol{e}_2\}$ be the canonical basis and $C=\left\{\begin{pmatrix}1\\-1\end{pmatrix}, \begin{pmatrix}1\\1\end{pmatrix}\right\}$.
