@@ -4,7 +4,7 @@ FDM: [[Finite Difference Method (FDM)]]
 
 
 ## Main statement
-A linear finite diff./finite volume scheme converges if and only if it is consistent and stable.
+A linear [[Finite Difference Method (FDM)]] or [[Finite Volume Method (FVM)]] scheme converges if and only if it is consistent and stable.
 Proof: see lecture 4, Tornberg
 
 
@@ -19,6 +19,7 @@ I.e. we plug in the exact solution, use the fact that it satisfies the given PDE
 This residual is a "local truncation error" that is produces by the scheme in each computation step.
 
 More details: [[Consistency, order, and local truncation error of finite difference scheme]]
+
 For consistency for FEM, refer to [[Consistency finite differences vs finite elements]].
 
 
@@ -33,8 +34,8 @@ Several different approaches, e.g.
 Von Neumann analysis can only handle periodic boundary conditions or no boundaries. The energy method can handle more general boundary conditions.
 
 
-## Relationship to condition number
-[[Numeric condition, stability, consistency, and convergence]]
+## My question on stack exchange:
+https://math.stackexchange.com/questions/4850071/contradicting-definitions-of-numeric-stability-on-wikipedia
 
 
 ## Source:

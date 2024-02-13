@@ -34,7 +34,7 @@ $$
 
 
 ## Raising and lowering indices
-#todo eigenchris video16
+See eigenchris video16
 
 
 ## Source:

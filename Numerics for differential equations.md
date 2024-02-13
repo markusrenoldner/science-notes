@@ -8,7 +8,7 @@ One of the most important branches of [[Numerical analysis]], goal: solving [[Di
 - [[Finite Volume Method (FVM)]]
 - [[Discontinuous Galerkin method (DG)]]
 - [[Boundary element method (BEM)]]
-- [[MEHC scheme
+- [[MEHC scheme]]
 - [[Numerical methods for conservation laws]]
 - Method of characteristics [1]
 - Method of lines [6]
@@ -17,9 +17,10 @@ One of the most important branches of [[Numerical analysis]], goal: solving [[Di
 
 ## Properties of numerical schemes:
 - [[Lax equivalence theorem]]
-- [[Von Neumann stability analysis]]
-- [[CFL condition]]
 - [[Consistency, order, and local truncation error of finite difference scheme]]
+- [[Consistency finite differences vs finite elements]]
+- [[CFL condition]]
+- [[Von Neumann stability analysis]]
 - Stability of ODE integrators [2,5,6]
 
 

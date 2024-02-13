@@ -35,7 +35,8 @@ The voltage is therefore the difference in potential.
 
 
 ## Handwritten notes
-#pdf-note [[electrodynamics-basics.pdf]]
+#pdf-note 
+#todo[[electrodynamics-basics.pdf]]
 #todo [[edynplasmastuff.pdf]]
 
 
