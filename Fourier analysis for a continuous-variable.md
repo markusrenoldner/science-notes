@@ -13,12 +13,28 @@ Does not cover the discrete Fourier transform for functions of a discrete variab
 
 If these requirements are fulfilled, one can rewrite $f(x)$ as a **Fourier series**, i.e.
 $$\begin{aligned}
-
 f(x)&=\sum_{k=-\infty}^\infty c_k \exp{\left ( \frac{2\pi ikx}{L} \right )}\\
-
 c_k &= \frac{1}{L}\int_I f(x) \exp{\left ( -\frac{2\pi ikx}{L} \right )}dx
+\end{aligned}$$
+or $f(x,y):[0,L)\times[0,L)\to\mathbb{R}$, periodic in both variables, as the **Fourier series in 2D**. Fir this we first find the series for $x$, meaning that $c_k$ is still a function of $y$:
+$$\begin{aligned}
+    f(x) &= \sum_{k=-\infty}^\infty c_k(y)\exp \left ( \frac{2\pi i k x}{L} \right )\\
 
 \end{aligned}$$
+
+Then write $c_k(y)$ as a Fourier series:
+$$
+    c_k(y) = \sum_{l=-\infty}^\infty d_{l,k} \exp \left ( \frac{2\pi ily}{L} \right )
+$$
+Which gives
+$$
+    f(x) = \sum_{k=-\infty}^\infty \sum_{l=-\infty}^\infty d_{l,k} \exp \left ( \frac{2\pi ily}{L} \right ) \exp \left ( \frac{2\pi i k x}{L} \right )
+$$
+
+Use the inverse transforms to find
+$$
+    d_{l,k} = \frac{1}{L} \int_I \underbrace{\frac{1}{L} \int_I f(x,y) \exp \left ( - \frac{2\pi ikx}{L} \right ) dx}_{=c_k(y)} \exp \left ( - \frac{2\pi i ly}{L} \right ) dy
+$$
 
 ## Fourier transformation
 
