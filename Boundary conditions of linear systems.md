@@ -106,7 +106,43 @@ In general, this can be annoying to implement.
 
 
 ## Comparison of 1 and 2 
-#pdf-note [[BCoflinearsystems.pdf]]
+
+$$
+    \Delta u = f, \qquad u\in\omega\equiv [0,1]
+$$
+Discrete:
+$$
+    \frac{u_{i+1}-2u_i+u_{i-1}}{\Delta x^2} = f_i
+$$
+yields
+$$
+    \frac{1}{\Delta x^2}\begin{pmatrix}
+        -2 & 1 & \dots & & & \\
+        1  & -2 & 1 &\dots & & \\
+        ...  &   & \dots  &  & & \\
+        ...  &  &   &   1&-2 &1 \\
+        ...  &  &  &  & 1&-2 \\
+        
+    \end{pmatrix}
+    \begin{pmatrix}u_0\\\dots\\ \dots \\\dots \\ u_N\end{pmatrix} = 
+    \begin{pmatrix} f_0 \\ \dots\\ \dots\\\dots\\ f_N\end{pmatrix}
+$$
+Now enforce BC: $u_0=a$, and $u_N=b$
+$$
+    \frac{1}{\Delta x^2}\begin{pmatrix}
+        1 & \dots &  & & & \\
+        1  & -2 & 1 &\dots & & \\
+        ...  &   & \dots  &  & & \\
+        ...  &  &   &   1&-2 &1 \\
+        ...  &  &  &  &  & 1\\
+        
+    \end{pmatrix}
+    \begin{pmatrix}u_0\\\dots\\ \dots \\\dots \\ u_N\end{pmatrix} = 
+    \begin{pmatrix} f_0 \\ \dots\\ \dots\\\dots\\ f_N\end{pmatrix}
+$$
+
+etc.
+#tdoo: is this unnecessary?
 
 
 ## Option by MFEM: "the large, symmetric system"

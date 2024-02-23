@@ -27,9 +27,10 @@ $$
     c_k(y) = \sum_{l=-\infty}^\infty d_{l,k} \exp \left ( \frac{2\pi ily}{L} \right )
 $$
 Which gives
-$$
-    f(x) = \sum_{k=-\infty}^\infty \sum_{l=-\infty}^\infty d_{l,k} \exp \left ( \frac{2\pi ily}{L} \right ) \exp \left ( \frac{2\pi i k x}{L} \right )
-$$
+$$\begin{aligned}
+    f(x) &= \sum_{k=-\infty}^\infty \sum_{l=-\infty}^\infty d_{l,k} \exp \left ( \frac{2\pi ily}{L} \right ) \exp \left ( \frac{2\pi i k x}{L} \right )\\
+    &= \sum_{k_1=-\infty}^\infty \sum_{k_2=-\infty}^\infty d_{l,k} \exp \left ( \frac{2\pi i \vec k\cdot \vec x}{L} \right )
+\end{aligned}$$
 
 Use the inverse transforms to find
 $$

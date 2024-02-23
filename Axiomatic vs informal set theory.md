@@ -2,7 +2,7 @@
 
 ## Axiomatic set theory
 There are several axiomatic set theory systems, e.g. the "Zermelo–Fraenkel set theory with the axiom of choice" (ZFC).
-See here: [[juliangrossmann-settheory.pdf]], (taken from https://jp-g.de/de/teaching2/)
+See here: https://jp-g.de/de/teaching2/
 
 
 ## Informal set theory

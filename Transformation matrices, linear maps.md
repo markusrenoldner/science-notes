@@ -31,7 +31,7 @@ $$p_B = \begin{pmatrix}c\\b\\a\end{pmatrix}, \quad p'_B = \begin{pmatrix}b\\2a\\
 
 
 ## How can we transform the transformation $L_B$ to another basis $C$?
-![[Pasted image 20230705140335.png]]
+![[transformation-matrices.png]]
 
 $L_C$ can either be computed directly (like explained above), or using the commuting diagram, we can get it from $L_B$: $$L_C =S\circ L_B \circ S^{-1}$$where
 1. $L_B=(l^B_1, ... l^B_n)$
