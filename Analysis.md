@@ -13,6 +13,7 @@ important branch of [[Mathematics]]
 	- [[Fourier analysis for a continuous-variable]]
 - Complex Analysis [1]
 - [[Tensor and vector analysis]]
+- [[Useful inequalities]]
 
 
 ## Main sources:

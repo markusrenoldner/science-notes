@@ -23,6 +23,7 @@ important branch of [[Mathematics]]
 - Bilinearforms [1]
 - [[Tensor and multilinear algebra]] 
 - [[Vector algebra identities]]
+- [[Useful inequalities]]
 
 
 ## Main sources:
