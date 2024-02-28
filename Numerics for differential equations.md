@@ -17,7 +17,7 @@ One of the most important branches of [[Numerical analysis]], goal: solving [[Di
 
 ## Properties of numerical schemes:
 - [[Lax equivalence theorem]]
-- [[Consistency, order, and local truncation error of finite difference scheme]]
+- [[Consistency, order, and local truncation error]]
 - [[Consistency finite differences vs finite elements]]
 - [[CFL condition]]
 - [[Von Neumann stability analysis]]

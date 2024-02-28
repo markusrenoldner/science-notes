@@ -18,7 +18,7 @@ The consistency (order) describes how well a numerical scheme with exact input (
 I.e. we plug in the exact solution, use the fact that it satisfies the given PDE and yield a residual term that shows the consistency order.
 This residual is a "local truncation error" that is produces by the scheme in each computation step.
 
-More details: [[Consistency, order, and local truncation error of finite difference scheme]]
+More details: [[Consistency, order, and local truncation error]]
 
 For consistency for FEM, refer to [[Consistency finite differences vs finite elements]].
 
