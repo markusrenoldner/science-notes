@@ -37,10 +37,9 @@ Properties of these spaces in the context of [[Finite Element Method (FEM)]] are
 ## Subsets
 
 Of course 
-$$H^1 \subset L^2$$
-and 
-$$H^2\subset H^1$$
+$$H^2\subset H^1 \subset L^2$$
 etc.
+
 
 
 ## Sources:
