@@ -35,6 +35,8 @@ $C^\infty(M)$ is a function space, see [[Function spaces]]. Sometimes also
 $$f\in C^\infty(M,N)$$
 The same notation is used for $L^p$ spaces, e.g.
 $$f\in [L^2(M)]^3$$
+Functions that have different smoothness in different variables. E.g. a function that is $L^1$ in a variable $t\in\mathcal{T}$ but $L^2$ in a variable $x\in\Omega$ is denoted as an $L^1$ function from $\mathcal{T}$ into the space of $L^2$ functions in $x$ (here $\mathbb{R}$ is the target):
+$$f\in L^1(\mathcal{T}, L^2(\Omega,\mathbb{R}))$$
 
 
 ## Operators
